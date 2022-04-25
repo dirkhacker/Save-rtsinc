@@ -1,0 +1,6 @@
+name: rtsinc
+recipe: pantheon
+config:
+  framework: drupal8
+  site: rtsinc
+  id: b058f86b-bc81-4685-b777-c2d0360dbefc
