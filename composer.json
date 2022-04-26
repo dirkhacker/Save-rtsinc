@@ -16,8 +16,10 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
+        "drupal/admin_toolbar": "^3.1",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/gin": "^3.0@beta",
         "drupal/pathauto": "^1.10",
         "drupal/smtp": "^1.0",
         "drush/drush": "^10",
@@ -30,7 +32,7 @@
     "conflict": {
             "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "prefer-stable": true,
     "extra": {
         "drupal-scaffold": {
