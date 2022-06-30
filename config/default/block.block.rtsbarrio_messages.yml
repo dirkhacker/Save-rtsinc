@@ -1,0 +1,22 @@
+uuid: 6cf25a3f-b78d-4499-940d-65e77f889f8c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rtsbarrio
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: rtsbarrio_messages
+theme: rtsbarrio
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

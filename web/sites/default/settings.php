@@ -36,4 +36,4 @@ if (file_exists($local_settings)) {
 /**
  * Place the config directory outside of the Drupal root.
  */
-$settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '../config/default';
+$settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config/default';

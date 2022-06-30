@@ -1,0 +1,20 @@
+uuid: c107a5f7-17a0-4e63-815e-82f5a296b8f3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rtsbarrio
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: rtsbarrio_local_actions
+theme: rtsbarrio
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
