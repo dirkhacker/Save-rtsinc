@@ -22,10 +22,12 @@
         "drupal/config_split": "^1.8",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/devel_kint_extras": "^1.0",
         "drupal/gin": "^3.0@beta",
         "drupal/pathauto": "^1.10",
         "drupal/smtp": "^1.0",
         "drush/drush": "^10",
+        "kint-php/kint": "^3.3",
         "pantheon-systems/drupal-integrations": "^9",
         "pantheon-upstreams/upstream-configuration": "self.version"
     },
