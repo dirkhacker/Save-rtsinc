@@ -16,8 +16,7 @@ services:
   node:
     type: node
     build:
-      - npm install
-      - gulp
+      - cd /app/web/themes/custom/rtsbarrio && npm install && npm install gulp && gulp styles
     globals:
       gulp-cli: latest
   mailhog:
