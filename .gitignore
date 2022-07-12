@@ -97,7 +97,7 @@
 .env
 
 # Ignore common Node files
-/web/themes/custom/rtsbarrio/node_modules
-/web/themes/custom/rtsbarrio/package-lock.json
+/web/themes/custom/**/node_modules/
+/web/themes/custom/**/package-lock.json
 package-lock.json
 
