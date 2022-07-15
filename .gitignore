@@ -60,7 +60,7 @@
 /web/modules/contrib/
 /web/themes/contrib/
 /web/profiles/contrib/
-/web/libraries/
+#/web/libraries/
 /web/private/scripts/quicksilver
 
 
@@ -101,3 +101,12 @@
 /web/themes/custom/**/package-lock.json
 package-lock.json
 
+# Ignore database exports
+/*.sql.gz
+/*.DS_Store
+**/.DS_Store
+.DS_Store
+
+
+# Bypass gitignore for certain files and folders
+!/web/libraries/mdb-ui-kit

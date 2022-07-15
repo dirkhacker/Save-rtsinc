@@ -6,12 +6,12 @@ global-styling:
     js/custom.js: {}
     #node_modules/mdbootstrap/js/modules/forms-free.min.js: {}
     #node_modules/mdbootstrap/js/mdb.js: {}
-    node_modules/mdb-ui-kit/js/mdb.min.js: {}
+    /libraries/mdb-ui-kit/js/mdb.min.js: {}
   css:
     component:
       css/style.css: {}
       #   node_modules/mdbootstrap/css/mdb.min.css: {}
-      node_modules/mdb-ui-kit/css/mdb.min.css: {}
+      /libraries/mdb-ui-kit/css/mdb.min.css: {}
   dependencies:
     - core/jquery
     - core/drupal
