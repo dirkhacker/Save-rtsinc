@@ -60,9 +60,12 @@
 /web/modules/contrib/
 /web/themes/contrib/
 /web/profiles/contrib/
-#/web/libraries/
+/web/libraries/
 /web/private/scripts/quicksilver
 
+
+# Allow specific libraries:
+!/web/libraries/superfish
 
 # Generally you should only ignore the root vendor directory. It's important
 # that core/assets/vendor and any other vendor directories within contrib or
@@ -110,3 +113,4 @@ package-lock.json
 
 # Bypass gitignore for certain files and folders
 !/web/libraries/mdb-ui-kit
+
