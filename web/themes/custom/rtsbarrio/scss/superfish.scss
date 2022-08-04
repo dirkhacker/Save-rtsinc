@@ -20,7 +20,7 @@ $superfish-1-background-color-level-third: #d0d0d0;
 $superfish-1-background-color-level-fourth: #c0c0c0;
 
 #block-mainnavigation {
-  .sf-style-none {
+/*   .sf-style-none {
     float: left;
     margin: 0;
     padding: 0;
@@ -106,21 +106,21 @@ $superfish-1-background-color-level-fourth: #c0c0c0;
         background: $superfish-1-background-color-level-fourth;
         outline: 0;
         > ul {
-          top: 40px;
+          top: 70px;
         }
       }
       &.sfHover {
         background: $superfish-1-background-color-level-fourth;
         outline: 0;
         > ul {
-          top: 40px;
+          top: 70px;
         }
       }
     }
     .sf-sub-indicator {
       background-image: url('../images/dropdown-arrows.png');
     }
-  }
+  } */
   div.sf-accordion-toggle {
     &.sf-style-none a {
       background: $superfish-1-background-color-level-first;
@@ -239,6 +239,9 @@ $superfish-1-background-color-level-fourth: #c0c0c0;
       }
     }
     ul.sf-multicolumn {
+      background-color: $white;
+      width: 967px !important;
+      padding: 2rem;
       li.sf-multicolumn-wrapper {
         ol {
           margin: 0;
@@ -332,7 +335,7 @@ ul.sf-menu li.sfHover ul {
 ul.sf-menu li:hover > ul,
 ul.sf-menu li.sfHover > ul {
   left: 0;
-  top: 2.5em;
+  top: 74px;
 }
 ul.sf-menu li li:hover > ul,
 ul.sf-menu li li.sfHover > ul {
@@ -667,3 +670,146 @@ ul.sf-menu.rtl.sf-accordion.sf-expanded,
 ul.sf-menu.rtl.sf-accordion li.sf-expanded > ul {
   right: auto !important;
 }
+
+
+
+
+
+/******* from /web/libraries/superfish/style/default/default.css ******
+ul.sf-menu.sf-style-default {
+  float: left;
+  margin-bottom: 1em;
+  padding: 0;
+}
+ul.sf-menu.sf-style-default.sf-navbar {
+  width: 100%;
+}
+ul.sf-menu.sf-style-default ul {
+  margin: 0;
+  padding: 0;
+}
+ul.sf-menu.sf-style-default a,
+ul.sf-menu.sf-style-default a:visited,
+ul.sf-menu.sf-style-default span.nolink {
+  border: 0 none;
+  color: #13a;
+  padding: 0.75em 1em;
+}
+ul.sf-menu.sf-style-default a.sf-with-ul,
+ul.sf-menu.sf-style-default span.nolink.sf-with-ul {
+  padding-right: 2.25em;
+}
+ul.sf-menu.sf-style-default.rtl a.sf-with-ul,
+ul.sf-menu.sf-style-default.rtl span.nolink.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+ul.sf-menu.sf-style-default span.sf-description {
+  color: #13a;
+  display: block;
+  font-size: smaller;
+  line-height: 1.5;
+  margin: 0.25em 0 0 0;
+  padding: 0;
+}
+ul.sf-menu.sf-style-default li,
+ul.sf-menu.sf-style-default.sf-navbar {
+  background: #bdd2ff;
+}
+ul.sf-menu.sf-style-default li li,
+ul.sf-menu.sf-style-default.sf-navbar > li > ul {
+  background: #aabde6;
+}
+ul.sf-menu.sf-style-default li li li {
+  background: #9aaedb;
+}
+ul.sf-menu.sf-style-default li:hover,
+ul.sf-menu.sf-style-default li.sfHover,
+ul.sf-menu.sf-style-default a:focus,
+ul.sf-menu.sf-style-default a:hover,
+ul.sf-menu.sf-style-default span.nolink:hover {
+  background: #cfdeff;
+  outline: 0;
+}
+div.sf-accordion-toggle.sf-style-default a {
+  background: #bdd2ff;
+  color: #13a;
+  display: inline-block;
+  font-weight: bold;
+  padding: 1em 3em 1em 1em;
+  position: relative;
+}
+div.sf-accordion-toggle.sf-style-default  > a:after {
+  content: "≡";
+  font-size: 2em;
+  position: absolute;
+  right: 0.5em;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  speak: none;
+}
+div.sf-accordion-toggle.sf-style-default a.sf-expanded,
+ul.sf-menu.sf-style-default.sf-accordion li.sf-expanded {
+  background: #cfdeff;
+}
+div.sf-accordion-toggle.sf-style-default a.sf-expanded,
+ul.sf-menu.sf-style-default.sf-accordion li.sf-expanded > a,
+ul.sf-menu.sf-style-default.sf-accordion li.sf-expanded > span.nolink {
+  font-weight: bold;
+}
+ul.sf-menu.sf-style-default.sf-accordion li a.sf-accordion-button {
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 499;
+}
+ul.sf-menu.sf-style-default.sf-accordion li li a,
+ul.sf-menu.sf-style-default.sf-accordion li li span.nolink {
+  padding-left: 2em;
+}
+ul.sf-menu.sf-style-default.sf-accordion li li li a,
+ul.sf-menu.sf-style-default.sf-accordion li li li span.nolink {
+  padding-left: 3em;
+}
+ul.sf-menu.sf-style-default.sf-accordion li li li li a,
+ul.sf-menu.sf-style-default.sf-accordion li li li li span.nolink {
+  padding-left: 4em;
+}
+ul.sf-menu.sf-style-default.sf-accordion li li li li li a,
+ul.sf-menu.sf-style-default.sf-accordion li li li li li span.nolink {
+  padding-left: 5em;
+}
+ul.sf-menu.sf-style-default.rtl.sf-accordion li li a,
+ul.sf-menu.sf-style-default.rtl.sf-accordion li li span.nolink {
+  padding-left: auto;
+  padding-right: 2em;
+}
+ul.sf-menu.sf-style-default.rtl.sf-accordion li li li a,
+ul.sf-menu.sf-style-default.rtl.sf-accordion li li li span.nolink {
+  padding-left: auto;
+  padding-right: 3em;
+}
+ul.sf-menu.sf-style-default.rtl.sf-accordion li li li li a,
+ul.sf-menu.sf-style-default.rtl.sf-accordion li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 4em;
+}
+ul.sf-menu.sf-style-default.rtl.sf-accordion li li li li li a,
+ul.sf-menu.sf-style-default.rtl.sf-accordion li li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 5em;
+}
+ul.sf-menu.sf-style-default li.sf-multicolumn-wrapper ol,
+ul.sf-menu.sf-style-default li.sf-multicolumn-wrapper ol li {
+  margin: 0;
+  padding: 0;
+}
+ul.sf-menu.sf-style-default li.sf-multicolumn-wrapper a.menuparent,
+ul.sf-menu.sf-style-default li.sf-multicolumn-wrapper span.nolink.menuparent {
+  font-weight: bold;
+}
+*******************************/
