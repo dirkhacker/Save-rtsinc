@@ -1,17 +1,17 @@
-uuid: 9155d89c-0ae6-41f7-9149-8921879ef5dd
+uuid: 30c11ce5-ed66-4ab1-a3ae-f7893681755f
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.main
   module:
     - system
   theme:
-    - rtsbarrio
+    - olivero
 _core:
-  default_config_hash: _G1IfGESk7WqvVCi7B3VJxhSY0YICgv1OmuVPJqO8bE
-id: rtsbarrio_main_menu
-theme: rtsbarrio
+  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
+id: olivero_main_menu
+theme: olivero
 region: primary_menu
 weight: 0
 provider: null
@@ -22,6 +22,6 @@ settings:
   label_display: '0'
   provider: system
   level: 1
-  depth: 3
+  depth: 2
   expand_all_items: true
 visibility: {  }
