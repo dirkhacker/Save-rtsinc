@@ -177,23 +177,34 @@
       </div>
     {% endif %}
     <footer class="site-footer">
-      {% block footer %}
         <div class="{{ container }}">
-          {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
-            <div class="site-footer__top clearfix">
-              {{ page.footer_first }}
-              {{ page.footer_second }}
-              {{ page.footer_third }}
-              {{ page.footer_fourth }}
-            </div>
-          {% endif %}
-          {% if page.footer_fifth %}
-            <div class="site-footer__bottom">
-              {{ page.footer_fifth }}
-            </div>
-          {% endif %}
+            {% block footer %}
+                {% if page.footer_top_left or page.footer_top_right %}
+                    <div class="site-footer__top">
+                        <div class="col-md-6">
+                            <div class="site-footer__top_left d-flex">
+                                {{ page.footer_top_left }}
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="site-footer__top_right d-flex">
+                                {{ page.footer_top_right }}
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+              {% if page.footer_main %}
+                <div class="site-footer__main">
+                    {{ page.footer_main }}
+                </div>
+              {% endif %}
+              {% if page.footer_bottom %}
+                <div class="site-footer__bottom">
+                  {{ page.footer_bottom }}
+                </div>
+              {% endif %}
+            {% endblock %}
         </div>
-      {% endblock %}
     </footer>
   </div>
 </div>

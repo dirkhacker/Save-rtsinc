@@ -1,0 +1,120 @@
+/**
+ * @file
+ * Footer Styling.
+ */
+
+
+#footer .region-footer {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.site-footer {
+    padding: ($spacer * 3) 0;
+    background: #151515;
+    color: #656565;
+    //position: absolute;
+    bottom: 0;
+    width: 100%;
+    //max-height: 8rem;
+
+    .layout-container {
+        padding: 0 $spacer;
+    }
+    .nav-link:first-child {
+        padding-left: 0;
+    }
+
+    /* Footer Top Styling. */
+
+    .site-footer__top {
+        display: flex;
+        border-bottom: 1px solid #333;
+        padding-bottom: 40px;
+        .site-footer__top_left {
+            align-content: flex-start;
+            svg {
+                width: 200px;
+                fill: white;
+            }
+        }
+        .site-footer__top_right {
+            align-content: flex-end;
+        }
+        .content {
+            margin-top: 0;
+        }
+    }
+
+    /* Footer region styling */
+
+    .site-footer__main {
+        border-bottom: 1px solid #333;
+        padding: 1.5rem 0;
+        .nav-link {
+            color: #fff;
+            padding: 12px 40px 12px 0;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+    }
+
+    /* Footer Bottom Styling. */
+
+    .site-footer__bottom {
+        color: #656565;
+        padding: 25px 0 16px;
+        a, a:hover, a:active {
+            color: #656565;
+        }
+        a:hover, a:active {
+            text-decoration: underline;
+        }
+        .block {
+            margin: ($spacer / 2) 0;
+        }
+        .content {
+            padding: ($spacer / 2) 0;
+            margin-top: 0;
+        }
+        .nav-item .nav-link {
+            color: #656565;
+        }
+        #block-rtsbarrio-footer ul {
+            display: inline;
+            list-style: none;
+        }
+    }
+}
+@media screen and (max-width: 575.98px) {
+    .site-footer {
+        font-size: 90%;
+        flex-direction: column;
+        ul {
+            align-items: center;
+        }
+        .site-footer__top {
+            justify-content: center;
+        }
+        .site-footer__main {
+            justify-content: center;
+            .nav-link {
+                padding: 0.5rem 1rem;
+            }
+            ul {
+                flex-direction: column;
+            }
+        }
+        .site-footer__bottom {
+            #block-footercopyright > ul {
+                justify-content: center;
+                flex-direction: column-reverse;
+            }
+            .nav-link {
+                padding: 0.5rem 1rem;
+            }
+        }
+    }
+}

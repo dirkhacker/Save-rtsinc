@@ -1,0 +1,25 @@
+uuid: 91de0ea0-1e68-4139-baa5-ca73a78db9ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-copyright
+  module:
+    - system
+  theme:
+    - rtsbarrio
+id: footercopyright
+theme: rtsbarrio
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-copyright'
+settings:
+  id: 'system_menu_block:footer-copyright'
+  label: 'Footer Copyright'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

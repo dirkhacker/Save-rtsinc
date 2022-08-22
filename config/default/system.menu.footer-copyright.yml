@@ -1,0 +1,8 @@
+uuid: 4c67309e-0954-491b-8498-4278b7da5dd3
+langcode: en
+status: true
+dependencies: {  }
+id: footer-copyright
+label: 'Footer Copyright'
+description: 'Footer copyright information, privacy policy, and terms of use.'
+locked: false

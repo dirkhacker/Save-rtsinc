@@ -12,6 +12,10 @@ Description: Bootstrap 4 with Sass
 body {
     background: $white;
 }
+#main-wrapper {
+    min-height: 25em;
+    margin-top: 2em;
+}
 
 
 /* COLORS 
@@ -26,7 +30,7 @@ a {
 }
 
 .site-footer {
-    background: $accent-shade !important;
+    background: $footer-black !important;
 }
 
 .menu--main li a {
