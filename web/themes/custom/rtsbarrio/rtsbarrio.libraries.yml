@@ -10,7 +10,7 @@ global-styling:
   css:
     component:
       css/style.css: {}
-      #   node_modules/mdbootstrap/css/mdb.min.css: {}
+      #node_modules/mdbootstrap/css/mdb.min.css: {}
       #/libraries/mdb-ui-kit/css/mdb.min.css: {}
   dependencies:
     - core/jquery
