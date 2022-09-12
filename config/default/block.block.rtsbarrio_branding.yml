@@ -6,12 +6,15 @@ dependencies:
     - system
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: null
 _core:
   default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
 id: rtsbarrio_branding
 theme: rtsbarrio
 region: header
-weight: 0
+weight: -9
 provider: null
 plugin: system_branding_block
 settings:

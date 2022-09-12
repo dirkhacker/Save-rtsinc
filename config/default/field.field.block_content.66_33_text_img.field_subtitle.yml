@@ -1,0 +1,19 @@
+uuid: 07e20b2b-1eb2-4b9b-be25-c67f9f160413
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.66_33_text_img
+    - field.storage.block_content.field_subtitle
+id: block_content.66_33_text_img.field_subtitle
+field_name: field_subtitle
+entity_type: block_content
+bundle: 66_33_text_img
+label: Subtitle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

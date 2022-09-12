@@ -4,12 +4,15 @@ status: true
 dependencies:
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: null
 _core:
   default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
 id: rtsbarrio_local_actions
 theme: rtsbarrio
 region: content
-weight: -20
+weight: -7
 provider: null
 plugin: local_actions_block
 settings:

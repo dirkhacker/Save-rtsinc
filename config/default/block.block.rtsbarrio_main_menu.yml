@@ -8,6 +8,9 @@ dependencies:
     - system
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: null
 _core:
   default_config_hash: _G1IfGESk7WqvVCi7B3VJxhSY0YICgv1OmuVPJqO8bE
 id: rtsbarrio_main_menu

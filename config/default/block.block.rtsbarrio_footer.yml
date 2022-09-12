@@ -1,6 +1,6 @@
 uuid: 7d6acb6d-f013-41c2-8da5-0b1b9df450e7
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -8,11 +8,14 @@ dependencies:
     - system
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: null
 _core:
   default_config_hash: pnCK21YFjH7iB4XDeokSq3N3XSr6qX8BsqMs9nmip6E
 id: rtsbarrio_footer
 theme: rtsbarrio
-region: footer_fifth
+region: top_header
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

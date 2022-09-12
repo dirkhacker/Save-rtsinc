@@ -5,15 +5,19 @@ dependencies:
   config:
     - system.menu.tools
   module:
+    - block_class
     - system
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: container
 _core:
   default_config_hash: TszJ7dH_11Qjmo_OpMzqznaED4Bvy1XfVnBzTC9LZXE
 id: rtsbarrio_tools
 theme: rtsbarrio
-region: sidebar_first
-weight: 0
+region: content
+weight: -5
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

@@ -1,9 +1,9 @@
-uuid: 91de0ea0-1e68-4139-baa5-ca73a78db9ef
+uuid: 3ef6ca38-b1ae-41e6-b8c0-8d9c3a58b878
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.footer-copyright
+    - system.menu.footer
   module:
     - system
   theme:
@@ -11,15 +11,15 @@ dependencies:
 third_party_settings:
   block_class:
     classes: null
-id: footercopyright
+id: footer
 theme: rtsbarrio
-region: footer_bottom
+region: footer_main
 weight: 0
 provider: null
-plugin: 'system_menu_block:footer-copyright'
+plugin: 'system_menu_block:footer'
 settings:
-  id: 'system_menu_block:footer-copyright'
-  label: 'Footer Copyright'
+  id: 'system_menu_block:footer'
+  label: Footer
   label_display: '0'
   provider: system
   level: 1

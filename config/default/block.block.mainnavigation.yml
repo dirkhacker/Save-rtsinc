@@ -1,6 +1,6 @@
 uuid: 1b2ef39a-71f4-49af-b275-725d72dcd3d2
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -8,6 +8,9 @@ dependencies:
     - superfish
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: null
 id: mainnavigation
 theme: rtsbarrio
 region: primary_menu

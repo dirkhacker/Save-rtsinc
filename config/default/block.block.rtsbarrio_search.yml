@@ -1,11 +1,14 @@
 uuid: 0912989b-6023-494c-ad81-e2370dac3868
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - search
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: null
 _core:
   default_config_hash: jQ-C8l3dJPqYCGST1e-kSjR14PDP4wq-iFbp8dMFcRo
 id: rtsbarrio_search
