@@ -1,0 +1,21 @@
+uuid: 7f8525d1-d876-4596-9d93-60a48457519b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_33_33_card
+    - field.storage.block_content.field_card_text_2
+  module:
+    - text
+id: block_content.33_33_33_card.field_card_text_2
+field_name: field_card_text_2
+entity_type: block_content
+bundle: 33_33_33_card
+label: 'Card text 2'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

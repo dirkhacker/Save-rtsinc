@@ -1,0 +1,23 @@
+uuid: 4868de32-dddd-4b2c-85a4-96a2dc89b727
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_33_33_card
+    - field.storage.block_content.field_card_text_3
+  module:
+    - text
+id: block_content.33_33_33_card.field_card_text_3
+field_name: field_card_text_3
+entity_type: block_content
+bundle: 33_33_33_card
+label: 'Card text 3'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

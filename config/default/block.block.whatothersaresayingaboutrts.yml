@@ -1,0 +1,34 @@
+uuid: 76d1a139-09dc-41e0-af3a-72e54451075d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:33_33_33_card:0678ab57-6651-449c-af72-df83e33bb5e8'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: null
+id: whatothersaresayingaboutrts
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:0678ab57-6651-449c-af72-df83e33bb5e8'
+settings:
+  id: 'block_content:0678ab57-6651-449c-af72-df83e33bb5e8'
+  label: 'What Others Are Saying About RTS'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
