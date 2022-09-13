@@ -7,6 +7,7 @@ dependencies:
   module:
     - block_class
     - block_content
+    - system
   theme:
     - rtsbarrio
 third_party_settings:
@@ -15,7 +16,7 @@ third_party_settings:
 id: fuelcardprogram
 theme: rtsbarrio
 region: content
-weight: 0
+weight: -3
 provider: null
 plugin: 'block_content:2d7c8a12-0499-4f4b-a292-d2e58b78997d'
 settings:
@@ -26,4 +27,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

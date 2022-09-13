@@ -15,7 +15,7 @@ _core:
 id: rtsbarrio_help
 theme: rtsbarrio
 region: content
-weight: -8
+weight: -9
 provider: null
 plugin: help_block
 settings:
