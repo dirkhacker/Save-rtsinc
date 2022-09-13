@@ -7,7 +7,6 @@ dependencies:
   module:
     - block_class
     - block_content
-    - system
   theme:
     - rtsbarrio
 third_party_settings:
@@ -27,8 +26,4 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility:
-  request_path:
-    id: request_path
-    negate: false
-    pages: '<front>'
+visibility: {  }
