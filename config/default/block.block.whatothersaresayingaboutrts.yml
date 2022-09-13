@@ -1,4 +1,4 @@
-uuid: 03ea807d-1f19-4fd1-889f-69c546e68e4c
+uuid: b7ce4c48-cc3e-474f-a9c0-efcc6ba4e685
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,12 @@ dependencies:
   module:
     - block_class
     - block_content
-    - system
   theme:
     - rtsbarrio
 third_party_settings:
   block_class:
     classes: null
-id: whatothersaresayingaboutrts_2
+id: whatothersaresayingaboutrts
 theme: rtsbarrio
 region: content
 weight: 0
@@ -27,8 +26,4 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility:
-  request_path:
-    id: request_path
-    negate: false
-    pages: '<front>'
+visibility: {  }

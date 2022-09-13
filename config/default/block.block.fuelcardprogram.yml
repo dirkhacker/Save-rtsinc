@@ -1,4 +1,4 @@
-uuid: cfcd44c0-2f3d-40b5-932f-932382bb7ad3
+uuid: 1eef8341-a74b-42fd-bae7-1722b448775d
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,6 @@ dependencies:
   module:
     - block_class
     - block_content
-    - system
   theme:
     - rtsbarrio
 third_party_settings:
@@ -27,8 +26,4 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility:
-  request_path:
-    id: request_path
-    negate: false
-    pages: '<front>'
+visibility: {  }
