@@ -1,0 +1,29 @@
+uuid: 6225dcc9-73be-4bc9-bd93-5b44fa31a312
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b3a74bb9-ff03-413f-921d-aceae83fb7c8'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: bg-primary
+id: introducingthenewrtsandpilotbundle
+theme: rtsbarrio
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:b3a74bb9-ff03-413f-921d-aceae83fb7c8'
+settings:
+  id: 'block_content:b3a74bb9-ff03-413f-921d-aceae83fb7c8'
+  label: 'Introducing the new RTS and Pilot Bundle!'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -15,7 +15,7 @@ _core:
 id: rtsbarrio_content
 theme: rtsbarrio
 region: content
-weight: -6
+weight: -7
 provider: null
 plugin: system_main_block
 settings:

@@ -7,6 +7,7 @@ dependencies:
   module:
     - block_class
     - block_content
+    - system
   theme:
     - rtsbarrio
 third_party_settings:
@@ -15,7 +16,7 @@ third_party_settings:
 id: whatothersaresayingaboutrts
 theme: rtsbarrio
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: 'block_content:728c0870-e1c7-4e8e-bcb8-472675531410'
 settings:
@@ -26,4 +27,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

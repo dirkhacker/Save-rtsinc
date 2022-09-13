@@ -14,7 +14,7 @@ _core:
 id: rtsbarrio_local_actions
 theme: rtsbarrio
 region: content
-weight: -7
+weight: -8
 provider: null
 plugin: local_actions_block
 settings:
