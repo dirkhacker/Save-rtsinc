@@ -1,0 +1,14 @@
+uuid: a755bb38-1944-419e-9407-0f593f67c454
+langcode: en
+status: true
+dependencies: {  }
+id: proxima_nova_regular
+label: 'Proxima Nova Regular'
+font_family: 'Proxima Nova Regular'
+font_classification:
+  serif: '0'
+  sans-serif: '0'
+  slab-serif: '0'
+  handwriting: '0'
+  decorative: '0'
+  monospace: '0'
