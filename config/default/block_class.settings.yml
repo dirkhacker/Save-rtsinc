@@ -3,11 +3,7 @@ _core:
 maxlength_block_class_field: 255
 field_type: multiple_textfields
 default_case: standard
-<<<<<<< HEAD
 block_classes_stored: '{"bg-primary":"bg-primary"}'
-=======
-block_classes_stored: '{"":""}'
->>>>>>> origin/dh-dm-360
 enable_attributes: true
 enable_auto_complete: true
 qty_classes_per_block: 10
