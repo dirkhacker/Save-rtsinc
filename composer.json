@@ -29,7 +29,6 @@
         "drupal/gin": "^3.0@beta",
         "drupal/pathauto": "^1.10",
         "drupal/smtp": "^1.0",
-        "drupal/superfish": "^1.4",
         "drush/drush": "^10",
         "pantheon-systems/drupal-integrations": "^9",
         "pantheon-upstreams/upstream-configuration": "self.version"

@@ -5,7 +5,6 @@ dependencies:
   content:
     - 'block_content:basic:12bd21c9-2605-4a68-bd34-d3c4bf13b514'
   module:
-    - block_class
     - block_content
   theme:
     - rtsbarrio

@@ -1,0 +1,12 @@
+uuid: fc2cd821-8bae-458f-9153-941aaf7e8288
+langcode: en
+status: true
+dependencies: {  }
+id: proxima_nova_regular
+label: 'Proxima Nova Regular'
+font_url: 'local_fonts://proxima_nova_regular'
+fallback: ''
+selectors: .fontyourface
+theme: rtsbarrio
+style: null
+weight: null
