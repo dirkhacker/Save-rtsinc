@@ -2,8 +2,6 @@ uuid: c107a5f7-17a0-4e63-815e-82f5a296b8f3
 langcode: en
 status: true
 dependencies:
-  module:
-    - block_class
   theme:
     - rtsbarrio
 third_party_settings:
