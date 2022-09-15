@@ -1,9 +1,9 @@
-uuid: e30ea6f8-7bea-4fb1-9a9c-1f1fd1a1f8ce
+uuid: fd7a0830-b194-494a-87f9-eb2f2cf7c724
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:4e103375-2e66-444f-bdad-a4fe42a6e59a'
+    - 'block_content:basic:b9b1b4f0-e618-4e0b-88eb-26d8ee0f59dc'
   module:
     - block_class
     - block_content
@@ -12,15 +12,15 @@ dependencies:
 third_party_settings:
   block_class:
     classes: null
-id: megamainnav
+id: contactus
 theme: rtsbarrio
-region: header
-weight: -8
+region: footer_top_right
+weight: 0
 provider: null
-plugin: 'block_content:4e103375-2e66-444f-bdad-a4fe42a6e59a'
+plugin: 'block_content:b9b1b4f0-e618-4e0b-88eb-26d8ee0f59dc'
 settings:
-  id: 'block_content:4e103375-2e66-444f-bdad-a4fe42a6e59a'
-  label: MegaMainNav
+  id: 'block_content:b9b1b4f0-e618-4e0b-88eb-26d8ee0f59dc'
+  label: 'Contact Us'
   label_display: '0'
   provider: block_content
   status: true

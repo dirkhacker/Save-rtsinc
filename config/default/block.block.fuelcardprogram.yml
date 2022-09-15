@@ -1,13 +1,12 @@
-uuid: ef60a7e6-0116-4ea5-8026-7185ae460163
+uuid: c8ae4485-2b34-4fde-9cde-5a4af95a4494
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:66_33_text_img:714c5b68-00a4-4c39-9061-752dd4869f24'
+    - 'block_content:66_33_text_img:2d7c8a12-0499-4f4b-a292-d2e58b78997d'
   module:
     - block_class
     - block_content
-    - system
   theme:
     - rtsbarrio
 third_party_settings:
@@ -18,17 +17,13 @@ theme: rtsbarrio
 region: content
 weight: -3
 provider: null
-plugin: 'block_content:714c5b68-00a4-4c39-9061-752dd4869f24'
+plugin: 'block_content:2d7c8a12-0499-4f4b-a292-d2e58b78997d'
 settings:
-  id: 'block_content:714c5b68-00a4-4c39-9061-752dd4869f24'
+  id: 'block_content:2d7c8a12-0499-4f4b-a292-d2e58b78997d'
   label: 'Fuel Card Program'
   label_display: '0'
   provider: block_content
   status: true
   info: ''
   view_mode: full
-visibility:
-  request_path:
-    id: request_path
-    negate: false
-    pages: '<front>'
+visibility: {  }
