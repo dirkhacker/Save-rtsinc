@@ -7,111 +7,146 @@
       from {opacity: 0;}
       to {opacity: 1;}
   }
-  
-  // Assigning the above animation to all dropdown menus
-  .dropdown-menu{
-      &.show{
-          -webkit-animation: fadeIn 0.3s alternate; /* Safari 4.0 - 8.0 */
-           animation: fadeIn 0.3s alternate;
+  #header {
+    // Styles
+    .nav-item {
+      padding: 30px 22px;
+
+      & a {
+        color: $black;
+
+        &:hover {
+          color: $blue;
+        }
+
+        &:focus {
+          color: $blue;
+        }
+
       }
-  }
-  
-  // Mega Menu adjustments
-  .nav-item.dropdown.dropdown-mega{
-      position: static;
-      .dropdown-menu{
+
+      &:hover {
+        border-bottom: 3px solid $blue;
+        padding-bottom: 3px;
+      }
+
+      // Mega Menu adjustments
+      &.dropdown.dropdown-mega {
+        position: static;
+
+        .dropdown-menu {
           min-width: 968px;
           top: 98px;
           left: -100px;
+
           & .dropdown-item {
             padding: 0;
+
             &:hover {
-                background-color: transparent !important;
-                color: $blue;
+              background-color: transparent !important;
+              color: $blue;
             }
           }
+        }
       }
+
+      // Assigning the above animation to all dropdown menus
+      .dropdown-menu {
+        &.show {
+          -webkit-animation: fadeIn 0.3s alternate; /* Safari 4.0 - 8.0 */
+          animation: fadeIn 0.3s alternate;
+        }
+      }
+
+      .mega-content {
+        .row div ul {
+          padding: 0;
+          list-style-type: none;
+        }
+
+        .navset {
+          padding: 1rem 0;
+        }
+      }
+    }
   }
 
-.block-megamenu-main {
-    width: 968px !important;
-  }
+//.block-megamenu-main {
+//    width: 968px !important;
+//  }
 
   // Megamenu Columns
-  .mega-content .row div ul {
-    padding: 0;
-    list-style-type: none;
-  }
+
   
-  // Complete styles for main navbar toggler and hamburger menu
-  .navbar-toggler{
-      border: none;
-      padding: 0;
-      outline: none;
-      &:focus{
-          box-shadow: none;
-      }
-      .hamburger-toggle{
-          position: relative;
-          display: inline-block;
-          width: 50px;
-          height: 50px;
-          z-index: 11;
-          float: right;
-          .hamburger {
-              position: absolute;
-              transform: translate(-50%, -50%) rotate(0deg);
-              left: 50%;
-              top: 50%;
-              width: 50%;
-              height: 50%;
-              pointer-events: none;
-              span {
-                  width: 100%;
-                  height: 4px;
-                  position: absolute;
-                  background: #333;
-                  border-radius: 2px;
-                  z-index: 1;
-                  transition: transform 0.2s cubic-bezier(0.77,0.2,0.05,1.0), background 0.2s cubic-bezier(0.77,0.2,0.05,1.0), all 0.2s ease-in-out;
-                  left: 0px;
-                  &:first-child{
-                      top: 10%;
-                      transform-origin: 50% 50%;
-                      transform: translate(0% -50%) !important;
-                  }
-                  &:nth-child(2){
-                      top: 50%;
-                      transform: translate(0,-50%);
-                  }
-                  &:last-child{
-                      left: 0px;
-                      top: auto;
-                      bottom: 10%;
-                      transform-origin: 50% 50%;
-                  }
-              }
-              &.active{
-                  span {
-                      position: absolute;
-                      margin: 0;
-                      &:first-child{
-                          top: 45%;
-                          transform: rotate(45deg);
-                      }
-                      &:nth-child(2){
-                          left: 50%;
-                          width: 0px;
-                      }
-                      &:last-child{
-                          top: 45%;
-                          transform: rotate(-45deg);
-                      }
-                  }
-              }
-          }
-      }
-  }
+  //// Complete styles for main navbar toggler and hamburger menu
+  //.navbar-toggler{
+  //    border: none;
+  //    padding: 0;
+  //    outline: none;
+  //    &:focus{
+  //        box-shadow: none;
+  //    }
+  //    .hamburger-toggle{
+  //        position: relative;
+  //        display: inline-block;
+  //        width: 50px;
+  //        height: 50px;
+  //        z-index: 11;
+  //        float: right;
+  //        .hamburger {
+  //            position: absolute;
+  //            transform: translate(-50%, -50%) rotate(0deg);
+  //            left: 50%;
+  //            top: 50%;
+  //            width: 50%;
+  //            height: 50%;
+  //            pointer-events: none;
+  //            span {
+  //                width: 100%;
+  //                height: 4px;
+  //                position: absolute;
+  //                background: #333;
+  //                border-radius: 2px;
+  //                z-index: 1;
+  //                transition: transform 0.2s cubic-bezier(0.77,0.2,0.05,1.0), background 0.2s cubic-bezier(0.77,0.2,0.05,1.0), all 0.2s ease-in-out;
+  //                left: 0px;
+  //                &:first-child{
+  //                    top: 10%;
+  //                    transform-origin: 50% 50%;
+  //                    transform: translate(0% -50%) !important;
+  //                }
+  //                &:nth-child(2){
+  //                    top: 50%;
+  //                    transform: translate(0,-50%);
+  //                }
+  //                &:last-child{
+  //                    left: 0px;
+  //                    top: auto;
+  //                    bottom: 10%;
+  //                    transform-origin: 50% 50%;
+  //                }
+  //            }
+  //            &.active{
+  //                span {
+  //                    position: absolute;
+  //                    margin: 0;
+  //                    &:first-child{
+  //                        top: 45%;
+  //                        transform: rotate(45deg);
+  //                    }
+  //                    &:nth-child(2){
+  //                        left: 50%;
+  //                        width: 0px;
+  //                    }
+  //                    &:last-child{
+  //                        top: 45%;
+  //                        transform: rotate(-45deg);
+  //                    }
+  //                }
+  //            }
+  //        }
+  //    }
+  //}
   
   
   .icons{
@@ -130,27 +165,9 @@
   }
 
 
-// Styles
-.nav-item {
-    padding: 30px 22px;
-    & a {
-        color: $black;
-        &:hover {
-            color: $blue;
-        }
-        &:focus {
-            color: $blue;
-        }
 
-    }
-}
 
-.nav-item:hover {
-            border-bottom: 3px solid $blue;
-            padding-bottom: 3px;
-} 
+
     
-.navset {
-    padding: 1rem 0;
-}
+
 
