@@ -1,0 +1,23 @@
+uuid: 081274e6-c800-40fe-b312-d7e985f7aeac
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_card_66_body
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.33_card_66_body.body
+field_name: body
+entity_type: block_content
+bundle: 33_card_66_body
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary
