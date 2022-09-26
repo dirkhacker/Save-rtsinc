@@ -1,0 +1,25 @@
+.rts-card {
+  display: flex;
+  flex-direction: row;
+  color: #656565;
+  margin-bottom: 2rem;
+  img {
+
+  }
+  .rts-card-body {
+    margin-left: 32px;
+    .rts-card-title {
+      font-size: 1.7em;
+      color: #000;
+      letter-spacing: -.4px;
+      line-height: 1.3em;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    a {
+      font-size: .9em;
+      text-decoration: none;
+      margin-top: 2rem;
+    }
+  }
+}
