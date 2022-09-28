@@ -127,7 +127,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-5 mb-2'
+        class: 'display-5 mb-2 font-weight-bold'
     weight: 6
     region: content
 hidden: {  }

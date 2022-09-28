@@ -5,4 +5,4 @@ dependencies: {  }
 id: blue_card
 label: 'Reverse card'
 revision: 0
-description: 'White text to be used on colored backgrounds'
+description: 'Card: title, subtitle, button, image, body. White text to be used on colored backgrounds'

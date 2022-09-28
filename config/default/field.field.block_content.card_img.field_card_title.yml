@@ -1,0 +1,19 @@
+uuid: ac332f6e-acd5-4053-beda-51a79b03553f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card_img
+    - field.storage.block_content.field_card_title
+id: block_content.card_img.field_card_title
+field_name: field_card_title
+entity_type: block_content
+bundle: card_img
+label: 'Card title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

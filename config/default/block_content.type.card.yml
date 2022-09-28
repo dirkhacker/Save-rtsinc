@@ -3,6 +3,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: card
-label: card
+label: 'card - svg'
 revision: 0
 description: 'A card that can be placed in any section and block in layout builder.'
