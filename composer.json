@@ -35,6 +35,7 @@
         "drupal/section_library": "^1.0",
         "drupal/smtp": "^1.0",
         "drupal/svg_image_field": "^2.2@beta",
+        "drupal/webform": "^6.1",
         "drush/drush": "^10",
         "pantheon-systems/drupal-integrations": "^9",
         "pantheon-upstreams/upstream-configuration": "self.version"
