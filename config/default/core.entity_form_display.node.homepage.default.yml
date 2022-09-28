@@ -1,23 +1,22 @@
-uuid: 02ad76e5-8a1f-430e-8ae2-693f0412b38d
+uuid: b3ca4a38-6fb6-4bd1-b850-81bc90f72ef3
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - node.type.page
+    - field.field.node.homepage.body
+    - field.field.node.homepage.layout_builder__layout
+    - node.type.homepage
   module:
     - path
     - text
-_core:
-  default_config_hash: SfpLhPExzvR0MgFp0Wp7CrmgEnhcqQ-fXIWFhbf4ue0
-id: node.page.default
+id: node.homepage.default
 targetEntityType: node
-bundle: page
+bundle: homepage
 mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 31
+    weight: 121
     region: content
     settings:
       rows: 9
@@ -76,4 +75,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  layout_builder__layout: true

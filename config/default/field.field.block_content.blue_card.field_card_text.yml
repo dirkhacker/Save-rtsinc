@@ -1,0 +1,19 @@
+uuid: 066e15bd-bb1a-4ddf-8d97-d28c12cb1f4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.blue_card
+    - field.storage.block_content.field_card_text
+id: block_content.blue_card.field_card_text
+field_name: field_card_text
+entity_type: block_content
+bundle: blue_card
+label: 'Card text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

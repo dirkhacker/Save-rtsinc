@@ -1,0 +1,8 @@
+uuid: 5e1e99fc-ca87-4af3-80c4-44cc9875629d
+langcode: en
+status: true
+dependencies: {  }
+id: blue_card
+label: 'Blue Card'
+revision: 0
+description: ''

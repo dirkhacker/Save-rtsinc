@@ -1,0 +1,29 @@
+uuid: efa76dd9-dff1-4f08-839a-2685f52301a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.blue_card
+    - field.storage.block_content.field_media_1
+    - media.type.image
+id: block_content.blue_card.field_media_1
+field_name: field_media_1
+entity_type: block_content
+bundle: blue_card
+label: 'Media 1'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

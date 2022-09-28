@@ -1,0 +1,55 @@
+uuid: c4e507f7-5cfb-4805-bdec-c9d03eec308e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.blue_card
+    - field.field.block_content.blue_card.body
+    - field.field.block_content.blue_card.field_button
+    - field.field.block_content.blue_card.field_card_text
+    - field.field.block_content.blue_card.field_card_title
+    - field.field.block_content.blue_card.field_media_1
+  module:
+    - field_formatter_class
+id: block_content.blue_card.default
+targetEntityType: block_content
+bundle: blue_card
+mode: default
+content:
+  field_button:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_card_text:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: text-white
+    weight: 1
+    region: content
+  field_card_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: text-white
+    weight: 0
+    region: content
+  field_media_1:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  body: true
