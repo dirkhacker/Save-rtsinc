@@ -26,7 +26,7 @@ third_party_settings:
       weight: 0
       format_type: html_element
       format_settings:
-        classes: row
+        classes: 'row py-5'
         show_empty_fields: false
         id: ''
         element: div
@@ -117,7 +117,7 @@ content:
     settings: {  }
     third_party_settings:
       field_formatter_class:
-        class: 'h5 mb-5'
+        class: mb-5
     weight: 7
     region: content
   field_title:
@@ -127,7 +127,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 mb-2'
+        class: 'display-5 mb-2'
     weight: 6
     region: content
 hidden: {  }

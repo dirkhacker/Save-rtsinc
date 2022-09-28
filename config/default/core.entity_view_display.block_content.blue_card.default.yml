@@ -6,11 +6,38 @@ dependencies:
     - block_content.type.blue_card
     - field.field.block_content.blue_card.body
     - field.field.block_content.blue_card.field_button
-    - field.field.block_content.blue_card.field_card_text
+    - field.field.block_content.blue_card.field_card_text_1
     - field.field.block_content.blue_card.field_card_title
     - field.field.block_content.blue_card.field_media_1
   module:
     - field_formatter_class
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_container:
+      children:
+        - field_media_1
+        - field_card_title
+        - field_card_text_1
+        - field_card_text
+        - field_button
+      label: Container
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: 'container py-5'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
 id: block_content.blue_card.default
 targetEntityType: block_content
 bundle: blue_card
@@ -20,18 +47,17 @@ content:
     type: basic_string
     label: hidden
     settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_card_text:
-    type: string
-    label: hidden
-    settings:
-      link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: text-white
-    weight: 1
+        class: 'btn btn-primary rounded-pill btn-outline-light py-2'
+    weight: 8
+    region: content
+  field_card_text_1:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
     region: content
   field_card_title:
     type: string
@@ -40,8 +66,8 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: text-white
-    weight: 0
+        class: 'h2 text-white pb-2'
+    weight: 5
     region: content
   field_media_1:
     type: entity_reference_label
@@ -49,7 +75,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 3
+    weight: 4
     region: content
 hidden:
   body: true

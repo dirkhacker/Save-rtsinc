@@ -3,6 +3,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: blue_card
-label: 'Blue Card'
+label: 'Reverse card'
 revision: 0
-description: ''
+description: 'White text to be used on colored backgrounds'
