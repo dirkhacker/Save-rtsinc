@@ -24,7 +24,6 @@ third_party_settings:
         - field_card_subtitle
         - field_card_text_1
         - field_button
-        - body
       label: Row
       parent_name: ''
       region: content
@@ -46,13 +45,6 @@ targetEntityType: block_content
 bundle: card_img
 mode: default
 content:
-  body:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 6
-    region: content
   field_button:
     type: basic_string
     label: hidden
@@ -60,7 +52,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: btn
-    weight: 5
+    weight: 6
     region: content
   field_card_subtitle:
     type: basic_string
@@ -99,4 +91,5 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-hidden: {  }
+hidden:
+  body: true

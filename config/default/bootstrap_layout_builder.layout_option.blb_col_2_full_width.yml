@@ -11,4 +11,4 @@ structure: '12'
 breakpoints:
   tablet: tablet
   mobile: mobile
-weight: 0
+weight: '0'

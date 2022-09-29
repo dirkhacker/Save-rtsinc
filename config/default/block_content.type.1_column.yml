@@ -1,0 +1,8 @@
+uuid: 20b4bffa-c5ad-45d9-b11d-8e4dd22f1436
+langcode: en
+status: true
+dependencies: {  }
+id: 1_column
+label: '1 Column'
+revision: 0
+description: '1 col: Title, Subtitle, Body, Image, Button fields'

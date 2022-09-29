@@ -1,0 +1,8 @@
+uuid: e0096dce-08f1-4f0c-befb-041b1a33da7a
+langcode: en
+status: true
+dependencies: {  }
+id: image
+label: Image
+revision: 0
+description: 'Image field block'
