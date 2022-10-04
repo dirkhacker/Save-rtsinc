@@ -1,0 +1,30 @@
+uuid: 51344ba7-cc28-4bc1-8922-25cec955260f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_image
+    - field.field.node.landing_page.field_subheading
+    - field.field.node.landing_page.field_title
+    - node.type.landing_page
+  module:
+    - text
+    - user
+id: node.landing_page.default
+targetEntityType: node
+bundle: landing_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_image: true
+  field_subheading: true
+  field_title: true
+  links: true
