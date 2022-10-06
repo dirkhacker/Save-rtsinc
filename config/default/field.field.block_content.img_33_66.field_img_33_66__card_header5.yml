@@ -1,0 +1,19 @@
+uuid: 5a52786b-3f5b-4550-a63c-ca20725f12fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.img_33_66
+    - field.storage.block_content.field_img_33_66__card_header5
+id: block_content.img_33_66.field_img_33_66__card_header5
+field_name: field_img_33_66__card_header5
+entity_type: block_content
+bundle: img_33_66
+label: 'Card header 5'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
