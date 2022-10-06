@@ -1,0 +1,19 @@
+uuid: aa45e8d9-a283-4534-9d3b-0aa838b13bb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.img_33_66
+    - field.storage.block_content.field_img_33_66__card_header4
+id: block_content.img_33_66.field_img_33_66__card_header4
+field_name: field_img_33_66__card_header4
+entity_type: block_content
+bundle: img_33_66
+label: 'Card header 4'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

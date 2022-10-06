@@ -1,0 +1,62 @@
+{% set img_url = content.field_img_33_66__img[0]['#media'].field_media_image.entity.uri.value %}
+
+
+<section id="industries-we-serve" class="my-5">
+    <div class="container">
+        <div class="d-flex">
+            <img width="342" height="487" class="me-5" src="{{ img_url|file_url }}" alt="" />
+            <div class="rts-66-body">
+                <h2>{{ content.field_img_33_66__title[0]['#context'].value }}</h2>
+                <p>{{ content.field_img_33_66__subtitle[0]['#context'].value }}</p>
+                <div class="row my-5">
+                    <div class="col mr-5">
+                        <div class="card border-0">
+                            <h3 class="card-title text-primary">{{ content.field_img_33_66__card_header1[0]['#context'].value }}</h3>
+                            <p class="card-text">{{ content.field_img_33_66__card_body1[0]['#context'].value }}</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0">
+                            <h3 class="card-title text-primary">{{ content.field_img_33_66__card_header2[0]['#context'].value }}</h3>
+                            <p class="card-text">{{ content.field_img_33_66__card_body2[0]['#context'].value }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% if content.field_img_33_66__card_header3 or content.field_img_33_66__card_header4 is not empty %}
+                <div class="row my-5">
+                    <div class="col">
+                        <div class="card border-0">
+                            <h3 class="card-title text-primary">{{ content.field_img_33_66__card_header3[0]['#context'].value }}</h3>
+                            <p class="card-text">{{ content.field_img_33_66__card_body3[0]['#context'].value }}</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0">
+                            <h3 class="card-title text-primary">{{ content.field_img_33_66__card_header4[0]['#context'].value }}</h3>
+                            <p class="card-text">{{ content.field_img_33_66__card_body4[0]['#context'].value }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% if content.field_img_33_66__card_header5 or content.field_img_33_66__card_header6 is not empty %}
+                <div class="row my-5">
+                    <div class="col">
+                        <div class="card border-0">
+                            <h3 class="card-title text-primary">{{ content.field_img_33_66__card_header5[0]['#context'].value }}</h3>
+                            <p class="card-text">{{ content.field_img_33_66__card_body5[0]['#context'].value }}</p>
+                        </div>
+                    </div>
+                    {% if content.field_img_33_66__card_header6 is not empty %}
+                    <div class="col">
+                        <div class="card border-0">
+                            <h3 class="card-title text-primary">{{ content.field_img_33_66__card_header6[0]['#context'].value }}</h3>
+                            <p class="card-text">{{ content.field_img_33_66__card_body6[0]['#context'].value }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>

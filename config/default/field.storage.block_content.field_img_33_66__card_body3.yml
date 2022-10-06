@@ -1,0 +1,21 @@
+uuid: b192ea1c-f838-4a5c-ad18-e47a26e24b52
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_img_33_66__card_body3
+field_name: field_img_33_66__card_body3
+entity_type: block_content
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

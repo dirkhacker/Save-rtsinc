@@ -1,0 +1,19 @@
+uuid: ee3c985e-886c-4c4c-81b7-684909d01a94
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.img_33_66
+    - field.storage.block_content.field_img_33_66__card_body4
+id: block_content.img_33_66.field_img_33_66__card_body4
+field_name: field_img_33_66__card_body4
+entity_type: block_content
+bundle: img_33_66
+label: 'Card body 4'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

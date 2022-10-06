@@ -1,0 +1,19 @@
+uuid: 039f964e-700a-4b61-a467-a4aaf947657d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.img_33_66
+    - field.storage.block_content.field_img_33_66__card_body6
+id: block_content.img_33_66.field_img_33_66__card_body6
+field_name: field_img_33_66__card_body6
+entity_type: block_content
+bundle: img_33_66
+label: 'Card body 6'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
