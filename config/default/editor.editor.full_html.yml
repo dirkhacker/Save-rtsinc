@@ -19,9 +19,6 @@ settings:
           items:
             - Bold
             - Italic
-            - Strike
-            - Superscript
-            - Subscript
             - '-'
             - RemoveFormat
         -
@@ -37,25 +34,31 @@ settings:
         -
           name: Media
           items:
-            - Blockquote
+            - DrupalMediaLibrary
             - DrupalImage
-            - Table
             - HorizontalRule
+            - PasteFromWord
         -
           name: 'Block Formatting'
           items:
             - Format
+            - Styles
         -
           name: Tools
           items:
+            - Undo
+            - Redo
             - ShowBlocks
             - Source
-  plugins: {  }
+            - Maximize
+  plugins:
+    stylescombo:
+      styles: "overline|Overline\r\ntext-blue|Blue Text"
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null
