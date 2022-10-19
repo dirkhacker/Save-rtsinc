@@ -1,0 +1,24 @@
+uuid: bce56fb8-e141-40f2-8660-c3864ec18bb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rts_highlight
+    - node.type.agent
+  module:
+    - text
+id: node.agent.field_rts_highlight
+field_name: field_rts_highlight
+entity_type: node
+bundle: agent
+label: 'Working with RTS Financial'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p>As an RTS Financial agent, it’s important to invest in understanding your business and your goals. Working closely to connect you to RTS Financial will help me determine the factoring services that will be the most valuable for your needs. Additionally, I can provide access to a competitive fuel card program, unlimited credit checks on brokers and shippers and customizable trucking software.</p>\r\n"
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

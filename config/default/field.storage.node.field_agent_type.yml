@@ -1,0 +1,27 @@
+uuid: ecb08426-8a79-4574-a803-eec0e21b4292
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_agent_type
+field_name: field_agent_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Shared Agent'
+      label: 'Shared Agent'
+    -
+      value: 'Owned Agent'
+      label: 'Owned Agent'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
