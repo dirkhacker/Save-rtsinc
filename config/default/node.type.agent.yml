@@ -1,0 +1,18 @@
+uuid: 5dd9f058-018b-428f-b650-a4a36dbfc74c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Agent
+type: agent
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
