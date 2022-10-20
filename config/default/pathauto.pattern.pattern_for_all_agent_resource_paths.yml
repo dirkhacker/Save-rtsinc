@@ -1,0 +1,22 @@
+uuid: 11ab8938-c45f-441d-83bd-20c4c9456a53
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pattern_for_all_agent_resource_paths
+label: 'Pattern for all Agent Resource paths'
+type: 'canonical_entities:node'
+pattern: 'agent-resource/[node:title]'
+selection_criteria:
+  ce1b4dd3-aedd-4747-a974-e65aca85ebff:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: ce1b4dd3-aedd-4747-a974-e65aca85ebff
+    context_mapping:
+      node: node
+    bundles:
+      agent_resource: agent_resource
+selection_logic: and
+weight: -5
+relationships: {  }

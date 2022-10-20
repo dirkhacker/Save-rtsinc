@@ -1,0 +1,22 @@
+uuid: 6206032b-b985-45ba-842e-4909696dfbf5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pattern_for_all_agent_paths
+label: 'Pattern for all Agent paths'
+type: 'canonical_entities:node'
+pattern: 'agent/[node:title]/[node:field_agent_crm_name]'
+selection_criteria:
+  3d809d15-3ef9-47ff-b45b-07e552de7a86:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 3d809d15-3ef9-47ff-b45b-07e552de7a86
+    context_mapping:
+      node: node
+    bundles:
+      agent: agent
+selection_logic: and
+weight: -5
+relationships: {  }

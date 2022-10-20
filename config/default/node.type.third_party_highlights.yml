@@ -1,0 +1,18 @@
+uuid: 7132d56b-090e-495e-a6af-f6e2db8a033c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Third Party Highlights'
+type: third_party_highlights
+description: 'Used for content related to 3rd party citations such as BPTW, association memberships, or other highlights.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

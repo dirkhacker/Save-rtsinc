@@ -1,0 +1,28 @@
+uuid: c6d0a798-5be8-4bac-a70c-54dfab658af8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mobile_web_view.body
+    - node.type.mobile_web_view
+  module:
+    - text
+    - user
+id: node.mobile_web_view.default
+targetEntityType: node
+bundle: mobile_web_view
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

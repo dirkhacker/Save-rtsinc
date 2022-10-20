@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.agent.body
+    - field.field.node.agent.field_agent_crm_name
     - field.field.node.agent.field_agent_profile_picture
     - field.field.node.agent.field_agent_type
     - field.field.node.agent.field_facebook_url
@@ -38,6 +39,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_agent_crm_name:
+    type: string_textfield
+    weight: 128
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_agent_profile_picture:
     type: image_image

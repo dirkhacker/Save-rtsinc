@@ -1,0 +1,22 @@
+uuid: 9e8d046e-02ce-4051-9edb-cddbacf458cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pattern_for_all_truck_paths
+label: 'Pattern for all Truck paths'
+type: 'canonical_entities:node'
+pattern: 'truck/[node:title]'
+selection_criteria:
+  e67582d3-0972-4921-ac0e-bd3a70a33e31:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: e67582d3-0972-4921-ac0e-bd3a70a33e31
+    context_mapping:
+      node: node
+    bundles:
+      truck: truck
+selection_logic: and
+weight: -5
+relationships: {  }

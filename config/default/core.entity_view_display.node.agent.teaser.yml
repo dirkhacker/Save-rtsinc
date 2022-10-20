@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.agent.body
+    - field.field.node.agent.field_agent_crm_name
     - field.field.node.agent.field_agent_profile_picture
     - field.field.node.agent.field_agent_type
     - field.field.node.agent.field_facebook_url
@@ -34,6 +35,7 @@ content:
     weight: 100
     region: content
 hidden:
+  field_agent_crm_name: true
   field_agent_profile_picture: true
   field_agent_type: true
   field_facebook_url: true

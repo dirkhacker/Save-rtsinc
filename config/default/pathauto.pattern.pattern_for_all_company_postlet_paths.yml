@@ -1,0 +1,22 @@
+uuid: 12e1efca-eda0-4540-adbe-8a7067ec9a03
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pattern_for_all_company_postlet_paths
+label: 'Pattern for all Company Postlet paths'
+type: 'canonical_entities:node'
+pattern: 'company/[node:title]'
+selection_criteria:
+  3eb2c259-8e8a-4b13-9917-21cb9386fca4:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 3eb2c259-8e8a-4b13-9917-21cb9386fca4
+    context_mapping:
+      node: node
+    bundles:
+      company_postlet: company_postlet
+selection_logic: and
+weight: -5
+relationships: {  }

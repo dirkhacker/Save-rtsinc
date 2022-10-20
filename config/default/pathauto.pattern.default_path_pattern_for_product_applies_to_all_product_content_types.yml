@@ -1,0 +1,22 @@
+uuid: 0a03ee47-e888-4d48-aac9-b4b99cd2addf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: default_path_pattern_for_product_applies_to_all_product_content_types
+label: 'Default path pattern for Product (applies to all Product content types with blank patterns below)'
+type: 'canonical_entities:node'
+pattern: 'product/[node:title]'
+selection_criteria:
+  6642dd6f-31a3-4c9a-a976-4e6214a9a65f:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 6642dd6f-31a3-4c9a-a976-4e6214a9a65f
+    context_mapping:
+      node: node
+    bundles:
+      product: product
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,28 @@
+uuid: ac646646-2c1c-48dc-9922-fc902ecff464
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.third_party_highlights.body
+    - node.type.third_party_highlights
+  module:
+    - text
+    - user
+id: node.third_party_highlights.default
+targetEntityType: node
+bundle: third_party_highlights
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

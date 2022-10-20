@@ -1,0 +1,28 @@
+uuid: b58dfcac-cc57-418d-a956-91d6ad7ed07c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.industry.body
+    - node.type.industry
+  module:
+    - text
+    - user
+id: node.industry.default
+targetEntityType: node
+bundle: industry
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

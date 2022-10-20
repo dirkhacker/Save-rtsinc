@@ -1,0 +1,22 @@
+uuid: 7bd3fea7-d4be-4f3d-b532-74c196c97efd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: default_path_pattern_for_landing_page_applies_to_all_landing_page_content_types
+label: 'Default path pattern for Landing Page (applies to all Landing Page content types with blank patterns below)'
+type: 'canonical_entities:node'
+pattern: 'lp/[node:title]'
+selection_criteria:
+  2e21e770-a3e3-4d48-8507-352f969989e6:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 2e21e770-a3e3-4d48-8507-352f969989e6
+    context_mapping:
+      node: node
+    bundles:
+      landing_page: landing_page
+selection_logic: and
+weight: -5
+relationships: {  }

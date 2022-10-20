@@ -1,0 +1,22 @@
+uuid: a91dde29-ed6f-4186-aa26-1770713d6532
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pattern_for_all_mobile_web_view_paths
+label: 'Pattern for all Mobile Web View paths'
+type: 'canonical_entities:node'
+pattern: 'mwv/[node:title]'
+selection_criteria:
+  1b5d42e3-19eb-488b-826e-8c9970f92ca0:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 1b5d42e3-19eb-488b-826e-8c9970f92ca0
+    context_mapping:
+      node: node
+    bundles:
+      mobile_web_view: mobile_web_view
+selection_logic: and
+weight: -5
+relationships: {  }
