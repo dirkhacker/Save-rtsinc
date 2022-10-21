@@ -22,19 +22,25 @@ body {
 
 /* FONTS 
 --------------------------------------------------*/
-.overline {
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    font-size: .83em;
-    font-weight: 400;
-}
-
+.overline { text-transform: uppercase; letter-spacing: 1.2px; font-size: .83em; font-weight: 400; color: $blue } 
+.overline-lg { text-transform: uppercase; letter-spacing: 1.4px; font-size: 1.06em; font-weight: 500; color: $blue } 
 .text-blue { 
     color: $blue; 
 }
 .text-gray { 
     color: $gray-600; 
 }
+// Type display classes
+@each $display, $font-size in $display-font-sizes {
+    .display-#{$display} {
+    
+      @include font-size($font-size);
+      font-weight: $display-font-weight;
+      line-height: $display-line-height;
+      letter-spacing: -.05rem;
+    }
+  }
+
 
 /* COLORS 
 --------------------------------------------------*/
@@ -199,29 +205,11 @@ form.webform-submission-form {
 
 .hero-heading {
     color: $white;
-    font-size: 2.8rem;
     width: 100%;
     padding-bottom: 3rem;
 }
 
 .hero-subheading {
     color: $white;
-    font-size: 1.2rem;
     width: 100%;
-}
-
-
-
-/* EDITOR STYLES
---------------------------------------------------*/
-
-.overline {
-    text-transform: uppercase;
-    letter-spacing: 1.4px;
-    font-size: 1.06em;
-    font-weight: 500
-}
-
-.blue-text {
-    color: $blue;
 }
