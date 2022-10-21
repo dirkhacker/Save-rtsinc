@@ -3,4 +3,5 @@ _core:
 load_all_enabled_fonts: 1
 enabled_fonts:
   - 'local_fonts://proxima_nova_regular'
+  - 'local_fonts://proxima_nova_bold'
 load_on_themes: {  }
