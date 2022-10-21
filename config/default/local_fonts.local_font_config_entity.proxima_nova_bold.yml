@@ -1,9 +1,9 @@
-uuid: e1bbd4b3-8402-45b7-8b30-3b4470a7d182
+uuid: 77586470-f48d-43bd-ad6e-80f4a1b0605b
 langcode: en
 status: true
 dependencies: {  }
-id: proxima_nova_regular
-label: 'Proxima Nova Regular'
+id: proxima_nova_bold
+label: 'Proxima Nova Bold'
 font_family: 'Proxima Nova'
 font_classification:
   sans-serif: sans-serif
