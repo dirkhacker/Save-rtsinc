@@ -41,6 +41,7 @@
         "drupal/section_library": "^1.0",
         "drupal/simple_sitemap": "^4.1",
         "drupal/smtp": "^1.0",
+        "drupal/svg_image": "^1.16",
         "drupal/svg_image_field": "^2.2@beta",
         "drupal/twig_tweak": "^3.2",
         "drupal/twig_vardumper": "^3",
