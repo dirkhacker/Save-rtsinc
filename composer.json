@@ -28,6 +28,7 @@
         "drupal/core-recommended": "^9.2",
         "drupal/field_formatter_class": "^1.5",
         "drupal/field_group": "^3.3",
+        "drupal/fontawesome": "^2.24",
         "drupal/fontyourface": "^3.6",
         "drupal/gin": "^3.0@beta",
         "drupal/google_analytics": "^4.0",
