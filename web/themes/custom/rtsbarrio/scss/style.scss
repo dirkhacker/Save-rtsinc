@@ -6,6 +6,7 @@ Description: Bootstrap 4 with Sass
 // import files
 @import "import";
 
+
 /* GENERAL STYLES
 -------------------------------------------------*/
 html {
@@ -19,6 +20,7 @@ body {
     min-height: 25em;
     margin-top: 2em;
 }
+
 
 /* FONTS 
 --------------------------------------------------*/
@@ -51,6 +53,10 @@ a {
 
 .bg-inverse {
     background: $primary-shade !important;
+}
+
+.bg-lt-gray {
+    background: $gray-100;
 }
 
 .site-footer {
@@ -90,8 +96,23 @@ a {
 
 /* HEADER
 --------------------------------------------------*/
-.navbar-brand img { height: 2rem;}
+.navbar-brand img { height: 2.2rem;}
+.navbar {
+    & #block-megamainnav {
+        flex: 1;
+    }
+    // & #block-phone {
+    //     padding-top: 12px;
+    //     & :hover {
+    //         text-decoration: none;
+    //     }
+    }
+}
 
+
+/* reCaptcha
+--------------------------------------------------*/
+.grecaptcha-badge { visibility: hidden; }
 
 
 /* FORMS
@@ -135,7 +156,7 @@ form.webform-submission-form {
             color: #0091ea;
         }
     }
-    .form-type-textfield, .form-type-email, .form-type-tel {
+    .form-type-textfield, .form-type-email, .form-type-tel, .form-type-number {
         position: relative;
         height: 45px;
         width: 100%;
@@ -184,6 +205,7 @@ form.webform-submission-form {
     outline: none;
     box-shadow: none;
 }
+
 
 /* HERO
 --------------------------------------------------*/
