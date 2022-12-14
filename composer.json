@@ -34,6 +34,7 @@
         "drupal/google_analytics": "^4.0",
         "drupal/image_class": "^1.1",
         "drupal/layout_builder_blocks": "^1.0",
+        "drupal/manage_display": "^2.0@beta",
         "drupal/metatag": "^1.22",
         "drupal/module_filter": "^3.2",
         "drupal/pathauto": "^1.11",

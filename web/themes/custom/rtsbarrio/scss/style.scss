@@ -24,8 +24,8 @@ body {
 
 /* FONTS 
 --------------------------------------------------*/
-.overline { text-transform: uppercase; letter-spacing: 1.2px; font-size: .83em; font-weight: 400; color: $blue } 
-.overline-lg { text-transform: uppercase; letter-spacing: 1.4px; font-size: 1.06em; font-weight: 500; color: $blue } 
+.overline { text-transform: uppercase; letter-spacing: 1.2px; font-size: 1em; font-weight: 400; color: $blue } 
+.overline-lg { text-transform: uppercase; letter-spacing: 1.4px; font-size: 1.13em; font-weight: 500; color: $blue } 
 .text-blue { 
     color: $blue; 
 }
@@ -57,6 +57,10 @@ a {
 
 .bg-lt-gray {
     background: $gray-100;
+}
+
+.btn-primary{
+    color: $white;
 }
 
 .site-footer {
@@ -101,12 +105,6 @@ a {
     & #block-megamainnav {
         flex: 1;
     }
-    // & #block-phone {
-    //     padding-top: 12px;
-    //     & :hover {
-    //         text-decoration: none;
-    //     }
-    // }
 }
 
 
@@ -228,15 +226,20 @@ form.webform-submission-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 8rem;
     //flex-wrap: wrap;
 
+}
+.hero-col {
+    max-width: 60%;
 }
 
 .hero-heading {
     width: 100%;
-    padding-bottom: 3rem;
+    margin-bottom: .5rem;
 }
 
 .hero-subheading {
     width: 100%;
+    margin-bottom: 1.5rem;
 }

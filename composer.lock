@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd2a6443d60aff6d75f2abc103362278",
+    "content-hash": "92c9d75d6fb54229c5214b611bb4e65a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3023,6 +3023,50 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/layout_builder_restrictions",
                 "issues": "https://www.drupal.org/project/issues/layout_builder_restrictions"
+            }
+        },
+        {
+            "name": "drupal/manage_display",
+            "version": "2.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/manage_display.git",
+                "reference": "2.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/manage_display-2.0.0-beta1.zip",
+                "reference": "2.0.0-beta1",
+                "shasum": "0a6e8c50a201241b11aa91234e7213fd01efac2c"
+            },
+            "require": {
+                "drupal/core": "^9.4 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-beta1",
+                    "datestamp": "1657724819",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "AdamPS",
+                    "homepage": "https://www.drupal.org/user/2650563"
+                }
+            ],
+            "description": "Make base fields such as 'title' available in \"Manage Display\"",
+            "homepage": "https://www.drupal.org/project/manage_display",
+            "support": {
+                "source": "https://git.drupalcode.org/project/manage_display"
             }
         },
         {
@@ -13670,6 +13714,7 @@
     "stability-flags": {
         "drupal/block_library": 15,
         "drupal/gin": 10,
+        "drupal/manage_display": 10,
         "drupal/svg_image_field": 10,
         "pantheon-upstreams/upstream-configuration": 20
     },
