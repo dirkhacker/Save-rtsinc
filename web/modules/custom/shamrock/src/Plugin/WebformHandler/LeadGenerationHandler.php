@@ -36,14 +36,17 @@ class LeadGenerationHandler extends WebformHandlerBase {
     $elements = $form->getElementsInitialized();
     // Loop through data and get key and values.
     foreach($data as $key => $val) {
-      // Check reg ex for a token.
-      if (preg_match('/^\[.*:.*\]$/', $val)) {
-        // Assign new value if the regex matched with the
-        // replacement_value field in the Sales field type
-        // or give it an empty string.
-        $new_val = (@$elements[$key]['#replacement_value']) ?: '';
-        // Assign the new value to the form.
-        $data[$key] = $new_val;
+      // If the value of $val is not an array
+      if (!is_array($val)) {
+        // Check reg ex for a token.
+        if (preg_match('/^\[.*:.*\]$/', $val)) {
+          // Assign new value if the regex matched with the
+          // replacement_value field in the Sales field type
+          // or give it an empty string.
+          $new_val = (@$elements[$key]['#replacement_value']) ?: '';
+          // Assign the new value to the form.
+          $data[$key] = $new_val;
+        }
       }
     }
     // Save the new data to the form.
