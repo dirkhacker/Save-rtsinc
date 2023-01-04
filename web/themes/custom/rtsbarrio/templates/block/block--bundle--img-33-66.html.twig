@@ -1,5 +1,6 @@
+{% extends "@bootstrap_barrio/block/block.html.twig" %}
+{% block content %}
 {% set img_url = content.field_img_33_66__img[0]['#media'].field_media_image.entity.uri.value %}
-
 
 <section class="img-33-66 my-5">
     <div class="container">
@@ -60,3 +61,4 @@
         </div>
     </div>
 </section>
+{% endblock %}
