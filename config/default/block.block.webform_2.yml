@@ -1,9 +1,9 @@
-uuid: 9fb84f67-1ed0-43fd-9aad-a49a971fb3f7
+uuid: 0fea26f0-5f4c-41c0-b3a7-f1f4d9611e0b
 langcode: en
 status: true
 dependencies:
   config:
-    - webform.webform.contact
+    - webform.webform.test
   module:
     - block_class
     - system
@@ -13,9 +13,9 @@ dependencies:
 third_party_settings:
   block_class:
     classes: null
-id: webform
+id: webform_2
 theme: rtsbarrio
-region: content
+region: sidebar_second
 weight: 0
 provider: null
 plugin: webform_block
@@ -24,7 +24,7 @@ settings:
   label: Webform
   label_display: visible
   provider: webform
-  webform_id: contact
+  webform_id: test
   default_data: ''
   redirect: false
 visibility:
