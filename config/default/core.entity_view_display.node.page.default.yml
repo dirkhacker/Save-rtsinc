@@ -38,6 +38,21 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
+          72d666f5-2102-4ba3-9e62-c608da2ea2aa:
+            uuid: 72d666f5-2102-4ba3-9e62-c608da2ea2aa
+            region: content
+            configuration:
+              id: 'field_block:node:page:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
         third_party_settings: {  }
   layout_builder_restrictions:
     allowed_block_categories: {  }

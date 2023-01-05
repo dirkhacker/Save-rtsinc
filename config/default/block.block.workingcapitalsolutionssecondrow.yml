@@ -1,9 +1,9 @@
-uuid: 72aa5851-6a60-413c-9165-b01b46f428c4
+uuid: b9e9bb3e-bf33-4c7e-acc7-17b72ec1120f
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:33_33_33_card:284d1eb1-ae52-4283-b06f-0c3408cf40fc'
+    - 'block_content:33_33_33_card:3e5c2fad-9faf-4365-859a-965dda3211ac'
   module:
     - block_class
     - block_content
@@ -19,9 +19,9 @@ theme: rtsbarrio
 region: content
 weight: 0
 provider: null
-plugin: 'block_content:284d1eb1-ae52-4283-b06f-0c3408cf40fc'
+plugin: 'block_content:3e5c2fad-9faf-4365-859a-965dda3211ac'
 settings:
-  id: 'block_content:284d1eb1-ae52-4283-b06f-0c3408cf40fc'
+  id: 'block_content:3e5c2fad-9faf-4365-859a-965dda3211ac'
   label: 'Working Capital Solutions second row'
   label_display: '0'
   provider: block_content
