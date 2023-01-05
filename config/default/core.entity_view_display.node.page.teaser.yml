@@ -5,10 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_heading
+    - field.field.node.page.field_image
+    - field.field.node.page.field_subheading
     - node.type.page
   module:
+    - manage_display
     - text
-    - user
 _core:
   default_config_hash: 8BgdRtLbtQ0F__o0FHSH0Mx5fvXOra9tfT1GmNKbRYw
 id: node.page.teaser
@@ -27,4 +30,18 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  field_heading: true
+  field_image: true
+  field_subheading: true
+  uid: true

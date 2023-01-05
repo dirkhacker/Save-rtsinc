@@ -1,0 +1,42 @@
+uuid: 7d119b11-d22b-441d-a196-2f596d1663b1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:33_33_33_card:7b9bef73-801c-4516-91c0-e25784af55df'
+  module:
+    - block_class
+    - block_content
+    - node
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: null
+id: workingcapitalsolutionsforallindustries
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:7b9bef73-801c-4516-91c0-e25784af55df'
+settings:
+  id: 'block_content:7b9bef73-801c-4516-91c0-e25784af55df'
+  label: 'Working Capital Solutions For All Industries'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /page/factoring-industries
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page

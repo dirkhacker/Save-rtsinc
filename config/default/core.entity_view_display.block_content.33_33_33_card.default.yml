@@ -175,7 +175,9 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 text-blue'
     weight: 15
     region: content
   field_card_title_2:
@@ -183,7 +185,9 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 text-blue'
     weight: 18
     region: content
   field_card_title_3:
@@ -191,7 +195,9 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 text-blue'
     weight: 19
     region: content
   field_media_1:
@@ -228,7 +234,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-5 pb-4'
+        class: 'fs-4 pb-4'
     weight: 9
     region: content
 hidden:

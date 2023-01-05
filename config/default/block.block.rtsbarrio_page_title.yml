@@ -36,4 +36,3 @@ visibility:
       node: '@node.node_route_context:node'
     bundles:
       article: article
-      page: page

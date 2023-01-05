@@ -7,6 +7,7 @@ dependencies:
   module:
     - block_class
     - block_content
+    - webform
   theme:
     - rtsbarrio
 third_party_settings:
@@ -26,4 +27,11 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  'entity_bundle:webform_submission':
+    id: 'entity_bundle:webform_submission'
+    negate: false
+    context_mapping:
+      webform_submission: '@webform.webform_submission_route_context:webform_submission'
+    bundles:
+      test: test
