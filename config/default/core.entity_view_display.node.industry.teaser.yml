@@ -5,10 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.industry.body
+    - field.field.node.industry.field_heading
+    - field.field.node.industry.field_image
+    - field.field.node.industry.field_subheading
     - node.type.industry
   module:
+    - manage_display
     - text
-    - user
 id: node.industry.teaser
 targetEntityType: node
 bundle: industry
@@ -27,4 +30,18 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  field_heading: true
+  field_image: true
+  field_subheading: true
+  uid: true

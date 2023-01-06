@@ -5,10 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.product.body
+    - field.field.node.product.field_heading
+    - field.field.node.product.field_image
+    - field.field.node.product.field_subheading
     - node.type.product
   module:
+    - manage_display
     - text
-    - user
 id: node.product.teaser
 targetEntityType: node
 bundle: product
@@ -27,4 +30,18 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  field_heading: true
+  field_image: true
+  field_subheading: true
+  uid: true

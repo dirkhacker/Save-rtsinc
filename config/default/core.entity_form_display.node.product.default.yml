@@ -4,8 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.product.body
+    - field.field.node.product.field_heading
+    - field.field.node.product.field_image
+    - field.field.node.product.field_subheading
+    - image.style.thumbnail
     - node.type.product
   module:
+    - image
     - path
     - text
 id: node.product.default
@@ -15,7 +20,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 121
+    weight: 4
     region: content
     settings:
       rows: 9
@@ -23,65 +28,53 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  created:
-    type: datetime_timestamp
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  path:
-    type: path
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  promote:
-    type: boolean_checkbox
-    weight: 15
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
-  simple_sitemap:
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  status:
-    type: boolean_checkbox
-    weight: 120
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
-  sticky:
-    type: boolean_checkbox
-    weight: 16
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
-  title:
+  field_heading:
     type: string_textfield
-    weight: -5
+    weight: 2
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  uid:
-    type: entity_reference_autocomplete
-    weight: 5
+  field_image:
+    type: image_image
+    weight: 0
     region: content
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_subheading:
+    type: string_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   url_redirects:
-    weight: 50
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  created: true
+  promote: true
+  simple_sitemap: true
+  status: true
+  sticky: true
+  uid: true

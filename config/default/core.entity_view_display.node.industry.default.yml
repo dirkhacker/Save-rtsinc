@@ -4,10 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.industry.body
+    - field.field.node.industry.field_heading
+    - field.field.node.industry.field_image
+    - field.field.node.industry.field_subheading
     - node.type.industry
   module:
+    - manage_display
     - text
-    - user
 id: node.industry.default
 targetEntityType: node
 bundle: industry
@@ -18,11 +21,21 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 1
     region: content
-  links:
-    settings: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
-hidden: {  }
+hidden:
+  created: true
+  field_heading: true
+  field_image: true
+  field_subheading: true
+  links: true
+  uid: true
