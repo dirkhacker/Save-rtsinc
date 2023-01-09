@@ -1,0 +1,19 @@
+uuid: 468ae664-ecc5-49b3-9e49-59673b453e53
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_text__50_img
+    - field.storage.block_content.field_50_text_50_img__heading
+id: block_content.50_text__50_img.field_50_text_50_img__heading
+field_name: field_50_text_50_img__heading
+entity_type: block_content
+bundle: 50_text__50_img
+label: Heading
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -13,7 +13,7 @@ third_party_settings:
 id: userlogin
 theme: rtsbarrio
 region: content
-weight: -5
+weight: -9
 provider: null
 plugin: user_login_block
 settings:

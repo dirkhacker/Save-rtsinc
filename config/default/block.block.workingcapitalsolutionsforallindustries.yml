@@ -2,11 +2,8 @@ uuid: 89bf2950-e8c3-4c60-943a-68e9a146342c
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:33_33_33_card:e8d83bc9-d68c-433f-91f9-39432dec9acd'
   module:
     - block_class
-    - block_content
     - node
     - system
   theme:
@@ -17,7 +14,7 @@ third_party_settings:
 id: workingcapitalsolutionsforallindustries
 theme: rtsbarrio
 region: content
-weight: 0
+weight: -7
 provider: null
 plugin: 'block_content:e8d83bc9-d68c-433f-91f9-39432dec9acd'
 settings:

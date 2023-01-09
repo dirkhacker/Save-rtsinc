@@ -1,0 +1,34 @@
+uuid: 9cf4bccf-2c6d-49c6-badf-1c92ba1947cc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:50_text__50_img:a29587f0-8d5a-43cd-b16d-f9d27a34e224'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'border-top border-3 border-light py-5'
+id: rtsprofreight
+theme: rtsbarrio
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:a29587f0-8d5a-43cd-b16d-f9d27a34e224'
+settings:
+  id: 'block_content:a29587f0-8d5a-43cd-b16d-f9d27a34e224'
+  label: 'RTS Pro Freight'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/rts-pro

@@ -1,32 +1,33 @@
-uuid: a049156a-c70b-4960-9b96-a8f08f64991f
+uuid: 5085922b-fe3a-4343-bfbd-60a2c26053ca
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.66_33_text_img
-    - field.field.block_content.66_33_text_img.body
-    - field.field.block_content.66_33_text_img.field_button
-    - field.field.block_content.66_33_text_img.field_image
-    - field.field.block_content.66_33_text_img.field_subtitle
-    - field.field.block_content.66_33_text_img.field_title
+    - block_content.type.50_img_50_text
+    - field.field.block_content.50_img_50_text.body
+    - field.field.block_content.50_img_50_text.field_50_image_50_text__img
+    - field.field.block_content.50_img_50_text.field_50_img_50_text__heading
+    - field.field.block_content.50_img_50_text.field_50_img_50_text__subheading
+    - image.style.large
   module:
     - field_formatter_class
     - field_group
     - image
+    - manage_display
     - text
 third_party_settings:
   field_group:
-    group_wrapper:
+    group_container:
       children:
-        - group_col1
-        - group_col_2
-      label: wrapper
+        - group_column
+        - group_column2
+      label: container
       parent_name: ''
       region: content
       weight: 0
       format_type: html_element
       format_settings:
-        classes: 'row py-5'
+        classes: 'container d-flex my-5'
         show_empty_fields: false
         id: ''
         element: div
@@ -36,19 +37,37 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-    group_col1:
+    group_column:
       children:
-        - field_title
-        - field_subtitle
+        - field_50_image_50_text__img
+      label: column
+      parent_name: group_container
+      region: content
+      weight: 20
+      format_type: html_element
+      format_settings:
+        classes: col
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_column2:
+      children:
+        - field_50_img_50_text__heading
+        - field_50_img_50_text__subheading
         - body
-        - field_button
-      label: Col1
-      parent_name: group_wrapper
+      label: column
+      parent_name: group_container
       region: content
-      weight: 6
+      weight: 21
       format_type: html_element
       format_settings:
-        classes: 'col col-md-8'
+        classes: col
         show_empty_fields: false
         id: ''
         element: div
@@ -58,76 +77,50 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-    group_col_2:
-      children:
-        - field_image
-      label: 'Col 2'
-      parent_name: group_wrapper
-      region: content
-      weight: 7
-      format_type: html_element
-      format_settings:
-        classes: col-md-4
-        show_empty_fields: false
-        id: ''
-        element: div
-        show_label: false
-        label_element: h3
-        label_element_classes: ''
-        attributes: ''
-        effect: none
-        speed: fast
-id: block_content.66_33_text_img.default
+id: block_content.50_img_50_text.default
 targetEntityType: block_content
-bundle: 66_33_text_img
+bundle: 50_img_50_text
 mode: default
 content:
   body:
     type: text_default
     label: hidden
     settings: {  }
-    third_party_settings:
-      field_formatter_class:
-        class: mb-1
-    weight: 8
+    third_party_settings: {  }
+    weight: 25
     region: content
-  field_button:
-    type: basic_string
-    label: hidden
-    settings: {  }
-    third_party_settings:
-      field_formatter_class:
-        class: 'btn btn-primary rounded-pill mb-1'
-    weight: 9
-    region: content
-  field_image:
+  field_50_image_50_text__img:
     type: image
     label: hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: large
       image_loading:
         attribute: lazy
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_subtitle:
-    type: basic_string
-    label: hidden
-    settings: {  }
     third_party_settings:
       field_formatter_class:
-        class: mb-5
-    weight: 7
+        class: ''
+    weight: 21
     region: content
-  field_title:
+  field_50_img_50_text__heading:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings:
+      field_formatter_class:
+        class: text-uppercase
+    weight: 23
+    region: content
+  field_50_img_50_text__subheading:
     type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-5 mb-2 font-weight-bold'
-    weight: 6
+        class: 'fs-2 py-3 fw-bold lh-sm text-black'
+    weight: 24
     region: content
 hidden: {  }

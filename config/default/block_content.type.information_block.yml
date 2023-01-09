@@ -1,0 +1,8 @@
+uuid: 8f3171e5-da2e-4e58-96d4-01ee01bcacf1
+langcode: en
+status: true
+dependencies: {  }
+id: information_block
+label: 'Information Block'
+revision: 0
+description: 'Provides a block of information with rounder colors and a background color.'
