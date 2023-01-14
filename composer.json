@@ -26,6 +26,7 @@
         "drupal/config_split": "^1.9",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/entity_clone": "^2.0@alpha",
         "drupal/field_formatter_class": "^1.5",
         "drupal/field_group": "^3.3",
         "drupal/fontawesome": "^2.24",
