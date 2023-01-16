@@ -1,9 +1,0 @@
-uuid: d2189ebe-eb7d-4090-b5a7-61021f76b4b3
-langcode: en
-status: true
-dependencies: {  }
-_core:
-  default_config_hash: Cnqjux-jL3p9pn3IPGgLdt_Ti8UR0qhW_aVrDZC3nlQ
-id: blb_col_9
-label: 'Bootstrap 9 Cols'
-number_of_columns: '9'

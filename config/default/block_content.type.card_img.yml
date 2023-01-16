@@ -1,8 +1,0 @@
-uuid: fb1006da-2599-4e1e-98b8-2345d19d7174
-langcode: en
-status: true
-dependencies: {  }
-id: card_img
-label: 'Card - img'
-revision: 0
-description: 'Card: title, subtitle, button, image, body'

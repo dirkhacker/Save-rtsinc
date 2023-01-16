@@ -1,8 +1,0 @@
-uuid: 5e1e99fc-ca87-4af3-80c4-44cc9875629d
-langcode: en
-status: true
-dependencies: {  }
-id: blue_card
-label: 'Reverse card'
-revision: 0
-description: 'Card: title, subtitle, button, image, body. White text to be used on colored backgrounds'
