@@ -1,0 +1,126 @@
+uuid: c69480fa-5f07-4f19-851e-2af55f38ceea
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_text__50_img
+    - field.field.block_content.50_text__50_img.body
+    - field.field.block_content.50_text__50_img.field_50_text_50_img__heading
+    - field.field.block_content.50_text__50_img.field_50_text_50_img__img
+    - field.field.block_content.50_text__50_img.field_50_text_50_img__subheading
+    - image.style.large
+  module:
+    - field_formatter_class
+    - field_group
+    - image
+    - manage_display
+    - text
+third_party_settings:
+  field_group:
+    group_container:
+      children:
+        - group_column
+        - group_column2
+      label: container
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: 'container d-flex my-5'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_column:
+      children:
+        - field_50_text_50_img__heading
+        - field_50_text_50_img__subheading
+        - body
+      label: column
+      parent_name: group_container
+      region: content
+      weight: 20
+      format_type: html_element
+      format_settings:
+        classes: col
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_column2:
+      children:
+        - field_50_text_50_img__img
+      label: column
+      parent_name: group_container
+      region: content
+      weight: 21
+      format_type: html_element
+      format_settings:
+        classes: col
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: block_content.50_text__50_img.default
+targetEntityType: block_content
+bundle: 50_text__50_img
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_50_text_50_img__heading:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings:
+      field_formatter_class:
+        class: text-uppercase
+    weight: 1
+    region: content
+  field_50_text_50_img__img:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 2
+    region: content
+  field_50_text_50_img__subheading:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'fs-2 py-3 fw-bold lh-sm text-black'
+    weight: 2
+    region: content
+hidden: {  }

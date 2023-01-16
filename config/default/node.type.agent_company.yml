@@ -1,0 +1,18 @@
+uuid: 5883e8f9-2a1c-4e2a-863c-99f9465387fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Agent Company'
+type: agent_company
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

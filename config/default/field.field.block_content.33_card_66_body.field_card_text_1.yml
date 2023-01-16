@@ -1,0 +1,21 @@
+uuid: 16f45459-4204-4114-8213-aa2bac211497
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_card_66_body
+    - field.storage.block_content.field_card_text_1
+  module:
+    - text
+id: block_content.33_card_66_body.field_card_text_1
+field_name: field_card_text_1
+entity_type: block_content
+bundle: 33_card_66_body
+label: 'Card text 1'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

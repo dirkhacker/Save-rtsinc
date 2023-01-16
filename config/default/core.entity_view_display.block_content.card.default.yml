@@ -1,0 +1,117 @@
+uuid: e7ae271c-ae0a-4e16-98f9-4b495fb764c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card
+    - field.field.block_content.card.field_card_link
+    - field.field.block_content.card.field_card_svg_image
+    - field.field.block_content.card.field_card_text
+    - field.field.block_content.card.field_card_title
+  module:
+    - field_formatter_class
+    - field_group
+    - link
+    - svg_image_field
+third_party_settings:
+  field_group:
+    group_card:
+      children:
+        - field_card_svg_image
+        - group_card_body
+      label: card
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: rts-card
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_card_body:
+      children:
+        - field_card_title
+        - field_card_text
+        - field_card_link
+      label: 'card body'
+      parent_name: group_card
+      region: content
+      weight: 2
+      format_type: html_element
+      format_settings:
+        classes: rts-card-body
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: block_content.card.default
+targetEntityType: block_content
+bundle: card
+mode: default
+content:
+  field_card_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      field_formatter_class:
+        class: mt-3
+    weight: 5
+    region: content
+  field_card_svg_image:
+    type: svg_image_field_formatter
+    label: hidden
+    settings:
+      inline: false
+      apply_dimensions: true
+      width: 72
+      height: 72
+      enable_alt: false
+      enable_title: false
+      link: ''
+      force_fill: false
+      sanitize: true
+      sanitize_remote: false
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 1
+    region: content
+  field_card_text:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 4
+    region: content
+  field_card_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: display-3
+    weight: 3
+    region: content
+hidden: {  }

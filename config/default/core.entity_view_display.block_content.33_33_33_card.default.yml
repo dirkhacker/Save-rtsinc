@@ -1,0 +1,241 @@
+uuid: 22b019d0-526f-4ead-bc77-66280dfaf7df
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_33_33_card
+    - field.field.block_content.33_33_33_card.body
+    - field.field.block_content.33_33_33_card.field_card_text_1
+    - field.field.block_content.33_33_33_card.field_card_text_2
+    - field.field.block_content.33_33_33_card.field_card_text_3
+    - field.field.block_content.33_33_33_card.field_card_title_1
+    - field.field.block_content.33_33_33_card.field_card_title_2
+    - field.field.block_content.33_33_33_card.field_card_title_3
+    - field.field.block_content.33_33_33_card.field_media_1
+    - field.field.block_content.33_33_33_card.field_media_2
+    - field.field.block_content.33_33_33_card.field_media_3
+    - field.field.block_content.33_33_33_card.field_title
+  module:
+    - field_formatter_class
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_container:
+      children:
+        - group_div
+        - group_card_container
+      label: Container
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: 'container g-0 py-5'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_div:
+      children:
+        - field_title
+      label: div
+      parent_name: group_container
+      region: content
+      weight: 2
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_card_container:
+      children:
+        - group_column_card_1
+        - group_col_card_2
+        - group_col_card_3
+      label: 'Card container'
+      parent_name: group_container
+      region: content
+      weight: 3
+      format_type: html_element
+      format_settings:
+        classes: 'card-container row'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_column_card_1:
+      children:
+        - field_media_1
+        - field_card_title_1
+        - field_card_text_1
+      label: 'Column Card 1'
+      parent_name: group_card_container
+      region: content
+      weight: 13
+      format_type: html_element
+      format_settings:
+        classes: 'col-card-1 col-md-4'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_col_card_2:
+      children:
+        - field_media_2
+        - field_card_title_2
+        - field_card_text_2
+      label: 'Col Card 2'
+      parent_name: group_card_container
+      region: content
+      weight: 14
+      format_type: html_element
+      format_settings:
+        classes: 'col-card-2 col-md-4'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_col_card_3:
+      children:
+        - field_media_3
+        - field_card_title_3
+        - field_card_text_3
+      label: 'Col card 3'
+      parent_name: group_card_container
+      region: content
+      weight: 15
+      format_type: html_element
+      format_settings:
+        classes: 'col-card-3 col-md-4'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: block_content.33_33_33_card.default
+targetEntityType: block_content
+bundle: 33_33_33_card
+mode: default
+content:
+  field_card_text_1:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_card_text_2:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_card_text_3:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_card_title_1:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 text-blue'
+    weight: 15
+    region: content
+  field_card_title_2:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 text-blue'
+    weight: 18
+    region: content
+  field_card_title_3:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 text-blue'
+    weight: 19
+    region: content
+  field_media_1:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_media_2:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_media_3:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-2 fs-4 pb-4'
+    weight: 9
+    region: content
+hidden:
+  body: true

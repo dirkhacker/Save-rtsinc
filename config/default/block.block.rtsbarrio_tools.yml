@@ -1,0 +1,35 @@
+uuid: c759c795-f8a7-4798-90f1-170111de3058
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - block_class
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: container
+_core:
+  default_config_hash: TszJ7dH_11Qjmo_OpMzqznaED4Bvy1XfVnBzTC9LZXE
+id: rtsbarrio_tools
+theme: rtsbarrio
+region: content
+weight: -10
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/user/*'

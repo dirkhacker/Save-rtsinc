@@ -1,0 +1,44 @@
+uuid: 621b2a31-64b5-4df6-976e-097ee9251c2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.test
+  module:
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+id: webform
+theme: rtsbarrio
+region: content
+weight: -8
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  label_display: '0'
+  provider: webform
+  webform_id: test
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '*'
+  'entity_bundle:webform_submission':
+    id: 'entity_bundle:webform_submission'
+    negate: false
+    context_mapping:
+      webform_submission: '@webform.webform_submission_route_context:webform_submission'
+    bundles:
+      test: test
+  webform:
+    id: webform
+    negate: false
+    context_mapping:
+      webform: '@webform.webform_route_context:webform'
+    webforms:
+      test: test

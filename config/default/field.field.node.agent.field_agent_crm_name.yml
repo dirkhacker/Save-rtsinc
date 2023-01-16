@@ -1,0 +1,19 @@
+uuid: d8da26e3-33d3-4b58-8023-cff8d266a2ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_agent_crm_name
+    - node.type.agent
+id: node.agent.field_agent_crm_name
+field_name: field_agent_crm_name
+entity_type: node
+bundle: agent
+label: 'Agent CRM Account ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

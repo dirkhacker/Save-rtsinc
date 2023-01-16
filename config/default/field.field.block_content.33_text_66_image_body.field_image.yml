@@ -1,0 +1,38 @@
+uuid: 328c857a-7155-477c-838f-f526c79028ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_text_66_image_body
+    - field.storage.block_content.field_image
+  module:
+    - image
+id: block_content.33_text_66_image_body.field_image
+field_name: field_image
+entity_type: block_content
+bundle: 33_text_66_image_body
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '1 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

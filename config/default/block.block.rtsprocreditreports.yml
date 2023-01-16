@@ -1,0 +1,34 @@
+uuid: 510e3815-f33c-481c-873d-82868caf68ab
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:50_img_50_text:227f9b54-ce26-4328-b7ff-48ddfd4d9877'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'border-bottom py-5'
+id: rtsprocreditreports
+theme: rtsbarrio
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:227f9b54-ce26-4328-b7ff-48ddfd4d9877'
+settings:
+  id: 'block_content:227f9b54-ce26-4328-b7ff-48ddfd4d9877'
+  label: 'RTS Pro Credit Reports'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/rts-pro

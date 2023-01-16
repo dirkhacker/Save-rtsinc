@@ -1,0 +1,156 @@
+uuid: bdac044c-08a3-4594-9852-801c2320ab66
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.img_33_66
+    - field.field.block_content.img_33_66.field_img_33_66__card_body1
+    - field.field.block_content.img_33_66.field_img_33_66__card_body2
+    - field.field.block_content.img_33_66.field_img_33_66__card_body3
+    - field.field.block_content.img_33_66.field_img_33_66__card_body4
+    - field.field.block_content.img_33_66.field_img_33_66__card_body5
+    - field.field.block_content.img_33_66.field_img_33_66__card_body6
+    - field.field.block_content.img_33_66.field_img_33_66__card_header1
+    - field.field.block_content.img_33_66.field_img_33_66__card_header2
+    - field.field.block_content.img_33_66.field_img_33_66__card_header3
+    - field.field.block_content.img_33_66.field_img_33_66__card_header4
+    - field.field.block_content.img_33_66.field_img_33_66__card_header5
+    - field.field.block_content.img_33_66.field_img_33_66__card_header6
+    - field.field.block_content.img_33_66.field_img_33_66__img
+    - field.field.block_content.img_33_66.field_img_33_66__subtitle
+    - field.field.block_content.img_33_66.field_img_33_66__title
+  module:
+    - media_library
+id: block_content.img_33_66.default
+targetEntityType: block_content
+bundle: img_33_66
+mode: default
+content:
+  field_img_33_66__card_body1:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__card_body2:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__card_body3:
+    type: string_textfield
+    weight: 9
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__card_body4:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__card_body5:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__card_body6:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__card_header1:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__card_header2:
+    type: string_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__card_header3:
+    type: string_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__card_header4:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__card_header5:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__card_header6:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__img:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_img_33_66__subtitle:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_img_33_66__title:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

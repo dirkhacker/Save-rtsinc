@@ -1,0 +1,30 @@
+uuid: 09576260-c396-4e6c-a5c3-59e2e14ddaef
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:33_text_66_image_body:98fb4000-71c6-44ac-92f1-3100482afc67'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: bundledserviceswhybundlefuelandfactoring
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:98fb4000-71c6-44ac-92f1-3100482afc67'
+settings:
+  id: 'block_content:98fb4000-71c6-44ac-92f1-3100482afc67'
+  label: 'Bundled Services - Why Bundle Fuel and Factoring?'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/bundled-services

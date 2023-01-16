@@ -1,0 +1,19 @@
+uuid: edc1a3ca-1dfe-47dc-991e-e92ef3f7100b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.1_column
+    - field.storage.block_content.field_subtitle
+id: block_content.1_column.field_subtitle
+field_name: field_subtitle
+entity_type: block_content
+bundle: 1_column
+label: Subtitle
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

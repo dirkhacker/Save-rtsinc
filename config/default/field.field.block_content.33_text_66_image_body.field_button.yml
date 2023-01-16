@@ -1,0 +1,19 @@
+uuid: 4c36e8b4-857c-468e-8016-5b32354a6466
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_text_66_image_body
+    - field.storage.block_content.field_button
+id: block_content.33_text_66_image_body.field_button
+field_name: field_button
+entity_type: block_content
+bundle: 33_text_66_image_body
+label: Button
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

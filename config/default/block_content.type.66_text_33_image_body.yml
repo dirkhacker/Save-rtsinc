@@ -1,0 +1,8 @@
+uuid: ec64cda4-71b3-4bbd-9bfb-d59351cb6355
+langcode: en
+status: true
+dependencies: {  }
+id: 66_text_33_image_body
+label: '66 Text - 33 Image/Body'
+revision: 0
+description: "66% 8 Col - Title, Subtitle, Body, Button<br>\r\n33% 4 Col - Image, Body"

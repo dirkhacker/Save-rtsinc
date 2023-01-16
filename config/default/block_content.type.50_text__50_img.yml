@@ -1,0 +1,8 @@
+uuid: 0f85d390-92eb-47ca-80ea-cb60742c85bc
+langcode: en
+status: true
+dependencies: {  }
+id: 50_text__50_img
+label: '50 Text - 50 Image'
+revision: 0
+description: 'Two columns with left side being text (heading, subheading, body) and right side being an image.'

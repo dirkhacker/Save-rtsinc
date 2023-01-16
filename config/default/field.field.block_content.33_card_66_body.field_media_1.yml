@@ -1,0 +1,29 @@
+uuid: 64a04d1e-d394-40d4-ab3f-425ee90750de
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_card_66_body
+    - field.storage.block_content.field_media_1
+    - media.type.image
+id: block_content.33_card_66_body.field_media_1
+field_name: field_media_1
+entity_type: block_content
+bundle: 33_card_66_body
+label: 'Media 1'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

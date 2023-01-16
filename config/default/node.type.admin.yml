@@ -1,0 +1,18 @@
+uuid: 3f89767e-b670-485a-8942-ef54a6ddb24d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Admin
+type: admin
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

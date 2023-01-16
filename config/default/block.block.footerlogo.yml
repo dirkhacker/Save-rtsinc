@@ -1,0 +1,25 @@
+uuid: 8390b82e-7013-4d83-b4e5-fd710a95f24b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:12bd21c9-2605-4a68-bd34-d3c4bf13b514'
+  module:
+    - block_content
+  theme:
+    - rtsbarrio
+id: footerlogo
+theme: rtsbarrio
+region: footer_top_left
+weight: 0
+provider: null
+plugin: 'block_content:12bd21c9-2605-4a68-bd34-d3c4bf13b514'
+settings:
+  id: 'block_content:12bd21c9-2605-4a68-bd34-d3c4bf13b514'
+  label: 'Footer Logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

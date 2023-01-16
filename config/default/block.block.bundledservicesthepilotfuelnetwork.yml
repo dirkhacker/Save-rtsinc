@@ -1,0 +1,34 @@
+uuid: 2c026560-e241-4a00-8408-c236edf8580f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:33_image_body_66_text:264f4e80-b6a2-465a-948b-c84a472a37a3'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'container border-bottom p-0'
+id: bundledservicesthepilotfuelnetwork
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:264f4e80-b6a2-465a-948b-c84a472a37a3'
+settings:
+  id: 'block_content:264f4e80-b6a2-465a-948b-c84a472a37a3'
+  label: 'Bundled Services - The Pilot Fuel Network'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/bundled-services

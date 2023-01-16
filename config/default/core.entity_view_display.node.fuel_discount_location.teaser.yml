@@ -1,0 +1,30 @@
+uuid: 46b47acd-6ac6-40ca-9b76-7982a7bc31a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fuel_discount_location.body
+    - node.type.fuel_discount_location
+  module:
+    - text
+    - user
+id: node.fuel_discount_location.teaser
+targetEntityType: node
+bundle: fuel_discount_location
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

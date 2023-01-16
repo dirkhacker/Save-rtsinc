@@ -1,0 +1,34 @@
+uuid: 79a25a37-4a78-4f73-a505-763e5150ed07
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:50_text__50_img:7277bf6e-e491-44ba-bade-5b40da4e5fe8'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'border-bottom py-5'
+id: rtsprofactoring
+theme: rtsbarrio
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:7277bf6e-e491-44ba-bade-5b40da4e5fe8'
+settings:
+  id: 'block_content:7277bf6e-e491-44ba-bade-5b40da4e5fe8'
+  label: 'RTS Pro Factoring'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/rts-pro

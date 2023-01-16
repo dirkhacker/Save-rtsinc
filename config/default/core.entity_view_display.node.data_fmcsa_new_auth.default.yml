@@ -1,0 +1,28 @@
+uuid: 26ad6070-ee33-4841-91b0-c4aa9704e699
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.data_fmcsa_new_auth.body
+    - node.type.data_fmcsa_new_auth
+  module:
+    - text
+    - user
+id: node.data_fmcsa_new_auth.default
+targetEntityType: node
+bundle: data_fmcsa_new_auth
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

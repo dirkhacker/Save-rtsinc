@@ -1,0 +1,34 @@
+uuid: e40c1f15-3557-4650-ab08-a4a91511e9d2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:50_text__50_img:b24d2155-5c10-48f1-b227-1515b480dbf7'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'container border-bottom px-0 py-5'
+id: rtsprofuel
+theme: rtsbarrio
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:b24d2155-5c10-48f1-b227-1515b480dbf7'
+settings:
+  id: 'block_content:b24d2155-5c10-48f1-b227-1515b480dbf7'
+  label: 'RTS Pro Fuel'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/rts-pro

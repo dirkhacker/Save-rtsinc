@@ -1,0 +1,22 @@
+uuid: f82dc9ff-8b3d-4b31-8345-068968458407
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pattern_for_all_third_party_highlights_paths
+label: 'Pattern for all Third Party Highlights paths'
+type: 'canonical_entities:node'
+pattern: 'tph/[node:title]'
+selection_criteria:
+  1370203c-8ba3-47e6-9352-58d1652e24b7:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 1370203c-8ba3-47e6-9352-58d1652e24b7
+    context_mapping:
+      node: node
+    bundles:
+      third_party_highlights: third_party_highlights
+selection_logic: and
+weight: -5
+relationships: {  }

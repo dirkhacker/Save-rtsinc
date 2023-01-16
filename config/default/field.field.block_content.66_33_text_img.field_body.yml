@@ -1,0 +1,23 @@
+uuid: 990da98a-6572-4c6e-8e01-96a4dffe0cd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.66_33_text_img
+    - field.storage.block_content.field_body
+  module:
+    - text
+id: block_content.66_33_text_img.field_body
+field_name: field_body
+entity_type: block_content
+bundle: 66_33_text_img
+label: 'Body 2'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

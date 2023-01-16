@@ -1,0 +1,28 @@
+uuid: 71d9f343-299a-4815-94af-f1900ac69632
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.agent_company.body
+    - node.type.agent_company
+  module:
+    - text
+    - user
+id: node.agent_company.default
+targetEntityType: node
+bundle: agent_company
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

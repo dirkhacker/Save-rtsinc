@@ -1,0 +1,28 @@
+uuid: 88e1783a-ab45-42ba-9e52-824a331721f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.company_postlet.body
+    - node.type.company_postlet
+  module:
+    - text
+    - user
+id: node.company_postlet.default
+targetEntityType: node
+bundle: company_postlet
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

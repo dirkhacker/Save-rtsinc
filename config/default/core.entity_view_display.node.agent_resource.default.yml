@@ -1,0 +1,28 @@
+uuid: ada0c39c-24ea-476e-851a-c47ce5e53668
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.agent_resource.body
+    - node.type.agent_resource
+  module:
+    - text
+    - user
+id: node.agent_resource.default
+targetEntityType: node
+bundle: agent_resource
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

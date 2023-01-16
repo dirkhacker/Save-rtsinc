@@ -1,0 +1,34 @@
+uuid: b37ffd4b-7d89-4f54-b2c3-8f64351752eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - rtsbarrio
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: rtsbarrio_page_title
+theme: rtsbarrio
+region: content
+weight: -15
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

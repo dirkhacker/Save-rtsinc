@@ -1,0 +1,34 @@
+uuid: 3efe159c-0408-40a2-afd2-cc55b34b51ea
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:66_text_33_image_body:d69802e2-972d-4d9c-83d1-8efa7b5e5806'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'container border-bottom p-0'
+id: bundledservicesfactoringwithrts
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:d69802e2-972d-4d9c-83d1-8efa7b5e5806'
+settings:
+  id: 'block_content:d69802e2-972d-4d9c-83d1-8efa7b5e5806'
+  label: 'Bundled Services - Factoring with RTS'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/bundled-services
