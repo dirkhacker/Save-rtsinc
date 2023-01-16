@@ -1,0 +1,19 @@
+uuid: 63e5b07a-58db-4ac0-b38f-00dd5ce4dcf7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_card_x6
+    - field.storage.block_content.field_card_title_6
+id: block_content.33_card_x6.field_card_title_6
+field_name: field_card_title_6
+entity_type: block_content
+bundle: 33_card_x6
+label: 'Card title 6'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

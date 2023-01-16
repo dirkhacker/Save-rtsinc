@@ -1,0 +1,30 @@
+uuid: cf41e0bd-c3c2-4b16-868b-5b53984d0abf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:33_card_x6:2819a0e7-e855-47da-bbad-79ca2b2fff55'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: fuelaboutourfuelnetwork
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:2819a0e7-e855-47da-bbad-79ca2b2fff55'
+settings:
+  id: 'block_content:2819a0e7-e855-47da-bbad-79ca2b2fff55'
+  label: 'Fuel - About Our Fuel Network'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/fuel-discount-program

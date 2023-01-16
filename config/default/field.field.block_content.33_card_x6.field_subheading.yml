@@ -1,0 +1,21 @@
+uuid: eb068eaf-d198-4537-b4c4-cc14062360ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_card_x6
+    - field.storage.block_content.field_subheading
+  module:
+    - text
+id: block_content.33_card_x6.field_subheading
+field_name: field_subheading
+entity_type: block_content
+bundle: 33_card_x6
+label: Subheading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
