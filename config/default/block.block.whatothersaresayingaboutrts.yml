@@ -16,7 +16,7 @@ third_party_settings:
 id: whatothersaresayingaboutrts
 theme: rtsbarrio
 region: content
-weight: 2
+weight: 5
 provider: null
 plugin: 'block_content:728c0870-e1c7-4e8e-bcb8-472675531410'
 settings:

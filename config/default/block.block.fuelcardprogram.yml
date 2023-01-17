@@ -16,7 +16,7 @@ third_party_settings:
 id: fuelcardprogram
 theme: rtsbarrio
 region: content
-weight: 1
+weight: 4
 provider: null
 plugin: 'block_content:2d7c8a12-0499-4f4b-a292-d2e58b78997d'
 settings:

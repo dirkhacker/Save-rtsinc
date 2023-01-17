@@ -12,7 +12,7 @@ dependencies:
 id: fueldiscountaboutourfuelnetwork
 theme: rtsbarrio
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: 'block_content:89b97376-6572-4596-8160-835945420e1d'
 settings:

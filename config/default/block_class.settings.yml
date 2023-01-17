@@ -17,6 +17,6 @@ weight_id: 0
 filter_html_clean_css_identifier: ''
 maxlength_attributes: 0
 maxlength_id: 255
-attribute_keys_stored: '[]'
-attribute_value_stored: '[]'
-attributes_inline: '[]'
+attribute_keys_stored: '{"style":"style"}'
+attribute_value_stored: '{"margin: -0.78rem; background-color: #f1f1f1;":"margin: -0.78rem; background-color: #f1f1f1;"}'
+attributes_inline: '{"style=margin: -0.78rem; background-color: #f1f1f1;":"style=margin: -0.78rem; background-color: #f1f1f1;"}'

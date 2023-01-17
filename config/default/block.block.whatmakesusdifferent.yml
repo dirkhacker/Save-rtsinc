@@ -1,22 +1,26 @@
-uuid: a8b69f65-117d-432b-b660-54f479517a33
+uuid: 4640cdbe-0758-4113-9f84-f6e7a5accbe4
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:33_card_x6:3cc0830c-4b4b-4b75-9c13-35f67159dfa7'
+    - 'block_content:33_card_x6:18a0cdf9-fe85-49f4-9696-e9326c4da7e9'
   module:
+    - block_class
     - block_content
     - system
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: py-5
 id: whatmakesusdifferent
 theme: rtsbarrio
 region: content
 weight: -1
 provider: null
-plugin: 'block_content:3cc0830c-4b4b-4b75-9c13-35f67159dfa7'
+plugin: 'block_content:18a0cdf9-fe85-49f4-9696-e9326c4da7e9'
 settings:
-  id: 'block_content:3cc0830c-4b4b-4b75-9c13-35f67159dfa7'
+  id: 'block_content:18a0cdf9-fe85-49f4-9696-e9326c4da7e9'
   label: 'What Makes Us Different'
   label_display: '0'
   provider: block_content

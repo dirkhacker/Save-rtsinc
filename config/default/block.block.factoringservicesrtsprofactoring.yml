@@ -1,23 +1,28 @@
-uuid: eb868274-3a9e-4054-8d05-b889b69c9840
+uuid: bfbd1f7e-748e-4256-95bc-809b46a21430
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:50_img_50_text:c7cc3110-adbf-4aa9-a5a8-77bcd23fb68e'
+    - 'block_content:50_img_50_text:b20d326f-bf00-4624-b409-894edfe4985a'
   module:
+    - block_class
     - block_content
     - system
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: py-5
+    attributes: 'style|margin: -0.78rem; background-color: #f1f1f1;'
 id: factoringservicesrtsprofactoring
 theme: rtsbarrio
 region: content
 weight: 0
 provider: null
-plugin: 'block_content:c7cc3110-adbf-4aa9-a5a8-77bcd23fb68e'
+plugin: 'block_content:b20d326f-bf00-4624-b409-894edfe4985a'
 settings:
-  id: 'block_content:c7cc3110-adbf-4aa9-a5a8-77bcd23fb68e'
-  label: 'Factoring - Services RTS Pro Factoring'
+  id: 'block_content:b20d326f-bf00-4624-b409-894edfe4985a'
+  label: 'Factoring Services - RTS Pro Factoring'
   label_display: '0'
   provider: block_content
   status: true

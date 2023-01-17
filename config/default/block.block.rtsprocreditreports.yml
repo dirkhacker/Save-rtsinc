@@ -16,7 +16,7 @@ third_party_settings:
 id: rtsprocreditreports
 theme: rtsbarrio
 region: content
-weight: -9
+weight: -10
 provider: null
 plugin: 'block_content:227f9b54-ce26-4328-b7ff-48ddfd4d9877'
 settings:

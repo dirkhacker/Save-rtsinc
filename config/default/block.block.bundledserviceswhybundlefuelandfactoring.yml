@@ -12,7 +12,7 @@ dependencies:
 id: bundledserviceswhybundlefuelandfactoring
 theme: rtsbarrio
 region: content
-weight: 0
+weight: -3
 provider: null
 plugin: 'block_content:98fb4000-71c6-44ac-92f1-3100482afc67'
 settings:

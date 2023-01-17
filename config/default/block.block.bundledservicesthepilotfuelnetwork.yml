@@ -16,7 +16,7 @@ third_party_settings:
 id: bundledservicesthepilotfuelnetwork
 theme: rtsbarrio
 region: content
-weight: 0
+weight: -4
 provider: null
 plugin: 'block_content:264f4e80-b6a2-465a-948b-c84a472a37a3'
 settings:

@@ -1,9 +1,9 @@
-uuid: 1c8ffb22-3da5-4d5a-8e07-e4efebc8a048
+uuid: a0bb1460-338a-4dd8-babf-b91a810cfeff
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:66_33_text_img:19b42653-2449-47f4-b996-924a2bd5f5c5'
+    - 'block_content:66_33_text_img:d450f97f-774e-4c4a-961d-0c287e4c6f2b'
   module:
     - block_content
     - system
@@ -14,9 +14,9 @@ theme: rtsbarrio
 region: content
 weight: 0
 provider: null
-plugin: 'block_content:19b42653-2449-47f4-b996-924a2bd5f5c5'
+plugin: 'block_content:d450f97f-774e-4c4a-961d-0c287e4c6f2b'
 settings:
-  id: 'block_content:19b42653-2449-47f4-b996-924a2bd5f5c5'
+  id: 'block_content:d450f97f-774e-4c4a-961d-0c287e4c6f2b'
   label: 'Bundle Your Fuel and Factoring'
   label_display: '0'
   provider: block_content

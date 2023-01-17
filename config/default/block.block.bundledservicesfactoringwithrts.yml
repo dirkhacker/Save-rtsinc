@@ -16,7 +16,7 @@ third_party_settings:
 id: bundledservicesfactoringwithrts
 theme: rtsbarrio
 region: content
-weight: 0
+weight: -5
 provider: null
 plugin: 'block_content:d69802e2-972d-4d9c-83d1-8efa7b5e5806'
 settings:
