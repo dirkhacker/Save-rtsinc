@@ -16,7 +16,7 @@ third_party_settings:
 id: rtsprofactoring
 theme: rtsbarrio
 region: content
-weight: -3
+weight: -8
 provider: null
 plugin: 'block_content:7277bf6e-e491-44ba-bade-5b40da4e5fe8'
 settings:
