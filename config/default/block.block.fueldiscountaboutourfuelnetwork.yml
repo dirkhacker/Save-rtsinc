@@ -1,23 +1,23 @@
-uuid: cf41e0bd-c3c2-4b16-868b-5b53984d0abf
+uuid: f6e33610-aae4-456f-8f20-24073a4e4100
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:33_card_x6:2819a0e7-e855-47da-bbad-79ca2b2fff55'
+    - 'block_content:33_card_x6:89b97376-6572-4596-8160-835945420e1d'
   module:
     - block_content
     - system
   theme:
     - rtsbarrio
-id: fuelaboutourfuelnetwork
+id: fueldiscountaboutourfuelnetwork
 theme: rtsbarrio
 region: content
 weight: 0
 provider: null
-plugin: 'block_content:2819a0e7-e855-47da-bbad-79ca2b2fff55'
+plugin: 'block_content:89b97376-6572-4596-8160-835945420e1d'
 settings:
-  id: 'block_content:2819a0e7-e855-47da-bbad-79ca2b2fff55'
-  label: 'Fuel - About Our Fuel Network'
+  id: 'block_content:89b97376-6572-4596-8160-835945420e1d'
+  label: 'Fuel Discount - About Our Fuel Network'
   label_display: '0'
   provider: block_content
   status: true
