@@ -1,0 +1,30 @@
+uuid: eb868274-3a9e-4054-8d05-b889b69c9840
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:50_img_50_text:c7cc3110-adbf-4aa9-a5a8-77bcd23fb68e'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: factoringservicesrtsprofactoring
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:c7cc3110-adbf-4aa9-a5a8-77bcd23fb68e'
+settings:
+  id: 'block_content:c7cc3110-adbf-4aa9-a5a8-77bcd23fb68e'
+  label: 'Factoring - Services RTS Pro Factoring'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/factoring-services
