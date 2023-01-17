@@ -1,0 +1,30 @@
+uuid: 1c8ffb22-3da5-4d5a-8e07-e4efebc8a048
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:66_33_text_img:19b42653-2449-47f4-b996-924a2bd5f5c5'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: bundleyourfuelandfactoring
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:19b42653-2449-47f4-b996-924a2bd5f5c5'
+settings:
+  id: 'block_content:19b42653-2449-47f4-b996-924a2bd5f5c5'
+  label: 'Bundle Your Fuel and Factoring'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/factoring-services
