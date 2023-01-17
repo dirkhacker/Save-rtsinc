@@ -12,15 +12,14 @@ dependencies:
   module:
     - field_formatter_class
     - field_group
-    - image
     - manage_display
+    - svg_image
     - text
 third_party_settings:
   field_group:
     group_container:
       children:
-        - group_column
-        - group_column2
+        - group_row
       label: container
       parent_name: ''
       region: content
@@ -43,9 +42,9 @@ third_party_settings:
         - field_50_text_50_img__subheading
         - body
       label: column
-      parent_name: group_container
+      parent_name: group_row
       region: content
-      weight: 20
+      weight: 21
       format_type: html_element
       format_settings:
         classes: col
@@ -62,12 +61,32 @@ third_party_settings:
       children:
         - field_50_text_50_img__img
       label: column
-      parent_name: group_container
+      parent_name: group_row
       region: content
-      weight: 21
+      weight: 22
       format_type: html_element
       format_settings:
         classes: col
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_row:
+      children:
+        - group_column
+        - group_column2
+      label: row
+      parent_name: group_container
+      region: content
+      weight: 20
+      format_type: html_element
+      format_settings:
+        classes: row
         show_empty_fields: false
         id: ''
         element: div
@@ -106,6 +125,10 @@ content:
     settings:
       image_link: ''
       image_style: large
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
       image_loading:
         attribute: lazy
     third_party_settings:
