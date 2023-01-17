@@ -1,0 +1,8 @@
+uuid: 60db82a7-1799-4dc7-848b-78fd0b1613e6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Global Taxonomy'
+vid: global_taxonomy
+description: ''
+weight: 0
