@@ -1,0 +1,30 @@
+uuid: a8b69f65-117d-432b-b660-54f479517a33
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:33_card_x6:3cc0830c-4b4b-4b75-9c13-35f67159dfa7'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: whatmakesusdifferent
+theme: rtsbarrio
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:3cc0830c-4b4b-4b75-9c13-35f67159dfa7'
+settings:
+  id: 'block_content:3cc0830c-4b4b-4b75-9c13-35f67159dfa7'
+  label: 'What Makes Us Different'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/factoring-services
