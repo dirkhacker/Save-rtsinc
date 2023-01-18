@@ -7,8 +7,9 @@ dependencies:
     - field.field.node.blog_posts.field_category
     - field.field.node.blog_posts.field_featured_article
     - field.field.node.blog_posts.field_global_taxonomy
+    - field.field.node.blog_posts.field_heading
     - field.field.node.blog_posts.field_image
-    - field.field.node.blog_posts.field_sub_headline
+    - field.field.node.blog_posts.field_subheading
     - field.field.node.blog_posts.field_weight
     - node.type.blog_posts
   module:
@@ -16,6 +17,7 @@ dependencies:
     - manage_display
     - svg_image
     - text
+    - weight
 id: node.blog_posts.default
 targetEntityType: node
 bundle: blog_posts
@@ -26,19 +28,19 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 7
     region: content
   field_category:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
-    weight: 105
+    weight: 6
     region: content
   field_featured_article:
     type: boolean
-    label: above
+    label: hidden
     settings:
       format: enabled-disabled
       format_custom_false: ''
@@ -46,19 +48,27 @@ content:
     third_party_settings:
       field_formatter_class:
         class: ''
-    weight: 103
+    weight: 4
     region: content
   field_global_taxonomy:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
-    weight: 106
+    weight: 8
+    region: content
+  field_heading:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
     region: content
   field_image:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
       image_style: ''
@@ -69,28 +79,26 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 104
+    weight: 5
     region: content
-  field_sub_headline:
-    type: text_default
-    label: above
+  field_subheading:
+    type: basic_string
+    label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 102
+    weight: 3
     region: content
   field_weight:
-    type: number_integer
-    label: above
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
+    type: default_weight
+    label: hidden
+    settings: {  }
     third_party_settings: {  }
-    weight: 107
+    weight: 9
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 1
     region: content
   title:
     type: title
@@ -99,7 +107,7 @@ content:
       linked: true
       tag: h2
     third_party_settings: {  }
-    weight: -49
+    weight: 0
     region: content
 hidden:
   created: true
