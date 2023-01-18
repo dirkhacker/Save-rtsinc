@@ -4,10 +4,18 @@ status: true
 dependencies:
   config:
     - field.field.node.blog_posts.body
+    - field.field.node.blog_posts.field_category
+    - field.field.node.blog_posts.field_featured_article
+    - field.field.node.blog_posts.field_global_taxonomy
+    - field.field.node.blog_posts.field_image
+    - field.field.node.blog_posts.field_sub_headline
+    - field.field.node.blog_posts.field_weight
     - node.type.blog_posts
   module:
+    - field_formatter_class
+    - manage_display
+    - svg_image
     - text
-    - user
 id: node.blog_posts.default
 targetEntityType: node
 bundle: blog_posts
@@ -20,9 +28,79 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_featured_article:
+    type: boolean
+    label: above
+    settings:
+      format: enabled-disabled
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 103
+    region: content
+  field_global_taxonomy:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_sub_headline:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_weight:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  uid: true

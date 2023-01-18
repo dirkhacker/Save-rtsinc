@@ -1,0 +1,20 @@
+uuid: 25afd8db-abb7-48ba-a16c-e0b5561943b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_global_taxonomy
+field_name: field_global_taxonomy
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
