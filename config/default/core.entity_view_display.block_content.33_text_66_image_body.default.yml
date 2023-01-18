@@ -28,7 +28,7 @@ third_party_settings:
       weight: 1
       format_type: html_element
       format_settings:
-        classes: 'row py-5'
+        classes: row
         show_empty_fields: false
         id: ''
         element: div
@@ -89,7 +89,7 @@ third_party_settings:
       weight: 0
       format_type: html_element
       format_settings:
-        classes: container
+        classes: 'container py-7'
         show_empty_fields: false
         id: ''
         element: div

@@ -1,0 +1,34 @@
+uuid: da7ddf6b-2af0-4903-a5db-b525f194ba2c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:33_image_body_66_text:721ef947-ed9a-49f1-8b2a-f5f68f1d275c'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: bg-lt-gray
+id: fueldiscounttruckcareprogram
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:721ef947-ed9a-49f1-8b2a-f5f68f1d275c'
+settings:
+  id: 'block_content:721ef947-ed9a-49f1-8b2a-f5f68f1d275c'
+  label: 'Fuel Discount -  Truck Care Program'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/fuel-discount-program
