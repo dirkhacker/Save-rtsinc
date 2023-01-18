@@ -3,7 +3,7 @@ _core:
 maxlength_block_class_field: 255
 field_type: multiple_textfields
 default_case: standard
-block_classes_stored: '{"":"","border-bottom":"border-bottom","container":"container","py-5":"py-5","border-top":"border-top","border-3":"border-3","border-light":"border-light","p-0":"p-0","px-0":"px-0"}'
+block_classes_stored: '{"":"","border-bottom":"border-bottom","container":"container","py-5":"py-5","border-top":"border-top","border-3":"border-3","border-light":"border-light","p-0":"p-0","px-0":"px-0","bg-primary":"bg-primary","g-0":"g-0","bg-lt-gray":"bg-lt-gray"}'
 enable_attributes: true
 enable_auto_complete: true
 qty_classes_per_block: 10
@@ -18,5 +18,5 @@ filter_html_clean_css_identifier: ''
 maxlength_attributes: 0
 maxlength_id: 255
 attribute_keys_stored: '{"style":"style"}'
-attribute_value_stored: '{"margin: -0.78rem; background-color: #f1f1f1;":"margin: -0.78rem; background-color: #f1f1f1;"}'
-attributes_inline: '{"style=margin: -0.78rem; background-color: #f1f1f1;":"style=margin: -0.78rem; background-color: #f1f1f1;"}'
+attribute_value_stored: '{"margin: -0.78rem; background-color: #f1f1f1;":"margin: -0.78rem; background-color: #f1f1f1;","background-color: #f1f1f1;":"background-color: #f1f1f1;"}'
+attributes_inline: '{"style=margin: -0.78rem; background-color: #f1f1f1;":"style=margin: -0.78rem; background-color: #f1f1f1;","style=background-color: #f1f1f1;":"style=background-color: #f1f1f1;"}'

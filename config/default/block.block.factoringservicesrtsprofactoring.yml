@@ -13,7 +13,7 @@ dependencies:
 third_party_settings:
   block_class:
     classes: py-5
-    attributes: 'style|margin: -0.78rem; background-color: #f1f1f1;'
+    attributes: 'style|background-color: #f1f1f1;'
 id: factoringservicesrtsprofactoring
 theme: rtsbarrio
 region: content
