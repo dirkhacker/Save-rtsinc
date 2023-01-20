@@ -24,6 +24,11 @@ body {
 
 /* FONTS 
 --------------------------------------------------*/
+
+.fs-lg { font-size: $font-size-lg; }
+.fs-sm { font-size: $font-size-sm; }
+.fs-xs { font-size: $font-size-xs; }
+
 .overline { text-transform: uppercase; letter-spacing: 1.2px; font-size: 1em; font-weight: 400; color: $blue } 
 .overline-lg { text-transform: uppercase; letter-spacing: 1.4px; font-size: 1.13em; font-weight: 500; color: $blue } 
 .text-blue { 
@@ -47,6 +52,7 @@ body {
 /* COLORS 
 --------------------------------------------------*/
 
+
 a {
     color: $accent-shade;
 }
@@ -61,6 +67,9 @@ a {
 
 .btn-primary{
     color: $white;
+    &:hover {
+        color: $white;
+      }
 }
 
 .site-footer {
@@ -244,12 +253,13 @@ form.webform-submission-form {
     margin-bottom: 1.5rem;
 }
 
-/* BLOCKS
---------------------------------------------------*/
-#block-workingcapitalsolutionsforallindustries {
-    h2 {
-        color: black;
-        font-weight: bold;
+
+.timeline .row > div > h1 {
+    text-align: right;
+    border-right: 2px solid $gray-300;
+    @media only screen and (max-width: 768px) {
+        text-align: left;
+        border-right: none;
     }
-    padding-bottom: 0;
+
 }
