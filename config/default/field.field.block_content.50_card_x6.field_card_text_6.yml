@@ -1,0 +1,21 @@
+uuid: 78da1c75-083b-4a99-8996-ffc3f6e60887
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6
+    - field.storage.block_content.field_card_text_6
+  module:
+    - text
+id: block_content.50_card_x6.field_card_text_6
+field_name: field_card_text_6
+entity_type: block_content
+bundle: 50_card_x6
+label: 'Card text 6'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

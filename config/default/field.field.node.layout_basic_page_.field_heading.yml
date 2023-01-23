@@ -1,0 +1,19 @@
+uuid: b4746683-f504-4bb8-82f9-e70eb3cc459c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_heading
+    - node.type.layout_basic_page_
+id: node.layout_basic_page_.field_heading
+field_name: field_heading
+entity_type: node
+bundle: layout_basic_page_
+label: Heading
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

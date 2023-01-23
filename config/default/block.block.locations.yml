@@ -1,0 +1,34 @@
+uuid: 3c49102b-965f-4f1f-9547-67b42bd02a3c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:489a0624-d968-4faa-97ac-f56d4ee732da'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: container
+id: locations
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:489a0624-d968-4faa-97ac-f56d4ee732da'
+settings:
+  id: 'block_content:489a0624-d968-4faa-97ac-f56d4ee732da'
+  label: Locations
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /page/about-us
