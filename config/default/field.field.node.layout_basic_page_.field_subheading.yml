@@ -1,0 +1,19 @@
+uuid: 9bf133c1-6eac-41f1-afa9-6f19570a1ebf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subheading
+    - node.type.layout_basic_page_
+id: node.layout_basic_page_.field_subheading
+field_name: field_subheading
+entity_type: node
+bundle: layout_basic_page_
+label: Subheading
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

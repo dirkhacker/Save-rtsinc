@@ -53,32 +53,47 @@ elements: |-
     '#required': true
   email:
     '#type': email
-    '#title': 'Your Email'
+    '#title': Email
     '#title_display': after
     '#required': true
     '#default_value': '[current-user:mail]'
+  zip_code:
+    '#type': textfield
+    '#title': 'Zip Code'
+    '#title_display': after
+    '#pattern': '[0-9]{5}'
+    '#pattern_error': 'Please provide a five digit zip code.'
+    '#required': true
   phone:
     '#type': tel
     '#title': Phone
     '#title_display': after
     '#required': true
-  did_someone_refer_you_to_rts_:
+  number_trucks:
+    '#type': number
+    '#title': 'Number Trucks'
+    '#title_display': after
+    '#max': 200
+  language:
     '#type': select
-    '#title': 'Did someone refer you to RTS?'
+    '#title': Language
     '#title_display': before
     '#options':
-      'No': 'No'
-      'Yes': 'Yes'
-    '#required': true
-  if_so_who_referred_you_:
-    '#type': textfield
-    '#title': 'If so, who referred you?'
-    '#title_display': after
-    '#required': true
-    '#states':
-      visible:
-        ':input[name="did_someone_refer_you_to_rts_"]':
-          value: 'Yes'
+      English: English
+      Punjabi: Punjabi
+      'Eastern European': 'Eastern European'
+      Spanish: Spanish
+      Bulgarian: Bulgarian
+      Chinese: Chinese
+      Polish: Polish
+  how_did_you_hear_about_us_:
+    '#type': select
+    '#title': 'How did you hear about us?'
+    '#title_display': before
+    '#options':
+      'Word of Mouth': 'Word of Mouth'
+      'Social Media': 'Social Media'
+      Email: Email
   actions:
     '#type': webform_actions
     '#title': 'Submit button(s)'

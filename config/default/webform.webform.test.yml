@@ -55,7 +55,7 @@ elements: |-
     '#required': true
   email:
     '#type': email
-    '#title': 'Your Email'
+    '#title': Email
     '#title_display': after
     '#required': true
     '#default_value': '[current-user:mail]'
@@ -64,6 +64,11 @@ elements: |-
     '#title': Phone
     '#title_display': after
     '#required': true
+  number_trucks:
+    '#type': number
+    '#title': 'Number Trucks'
+    '#title_display': after
+    '#max': 200
   did_someone_refer_you_to_rts_:
     '#type': select
     '#title': 'Did someone refer you to RTS?'

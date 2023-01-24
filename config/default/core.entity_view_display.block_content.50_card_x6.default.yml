@@ -1,0 +1,467 @@
+uuid: 56903a2d-7d9e-4545-a536-ed41f4130c3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6
+    - field.field.block_content.50_card_x6.body
+    - field.field.block_content.50_card_x6.field_card_text_
+    - field.field.block_content.50_card_x6.field_card_text_1
+    - field.field.block_content.50_card_x6.field_card_text_2
+    - field.field.block_content.50_card_x6.field_card_text_3
+    - field.field.block_content.50_card_x6.field_card_text_4
+    - field.field.block_content.50_card_x6.field_card_text_6
+    - field.field.block_content.50_card_x6.field_card_title_1
+    - field.field.block_content.50_card_x6.field_card_title_2
+    - field.field.block_content.50_card_x6.field_card_title_3
+    - field.field.block_content.50_card_x6.field_card_title_4
+    - field.field.block_content.50_card_x6.field_card_title_5
+    - field.field.block_content.50_card_x6.field_card_title_6
+    - field.field.block_content.50_card_x6.field_image_1
+    - field.field.block_content.50_card_x6.field_image_2
+    - field.field.block_content.50_card_x6.field_image_3
+    - field.field.block_content.50_card_x6.field_image_4
+    - field.field.block_content.50_card_x6.field_image_5
+    - field.field.block_content.50_card_x6.field_image_6
+    - field.field.block_content.50_card_x6.field_subheading
+    - field.field.block_content.50_card_x6.field_title
+  module:
+    - field_formatter_class
+    - field_group
+    - image_class
+    - svg_image
+    - text
+third_party_settings:
+  field_group:
+    group_container:
+      children:
+        - group_div
+        - group_card_container
+      label: Container
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: 'container py-7'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_div:
+      children:
+        - field_title
+        - field_subheading
+      label: Row
+      parent_name: group_container
+      region: content
+      weight: 2
+      format_type: html_element
+      format_settings:
+        classes: row
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_card_container:
+      children:
+        - group_column_card_1
+        - group_col_card_2
+        - group_col_card_3
+        - group_col_card_
+        - group_col_card_5
+        - group_col_card_6
+      label: 'Card container'
+      parent_name: group_container
+      region: content
+      weight: 3
+      format_type: html_element
+      format_settings:
+        classes: 'card-container row'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_column_card_1:
+      children:
+        - field_image_1
+        - field_card_title_1
+        - field_card_text_1
+      label: 'Column Card 1'
+      parent_name: group_card_container
+      region: content
+      weight: 13
+      format_type: html_element
+      format_settings:
+        classes: col-md-6
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_col_card_2:
+      children:
+        - field_image_2
+        - field_card_title_2
+        - field_card_text_2
+      label: 'Col Card 2'
+      parent_name: group_card_container
+      region: content
+      weight: 14
+      format_type: html_element
+      format_settings:
+        classes: col-md-6
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_col_card_3:
+      children:
+        - field_image_3
+        - field_card_title_3
+        - field_card_text_3
+      label: 'Col Card 3'
+      parent_name: group_card_container
+      region: content
+      weight: 15
+      format_type: html_element
+      format_settings:
+        classes: col-md-6
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_col_card_:
+      children:
+        - field_image_4
+        - field_card_title_4
+        - field_card_text_4
+      label: 'Col Card 4'
+      parent_name: group_card_container
+      region: content
+      weight: 16
+      format_type: html_element
+      format_settings:
+        classes: col-md-6
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_col_card_5:
+      children:
+        - field_image_5
+        - field_card_title_5
+        - field_card_text_
+      label: 'Col Card 5'
+      parent_name: group_card_container
+      region: content
+      weight: 17
+      format_type: html_element
+      format_settings:
+        classes: col-md-6
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_col_card_6:
+      children:
+        - field_image_6
+        - field_card_title_6
+        - field_card_text_6
+      label: 'Col Card 6'
+      parent_name: group_card_container
+      region: content
+      weight: 18
+      format_type: html_element
+      format_settings:
+        classes: col-md-6
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: block_content.50_card_x6.default
+targetEntityType: block_content
+bundle: 50_card_x6
+mode: default
+content:
+  field_card_text_:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 31
+    region: content
+  field_card_text_1:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_card_text_2:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 28
+    region: content
+  field_card_text_3:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 29
+    region: content
+  field_card_text_4:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_card_text_6:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 32
+    region: content
+  field_card_title_1:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 pb-2'
+    weight: 26
+    region: content
+  field_card_title_2:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 pb-2'
+    weight: 27
+    region: content
+  field_card_title_3:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 pb-2'
+    weight: 28
+    region: content
+  field_card_title_4:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 pb-2'
+    weight: 23
+    region: content
+  field_card_title_5:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 pb-2'
+    weight: 30
+    region: content
+  field_card_title_6:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-4 pb-2'
+    weight: 31
+    region: content
+  field_image_1:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      image_class:
+        class: img-fluid
+    weight: 25
+    region: content
+  field_image_2:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      image_class:
+        class: img-fluid
+    weight: 26
+    region: content
+  field_image_3:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      image_class:
+        class: img-fluid
+    weight: 27
+    region: content
+  field_image_4:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      image_class:
+        class: img-fluid
+    weight: 22
+    region: content
+  field_image_5:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      image_class:
+        class: img-fluid
+    weight: 29
+    region: content
+  field_image_6:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      image_class:
+        class: img-fluid
+    weight: 30
+    region: content
+  field_subheading:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: pb-5
+    weight: 10
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'display-2 pb-4'
+    weight: 9
+    region: content
+hidden:
+  body: true

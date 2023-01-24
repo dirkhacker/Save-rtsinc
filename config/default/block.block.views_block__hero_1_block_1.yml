@@ -32,5 +32,6 @@ visibility:
     bundles:
       industry: industry
       landing_page: landing_page
+      layout_basic_page_: layout_basic_page_
       page: page
       product: product

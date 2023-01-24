@@ -1,7 +1,7 @@
 _core:
   default_config_hash: 2dzzZg3Bjp7AtmnosM3BpQUua8PW-dJr-BHfmnCrcFU
 layout_builder_theme: dark
-background_colors: "bg-primary|Blue\r\nbs-bg-success|Green\r\nbs-bg-warning|Yellow\r\nbs-bg-danger|Red\r\nbs-bg-light|Light"
+background_colors: "bg-lt-gray|Light Gray\r\nbg-primary|Blue\r\nbs-bg-success|Green\r\nbs-bg-warning|Yellow\r\nbs-bg-danger|Red\r\nbs-bg-light|Light"
 background_image:
   bundle: image
   field: field_media_image

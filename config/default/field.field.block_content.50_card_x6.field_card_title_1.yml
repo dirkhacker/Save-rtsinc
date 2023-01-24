@@ -1,0 +1,19 @@
+uuid: 1a095cbf-29c7-46fc-8ff4-b8559a56d834
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6
+    - field.storage.block_content.field_card_title_1
+id: block_content.50_card_x6.field_card_title_1
+field_name: field_card_title_1
+entity_type: block_content
+bundle: 50_card_x6
+label: 'Card title 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

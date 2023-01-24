@@ -1,0 +1,21 @@
+uuid: 67187ff2-bdb6-41a7-8bee-86cfef9964c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6
+    - field.storage.block_content.field_subheading
+  module:
+    - text
+id: block_content.50_card_x6.field_subheading
+field_name: field_subheading
+entity_type: block_content
+bundle: 50_card_x6
+label: Subheading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
