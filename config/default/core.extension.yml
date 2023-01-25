@@ -41,6 +41,8 @@ module:
   image: 0
   image_class: 0
   layout_builder: 0
+  layout_builder_blocks: 0
+  layout_builder_component_attributes: 0
   layout_builder_restrictions: 0
   layout_discovery: 0
   link: 0

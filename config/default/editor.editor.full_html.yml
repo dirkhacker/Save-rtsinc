@@ -42,23 +42,35 @@ settings:
     ckeditor5_style:
       styles:
         -
+          label: 'Display 1'
+          element: '<p class="display-1">'
+        -
           label: 'Display 2'
-          element: '<div class="display-2">'
+          element: '<p class="display-2">'
         -
           label: 'Display 3'
-          element: '<div class="display-3">'
+          element: '<p class="display-3">'
         -
           label: 'Display 4'
-          element: '<div class="display-4">'
+          element: '<p class="display-4">'
         -
           label: Overline
-          element: '<div class="overline">'
+          element: '<p class="overline">'
         -
           label: 'Blue Text'
           element: '<span class="text-blue">'
         -
           label: 'Gray Text'
           element: '<span class="text-gray">'
+        -
+          label: 'Font Size Large'
+          element: '<span class="fs-lg">'
+        -
+          label: 'Font Size Small'
+          element: '<span class="fs-sm">'
+        -
+          label: 'Font Size X-Small'
+          element: '<span class="fs-xs">'
     ckeditor5_sourceEditing:
       allowed_tags: {  }
     ckeditor5_list:

@@ -41,7 +41,7 @@ filters:
     status: false
     weight: -10
     settings:
-      allowed_html: '<div class="display-2 display-3 display-4 overline"> <span class="text-blue text-gray">'
+      allowed_html: '<p class="display-1 display-2 display-3 display-4 overline"> <span class="text-blue text-gray fs-lg fs-sm fs-xs">'
       filter_html_help: true
       filter_html_nofollow: false
   media_embed:

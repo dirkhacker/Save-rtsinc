@@ -13,7 +13,8 @@ dependencies:
   module:
     - field_formatter_class
     - field_group
-    - image
+    - image_class
+    - svg_image
     - text
 third_party_settings:
   field_group:
@@ -60,7 +61,7 @@ content:
     settings: {  }
     third_party_settings:
       field_formatter_class:
-        class: h5
+        class: h3
     weight: 3
     region: content
   field_card_text_1:
@@ -77,7 +78,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: h3
+        class: h2
     weight: 2
     region: content
   field_image:
@@ -86,9 +87,17 @@ content:
     settings:
       image_link: ''
       image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
       image_loading:
         attribute: lazy
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: height-100
+      image_class:
+        class: img-fluid
     weight: 1
     region: content
 hidden:

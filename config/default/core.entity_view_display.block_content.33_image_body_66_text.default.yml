@@ -50,7 +50,7 @@ third_party_settings:
       weight: 8
       format_type: html_element
       format_settings:
-        classes: 'col col-lg-8 mb-5 mb-lg-0'
+        classes: 'col col-lg-8 mb-5 mb-lg-0 ps-0 ps-md-6'
         show_empty_fields: false
         id: ''
         element: div
@@ -147,7 +147,7 @@ content:
       field_formatter_class:
         class: ''
       image_class:
-        class: img-fluid
+        class: 'img-fluid pb-6 pb-md-0'
     weight: 2
     region: content
   field_subtitle:

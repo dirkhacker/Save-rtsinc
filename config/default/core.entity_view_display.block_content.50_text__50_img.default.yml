@@ -12,6 +12,7 @@ dependencies:
   module:
     - field_formatter_class
     - field_group
+    - image_class
     - manage_display
     - svg_image
     - text
@@ -113,10 +114,10 @@ content:
     label: hidden
     settings:
       linked: true
-      tag: h2
+      tag: div
     third_party_settings:
       field_formatter_class:
-        class: text-uppercase
+        class: overline
     weight: 1
     region: content
   field_50_text_50_img__img:
@@ -134,6 +135,8 @@ content:
     third_party_settings:
       field_formatter_class:
         class: ''
+      image_class:
+        class: img-fluid
     weight: 2
     region: content
   field_50_text_50_img__subheading:
@@ -143,7 +146,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'fs-2 py-3 fw-bold lh-sm text-black'
+        class: ' py-3 display-2 lh-sm text-black'
     weight: 2
     region: content
 hidden: {  }

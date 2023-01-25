@@ -30,6 +30,7 @@ visibility:
     context_mapping:
       node: '@node.node_route_context:node'
     bundles:
+      homepage: homepage
       industry: industry
       landing_page: landing_page
       layout_basic_page_: layout_basic_page_

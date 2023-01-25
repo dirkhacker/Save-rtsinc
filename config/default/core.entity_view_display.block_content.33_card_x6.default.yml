@@ -277,7 +277,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: 'h4 pb-2'
     weight: 26
     region: content
   field_card_title_2:
@@ -287,7 +287,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: 'h4 pb-2'
     weight: 27
     region: content
   field_card_title_3:
@@ -297,7 +297,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: 'h4 pb-2'
     weight: 28
     region: content
   field_card_title_4:
@@ -307,7 +307,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: 'h4 pb-2'
     weight: 23
     region: content
   field_card_title_5:
@@ -317,7 +317,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: 'h4 pb-2'
     weight: 30
     region: content
   field_card_title_6:
@@ -327,7 +327,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: 'h4 pb-2'
     weight: 31
     region: content
   field_image_1:

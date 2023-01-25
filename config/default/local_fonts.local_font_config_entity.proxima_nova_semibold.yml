@@ -1,0 +1,14 @@
+uuid: 89ad309d-228f-4665-9fac-14797401ad07
+langcode: en
+status: true
+dependencies: {  }
+id: proxima_nova_semibold
+label: 'Proxima Nova SemiBold'
+font_family: 'Proxima Nova'
+font_classification:
+  sans-serif: sans-serif
+  serif: '0'
+  slab-serif: '0'
+  handwriting: '0'
+  decorative: '0'
+  monospace: '0'

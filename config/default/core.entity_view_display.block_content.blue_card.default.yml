@@ -20,7 +20,6 @@ third_party_settings:
         - field_media_1
         - field_card_title
         - field_card_text_1
-        - field_card_text
         - field_button
       label: Container
       parent_name: ''
@@ -66,7 +65,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'h2 text-white pb-2'
+        class: 'h4 text-white pb-2'
     weight: 5
     region: content
   field_media_1:

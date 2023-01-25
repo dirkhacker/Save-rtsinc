@@ -133,10 +133,10 @@ content:
     label: hidden
     settings:
       linked: true
-      tag: h2
+      tag: div
     third_party_settings:
       field_formatter_class:
-        class: text-uppercase
+        class: overline
     weight: 23
     region: content
   field_50_img_50_text__subheading:
@@ -146,7 +146,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'fs-2 py-3 fw-bold lh-sm text-black'
+        class: 'display-2 py-3 lh-sm text-black'
     weight: 24
     region: content
 hidden: {  }

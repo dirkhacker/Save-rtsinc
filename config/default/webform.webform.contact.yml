@@ -86,6 +86,8 @@ elements: |-
       Bulgarian: Bulgarian
       Chinese: Chinese
       Polish: Polish
+    '#empty_option': English
+    '#empty_value': English
   how_did_you_hear_about_us_:
     '#type': select
     '#title': 'How did you hear about us?'

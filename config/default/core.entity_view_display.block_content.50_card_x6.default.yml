@@ -108,7 +108,7 @@ third_party_settings:
       weight: 13
       format_type: html_element
       format_settings:
-        classes: col-md-6
+        classes: 'col-md-6 pb-4'
         show_empty_fields: false
         id: ''
         element: div
@@ -129,7 +129,7 @@ third_party_settings:
       weight: 14
       format_type: html_element
       format_settings:
-        classes: col-md-6
+        classes: 'col-md-6 pb-4'
         show_empty_fields: false
         id: ''
         element: div
@@ -150,7 +150,7 @@ third_party_settings:
       weight: 15
       format_type: html_element
       format_settings:
-        classes: col-md-6
+        classes: 'col-md-6 pb-4'
         show_empty_fields: false
         id: ''
         element: div
@@ -171,7 +171,7 @@ third_party_settings:
       weight: 16
       format_type: html_element
       format_settings:
-        classes: col-md-6
+        classes: 'col-md-6 pb-4'
         show_empty_fields: false
         id: ''
         element: div
@@ -192,7 +192,7 @@ third_party_settings:
       weight: 17
       format_type: html_element
       format_settings:
-        classes: col-md-6
+        classes: 'col-md-6 pb-4'
         show_empty_fields: false
         id: ''
         element: div
@@ -213,7 +213,7 @@ third_party_settings:
       weight: 18
       format_type: html_element
       format_settings:
-        classes: col-md-6
+        classes: 'col-md-6 pb-4'
         show_empty_fields: false
         id: ''
         element: div
@@ -232,42 +232,54 @@ content:
     type: text_default
     label: hidden
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: text-gray-6
     weight: 31
     region: content
   field_card_text_1:
     type: text_default
     label: hidden
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: text-gray-6
     weight: 27
     region: content
   field_card_text_2:
     type: text_default
     label: hidden
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: text-gray-6
     weight: 28
     region: content
   field_card_text_3:
     type: text_default
     label: hidden
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: text-gray-6
     weight: 29
     region: content
   field_card_text_4:
     type: text_default
     label: hidden
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: text-gray-6
     weight: 24
     region: content
   field_card_text_6:
     type: text_default
     label: hidden
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: text-gray-6
     weight: 32
     region: content
   field_card_title_1:
