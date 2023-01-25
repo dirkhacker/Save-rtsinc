@@ -29,8 +29,8 @@ body {
 .fs-sm { font-size: $font-size-sm; }
 .fs-xs { font-size: $font-size-xs; }
 
-.overline { text-transform: uppercase; letter-spacing: 1.2px; font-size: 1em; font-weight: 400; color: $blue } 
-.overline-lg { text-transform: uppercase; letter-spacing: 1.4px; font-size: 1.13em; font-weight: 500; color: $blue } 
+.overline { text-transform: uppercase; letter-spacing: 1.2px; font-size: 1.05em; font-weight: 400; color: $blue } 
+.overline-lg { text-transform: uppercase; letter-spacing: 1.4px; font-size: 1.13em; font-weight: 400; color: $blue } 
 .text-blue { color: $blue; }
 .text-gray { color: $gray-600; }
 .text-white { color: $white;}
@@ -119,19 +119,11 @@ a {
 }
 
 
-/* HEADER
---------------------------------------------------*/
-.navbar-brand img { height: 2.2rem;}
-.navbar {
-    & #block-megamainnav {
-        flex: 1;
-    }
-}
 
-
-/* reCaptcha
+/* ATTRIBUTES
 --------------------------------------------------*/
-.grecaptcha-badge { visibility: hidden; }
+.ht-100 { height: 100px; }
+
 
 
 /* FORMS
@@ -226,6 +218,12 @@ form.webform-submission-form {
 }
 
 
+/* reCaptcha
+--------------------------------------------------*/
+.grecaptcha-badge { visibility: hidden; }
+
+
+
 /* LISTS
 --------------------------------------------------*/
 .list-border-blue { padding-left: 0; }
@@ -240,6 +238,17 @@ form.webform-submission-form {
 .field--name-body li {
     padding-bottom: 6px;
 }
+
+
+/* HEADER
+--------------------------------------------------*/
+.navbar-brand img { height: 2.2rem;}
+.navbar {
+    & #block-megamainnav {
+        flex: 1;
+    }
+}
+
 
 /* HERO
 --------------------------------------------------*/
@@ -272,7 +281,8 @@ form.webform-submission-form {
 
 .hero-heading {
     width: 100%;
-    margin-bottom: .5rem;
+    line-height: 4.5rem;
+    margin-bottom: 1rem;
 }
 
 .hero-subheading {
