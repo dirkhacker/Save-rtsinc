@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "43d5d9674dce6cce9043563340f185e7",
+    "content-hash": "2114d43ad4aeb48a2d86f39dc939209c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2838,29 +2838,26 @@
         },
         {
             "name": "drupal/fontyourface",
-            "version": "3.6.0",
+            "version": "dev-3.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/fontyourface.git",
-                "reference": "8.x-3.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/fontyourface-8.x-3.6.zip",
-                "reference": "8.x-3.6",
-                "shasum": "de6593bfe0b4f42c93c1f163cd0fbc97a1723586"
+                "reference": "7e7fdfcbbb3a87d72fb16df4e82e09b83bd88192"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
                 "drupal": {
-                    "version": "8.x-3.6",
-                    "datestamp": "1615217641",
+                    "version": "8.x-3.6+7-dev",
+                    "datestamp": "1674041705",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -2875,12 +2872,16 @@
                     "role": "Maintainer"
                 },
                 {
-                    "name": "BarisW",
-                    "homepage": "https://www.drupal.org/user/107229"
+                    "name": "BTMash",
+                    "homepage": "https://www.drupal.org/user/60422"
                 },
                 {
                     "name": "Drave Robber",
                     "homepage": "https://www.drupal.org/user/984338"
+                },
+                {
+                    "name": "hmendes",
+                    "homepage": "https://www.drupal.org/user/3673677"
                 },
                 {
                     "name": "Neslee Canil Pinto",
@@ -14243,6 +14244,7 @@
         "drupal/entity_clone": 15,
         "drupal/feeds": 10,
         "drupal/feeds_tamper": 10,
+        "drupal/fontyourface": 20,
         "drupal/gin": 10,
         "drupal/manage_display": 10,
         "drupal/svg_image_field": 10,

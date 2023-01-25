@@ -33,7 +33,7 @@
         "drupal/field_formatter_class": "^1.5",
         "drupal/field_group": "^3.3",
         "drupal/fontawesome": "^2.24",
-        "drupal/fontyourface": "^3.6",
+        "drupal/fontyourface": "3.x-dev@dev",
         "drupal/gin": "^3.0@beta",
         "drupal/google_analytics": "^4.0",
         "drupal/image_class": "^1.1",
