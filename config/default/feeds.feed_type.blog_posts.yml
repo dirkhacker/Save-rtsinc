@@ -1,0 +1,207 @@
+uuid: 5e580569-aa20-4ed0-837e-7852e6fcb622
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blog_posts.body
+    - field.field.node.blog_posts.field_category
+    - field.field.node.blog_posts.field_featured_article
+    - field.field.node.blog_posts.field_global_taxonomy
+    - field.field.node.blog_posts.field_heading
+    - field.field.node.blog_posts.field_image
+    - field.field.node.blog_posts.field_subheading
+    - field.field.node.blog_posts.field_weight
+    - node.type.blog_posts
+  module:
+    - feeds_tamper
+    - node
+    - weight
+third_party_settings:
+  feeds_tamper:
+    tampers:
+      2bb0707e-c6a6-44d4-b561-815ca13a4e83:
+        separator: ','
+        limit: null
+        uuid: 2bb0707e-c6a6-44d4-b561-815ca13a4e83
+        plugin: explode
+        source: category
+        weight: -9
+        label: Explode
+      b6bede27-e2cb-44e3-b9f5-03a4386a28eb:
+        separator: ','
+        limit: null
+        uuid: b6bede27-e2cb-44e3-b9f5-03a4386a28eb
+        plugin: explode
+        source: global_taxonomy
+        weight: -9
+        label: Explode
+label: 'Blog Posts'
+id: blog_posts
+description: ''
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'private://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  values:
+    type: blog_posts
+  langcode: en
+  insert_new: 1
+  update_existing: 0
+  update_non_existent: _delete
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+custom_sources:
+  '':
+    value: ''
+    label: ''
+    machine_name: ''
+    type: csv
+  title:
+    value: Title
+    label: Title
+    machine_name: title
+    type: csv
+  sub_headline:
+    value: 'Sub Headline'
+    label: 'Sub Headline'
+    machine_name: sub_headline
+    type: csv
+  featured_article:
+    value: 'Featured Article'
+    label: 'Featured Article'
+    machine_name: featured_article
+    type: csv
+  category:
+    value: Category
+    label: Category
+    machine_name: category
+    type: csv
+  body:
+    value: Body
+    label: Body
+    machine_name: body
+    type: csv
+  global_taxonomy:
+    value: 'Global Taxonomy'
+    label: 'Global Taxonomy'
+    machine_name: global_taxonomy
+    type: csv
+  weight:
+    value: Weight
+    label: Weight
+    machine_name: weight
+    type: csv
+  file_name:
+    value: 'File Name'
+    label: 'File Name'
+    machine_name: file_name
+    type: csv
+  file:
+    value: file
+    label: file
+    machine_name: file
+    type: csv
+  path:
+    value: Path
+    label: Path
+    machine_name: path
+    type: csv
+  main_image:
+    value: 'Main Image'
+    label: 'Main Image'
+    machine_name: main_image
+    type: csv
+  post_date:
+    value: 'Post date'
+    label: 'Post date'
+    machine_name: post_date
+    type: csv
+mappings:
+  -
+    target: title
+    map:
+      value: title
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_subheading
+    map:
+      value: sub_headline
+    settings:
+      language: null
+  -
+    target: field_featured_article
+    map:
+      value: featured_article
+    settings:
+      language: null
+  -
+    target: field_category
+    map:
+      target_id: category
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+  -
+    target: field_global_taxonomy
+    map:
+      target_id: global_taxonomy
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+  -
+    target: field_weight
+    map:
+      value: weight
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_heading
+    map:
+      value: title
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_image
+    map:
+      target_id: path
+      alt: ''
+      title: ''
+    settings:
+      language: ''
+      reference_by: filename
+      existing: '2'
+      autocreate: 0
+  -
+    target: body
+    map:
+      value: body
+      summary: ''
+    settings:
+      language: ''
+      format: full_html
+  -
+    target: created
+    map:
+      value: post_date
+    settings:
+      language: null
+      timezone: UTC

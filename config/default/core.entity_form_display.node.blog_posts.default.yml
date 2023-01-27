@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.blog_posts.body
+    - field.field.node.blog_posts.feeds_item
     - field.field.node.blog_posts.field_category
     - field.field.node.blog_posts.field_featured_article
     - field.field.node.blog_posts.field_global_taxonomy
@@ -143,4 +144,5 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  feeds_item: true
