@@ -265,14 +265,18 @@ form.webform-submission-form {
 }
 .hero-bg-image {
     background-repeat: repeat-x;
+    background-position: 69% top;
 }
 .hero-bg-image-trans {
     background: url(/themes/custom/rtsbarrio/images/bgimg-hero-trans.png);
     background-repeat: repeat-x; 
     background-position: 0% 0; 
     margin-bottom: 0px; 
-    background-position: 36% 0px; 
     display: flex;
+    background-position: 36% 0px; 
+    @media only screen and (min-width: 2250px) {
+        background-position: 54% 0px; 
+    }
 }
 
 .hero-content {
@@ -284,18 +288,21 @@ form.webform-submission-form {
 
 }
 .hero-col {
-    max-width: 60%;
 }
 
 .hero-heading {
     width: 100%;
-    line-height: 4.5rem;
-    margin-bottom: 1rem;
+    line-height: 4.3rem;
+    margin-bottom: 1.2rem;
 }
 
 .hero-subheading {
+    font-size: 1.5rem;
+    color: $gray-800;
+    line-height: 2.2rem;
+    letter-spacing: -.2px;
     width: 100%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
 }
 
 
