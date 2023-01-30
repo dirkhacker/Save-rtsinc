@@ -1,0 +1,15 @@
+uuid: 13416331-f62c-4099-bdcb-2d4ba3fb0432
+langcode: en
+status: true
+dependencies: {  }
+name: blog_card_image
+label: 'Blog Card Image'
+effects:
+  21657f9d-95dc-4202-a0f9-d4a02a9e69f3:
+    uuid: 21657f9d-95dc-4202-a0f9-d4a02a9e69f3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 167
+      anchor: center-center

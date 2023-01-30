@@ -129,6 +129,11 @@ custom_sources:
     label: 'Post date'
     machine_name: post_date
     type: csv
+  author:
+    value: author
+    label: author
+    machine_name: author
+    type: csv
 mappings:
   -
     target: title
@@ -205,3 +210,11 @@ mappings:
     settings:
       language: null
       timezone: UTC
+  -
+    target: uid
+    map:
+      target_id: author
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: 0

@@ -34,6 +34,17 @@ elements: |-
       'Trucking Software': 'Trucking Software'
     '#options_display': side_by_side
     '#required': true
+  multiselect:
+    '#type': checkboxes
+    '#title': 'What Services Are You Interested In?'
+    '#title_display': before
+    '#options':
+      Factoring: Factoring
+      Fuel: Fuel
+      'Trucking Software': 'Trucking Software'
+    '#options_display': side_by_side
+    '#required': true
+    '#required_error': 'Please select an option'
   first_name:
     '#type': textfield
     '#title': 'First Name'
@@ -96,6 +107,66 @@ elements: |-
       'Word of Mouth': 'Word of Mouth'
       'Social Media': 'Social Media'
       Email: Email
+  source:
+    '#type': sales
+    '#title': Source
+    '#default_value': '[current-page:query:source]'
+  campaign:
+    '#type': sales
+    '#title': Campaign
+    '#default_value': '[current-page:query:campaign]'
+  ppc_campaign:
+    '#type': sales
+    '#title': 'PPC Campaign'
+    '#default_value': '[current-page:query:cpc_campaign]'
+  adgroup:
+    '#type': sales
+    '#title': Adgroup
+    '#default_value': '[current-page:query:adgroup]'
+  keyword:
+    '#type': sales
+    '#title': Keyword
+    '#default_value': '[current-page:query:keyword]'
+  segment:
+    '#type': sales
+    '#title': Segment
+    '#default_value': '[current-page:query:target]'
+  ad:
+    '#type': sales
+    '#title': Ad
+    '#default_value': '[current-page:query:ad]'
+  placement:
+    '#type': sales
+    '#title': Placement
+    '#default_value': '[current-page:query:placement]'
+  gclid:
+    '#type': sales
+    '#title': gclid
+    '#default_value': '[current-page:query:gclid]'
+  lead_source:
+    '#type': sales
+    '#title': 'Lead Source'
+    '#default_value': Internet
+  medium:
+    '#type': sales
+    '#title': Medium
+    '#default_value': '[current-page:query:medium]'
+  record_type:
+    '#type': sales
+    '#title': 'Record Type'
+    '#default_value': '[current-page:query:record_type]'
+  topic:
+    '#type': sales
+    '#title': Topic
+    '#default_value': '[current-page:query:topic]'
+  formid:
+    '#type': hidden
+    '#title': 'Form ID'
+    '#default_value': '[webform:id]'
+  form_url:
+    '#type': hidden
+    '#title': 'Form URL'
+    '#default_value': '[current-page:url]'
   actions:
     '#type': webform_actions
     '#title': 'Submit button(s)'

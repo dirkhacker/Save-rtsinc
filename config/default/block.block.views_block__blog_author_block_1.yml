@@ -1,0 +1,33 @@
+uuid: 0836b6f6-0ce3-4ff6-ac52-da9070a40c8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog_author
+  module:
+    - node
+    - views
+  theme:
+    - rtsbarrio
+id: views_block__blog_author_block_1
+theme: rtsbarrio
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:blog_author-block_1'
+settings:
+  id: 'views_block:blog_author-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      blog_posts: blog_posts
