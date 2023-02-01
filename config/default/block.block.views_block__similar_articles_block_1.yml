@@ -1,0 +1,34 @@
+uuid: e03a911b-4ebd-4c04-9ea0-14c5829942d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.similar_articles
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: border-0
+id: views_block__similar_articles_block_1
+theme: rtsbarrio
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:similar_articles-block_1'
+settings:
+  id: 'views_block:similar_articles-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/articles/*'

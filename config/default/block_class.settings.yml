@@ -3,7 +3,7 @@ _core:
 maxlength_block_class_field: 255
 field_type: multiple_textfields
 default_case: standard
-block_classes_stored: '{"":"","border-bottom":"border-bottom","container":"container","py-5":"py-5","border-top":"border-top","border-3":"border-3","border-light":"border-light","p-0":"p-0","px-0":"px-0","bg-primary":"bg-primary","g-0":"g-0","bg-lt-gray":"bg-lt-gray"}'
+block_classes_stored: '{"":"","border-bottom":"border-bottom","container":"container","py-5":"py-5","border-top":"border-top","border-3":"border-3","border-light":"border-light","p-0":"p-0","px-0":"px-0","bg-primary":"bg-primary","g-0":"g-0","bg-lt-gray":"bg-lt-gray","border-0":"border-0"}'
 enable_attributes: true
 enable_auto_complete: true
 qty_classes_per_block: 10
