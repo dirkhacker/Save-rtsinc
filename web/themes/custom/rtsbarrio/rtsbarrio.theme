@@ -50,3 +50,14 @@ function rtsbarrio_theme_suggestions_page_alter(array &$suggestions, array $vari
         $suggestions[] = 'page__' . $node->bundle();
     }
 }
+
+/**
+ * Implements hook_preprocess_image()
+ * @param $variables
+ * @return void
+ */
+function rtsbarrio_preprocess_image(&$variables) {
+    if ($variables['style_name'] == 'blog_card_image') {
+        $variables['attributes']['class'][] = 'card-img-top';
+    }
+}
