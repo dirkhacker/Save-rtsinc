@@ -61,14 +61,3 @@ function rtsbarrio_preprocess_image(&$variables) {
         $variables['attributes']['class'][] = 'card-img-top';
     }
 }
-
-/**
- * Implements hook_better_exposed_filters_display_options_alter().
- */
-/**
- * Implements hook_form_FORM_ID_alter().
- */
-function rtsbarrio_form_FORM_ID_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id)
-{
-    dump($form_id);
-}
