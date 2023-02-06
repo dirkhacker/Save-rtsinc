@@ -17,6 +17,7 @@
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.1",
+        "drupal/better_exposed_filters": "^6.0",
         "drupal/bg_image_formatter": "^1.15",
         "drupal/block_class": "^2.0",
         "drupal/block_library": "^1.0@alpha",
