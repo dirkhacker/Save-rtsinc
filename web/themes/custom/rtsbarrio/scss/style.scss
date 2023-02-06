@@ -261,7 +261,11 @@ form.webform-submission-form {
 /* HERO
 --------------------------------------------------*/
 .hero-wrapper {
-    height: 800px;
+    height: 733px;
+}
+.hero-blog-wrapper {
+    min-height: 400px;
+    border-top: 1px solid $gray-300;
 }
 .hero-bg-image {
     background-repeat: repeat-x;
@@ -283,7 +287,7 @@ form.webform-submission-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 8rem;
+    //margin-bottom: 8rem;
     //flex-wrap: wrap;
 
 }
@@ -294,6 +298,9 @@ form.webform-submission-form {
     width: 100%;
     line-height: 4.3rem;
     margin-bottom: 1.2rem;
+    @media only screen and (max-width: 767px) {
+        line-height: 3.3rem;
+    }
 }
 
 .hero-subheading {

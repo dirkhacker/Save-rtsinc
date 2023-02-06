@@ -8,11 +8,13 @@ dependencies:
     - image.style.blog_card_image
     - node.type.blog_posts
     - taxonomy.vocabulary.article_categories
+    - taxonomy.vocabulary.article_categories
   module:
     - better_exposed_filters
     - manage_display
     - node
     - svg_image
+    - taxonomy
     - taxonomy
     - user
     - views_bootstrap
@@ -1075,6 +1077,7 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
+        - user
         - user
         - 'user.node_grants:view'
         - user.permissions
