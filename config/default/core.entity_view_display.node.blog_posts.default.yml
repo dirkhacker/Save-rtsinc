@@ -12,9 +12,13 @@ dependencies:
     - field.field.node.blog_posts.field_image
     - field.field.node.blog_posts.field_subheading
     - field.field.node.blog_posts.field_weight
+    - image.style.blog_image
     - node.type.blog_posts
   module:
+    - field_formatter_class
+    - image_class
     - manage_display
+    - svg_image
     - text
 id: node.blog_posts.default
 targetEntityType: node
@@ -26,6 +30,25 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: blog_image
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      image_class:
+        class: img-fluid
     weight: 2
     region: content
   links:
@@ -49,7 +72,6 @@ hidden:
   field_featured_article: true
   field_global_taxonomy: true
   field_heading: true
-  field_image: true
   field_subheading: true
   field_weight: true
   uid: true

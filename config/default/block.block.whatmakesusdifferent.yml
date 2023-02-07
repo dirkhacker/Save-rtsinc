@@ -5,14 +5,10 @@ dependencies:
   content:
     - 'block_content:33_card_x6:18a0cdf9-fe85-49f4-9696-e9326c4da7e9'
   module:
-    - block_class
     - block_content
     - system
   theme:
     - rtsbarrio
-third_party_settings:
-  block_class:
-    classes: py-5
 id: whatmakesusdifferent
 theme: rtsbarrio
 region: content
