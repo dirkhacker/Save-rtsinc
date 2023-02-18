@@ -258,6 +258,54 @@ form.webform-submission-form {
 }
 
 
+// Language Switcher
+.language-switcher-custom { 
+    position: inherit;
+    top: 0;
+    right: 60px;
+    padding: 36px !important;
+    &:hover{
+        border-bottom: 3px solid $blue;
+        padding-bottom: 33px !important;
+        & a{
+            text-decoration: none;
+        }
+    }
+}
+.has-translation .language-switcher-custom { display: block; padding-right: 16px !important;
+  //@include bp-lg { display: none; }
+}
+//.language-switcher-custom .block-content { line-height: 1em; }
+//.language-switcher-custom a { display: flex; align-items: center; }
+//.i18n-es .language-links { right: 84px; }
+.language-switcher-custom svg {
+    fill: $gray-600;
+    &:hover {
+        fill: $blue;
+    }
+}
+.language-switcher-custom svg.globe { width: 24px; height: 24px; margin-right: 4px; }
+.language-switcher-custom svg.down-arrow { width: 12px; height: 12px; }
+.language-links {
+    display: none !important;
+    background: #fff;
+    padding: 10px;
+    position: fixed;
+    border: 1px solid $gray-400;
+    & a { 
+            line-height: 1.9em; 
+            color: $gray-700;   
+        }
+    & a:hover {
+        color: $blue;
+        text-decoration: none;
+    }
+}
+.language-links.active { display: block !important; }
+//.language-switcher-custom.active { padding-bottom: 42px; padding-top: 44px; border-bottom: 3px solid $blue; }
+
+
+
 /* HERO
 --------------------------------------------------*/
 .hero-wrapper {

@@ -1,0 +1,65 @@
+{#
+/**
+ * @file
+ * Theme override to display inline links.
+ *
+ * Available variables:
+ * - attributes: Attributes for the UL containing the list of links.
+ * - links: Links to be output.
+ *   Each link will have the following elements:
+ *   - title: The link text.
+ *   - href: The link URL. If omitted, the 'title' is shown as a plain text
+ *     item in the links list. If 'href' is supplied, the entire link is passed
+ *     to l() as its $options parameter.
+ *   - attributes: (optional) HTML attributes for the anchor, or for the <span>
+ *     tag if no 'href' is supplied.
+ *   - link_key: The link CSS class.
+ * - heading: (optional) A heading to precede the links.
+ *   - text: The heading text.
+ *   - level: The heading level (e.g. 'h2', 'h3').
+ *   - attributes: (optional) A keyed list of attributes for the heading.
+ *   If the heading is a string, it will be used as the text of the heading and
+ *   the level will default to 'h2'.
+ *
+ *   Headings should be used on navigation menus and any list of links that
+ *   consistently appears on multiple pages. To make the heading invisible use
+ *   the 'visually-hidden' CSS class. Do not use 'display:none', which
+ *   removes it from screen readers and assistive technology. Headings allow
+ *   screen reader and keyboard only users to navigate to or skip the links.
+ *   See http://juicystudio.com/article/screen-readers-display-none.php and
+ *   http://www.w3.org/TR/WCAG-TECHS/H42.html for more information.
+ *
+ * @see template_preprocess_links()
+ *
+ * @ingroup themeable
+ */
+#}
+{{ attach_library('bootstrap_barrio/links') }}
+
+<div class="language-switcher-custom d-flex nav-item">
+<a href="#">
+<svg class="globe" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+<path d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm6.93,6H16a15.65,15.65,0,0,0-1.38-3.56A8,8,0,0,1,18.92,8ZM12,4a14.09,14.09,0,0,1,1.91,4H10.09A14.09,14.09,0,0,1,12,4ZM4.26,14a7.82,7.82,0,0,1,0-4H7.64a16.52,16.52,0,0,0-.14,2,16.52,16.52,0,0,0,.14,2Zm.82,2H8a15.65,15.65,0,0,0,1.38,3.56A8,8,0,0,1,5.08,16ZM8,8H5.08A8,8,0,0,1,9.41,4.44,15.65,15.65,0,0,0,8,8Zm4,12a14.09,14.09,0,0,1-1.91-4h3.82A14.09,14.09,0,0,1,12,20Zm2.34-6H9.66a14.71,14.71,0,0,1-.16-2,14.58,14.58,0,0,1,.16-2h4.68a14.58,14.58,0,0,1,.16,2A14.71,14.71,0,0,1,14.34,14Zm.25,5.56A15.65,15.65,0,0,0,16,16h3A8,8,0,0,1,14.59,19.56ZM16.36,14a16.52,16.52,0,0,0,.14-2,16.52,16.52,0,0,0-.14-2h3.38a7.82,7.82,0,0,1,0,4Z" transform="translate(-2 -2)"/>
+</svg>
+<svg class="down-arrow" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5">
+<path d="M7,10l5,5,5-5Z" transform="translate(-7 -10)"/>
+</svg>
+</a>
+</div>
+<div>
+{% if links %}
+  <nav{{ attributes.addClass(['nav', 'links-inline', 'language-links', 'shadow']) }}>
+    {%- for key, item in links -%}
+      <span{{ item.attributes.addClass(key|clean_class, 'nav-link') }}>
+        {%- if item.link -%}
+          {{ item.link }}
+        {%- elseif item.text_attributes -%}
+          <span{{ item.text_attributes }}>{{ item.text }}</span>
+        {%- else -%}
+          {{ item.text }}
+        {%- endif -%}
+      </span>
+    {%- endfor -%}
+  </nav>
+{% endif %}
+</div>
