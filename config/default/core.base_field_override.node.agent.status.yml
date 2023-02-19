@@ -1,0 +1,22 @@
+uuid: 8c75c24e-6c6c-4fc7-8874-13ec74ef7dcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agent
+id: node.agent.status
+field_name: status
+entity_type: node
+bundle: agent
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: 4714187d-0d54-4124-9c88-f21e0682ea5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.truck
+id: node.truck.menu_link
+field_name: menu_link
+entity_type: node
+bundle: truck
+label: 'Menu link'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

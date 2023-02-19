@@ -145,4 +145,5 @@ content:
         class: ''
     weight: 5
     region: content
-hidden: {  }
+hidden:
+  langcode: true

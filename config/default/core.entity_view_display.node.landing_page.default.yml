@@ -39,5 +39,6 @@ hidden:
   field_image: true
   field_subheading: true
   field_title: true
+  langcode: true
   links: true
   uid: true

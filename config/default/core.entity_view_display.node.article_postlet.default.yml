@@ -6,8 +6,8 @@ dependencies:
     - field.field.node.article_postlet.body
     - node.type.article_postlet
   module:
+    - manage_display
     - text
-    - user
 id: node.article_postlet.default
 targetEntityType: node
 bundle: article_postlet
@@ -25,4 +25,16 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  langcode: true
+  uid: true

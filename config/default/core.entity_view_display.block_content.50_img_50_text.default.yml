@@ -149,4 +149,5 @@ content:
         class: 'display-2 py-3 lh-sm text-black'
     weight: 24
     region: content
-hidden: {  }
+hidden:
+  langcode: true

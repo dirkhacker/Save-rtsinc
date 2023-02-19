@@ -1,0 +1,18 @@
+uuid: c26721cd-8e59-4094-9949-a27b3e37a17e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.admin
+id: node.admin.created
+field_name: created
+entity_type: node
+bundle: admin
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

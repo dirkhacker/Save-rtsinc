@@ -1,0 +1,22 @@
+uuid: 031fe3e5-d704-4e8d-b428-53aab7b02a9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.truck
+id: node.truck.status
+field_name: status
+entity_type: node
+bundle: truck
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

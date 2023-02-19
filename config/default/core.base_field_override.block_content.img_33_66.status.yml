@@ -1,0 +1,22 @@
+uuid: b95ee742-8988-4dd6-8449-a96f57261b55
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.img_33_66
+id: block_content.img_33_66.status
+field_name: status
+entity_type: block_content
+bundle: img_33_66
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

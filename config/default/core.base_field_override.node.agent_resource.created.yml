@@ -1,0 +1,18 @@
+uuid: c158337f-dcf4-4acc-8438-fdee8e0ea292
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agent_resource
+id: node.agent_resource.created
+field_name: created
+entity_type: node
+bundle: agent_resource
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

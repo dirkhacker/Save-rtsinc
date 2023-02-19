@@ -1,0 +1,22 @@
+uuid: 6899679b-ef17-49ad-a09c-600666173466
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.1_column
+id: block_content.1_column.status
+field_name: status
+entity_type: block_content
+bundle: 1_column
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

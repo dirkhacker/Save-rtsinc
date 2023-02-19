@@ -1,0 +1,18 @@
+uuid: 12996458-f103-4cd0-b0f6-2af9310dd69a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fuel_discount_location
+id: node.fuel_discount_location.changed
+field_name: changed
+entity_type: node
+bundle: fuel_discount_location
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

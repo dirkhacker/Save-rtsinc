@@ -1,0 +1,22 @@
+uuid: 59dd7a14-7071-4504-8cff-73b6e8dabad0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card
+id: block_content.card.status
+field_name: status
+entity_type: block_content
+bundle: card
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

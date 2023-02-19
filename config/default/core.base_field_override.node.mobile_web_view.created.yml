@@ -1,0 +1,18 @@
+uuid: 8ffcf9c5-a56f-4233-9b39-05552319b930
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mobile_web_view
+id: node.mobile_web_view.created
+field_name: created
+entity_type: node
+bundle: mobile_web_view
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

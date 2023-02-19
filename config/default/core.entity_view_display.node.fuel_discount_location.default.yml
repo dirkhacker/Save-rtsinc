@@ -6,8 +6,8 @@ dependencies:
     - field.field.node.fuel_discount_location.body
     - node.type.fuel_discount_location
   module:
+    - manage_display
     - text
-    - user
 id: node.fuel_discount_location.default
 targetEntityType: node
 bundle: fuel_discount_location
@@ -25,4 +25,16 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  langcode: true
+  uid: true

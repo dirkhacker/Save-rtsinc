@@ -14,9 +14,9 @@ dependencies:
     - image.style.thumbnail
     - node.type.agent
   module:
-    - image
     - link
     - path
+    - svg_image
     - telephone
     - text
 id: node.agent.default
@@ -92,6 +92,13 @@ content:
     settings:
       rows: 5
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   path:
     type: path

@@ -1,0 +1,22 @@
+uuid: f0a076e7-a111-4170-a88a-f96d32a6beed
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fuel_discount_location
+id: node.fuel_discount_location.sticky
+field_name: sticky
+entity_type: node
+bundle: fuel_discount_location
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

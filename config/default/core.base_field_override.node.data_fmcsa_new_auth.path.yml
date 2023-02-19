@@ -1,0 +1,20 @@
+uuid: f75ac3c2-6f55-42e3-a7cd-98784fc81028
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.data_fmcsa_new_auth
+  module:
+    - path
+id: node.data_fmcsa_new_auth.path
+field_name: path
+entity_type: node
+bundle: data_fmcsa_new_auth
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,18 @@
+uuid: 9cda824f-7e83-49fd-90be-046b052d33a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fuel_discount_location
+id: node.fuel_discount_location.title
+field_name: title
+entity_type: node
+bundle: fuel_discount_location
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

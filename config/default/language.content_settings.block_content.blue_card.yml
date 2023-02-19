@@ -1,0 +1,18 @@
+uuid: 01604048-e219-448e-925a-0105e0b26a4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.blue_card
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.blue_card
+target_entity_type_id: block_content
+target_bundle: blue_card
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,18 @@
+uuid: bb742c3b-3c1a-4ed3-b53d-848ecb60d3cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mobile_web_view
+id: node.mobile_web_view.title
+field_name: title
+entity_type: node
+bundle: mobile_web_view
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

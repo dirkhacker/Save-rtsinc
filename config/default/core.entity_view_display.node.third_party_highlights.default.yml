@@ -6,8 +6,8 @@ dependencies:
     - field.field.node.third_party_highlights.body
     - node.type.third_party_highlights
   module:
+    - manage_display
     - text
-    - user
 id: node.third_party_highlights.default
 targetEntityType: node
 bundle: third_party_highlights
@@ -25,4 +25,16 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  langcode: true
+  uid: true

@@ -1,0 +1,18 @@
+uuid: c25379ed-45b9-4034-8b1c-c144f893f360
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6
+id: block_content.50_card_x6.changed
+field_name: changed
+entity_type: block_content
+bundle: 50_card_x6
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

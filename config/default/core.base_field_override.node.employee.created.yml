@@ -1,0 +1,18 @@
+uuid: baa73472-0a20-45ca-a4dd-b5f15df03ee7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employee
+id: node.employee.created
+field_name: created
+entity_type: node
+bundle: employee
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

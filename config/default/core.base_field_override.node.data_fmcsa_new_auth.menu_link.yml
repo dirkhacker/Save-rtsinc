@@ -1,0 +1,20 @@
+uuid: 93a5cb79-6108-42a2-a866-22ea5617c32c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.data_fmcsa_new_auth
+id: node.data_fmcsa_new_auth.menu_link
+field_name: menu_link
+entity_type: node
+bundle: data_fmcsa_new_auth
+label: 'Menu link'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

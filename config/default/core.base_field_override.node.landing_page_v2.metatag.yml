@@ -1,0 +1,18 @@
+uuid: 0cf3b452-f805-4e9d-a684-0c4f85db9fee
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.landing_page_v2
+id: node.landing_page_v2.metatag
+field_name: metatag
+entity_type: node
+bundle: landing_page_v2
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

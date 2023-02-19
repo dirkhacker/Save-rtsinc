@@ -1,0 +1,22 @@
+uuid: d6e3c5f1-f7f2-48ea-b2d0-1af66269c656
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agent_resource
+id: node.agent_resource.promote
+field_name: promote
+entity_type: node
+bundle: agent_resource
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

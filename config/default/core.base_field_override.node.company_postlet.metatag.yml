@@ -1,0 +1,18 @@
+uuid: 83c9ddfc-605e-406f-91e7-cb78b6ed427c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.company_postlet
+id: node.company_postlet.metatag
+field_name: metatag
+entity_type: node
+bundle: company_postlet
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

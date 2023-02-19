@@ -13,11 +13,11 @@ dependencies:
     - field.field.node.agent.field_rts_highlight
     - node.type.agent
   module:
-    - image
     - link
+    - manage_display
     - options
+    - svg_image
     - text
-    - user
 id: node.agent.default
 targetEntityType: node
 bundle: agent
@@ -99,4 +99,16 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  langcode: true
+  uid: true

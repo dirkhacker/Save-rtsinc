@@ -1,0 +1,18 @@
+uuid: e43e5bea-2b71-4d1f-a937-b6a7e685f7f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.reviews
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.reviews
+target_entity_type_id: node
+target_bundle: reviews
+default_langcode: site_default
+language_alterable: false

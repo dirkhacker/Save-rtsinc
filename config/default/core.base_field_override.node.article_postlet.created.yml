@@ -1,0 +1,18 @@
+uuid: cf675f00-cc24-4294-b5a3-ee7a9c292b7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article_postlet
+id: node.article_postlet.created
+field_name: created
+entity_type: node
+bundle: article_postlet
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

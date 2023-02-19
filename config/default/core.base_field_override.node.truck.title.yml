@@ -1,0 +1,18 @@
+uuid: 435910dd-7b40-49ab-9630-3d1687ee99ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.truck
+id: node.truck.title
+field_name: title
+entity_type: node
+bundle: truck
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

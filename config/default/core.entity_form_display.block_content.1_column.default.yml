@@ -11,7 +11,7 @@ dependencies:
     - field.field.block_content.1_column.field_title
     - image.style.thumbnail
   module:
-    - image
+    - svg_image
     - text
 id: block_content.1_column.default
 targetEntityType: block_content
@@ -67,5 +67,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }
