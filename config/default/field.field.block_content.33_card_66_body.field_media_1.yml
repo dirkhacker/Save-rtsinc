@@ -13,7 +13,7 @@ bundle: 33_card_66_body
 label: 'Media 1'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

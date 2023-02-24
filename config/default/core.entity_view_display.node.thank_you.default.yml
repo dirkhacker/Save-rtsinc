@@ -6,8 +6,8 @@ dependencies:
     - field.field.node.thank_you.body
     - node.type.thank_you
   module:
+    - manage_display
     - text
-    - user
 id: node.thank_you.default
 targetEntityType: node
 bundle: thank_you
@@ -25,4 +25,16 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  langcode: true
+  uid: true

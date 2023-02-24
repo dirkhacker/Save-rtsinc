@@ -1,0 +1,20 @@
+uuid: 0daa3de5-d956-4db4-a46a-89c33dfe6bc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.industry
+  module:
+    - path
+id: node.industry.path
+field_name: path
+entity_type: node
+bundle: industry
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

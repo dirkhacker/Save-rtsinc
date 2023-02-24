@@ -1,0 +1,22 @@
+uuid: faa11185-50b2-43e7-9da0-1b0a66fc53d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_card_66_body
+id: block_content.33_card_66_body.status
+field_name: status
+entity_type: block_content
+bundle: 33_card_66_body
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

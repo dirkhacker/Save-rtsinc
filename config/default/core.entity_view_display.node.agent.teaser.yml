@@ -14,8 +14,8 @@ dependencies:
     - field.field.node.agent.field_rts_highlight
     - node.type.agent
   module:
+    - manage_display
     - text
-    - user
 id: node.agent.teaser
 targetEntityType: node
 bundle: agent
@@ -34,7 +34,17 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
+  created: true
   field_agent_crm_name: true
   field_agent_profile_picture: true
   field_agent_type: true
@@ -42,3 +52,5 @@ hidden:
   field_linkedin_url: true
   field_phone: true
   field_rts_highlight: true
+  langcode: true
+  uid: true

@@ -6,8 +6,8 @@ dependencies:
     - field.field.node.agent_company.body
     - node.type.agent_company
   module:
+    - manage_display
     - text
-    - user
 id: node.agent_company.default
 targetEntityType: node
 bundle: agent_company
@@ -25,4 +25,16 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  langcode: true
+  uid: true

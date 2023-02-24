@@ -1,0 +1,20 @@
+uuid: 5cdbdd41-940e-4253-aae5-abd321027734
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.global_taxonomy
+  module:
+    - text
+id: taxonomy_term.global_taxonomy.description
+field_name: description
+entity_type: taxonomy_term
+bundle: global_taxonomy
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

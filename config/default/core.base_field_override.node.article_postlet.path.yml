@@ -1,0 +1,20 @@
+uuid: e30c5849-7c24-4914-a973-7042399a3496
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article_postlet
+  module:
+    - path
+id: node.article_postlet.path
+field_name: path
+entity_type: node
+bundle: article_postlet
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

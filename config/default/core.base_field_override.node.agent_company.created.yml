@@ -1,0 +1,18 @@
+uuid: bd8ff968-9dba-4409-bfa6-e05f9b7cf946
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agent_company
+id: node.agent_company.created
+field_name: created
+entity_type: node
+bundle: agent_company
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

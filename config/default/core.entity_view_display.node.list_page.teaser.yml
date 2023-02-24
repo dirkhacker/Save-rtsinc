@@ -7,8 +7,8 @@ dependencies:
     - field.field.node.list_page.body
     - node.type.list_page
   module:
+    - manage_display
     - text
-    - user
 id: node.list_page.teaser
 targetEntityType: node
 bundle: list_page
@@ -27,4 +27,16 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  langcode: true
+  uid: true

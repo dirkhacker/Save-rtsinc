@@ -6,6 +6,7 @@ dependencies:
     - comment.type.comment
     - field.field.comment.comment.comment_body
   module:
+    - manage_display
     - text
 _core:
   default_config_hash: aBQUGsQ46M4048fIlFuTXwl2zV0j2cJX89CTUobh9hA
@@ -24,4 +25,24 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+  subject:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h3
+    third_party_settings: {  }
+    weight: -49
+    region: content
+  uid:
+    type: submitted
+    label: hidden
+    settings:
+      user_picture: ''
+    third_party_settings: {  }
+    weight: -50
+    region: content
+hidden:
+  created: true
+  langcode: true
+  pid: true

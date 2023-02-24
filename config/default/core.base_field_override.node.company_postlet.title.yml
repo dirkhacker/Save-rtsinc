@@ -1,0 +1,18 @@
+uuid: 45c24829-ecff-4910-99e8-4888c0585700
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.company_postlet
+id: node.company_postlet.title
+field_name: title
+entity_type: node
+bundle: company_postlet
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 27e1cfba-3a8a-4b37-875f-e5fc8b2c52ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card_img
+id: block_content.card_img.status
+field_name: status
+entity_type: block_content
+bundle: card_img
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: 50dad357-01a8-4273-b288-8a883f75c9b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.data_fmcsa_new_auth
+id: node.data_fmcsa_new_auth.status
+field_name: status
+entity_type: node
+bundle: data_fmcsa_new_auth
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

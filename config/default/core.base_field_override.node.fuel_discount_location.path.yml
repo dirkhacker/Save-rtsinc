@@ -1,0 +1,20 @@
+uuid: 5c556002-7bd5-4b0d-8e62-e4015a646ca4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fuel_discount_location
+  module:
+    - path
+id: node.fuel_discount_location.path
+field_name: path
+entity_type: node
+bundle: fuel_discount_location
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

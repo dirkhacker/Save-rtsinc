@@ -1,0 +1,22 @@
+uuid: 796ff74d-8a5e-4cd5-a6b2-6f3660cbe4c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.blue_card
+id: block_content.blue_card.status
+field_name: status
+entity_type: block_content
+bundle: blue_card
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

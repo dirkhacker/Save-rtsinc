@@ -1,0 +1,18 @@
+uuid: b86a56c8-0c62-4825-a593-7f4099e2b11d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employee
+id: node.employee.changed
+field_name: changed
+entity_type: node
+bundle: employee
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

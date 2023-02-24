@@ -1,0 +1,20 @@
+uuid: dd3d988a-434a-4449-8a7f-0795a45afb95
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mobile_web_view
+  module:
+    - path
+id: node.mobile_web_view.path
+field_name: path
+entity_type: node
+bundle: mobile_web_view
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

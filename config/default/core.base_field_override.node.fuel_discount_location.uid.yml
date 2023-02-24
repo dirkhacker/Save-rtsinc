@@ -1,0 +1,20 @@
+uuid: 78137f4b-7c66-4aa1-9880-8daa787a0534
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fuel_discount_location
+id: node.fuel_discount_location.uid
+field_name: uid
+entity_type: node
+bundle: fuel_discount_location
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

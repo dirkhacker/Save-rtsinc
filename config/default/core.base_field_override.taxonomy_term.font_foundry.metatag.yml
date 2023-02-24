@@ -1,0 +1,18 @@
+uuid: 1b80c914-c7c1-4bae-9fb3-f7152d85b151
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_foundry
+id: taxonomy_term.font_foundry.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: font_foundry
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

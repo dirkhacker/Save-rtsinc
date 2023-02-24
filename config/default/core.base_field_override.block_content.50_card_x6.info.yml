@@ -1,0 +1,18 @@
+uuid: 6dfcdd34-3afa-4796-a19c-ad96247e24bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6
+id: block_content.50_card_x6.info
+field_name: info
+entity_type: block_content
+bundle: 50_card_x6
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

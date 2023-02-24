@@ -1,0 +1,20 @@
+uuid: 33a22f2d-af92-49a2-9416-5b160ed48d90
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.reviews
+  module:
+    - path
+id: node.reviews.path
+field_name: path
+entity_type: node
+bundle: reviews
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

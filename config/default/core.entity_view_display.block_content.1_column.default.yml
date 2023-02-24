@@ -70,4 +70,5 @@ content:
         class: 'display-2 mb-2'
     weight: 0
     region: content
-hidden: {  }
+hidden:
+  langcode: true

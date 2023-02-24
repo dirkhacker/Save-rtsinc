@@ -1,0 +1,18 @@
+uuid: 3cc401a5-91b5-4921-9487-85c78528a2e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_card_66_body
+id: block_content.33_card_66_body.changed
+field_name: changed
+entity_type: block_content
+bundle: 33_card_66_body
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -32,5 +32,6 @@ content:
 hidden:
   field_user_full_name: true
   field_user_title: true
+  langcode: true
   member_for: true
   name: true

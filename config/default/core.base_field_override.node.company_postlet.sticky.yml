@@ -1,0 +1,22 @@
+uuid: 69f5bb66-d86c-4f19-9002-d6281428d389
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.company_postlet
+id: node.company_postlet.sticky
+field_name: sticky
+entity_type: node
+bundle: company_postlet
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

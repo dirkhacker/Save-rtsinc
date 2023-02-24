@@ -1,0 +1,18 @@
+uuid: cec34815-6cdc-4dd0-b7e2-29a1313573dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.66_text_33_image_body
+id: block_content.66_text_33_image_body.info
+field_name: info
+entity_type: block_content
+bundle: 66_text_33_image_body
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

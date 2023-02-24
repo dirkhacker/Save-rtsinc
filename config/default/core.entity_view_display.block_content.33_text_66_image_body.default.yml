@@ -169,4 +169,5 @@ content:
         class: 'display-2 mb-2 font-weight-bold'
     weight: 6
     region: content
-hidden: {  }
+hidden:
+  langcode: true

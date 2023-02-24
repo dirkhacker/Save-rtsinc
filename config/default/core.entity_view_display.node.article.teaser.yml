@@ -11,9 +11,9 @@ dependencies:
     - image.style.medium
     - node.type.article
   module:
-    - image
+    - manage_display
+    - svg_image
     - text
-    - user
 _core:
   default_config_hash: 0ur5-yZyR8pJ3lugC_Micbr6V_tpMWz-yHFhtuLcZo8
 id: node.article.teaser
@@ -51,6 +51,18 @@ content:
   links:
     weight: 100
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
   comment: true
+  created: true
   field_tags: true
+  langcode: true
+  uid: true

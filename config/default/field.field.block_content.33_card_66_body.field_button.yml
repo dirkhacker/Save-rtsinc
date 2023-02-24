@@ -12,7 +12,7 @@ bundle: 33_card_66_body
 label: Button
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

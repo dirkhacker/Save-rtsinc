@@ -1,0 +1,18 @@
+uuid: 60f43bd0-bac1-4f65-8304-4ba80ad31ef0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.blue_card
+id: block_content.blue_card.info
+field_name: info
+entity_type: block_content
+bundle: blue_card
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

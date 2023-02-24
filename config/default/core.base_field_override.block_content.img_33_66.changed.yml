@@ -1,0 +1,18 @@
+uuid: b48f3327-bc4c-4db2-b2f6-ed5ba9e68e98
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.img_33_66
+id: block_content.img_33_66.changed
+field_name: changed
+entity_type: block_content
+bundle: img_33_66
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

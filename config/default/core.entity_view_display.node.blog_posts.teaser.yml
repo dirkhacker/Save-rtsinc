@@ -54,4 +54,5 @@ hidden:
   field_image: true
   field_subheading: true
   field_weight: true
+  langcode: true
   uid: true

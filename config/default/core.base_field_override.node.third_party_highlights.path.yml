@@ -1,0 +1,20 @@
+uuid: 393a2386-0ea0-4240-ae9c-0fc9184cabc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.third_party_highlights
+  module:
+    - path
+id: node.third_party_highlights.path
+field_name: path
+entity_type: node
+bundle: third_party_highlights
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

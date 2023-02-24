@@ -114,4 +114,5 @@ content:
         class: h3
     weight: 3
     region: content
-hidden: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,18 @@
+uuid: 3f1c6d8f-b92d-438c-bb8e-ed0cdcc3d9d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.33_card_66_body
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.33_card_66_body
+target_entity_type_id: block_content
+target_bundle: 33_card_66_body
+default_langcode: site_default
+language_alterable: false

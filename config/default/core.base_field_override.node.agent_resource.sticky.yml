@@ -1,0 +1,22 @@
+uuid: b31037db-8637-4554-8491-853499b8a603
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agent_resource
+id: node.agent_resource.sticky
+field_name: sticky
+entity_type: node
+bundle: agent_resource
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

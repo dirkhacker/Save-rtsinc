@@ -1,0 +1,22 @@
+uuid: c4ea5e1c-aeb4-4996-8e86-3c574f52e81e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agent
+id: node.agent.sticky
+field_name: sticky
+entity_type: node
+bundle: agent
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

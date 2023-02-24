@@ -1,0 +1,18 @@
+uuid: 2a1ca9db-d1ef-4020-bcc2-b24e5c9b9b94
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agent_company
+id: node.agent_company.metatag
+field_name: metatag
+entity_type: node
+bundle: agent_company
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

@@ -1,0 +1,18 @@
+uuid: 1af9e913-52a2-4ff8-82f9-eeb8f4161eb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agent_company
+id: node.agent_company.title
+field_name: title
+entity_type: node
+bundle: agent_company
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

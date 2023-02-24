@@ -66,4 +66,5 @@ content:
         class: 'fs-3 pb-3 fw-bold text-black'
     weight: 2
     region: content
-hidden: {  }
+hidden:
+  langcode: true

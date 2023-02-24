@@ -1,0 +1,22 @@
+uuid: 8eb0013a-1649-4f13-aaa9-ac9b98bbeaee
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article_postlet
+id: node.article_postlet.status
+field_name: status
+entity_type: node
+bundle: article_postlet
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

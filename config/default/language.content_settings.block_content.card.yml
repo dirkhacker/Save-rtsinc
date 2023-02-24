@@ -1,0 +1,18 @@
+uuid: 45c4e771-c422-4072-bbd2-c2d8b52571b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.card
+target_entity_type_id: block_content
+target_bundle: card
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,20 @@
+uuid: 52f4eda9-4d36-43ef-9b39-0ee2b25e3101
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agent_resource
+  module:
+    - path
+id: node.agent_resource.path
+field_name: path
+entity_type: node
+bundle: agent_resource
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

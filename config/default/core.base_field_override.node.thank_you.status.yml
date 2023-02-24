@@ -1,0 +1,22 @@
+uuid: e64c7428-5b35-4047-b7db-5511850d797d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.thank_you
+id: node.thank_you.status
+field_name: status
+entity_type: node
+bundle: thank_you
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

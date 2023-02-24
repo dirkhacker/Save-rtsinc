@@ -1,0 +1,18 @@
+uuid: 5cfccc69-2709-49d5-bc35-80928bc629d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.blue_card
+id: block_content.blue_card.changed
+field_name: changed
+entity_type: block_content
+bundle: blue_card
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

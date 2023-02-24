@@ -1,0 +1,18 @@
+uuid: 81f4e505-8a46-400d-84d2-2363cad7139a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.66_33_text_img
+id: block_content.66_33_text_img.info
+field_name: info
+entity_type: block_content
+bundle: 66_33_text_img
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

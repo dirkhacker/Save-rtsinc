@@ -1,0 +1,20 @@
+uuid: bc308b41-3f8c-4038-b881-1ec6c08dd29f
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_foundry
+  module:
+    - path
+id: taxonomy_term.font_foundry.path
+field_name: path
+entity_type: taxonomy_term
+bundle: font_foundry
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

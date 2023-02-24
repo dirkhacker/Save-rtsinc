@@ -1,0 +1,18 @@
+uuid: 154bf7af-9c2a-4cb5-aea3-dbf8359f7f7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.thank_you
+id: node.thank_you.created
+field_name: created
+entity_type: node
+bundle: thank_you
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
