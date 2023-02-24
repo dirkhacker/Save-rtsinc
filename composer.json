@@ -57,7 +57,7 @@
         "drupal/views_bootstrap": "^5.5@alpha",
         "drupal/webform": "^6.1",
         "drupal/weight": "^3.3",
-        "drush/drush": "^10",
+        "drush/drush": "^11.5",
         "pantheon-systems/drupal-integrations": "^9",
         "pantheon-upstreams/upstream-configuration": "self.version"
     },
