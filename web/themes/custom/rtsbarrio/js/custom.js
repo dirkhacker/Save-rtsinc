@@ -39,10 +39,6 @@
       });
 
       // Language switcher hide when mouse out
-/*       $(".language-switcher-custom").mouseout(function(){
-        $(".language-links").removeClass("active");
-      }); */
-      // Language switcher hide when clicking off
       $(document).mouseup(function (e) {
       if (!$('.language-switcher-custom').is(e.target) && !$("language-switcher-custom.active").length) {
             $('.language-links').removeClass("active");

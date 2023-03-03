@@ -1,6 +1,6 @@
 /* 
-Theme Name: Bootstrap 4 Sass
-Description: Bootstrap 4 with Sass
+Theme Name: RTS Barrio
+Description: Bootstrap 5 with Sass subtheme
 */
 
 // import files
@@ -258,7 +258,7 @@ form.webform-submission-form {
 }
 
 
-// Language Switcher
+////////////////////////////// Language Switcher
 .language-switcher-custom { 
     position: inherit;
     top: 0;
@@ -275,9 +275,6 @@ form.webform-submission-form {
 .has-translation .language-switcher-custom { display: block; padding-right: 16px !important;
   //@include bp-lg { display: none; }
 }
-//.language-switcher-custom .block-content { line-height: 1em; }
-//.language-switcher-custom a { display: flex; align-items: center; }
-//.i18n-es .language-links { right: 84px; }
 .language-switcher-custom svg {
     fill: $gray-600;
     &:hover {
@@ -302,8 +299,78 @@ form.webform-submission-form {
     }
 }
 .language-links.active { display: block !important; }
-//.language-switcher-custom.active { padding-bottom: 42px; padding-top: 44px; border-bottom: 3px solid $blue; }
 
+
+/////////////////////// SEARCH
+$search-box-transition-length: 0.1s;
+$search-box-size-inactive: 40px;
+$sbtl: $search-box-transition-length;
+
+.search {
+  &-container {
+    padding: 40px;
+  }  
+  
+  &-box {
+    background: rgb(255, 255, 255);
+    background-image: url('../images/search.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    transition: width $sbtl, border-radius $sbtl, background $sbtl, box-shadow $sbtl;
+
+    // using the sibling selector
+    & + label              { max-width: 0;}
+    & + label .search-icon { color: $gray-600; transition: all 0.1s }
+
+    &:hover {
+      background: $gray-200;
+      background-image: url('../images/search.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      box-shadow: 0 0 0 3px $blue;
+
+      & + label .search-icon { color: white; }
+    }
+    
+    &:focus {
+      border: none;
+      border-radius: auto;
+      background: rgb(235, 235, 235);
+      box-shadow: none;
+      color: black;
+      cursor: text;
+      outline: none;
+      padding-left: 15px;
+      transition: width $sbtl cubic-bezier(0,1.22,.66,1.39), border-radius $sbtl, background $sbtl;
+      width: 300px;
+
+    & + label .search-icon { color: $gray-600; }
+    }
+    
+    &:not(:focus) { 
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden; 
+    }
+  }
+  
+/*   &-icon {
+    cursor: pointer;
+    left: -31px;
+    position: relative;
+    top: 2px;
+  } */
+  
+  &-btn {
+    display: none;
+    position: relative;
+  }
+}
 
 
 /* HERO

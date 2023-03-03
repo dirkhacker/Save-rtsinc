@@ -1,0 +1,29 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a 'form' element.
+ *
+ * Available variables:
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ */
+#}
+
+{# Initial Drupal code with comments removed, from consolidating child twig files
+<form{{ attributes.addClass('search-form', 'search-block-form', 'form-row') }}>
+  <fieldset class="js-form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label mb-4">
+    <label for="edit-keys" class="visually-hidden">Search</label>
+    <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search form-control">
+  </fieldset>
+  <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper mb-3" id="edit-actions">
+    <button data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit btn btn-">Search</button>
+  </div>
+</form> #}
+
+<form {{ attributes.addClass('search-form', 'search-block-form', 'form-row', 'search-container') }} action="">
+  <input class="search-box form-search form-control" id="search-box edit-keys" type="search" name="keys" placeholder="Search..." data-drupal-selector="edit-keys"></input>
+  <label class="edit-keys search-icon-container" for="search-box"></label>
+  <button class="search-btn js-form-submit form-submit" type="submit" id="edit-submit" title="Submit" value="search" data-drupal-selector="edit-submit"></button>
+</form>
