@@ -52,3 +52,5 @@ tooling:
 proxy:
   mailhog:
     - mail.rtsinc.lndo.site
+  phpmyadmin:
+    - phpmyadmin.rtsinc.lndo.site
