@@ -1,0 +1,10 @@
+name: RTS Migrations
+type: module
+description: Migrating blogs from the csv files.
+core_version_requirement: 9.x
+package: RTS Migrations
+dependencies:
+  - drupal:migrate_source_csv
+  - drupal:migrate_plus
+  - drupal:migrate_tools
+  - drupal:migrate_file

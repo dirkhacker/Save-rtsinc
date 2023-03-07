@@ -1,0 +1,35 @@
+id: rtsm_global_taxonomy_terms
+label: 'RTSINC global taxonomy term migration'
+migration_group: rtsinc_blogs
+source:
+  plugin: embedded_data
+  data_rows:
+    - name: 'Accounting'
+    - name: 'Agent'
+    - name: 'Company Information'
+    - name: 'Contact'
+    - name: 'Dispatch'
+    - name: 'Equipment Finance'
+    - name: 'Factoring'
+    - name: 'Finance'
+    - name: 'Freight Brokers'
+    - name: 'Fuel Card'
+    - name: 'Insurance'
+    - name: 'International'
+    - name: 'Loads'
+    - name: 'Mexico'
+    - name: 'Oilfield'
+    - name: 'Recruiting'
+    - name: 'Regulations'
+    - name: 'RTS Pro'
+    - name: 'Software'
+    - name: 'Startup'
+    - name: 'Trucking'
+  ids:
+    name:
+      type: string
+process:
+  name: name
+destination:
+  plugin: 'entity:taxonomy_term'
+  default_bundle: global_taxonomy

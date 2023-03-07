@@ -1,0 +1,67 @@
+uuid: 2e64016e-35c4-425e-a299-ef4e88928e27
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: S6MeuF4QCyrFkGL4Ptk7zP2DjU8px_z7uQSU3Y2aKFE
+id: rtsm_global_taxonomy_terms
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: rtsinc_blogs
+label: 'RTSINC global taxonomy term migration'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      name: Accounting
+    -
+      name: Agent
+    -
+      name: 'Company Information'
+    -
+      name: Contact
+    -
+      name: Dispatch
+    -
+      name: 'Equipment Finance'
+    -
+      name: Factoring
+    -
+      name: Finance
+    -
+      name: 'Freight Brokers'
+    -
+      name: 'Fuel Card'
+    -
+      name: Insurance
+    -
+      name: International
+    -
+      name: Loads
+    -
+      name: Mexico
+    -
+      name: Oilfield
+    -
+      name: Recruiting
+    -
+      name: Regulations
+    -
+      name: 'RTS Pro'
+    -
+      name: Software
+    -
+      name: Startup
+    -
+      name: Trucking
+  ids:
+    name:
+      type: string
+process:
+  name: name
+destination:
+  plugin: 'entity:taxonomy_term'
+  default_bundle: global_taxonomy
+migration_dependencies: null

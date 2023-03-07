@@ -1,0 +1,15 @@
+uuid: 9b8dfa9e-5c1b-4fa9-9435-ed0e689b962b
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rts_migrations
+_core:
+  default_config_hash: nenaOW39bPtznIvv47OJmCZ6iOue98YhCeo5msNTpPc
+id: rtsinc_blogs
+label: 'RTS Inc Blog migration group'
+description: 'A container for migrations for RTS Inc Blogs'
+source_type: 'CSV resource'
+module: null
+shared_configuration: null

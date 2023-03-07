@@ -1,0 +1,93 @@
+id: blogs_es
+label: 'RTS node migration for spanish blogs'
+migration_group: rtsinc_blogs
+migration_tags:
+  - RTS Blog
+source:
+  translations: true
+  plugin: csv
+  header_rows: 1
+  path: modules/custom/rts_migrations/sources/blogs/blogs-es.csv
+  ids: [nid_en]
+  constants:
+    image_destination: 'public://blogs/'
+    lang_es: es
+process:
+  # WORKING
+  langcode: constants/lang_es
+  content_translation_source:
+    plugin: default_value
+    default_value: 'en'
+  nid:
+    plugin: migration_lookup
+    source: nid_en
+    migration: blogs
+  type:
+    plugin: default_value
+    default_value: blog_posts
+  title: title
+  field_heading: field_heading
+  body/value: body
+  body/langcode: es
+  body/format:
+    plugin: default_value
+    default_value: full_html
+#  path/pathauto:
+#    plugin: default_value
+#    default_value: 0
+#  path/alias: alias_path
+#  uid: user_id
+  field_subheading: field_sub_headline
+#  field_premium_content: field_premium_content
+#  field_headline: field_headline
+#  field_weight: field_weight
+  field_image:
+    plugin: image_import
+    source: field_image
+    destination: 'constants/image_destination'
+    title: field_image_title
+    alt: field_image_alt
+#  field_category:
+#    - plugin: skip_on_empty
+#      source: field_category
+#      method: process
+#      message: 'Row does not contain category.'
+#    - plugin: explode
+#      delimiter: ';'
+#    - plugin: callback
+#      callable: trim
+#    - plugin: migration_lookup
+#      migration: rtsm_category_taxonomy_terms
+#      no_stub: true
+#
+#  field_global_taxonomy:
+#    - plugin: skip_on_empty
+#      source: field_global_taxonomy
+#      method: process
+#      message: 'Row does not contain global taxonomy.'
+#    - plugin: explode
+#      delimiter: ','
+#    - plugin: callback
+#      callable: trim
+#    - plugin: migration_lookup
+#      migration: rtsm_global_taxonomy_terms
+#      no_stub: true
+#  created:
+#    plugin: format_date
+#    source: created
+#    from_format: 'U'
+#    to_format: 'U'
+#    from_timezone: 'UTC'
+#    to_timezone: 'UTC'
+#  status: status
+#  promote: promote
+#  sticky: sticky
+  # NOT WORKING
+#  field_featured_article: field_featured_article
+destination:
+  plugin: 'entity:node'
+  translations: true
+migration_dependencies:
+  required:
+    - migration_plus.migration.blogs
+#  optional: []

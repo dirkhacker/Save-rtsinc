@@ -62,6 +62,11 @@ module:
   menu_link_content: 0
   menu_ui: 0
   metatag: 0
+  migrate: 0
+  migrate_file: 0
+  migrate_plus: 0
+  migrate_source_csv: 0
+  migrate_tools: 0
   mysql: 0
   node: 0
   options: 0
@@ -72,6 +77,7 @@ module:
   recaptcha_v3: 0
   redirect: 0
   responsive_image: 0
+  rts_migrations: 0
   search: 0
   section_library: 0
   shamrock: 0

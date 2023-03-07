@@ -1,0 +1,25 @@
+id: rtsm_category_taxonomy_terms
+label: 'RTSINC article categories taxonomy term migration'
+migration_group: rtsinc_blogs
+source:
+  plugin: embedded_data
+  data_rows:
+    - name: 'Accounting'
+    - name: 'Business'
+    - name: 'Factoring'
+    - name: 'Finance'
+    - name: 'Fuel Savings'
+    - name: 'Oilfield'
+    - name: 'Regulation'
+    - name: 'Safety and Health'
+    - name: 'Technology'
+    - name: 'Trucking'
+    - name: 'Trucking Start-up'
+  ids:
+    name:
+      type: string
+process:
+  name: name
+destination:
+  plugin: 'entity:taxonomy_term'
+  default_bundle: article_categories

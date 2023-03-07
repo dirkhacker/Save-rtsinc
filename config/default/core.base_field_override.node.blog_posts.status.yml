@@ -1,21 +1,20 @@
-uuid: c3cb3e58-d048-4973-847e-3d4269a6211e
+uuid: eb4ffadd-8b47-4c66-a074-3622e4f6ca0f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_featured_article
     - node.type.blog_posts
-id: node.blog_posts.field_featured_article
-field_name: field_featured_article
+id: node.blog_posts.status
+field_name: status
 entity_type: node
 bundle: blog_posts
-label: 'Featured Article'
+label: Published
 description: ''
 required: false
 translatable: false
 default_value:
   -
-    value: 0
+    value: 1
 default_value_callback: ''
 settings:
   on_label: 'On'

@@ -1,0 +1,47 @@
+uuid: e315198b-4fbf-4dbf-86e2-c3e2e3a08759
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3CGot7GPXq3f3uN45cxlNuIxlJSqE6xtr2ROTwibYho
+id: rtsm_category_taxonomy_terms
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: rtsinc_blogs
+label: 'RTSINC article categories taxonomy term migration'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      name: Accounting
+    -
+      name: Business
+    -
+      name: Factoring
+    -
+      name: Finance
+    -
+      name: 'Fuel Savings'
+    -
+      name: Oilfield
+    -
+      name: Regulation
+    -
+      name: 'Safety and Health'
+    -
+      name: Technology
+    -
+      name: Trucking
+    -
+      name: 'Trucking Start-up'
+  ids:
+    name:
+      type: string
+process:
+  name: name
+destination:
+  plugin: 'entity:taxonomy_term'
+  default_bundle: article_categories
+migration_dependencies: null
