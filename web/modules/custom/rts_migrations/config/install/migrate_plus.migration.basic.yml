@@ -1,0 +1,89 @@
+id: basic
+label: 'RTS node migration for basic pages'
+migration_group: rtsinc_basic
+migration_tags:
+  - RTS Basic Pages
+source:
+  plugin: csv
+  header_rows: 1
+  path: modules/custom/rts_migrations/sources/basic/basic.csv
+  ids: [nid]
+  constants:
+    image_destination: 'public://basic_pages/'
+    lang_en: en
+process:
+  # WORKING
+  type:
+    plugin: default_value
+    default_value: blog_posts
+  title: title
+  field_heading: field_heading
+  body/value: body
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  path/pathauto:
+    plugin: default_value
+    default_value: 0
+  path/alias: alias_path
+  uid: user_id
+  field_subheading: field_sub_headline
+  field_premium_content: field_premium_content
+  field_headline: field_headline
+  field_weight: field_weight
+  field_image:
+    plugin: image_import
+    source: field_image
+    destination: 'constants/image_destination'
+    title: field_image_title
+    alt: field_image_alt
+  field_category:
+    - plugin: skip_on_empty
+      source: field_category
+      method: process
+      message: 'Row does not contain category.'
+    - plugin: explode
+      delimiter: ';'
+    - plugin: callback
+      callable: trim
+    - plugin: migration_lookup
+      migration: rtsm_category_taxonomy_terms
+      no_stub: true
+
+  field_global_taxonomy:
+    - plugin: skip_on_empty
+      source: field_global_taxonomy
+      method: process
+      message: 'Row does not contain global taxonomy.'
+    - plugin: explode
+      delimiter: ','
+    - plugin: callback
+      callable: trim
+    - plugin: migration_lookup
+      migration: rtsm_global_taxonomy_terms
+      no_stub: true
+  created:
+    plugin: format_date
+    source: created
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
+  status: status
+  promote: promote
+  sticky: sticky
+  # NOT WORKING
+  langcode: constants/lang_en
+  field_featured_article: field_featured_article
+  field_hero_agent_toggle: field_hero_agent_toggle
+  field_hero_contact_toggle: field_hero_contact_toggle
+  field_hero_contact_toggle_es: field_hero_contact_toggle_es
+  field_hero_modal_toggle: field_hero_modal_toggle
+destination:
+  plugin: 'entity:node'
+  default_bundle: page
+migration_dependencies:
+  required:
+    - rtsm_global_taxonomy_terms
+    - rtsm_category_taxonomy_terms
+#  optional: []
