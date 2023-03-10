@@ -8,13 +8,11 @@ dependencies:
     - image.style.blog_card_image
     - node.type.blog_posts
     - taxonomy.vocabulary.article_categories
-    - taxonomy.vocabulary.article_categories
   module:
     - better_exposed_filters
     - manage_display
     - node
     - svg_image
-    - taxonomy
     - taxonomy
     - user
     - views_bootstrap
@@ -523,6 +521,21 @@ display:
       title: ''
       defaults:
         title: false
+        header: false
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: ''
+            format: full_html
+          tokenize: false
       display_extenders: {  }
     cache_metadata:
       max-age: -1
@@ -541,6 +554,7 @@ display:
     display_plugin: page
     position: 1
     display_options:
+      enabled: false
       fields:
         field_image:
           id: field_image
@@ -1077,7 +1091,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user
         - 'user.node_grants:view'
         - user.permissions

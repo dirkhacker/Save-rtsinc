@@ -20,7 +20,6 @@ dependencies:
   module:
     - layout_builder
     - layout_builder_restrictions
-    - options
     - text
 third_party_settings:
   layout_builder:
@@ -47,84 +46,20 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_category:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  field_featured_article:
-    type: boolean
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    weight: 9
-    region: content
-  field_global_taxonomy:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_hero_agent_toggle:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 6
-    region: content
-  field_hero_contact_toggle:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 5
-    region: content
-  field_hero_contact_toggle_es:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 7
-    region: content
-  field_hero_modal_toggle:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 8
-    region: content
-  field_premium_content:
-    type: boolean
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    weight: 3
-    region: content
-  field_weight:
-    type: number_integer
-    label: above
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 4
-    region: content
 hidden:
   created: true
+  field_category: true
+  field_featured_article: true
+  field_global_taxonomy: true
   field_heading: true
+  field_hero_agent_toggle: true
+  field_hero_contact_toggle: true
+  field_hero_contact_toggle_es: true
+  field_hero_modal_toggle: true
   field_image: true
+  field_premium_content: true
   field_subheading: true
+  field_weight: true
   langcode: true
   links: true
   title: true

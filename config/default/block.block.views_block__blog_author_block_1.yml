@@ -6,7 +6,7 @@ dependencies:
     - views.view.blog_author
   module:
     - block_class
-    - node
+    - system
     - views
   theme:
     - rtsbarrio
@@ -28,10 +28,7 @@ settings:
   views_label: ''
   items_per_page: none
 visibility:
-  'entity_bundle:node':
-    id: 'entity_bundle:node'
+  request_path:
+    id: request_path
     negate: false
-    context_mapping:
-      node: '@node.node_route_context:node'
-    bundles:
-      blog_posts: blog_posts
+    pages: '/articles/*'

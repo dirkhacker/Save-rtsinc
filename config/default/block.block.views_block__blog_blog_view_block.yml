@@ -1,0 +1,29 @@
+uuid: 43245977-ccf1-4aee-b795-b019f54923a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog
+  module:
+    - system
+    - views
+  theme:
+    - rtsbarrio
+id: views_block__blog_blog_view_block
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:blog-blog_view_block'
+settings:
+  id: 'views_block:blog-blog_view_block'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /page/blog
