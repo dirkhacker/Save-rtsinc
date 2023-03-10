@@ -1,25 +1,25 @@
-uuid: 7b360d24-b133-48ab-9eb7-c6ec95f6efdc
+uuid: e77005e5-187f-4ea2-9ea9-e5a51a9b086c
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: WmQ_anL2N33w5_Sndx48ZuEHbuBuGO-oNMM67yH5rXo
-id: blogs
+  default_config_hash: nXFdyr6mTjf9q0R-ZrHUadOC--e8QHfhCN2Hz288Z0c
+id: basic
 class: null
 field_plugin_method: null
 cck_plugin_method: null
 migration_tags:
-  - 'RTS Blog'
-migration_group: rtsinc_blogs
-label: 'RTS node migration for blogs'
+  - 'RTS Basic Pages'
+migration_group: rtsinc_basic
+label: 'RTS node migration for basic pages'
 source:
   plugin: csv
   header_rows: 1
-  path: modules/custom/rts_migrations/sources/blogs/blogs.csv
+  path: modules/custom/rts_migrations/sources/basic/basic.csv
   ids:
     - nid
   constants:
-    image_destination: 'public://blogs/'
+    image_destination: 'public://basic_pages/'
     lang_en: en
 process:
   type:
@@ -90,9 +90,13 @@ process:
   sticky: sticky
   langcode: constants/lang_en
   field_featured_article: field_featured_article
+  field_hero_agent_toggle: field_hero_agent_toggle
+  field_hero_contact_toggle: field_hero_contact_toggle
+  field_hero_contact_toggle_es: field_hero_contact_toggle_es
+  field_hero_modal_toggle: field_hero_modal_toggle
 destination:
   plugin: 'entity:node'
-  default_bundle: blog_posts
+  default_bundle: page
 migration_dependencies:
   required:
     - rtsm_global_taxonomy_terms

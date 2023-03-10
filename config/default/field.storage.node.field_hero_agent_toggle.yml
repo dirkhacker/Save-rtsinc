@@ -1,0 +1,30 @@
+uuid: 7edd012c-9d1a-4af7-bfb8-dbf7476d8182
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_hero_agent_toggle
+field_name: field_hero_agent_toggle
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: N/A
+      label: N/A
+    -
+      value: Hide
+      label: Hide
+    -
+      value: Show
+      label: Show
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,16 +1,15 @@
-uuid: c6c5a555-5575-48c4-85a8-7788eb4db37d
+uuid: 8346fb13-ea73-476b-928b-f614804eadd9
 langcode: en
 status: true
 dependencies:
   config:
+    - field.storage.node.field_featured_article
     - node.type.page
-_core:
-  default_config_hash: fPUEnm4T5zfZRr3ttDUqq7yCDd2uW3clWD-pvos4tlQ
-id: node.page.promote
-field_name: promote
+id: node.page.field_featured_article
+field_name: field_featured_article
 entity_type: node
 bundle: page
-label: 'Promoted to front page'
+label: 'Featured Article'
 description: ''
 required: false
 translatable: false

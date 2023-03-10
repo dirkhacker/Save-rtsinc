@@ -1,0 +1,15 @@
+uuid: 15c0b754-d3e0-40f5-adbc-f6d6b71a689e
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rts_migrations
+_core:
+  default_config_hash: l_OSGNJVFDtmwBlgl-iXqo1R1YskoNaySK2QqgW3Zog
+id: rtsinc_basic
+label: 'RTS Inc Basic Page migration group'
+description: 'A container for migrations for RTS Inc Basic Pages'
+source_type: 'CSV resource'
+module: null
+shared_configuration: null

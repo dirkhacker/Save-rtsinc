@@ -1,0 +1,29 @@
+uuid: 617531c4-d24d-44e8-bd7f-73aee608d96d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_global_taxonomy
+    - node.type.page
+    - taxonomy.vocabulary.global_taxonomy
+id: node.page.field_global_taxonomy
+field_name: field_global_taxonomy
+entity_type: node
+bundle: page
+label: 'Global Taxonomy'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      global_taxonomy: global_taxonomy
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

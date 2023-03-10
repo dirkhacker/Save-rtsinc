@@ -1,0 +1,30 @@
+uuid: c9bfdccb-0d84-46c8-9d77-d90c4564af98
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_hero_contact_toggle_es
+field_name: field_hero_contact_toggle_es
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: N/A
+      label: N/A
+    -
+      value: Hide
+      label: Hide
+    -
+      value: Show
+      label: Show
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

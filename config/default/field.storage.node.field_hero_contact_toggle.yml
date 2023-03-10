@@ -1,0 +1,30 @@
+uuid: 47a834db-8fca-4749-bcd2-be8f74c76162
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_hero_contact_toggle
+field_name: field_hero_contact_toggle
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: N/A
+      label: N/A
+    -
+      value: None
+      label: None
+    -
+      value: 'Contact Us'
+      label: 'Contact Us'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
