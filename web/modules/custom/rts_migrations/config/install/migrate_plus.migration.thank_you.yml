@@ -1,0 +1,49 @@
+id: thank_you
+label: 'RTS node migration for Thank You content'
+migration_group: rtsinc_thank_you
+migration_tags:
+  - RTS Thank You content type
+source:
+  plugin: csv
+  header_rows: 1
+  path: modules/custom/rts_migrations/sources/thankyou/thankyou.csv
+  ids: [nid]
+  constants:
+    image_destination: 'public://thank_you/'
+    lang_en: en
+process:
+  type:
+    plugin: default_value
+    default_value: thank_you
+  title: title
+  field_heading: field_heading
+  body/value: body
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  path/pathauto:
+    plugin: default_value
+    default_value: 0
+  path/alias: alias_path
+  uid: user_id
+  field_headline: field_headline
+  field_image:
+    plugin: image_import
+    source: field_image
+    destination: 'constants/image_destination'
+    title: field_image_title
+    alt: field_image_alt
+  created:
+    plugin: format_date
+    source: created
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
+  status: status
+  promote: promote
+  sticky: sticky
+  langcode: constants/lang_en
+destination:
+  plugin: 'entity:node'
+  default_bundle: thank_you
