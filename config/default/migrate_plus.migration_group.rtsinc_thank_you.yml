@@ -1,0 +1,15 @@
+uuid: 7b6873b4-8d62-4b2d-b66f-445fedf2b5af
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rts_migrations
+_core:
+  default_config_hash: XaTwG9BODrUK15bZ6as1y2L9E5w1x4AA4v2rwyDjZJc
+id: rtsinc_thank_you
+label: 'RTS Inc Thank You migration group'
+description: 'A container for migrations for RTS Inc Thank You content'
+source_type: 'CSV resource'
+module: null
+shared_configuration: null

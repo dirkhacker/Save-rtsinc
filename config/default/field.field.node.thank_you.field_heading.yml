@@ -1,0 +1,19 @@
+uuid: c10a3666-9a95-4cfc-8ed7-4f3b38da742e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_heading
+    - node.type.thank_you
+id: node.thank_you.field_heading
+field_name: field_heading
+entity_type: node
+bundle: thank_you
+label: Heading
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

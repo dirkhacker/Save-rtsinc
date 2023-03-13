@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.thank_you.body
+    - field.field.node.thank_you.field_heading
+    - field.field.node.thank_you.field_headline
     - node.type.thank_you
   module:
     - path
@@ -28,6 +30,22 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_heading:
+    type: string_textfield
+    weight: 122
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_headline:
+    type: string_textfield
+    weight: 123
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select

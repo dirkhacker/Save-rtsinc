@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.thank_you.body
+    - field.field.node.thank_you.field_heading
+    - field.field.node.thank_you.field_headline
     - node.type.thank_you
   module:
     - manage_display
@@ -38,5 +40,7 @@ content:
     region: content
 hidden:
   created: true
+  field_heading: true
+  field_headline: true
   langcode: true
   uid: true

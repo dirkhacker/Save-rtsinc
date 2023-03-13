@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.thank_you.body
+    - field.field.node.thank_you.field_heading
+    - field.field.node.thank_you.field_headline
     - node.type.thank_you
   module:
+    - field_formatter_class
     - manage_display
     - text
 id: node.thank_you.default
@@ -18,23 +21,27 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 2
+    region: content
+  field_heading:
+    type: title
+    label: hidden
+    settings:
+      linked: false
+      tag: h2
+    third_party_settings:
+      field_formatter_class:
+        class: container
+    weight: 0
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
-    region: content
-  title:
-    type: title
-    label: hidden
-    settings:
-      linked: true
-      tag: h2
-    third_party_settings: {  }
-    weight: -49
+    weight: 1
     region: content
 hidden:
   created: true
+  field_headline: true
   langcode: true
+  title: true
   uid: true
