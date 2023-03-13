@@ -359,20 +359,36 @@ $sbtl: $search-box-transition-length;
     }
   }
   
-/*   &-icon {
-    cursor: pointer;
-    left: -31px;
-    position: relative;
-    top: 2px;
-  } */
-  
   &-btn {
     display: none;
     position: relative;
   }
 }
 
-
+.search-results {
+    & .list-group-item {
+        border: none !important;
+        padding: 0; 
+    }
+    & .form-control {
+        border-radius: 5rem;  
+        @media only screen and (min-width: 1200px) {
+            width: 70%;
+        }
+    }
+    & .search-help-link {
+        display: none;
+    }
+    & h2 {
+        display: none;
+    }
+    & .search-advanced {
+        display: none;
+    }
+    & .form-type-search label {
+        display: none;
+    }
+}
 /* HERO
 --------------------------------------------------*/
 .hero-wrapper {
