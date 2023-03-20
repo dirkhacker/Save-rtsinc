@@ -1,0 +1,54 @@
+id: users
+label: 'RTS node migration for users'
+migration_group: rtsinc_users
+migration_tags:
+  - RTS Users content type
+source:
+  plugin: csv
+  header_rows: 1
+  path: modules/custom/rts_migrations/sources/users/users.csv
+  ids: [uid]
+  constants:
+    image_destination: 'public://users/'
+    lang_en: en
+process:
+  status:
+    plugin: default_value
+    default_value: 1
+  mail: email
+  name: username
+  field_user_company_name: field_company_name
+  field_user_full_name: field_agent_name
+  field_user_phone_number: field_your_phone_number
+  field_user_title: field_author_title
+  roles:
+    - plugin: explode
+      delimiter: ';'
+      source: Roles
+    - plugin: static_map
+      map:
+        administrator: administrator
+        authenticated: authenticated
+        editor: content_editor
+        'agent editor': agent_editor
+        'agent company editor': agent_company_editor
+  path/pathauto:
+    plugin: default_value
+    default_value: 0
+  path/alias: alias_path
+  user_picture:
+    plugin: image_import
+    source: profile_image_path
+    destination: 'constants/image_destination'
+  created:
+    plugin: format_date
+    source: created
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
+  changed: '@created'
+  access: '@created'
+  login: '@created'
+destination:
+  plugin: 'entity:user'

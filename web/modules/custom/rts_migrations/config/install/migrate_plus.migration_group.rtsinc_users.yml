@@ -1,0 +1,8 @@
+id: rtsinc_users
+label: RTS Inc users migration group
+description: 'A container for migrations for RTS Inc users'
+source_type: 'CSV resource'
+dependencies:
+  enforced:
+    module:
+      - rts_migrations
