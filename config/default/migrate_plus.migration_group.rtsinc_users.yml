@@ -1,0 +1,15 @@
+uuid: 41a2fcf0-825c-42d7-b324-00bb4f02527f
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rts_migrations
+_core:
+  default_config_hash: RcbbfyURFCVzSaL_oMMW5cbgTW2XtGgus4NoPSTKpFg
+id: rtsinc_users
+label: 'RTS Inc users migration group'
+description: 'A container for migrations for RTS Inc users'
+source_type: 'CSV resource'
+module: null
+shared_configuration: null
