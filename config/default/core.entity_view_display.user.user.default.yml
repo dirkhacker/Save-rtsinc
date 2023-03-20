@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_user_company_name
     - field.field.user.user.field_user_full_name
+    - field.field.user.user.field_user_phone_number
     - field.field.user.user.field_user_title
     - field.field.user.user.user_picture
     - image.style.thumbnail
@@ -17,6 +19,14 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
+  field_user_company_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 9
+    region: content
   field_user_full_name:
     type: string
     label: above
@@ -24,6 +34,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 6
+    region: content
+  field_user_phone_number:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
     region: content
   field_user_title:
     type: string

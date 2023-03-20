@@ -1,0 +1,14 @@
+uuid: 4e8e49fc-8cd8-4ecd-885d-e264c53d9067
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.agent_editor
+  module:
+    - user
+id: user_remove_role_action.agent_editor
+label: 'Remove the Agent Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: agent_editor

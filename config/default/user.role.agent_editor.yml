@@ -1,0 +1,9 @@
+uuid: 08d3818e-1a85-47d5-b6c1-1f375164d910
+langcode: en
+status: true
+dependencies: {  }
+id: agent_editor
+label: 'Agent Editor'
+weight: 4
+is_admin: null
+permissions: {  }

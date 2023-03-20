@@ -3,13 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_user_company_name
     - field.field.user.user.field_user_full_name
+    - field.field.user.user.field_user_phone_number
     - field.field.user.user.field_user_title
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - path
     - svg_image
+    - telephone
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -24,12 +27,27 @@ content:
   contact:
     weight: 5
     region: content
+  field_user_company_name:
+    type: string_textfield
+    weight: 34
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_user_full_name:
     type: string_textfield
     weight: 31
     region: content
     settings:
       size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_user_phone_number:
+    type: telephone_default
+    weight: 33
+    region: content
+    settings:
       placeholder: ''
     third_party_settings: {  }
   field_user_title:

@@ -1,0 +1,14 @@
+uuid: 1b332ad0-4427-40d7-9c7d-d51572d4dced
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.agent_editor
+  module:
+    - user
+id: user_add_role_action.agent_editor
+label: 'Add the Agent Editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: agent_editor
