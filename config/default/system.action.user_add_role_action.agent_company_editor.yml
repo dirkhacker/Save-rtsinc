@@ -1,0 +1,14 @@
+uuid: 7388afeb-8a3c-418c-aa60-06ca3869e4f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.agent_company_editor
+  module:
+    - user
+id: user_add_role_action.agent_company_editor
+label: 'Add the Agent Company Editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: agent_company_editor

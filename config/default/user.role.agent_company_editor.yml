@@ -1,0 +1,9 @@
+uuid: 860384dc-4404-46f9-b197-a870f2ed1dba
+langcode: en
+status: true
+dependencies: {  }
+id: agent_company_editor
+label: 'Agent Company Editor'
+weight: 5
+is_admin: null
+permissions: {  }
