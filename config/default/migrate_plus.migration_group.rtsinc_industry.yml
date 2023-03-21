@@ -1,0 +1,15 @@
+uuid: a496cf45-aa2b-4729-9e41-de16c1fb4da0
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rts_migrations
+_core:
+  default_config_hash: '-J92tyuGARFe3NWw9MANalmQkZwW6v_vv_Z7FQDZjmU'
+id: rtsinc_industry
+label: 'RTS Inc Industry Content Type migration group'
+description: 'A container for migrations for RTS Inc Industry Content Type'
+source_type: 'CSV resource'
+module: null
+shared_configuration: null
