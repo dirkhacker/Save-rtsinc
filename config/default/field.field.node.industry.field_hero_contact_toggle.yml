@@ -1,0 +1,21 @@
+uuid: ae32ab0e-b1e4-40cf-9fa4-8388020e1ec3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_contact_toggle
+    - node.type.industry
+  module:
+    - options
+id: node.industry.field_hero_contact_toggle
+field_name: field_hero_contact_toggle
+entity_type: node
+bundle: industry
+label: 'Hero Contact Toggle'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

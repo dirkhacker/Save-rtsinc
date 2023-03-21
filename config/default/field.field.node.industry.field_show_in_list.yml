@@ -1,0 +1,21 @@
+uuid: 5cb988ef-8e53-4b3b-834b-1dbfd3d9837a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_in_list
+    - node.type.industry
+  module:
+    - options
+id: node.industry.field_show_in_list
+field_name: field_show_in_list
+entity_type: node
+bundle: industry
+label: 'Show in List'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -4,9 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.industry.body
+    - field.field.node.industry.field_global_taxonomy
     - field.field.node.industry.field_heading
+    - field.field.node.industry.field_hero_contact_toggle
     - field.field.node.industry.field_image
+    - field.field.node.industry.field_show_in_list
     - field.field.node.industry.field_subheading
+    - field.field.node.industry.field_views_title
     - image.style.thumbnail
     - node.type.industry
   module:
@@ -20,7 +24,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 4
+    weight: 8
     region: content
     settings:
       rows: 9
@@ -28,40 +32,66 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+  field_global_taxonomy:
+    type: options_buttons
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_heading:
     type: string_textfield
-    weight: 2
+    weight: 1
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_hero_contact_toggle:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_image:
     type: image_image
-    weight: 1
+    weight: 5
     region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
+  field_show_in_list:
+    type: options_select
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_subheading:
     type: string_textarea
-    weight: 3
+    weight: 2
     region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
+  field_views_title:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 2
+    weight: 6
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 5
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -74,7 +104,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
   url_redirects:
-    weight: 6
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }

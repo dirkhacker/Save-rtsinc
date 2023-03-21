@@ -1,0 +1,19 @@
+uuid: c7c0cfef-c33d-4f2e-99e2-be41e377d69e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_views_title
+    - node.type.industry
+id: node.industry.field_views_title
+field_name: field_views_title
+entity_type: node
+bundle: industry
+label: 'Views Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

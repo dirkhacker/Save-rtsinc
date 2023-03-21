@@ -5,9 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.industry.body
+    - field.field.node.industry.field_global_taxonomy
     - field.field.node.industry.field_heading
+    - field.field.node.industry.field_hero_contact_toggle
     - field.field.node.industry.field_image
+    - field.field.node.industry.field_show_in_list
     - field.field.node.industry.field_subheading
+    - field.field.node.industry.field_views_title
     - node.type.industry
   module:
     - manage_display
@@ -41,8 +45,12 @@ content:
     region: content
 hidden:
   created: true
+  field_global_taxonomy: true
   field_heading: true
+  field_hero_contact_toggle: true
   field_image: true
+  field_show_in_list: true
   field_subheading: true
+  field_views_title: true
   langcode: true
   uid: true
