@@ -1,0 +1,45 @@
+id: landing_page_es
+label: 'RTS node migration for spanish translated landing pages'
+migration_group: rtsinc_landing_page
+migration_tags:
+  - RTS Landing Page
+source:
+  translations: true
+  plugin: csv
+  header_rows: 1
+  path: modules/custom/rts_migrations/sources/landing_pages/landing-page-translated-es.csv
+  ids: [tnid]
+  constants:
+    image_destination: 'public://landing_page/'
+    lang_es: es
+process:
+  langcode: constants/lang_es
+  content_translation_source:
+    plugin: default_value
+    default_value: 'en'
+  nid:
+    plugin: migration_lookup
+    source: tnid
+    migration: landing_page
+  type:
+    plugin: default_value
+    default_value: landing_page
+  title: title
+  field_heading: field_heading
+  body/value: body
+  body/langcode: es
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  uid:
+    plugin: default_value
+    default_value: 3
+  field_subheading: field_sub_headline
+  field_headline: field_headline
+destination:
+  plugin: 'entity:node'
+  translations: true
+migration_dependencies:
+  required:
+    - migration_plus.migration.landing_page
+#  optional: []

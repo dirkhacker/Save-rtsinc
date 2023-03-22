@@ -1,0 +1,21 @@
+id: rtsm_landing_page_taxonomy_terms
+label: 'RTSINC landing page term migration'
+migration_group: rtsinc_landing_page
+source:
+  plugin: embedded_data
+  data_rows:
+    - name: 'Credit'
+    - name: 'Factoring'
+    - name: 'Freight'
+    - name: 'Fuel'
+    - name: 'Pilot Flying J'
+    - name: 'RTSpro'
+    - name: 'Software'
+  ids:
+    name:
+      type: string
+process:
+  name: name
+destination:
+  plugin: 'entity:taxonomy_term'
+  default_bundle: landing_page_categories

@@ -1,0 +1,70 @@
+id: landing_page_es_not_translated
+label: 'RTS node migration for spanish landing pages created as regular content'
+migration_group: rtsinc_landing_page
+migration_tags:
+  - RTS Landing Pages
+source:
+  plugin: csv
+  header_rows: 1
+  path: modules/custom/rts_migrations/sources/landing_pages/landing-page-spanish.csv
+  ids: [nid]
+  constants:
+    image_destination: 'public://landing_pages/'
+    lang_en: es
+process:
+  # WORKING
+  type:
+    plugin: default_value
+    default_value: landing_page
+  title: title
+  field_heading: field_heading
+  body/value: body
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  path/pathauto:
+    plugin: default_value
+    default_value: 0
+  path/alias: alias_path
+  uid:
+    plugin: default_value
+    default_value: 3
+  field_subheading: field_sub_headline
+  field_image:
+    plugin: image_import
+    source: field_image
+    destination: 'constants/image_destination'
+    title: field_image_title
+    alt: field_image_alt
+  landing_page_categories:
+    - plugin: skip_on_empty
+      source: landing_page_categories
+      method: process
+      message: 'Row does not contain category.'
+    - plugin: explode
+      delimiter: ', '
+    - plugin: callback
+      callable: trim
+    - plugin: migration_lookup
+      migration: rtsm_landing_page_taxonomy_terms
+      no_stub: true
+  admin_description: admin_description
+  created:
+    plugin: format_date
+    source: created
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
+  status: status
+  promote: promote
+  sticky: sticky
+  # NOT WORKING
+  langcode: constants/lang_en
+destination:
+  plugin: 'entity:node'
+  default_bundle: landing_page
+migration_dependencies:
+  required:
+    - rtsm_landing_page_taxonomy_terms
+#  optional: []
