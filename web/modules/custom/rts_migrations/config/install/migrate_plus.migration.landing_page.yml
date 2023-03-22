@@ -36,7 +36,7 @@ process:
     destination: 'constants/image_destination'
     title: field_image_title
     alt: field_image_alt
-  landing_page_categories:
+  field_landing_page_categories:
     - plugin: skip_on_empty
       source: landing_page_categories
       method: process
