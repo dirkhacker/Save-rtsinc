@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.product.field_featured_article
     - field.field.node.product.field_global_taxonomy
     - field.field.node.product.field_heading
+    - field.field.node.product.field_headline
     - field.field.node.product.field_hero_contact_toggle
     - field.field.node.product.field_hero_contact_toggle_es
     - field.field.node.product.field_image
@@ -51,6 +52,7 @@ hidden:
   field_featured_article: true
   field_global_taxonomy: true
   field_heading: true
+  field_headline: true
   field_hero_contact_toggle: true
   field_hero_contact_toggle_es: true
   field_image: true

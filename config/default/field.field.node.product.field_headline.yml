@@ -1,0 +1,19 @@
+uuid: fcc7ab28-fc59-4577-a3b4-b4813651e5c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_headline
+    - node.type.product
+id: node.product.field_headline
+field_name: field_headline
+entity_type: node
+bundle: product
+label: Headline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
