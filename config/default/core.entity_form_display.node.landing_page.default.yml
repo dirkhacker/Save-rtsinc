@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_admin_description
     - field.field.node.landing_page.field_heading
     - field.field.node.landing_page.field_image
     - field.field.node.landing_page.field_landing_page_categories
@@ -29,6 +30,14 @@ content:
       summary_rows: 3
       placeholder: ''
       show_summary: false
+    third_party_settings: {  }
+  field_admin_description:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_heading:
     type: string_textfield
@@ -60,7 +69,7 @@ content:
     third_party_settings: {  }
   field_subheading:
     type: string_textarea
-    weight: 4
+    weight: 3
     region: content
     settings:
       rows: 5
