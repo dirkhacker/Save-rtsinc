@@ -1,0 +1,400 @@
+﻿nid,tnid,type,title,field_heading,body,field_featured_article,field_category,field_global_taxonomy,field_headline,language,fid,filename,field_image,field_image_alt,field_image_title,field_sub_headline,user_id,author,created,field_weight,alias_path,promote,status,sticky,field_hero_agent_toggle,field_hero_contact_toggle,field_hero_contact_toggle_es,field_hero_modal_toggle,product_type,svg_code,field_featured
+211,211,Product,Factoraje de Transporte Camionero ,Factoraje de Transporte Camionero ,"<div class=""block-heading margin-top-0"">
+<h2 class=""display2"">Qu√© nos hace diferentes</h2>
+<p class=""margin-bottom-24"">Nuestro enfoque hacia el factoraje es simple. Atraemos nuevos clientes al ofrecer tarifas de factoraje simples y transparentes, sin tarifas ocultas. 
+Nuestros clientes se quedan con nosotros por nuestro r√°pido y receptivo servicio al cliente y por nuestra integridad.</p>
+</div>
+
+<div class=""view view-factoring-features-es view-id-factoring_features_es view-display-id-default features-list-1 view-dom-id-db4c3eefb62f3f1d736091014bc3d7a4 contextual-links-region"">
+      <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/factoring_features_es/edit/default?destination=exportproduct"">Edit view</a></li></ul></div>  
+  
+  
+      <div class=""view-content"">
+        <div class=""views-row views-row-1 views-row-odd views-row-first"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Financiamento el mismo d√≠a </h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Nuestros representantes trabajan duro para asegurarse de que usted reciba su pago en 24 horas.</div>  </div>  </div>
+  <div class=""views-row views-row-2 views-row-even"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Tasa de adelanto del 97%</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Obtenga m√°s de su dinero con las tasas de avance l√≠deres de la industria.</div>  </div>  </div>
+  <div class=""views-row views-row-3 views-row-odd"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Programa de tarjeta de combustible</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Ahorros sustanciales en 2.000 locaciones en todo el pa√≠s y una l√≠nea de cr√©dito de hasta $2.500 por cami√≥n, semanalmente. </div>  </div>  </div>
+  <div class=""views-row views-row-4 views-row-even"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Sin tarifas ocultas</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Sin tarifas de volumen m√≠nimo. Sin tarifas ACH. Sin gastos por facturaci√≥n. </div>  </div>  </div>
+  <div class=""views-row views-row-5 views-row-odd"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Cargar facturas en l√≠nea</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Aplicaci√≥n m√≥vil o web f√°cil de utilizar para cargar facturas y gestionar su cuenta en l√≠nea.</div>  </div>  </div>
+  <div class=""views-row views-row-6 views-row-even views-row-last"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No se llena ning√∫n gravamen durante la solicitud </h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Algunas empresas de factoraje archivan un gravamen durante el proceso de solicitud.</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+",,,,Financiaci√≥n en el mismo d√≠a y una tasa de adelanto del 97%,Spanish,632,intl-43i95u4h.jpg,https://www.rtsinc.com/sites/default/files/intl-43i95u4h.jpg,,,"Precios simples, transparentes y sin tarifas ocultas. Sin tarifas ACH, sin tarifas de volumen m√≠nimo y sin tarifas de procesamiento.
+",1,admin,1458329103,,/node/211,1,1,0,,,Show,,,"<svg version=""1.1"" id=""Layer_1"" xmlns=""http://www.w3.org/2000/svg"" xmlns:xlink=""http://www.w3.org/1999/xlink"" x=""0px"" y=""0px""
+	 viewBox=""0 0 88 88"" style=""enable-background:new 0 0 88 88;"" xml:space=""preserve"">
+<path d=""M16,27.8h-4.9c-5.1,0-9.2-4.1-9.2-9.2l0,0c0-5.1,4.1-9.2,9.2-9.2h50.3c5.1,0,9.2,4.1,9.2,9.2l0,0
+	c0,5.1-4.1,9.2-9.2,9.2h-4.9""/>
+<line x1=""11.1"" y1=""18.6"" x2=""61.4"" y2=""18.6""/>
+<path class=""blue"" d=""M63.8,40.6c0,0,12.7,4.9,14.6,6.9c4.2,4.2,5.3,14.7,5.3,20.4c0,4.8,2.3,10.4,2.3,10.4""/>
+<path class=""blue"" d=""M72.4,54.3c-2.9-3.4-5.5-3.3-7.7-5.5c-4.2-4.3-3.8-4-7.6-7.9c-2.3-2.3-3.8-3.7-6.1-2.1
+	c-1.9,1.3-1.7,3.1-0.7,5.3c1.2,2.7,7.4,11.3,8.8,13.3c0.3,0.4,0.5,0.9,0.5,1.5c0.2,2.8,0.9,10.9,11.3,13.9""/>
+<path class=""blue"" d=""M60.7,75.8c2.9,1.4,3.9,4.7,3.9,4.7""/>
+<line x1=""56.5"" y1=""18.8"" x2=""56.5"" y2=""35.1""/>
+<path d=""M16,18.8v53h40.5V61.5c-5.7,0-10.3,4.6-10.3,10.3""/>
+<path d=""M57,61.2""/>
+<path d=""M26.3,71.8c0-5.7-4.6-10.3-10.3-10.3""/>
+<g>
+	<path class=""blue"" d=""M41.2,34.6c-0.8-1.4-2.7-2.4-4.9-2.4c-2.9,0-5.3,1.7-5.3,3.8c0,2.8,2.5,3.5,5.3,3.8c3.6,0.4,5.3,1.7,5.3,3.8
+		c0,2.1-2.4,3.8-5.3,3.8c-2.2,0-4-0.9-4.8-2.3""/>
+	<line class=""blue"" x1=""36.3"" y1=""49.6"" x2=""36.3"" y2=""30""/>
+</g>
+<line x1=""20.6"" y1=""18.8"" x2=""20.3"" y2=""57.4""/>
+<line x1=""52.3"" y1=""18.8"" x2=""52.3"" y2=""34.2""/>
+<line x1=""29.9"" y1=""67"" x2=""42.5"" y2=""67""/>
+<line x1=""52.3"" y1=""54.5"" x2=""52.3"" y2=""58.3""/>
+</svg>
+",
+217,16,Product,Programa de Tarjeta de Combustible,Programa de Tarjeta de Combustible,"<h2 class=""margin-top-0"">Sobre Nuestra Red de Combustible</h2>
+
+<p>La flexibilidad y alcance del programa de tarjetas de combustible de RTS Carrier Services pudieran ahorrar a tu empresa miles de d√≥lares al a√±o. Adem√°s de ahorros sustanciales en los centros de viaje Pilot Flying J, nuestra RTS Plus incluye descuentos en gasolineras como Speedway, Mr. Fuel, y Sapp Bros.</p>
+
+<div class=""features-list-1"">
+
+<div class=""views-row"">
+<div class=""display1 blue margin-bottom-8"">750+</div> 
+<p>Estaciones de Combustible Pilot Flying J</p>
+</div>
+
+<div class=""views-row"">
+<div class=""display1 blue margin-bottom-8"">550+</div> 
+<p>Estaciones de Combustible en la RTS Plus</p>
+</div>
+
+<div class=""views-row"">
+<div class=""display1 blue margin-bottom-8"">1,300+</div>
+<p>Estaciones de Combustible en Total</p>
+</div>
+
+</div>",,,,Ahorre 25c por gal√≥n en combustible diesel ,Spanish,391,fuel card image.jpg,https://www.rtsinc.com/sites/default/files/fuel%20card%20image.jpg,,,"Grandes ahorros en m√°s de 1.550 estaciones de servicio y l√≠neas de cr√©dito de hasta $2.500 por cami√≥n, semanalmente. ",1,admin,1459460761,,/node/217,1,1,0,,,Show,,,"<svg version=""1.1"" id=""Layer_1"" xmlns=""http://www.w3.org/2000/svg"" xmlns:xlink=""http://www.w3.org/1999/xlink"" x=""0px"" y=""0px"" viewBox=""0 0 88 88"" style=""enable-background:new 0 0 88 88;"" xml:space=""preserve"">
+<path d=""M13.1,35.2l0.1-11.4c0-3.5,2.8-6.3,6.3-6.3h60.3c3.5,0,6.3,2.8,6.3,6.3v33.3c0,3.5-2.8,6.3-6.3,6.3H35.1""/>
+<line x1=""13.1"" y1=""25.9"" x2=""86"" y2=""25.9""/>
+<line class=""blue"" x1=""50.1"" y1=""44.1"" x2=""77.7"" y2=""44.1""/>
+<line x1=""26.3"" y1=""35.7"" x2=""86"" y2=""35.7""/>
+<line class=""blue"" x1=""50.1"" y1=""51.4"" x2=""65.9"" y2=""51.4""/>
+<g>
+	<path d=""M13.2,58.9c0.6,1.2,2,2,3.7,2c2.2,0,4-1.4,4-3.2c0-2.4-1.8-2.9-4-3.2c-2.7-0.3-4-1.4-4-3.2s1.8-3.2,4-3.2
+		c1.6,0,3,0.8,3.6,1.9""/>
+	<line x1=""16.9"" y1=""46.4"" x2=""16.9"" y2=""62.7""/>
+</g>
+<circle cx=""16.9"" cy=""54.6"" r=""14.9""/>
+</svg>
+",
+221,15,Product,RTS Credit,RTS Credit,"<div class=""max-width-960"">
+
+<h2 class=""first"">Donde Las Buenas Decisiones Empiezan</h2>
+
+<p>Algunas compa√±√≠as camioneras se ven en problemas financieros despu√©s de tomar una carga de alg√∫n agente que paga lentamente o nada en absoluto. La informaci√≥n reunida por el servicio de RTS Credit te ayuda a tomar decisiones de negocio informadas y mantiene responsables a los agentes de carga.</p> 
+
+<p>Actualmente contamos con informaci√≥n sobre m√°s de 50,000 intermediarios y transportistas en nuestra base de datos. Puedes utilizar este servicio para checar el historial de pago de estas compa√±√≠as, la informaci√≥n sobre sus bonos, y otros datos importantes. Esta informaci√≥n cr√≠tica te puede ayudar a decidir si trabajas o no con un nuevo cliente o socio de negocios.</p>
+
+<h2>Beneficios de Usar el Servicio RTS Credit</h2> 
+
+<ul>
+<li><strong>Informaci√≥n en Tiempo Real de Plazo Promedio de Pago.</strong> Actualizamos nuestros datos de pago diariamente, lo que te permite tomar decisiones basadas en la informaci√≥n m√°s reciente y precisa.</li>
+<li><strong>Servicio Diario de Alertas de Cr√©dito.</strong> Tendr√°s acceso a una lista diaria de las empresas que han sido degradadas, as√≠ como historias de alerta que datan casi 20 a√±os.</li>
+<li><strong>Nuestro Sistema de Evaluaci√≥n y Revisi√≥n.</strong> Adem√°s de la informaci√≥n de cr√©dito, puedes leer las calificaciones y comentarios escritos por otros transportistas acerca de intermediarios y compa√±√≠as de env√≠os, as√≠ como compartir tus propias experiencias.</li>
+<li><strong>Pruebas Sin Cargo Disponibles.</strong> Trata nuestro servicio con cinco reportes de cr√©dito sin costo.</li>
+</ul>
+
+<p>Mejora la seguridad financiera de tu negocio <a href=""http://www.rtscredit.com"">visitando RTS Credit Service hoy mismo</a></p>
+
+</div>",,,,,Spanish,392,credit reports.jpg,https://www.rtsinc.com/sites/default/files/credit%20reports.jpg,,,Equ√≠pate con informaci√≥n. Utiliza el servicio RTS Credit para encontrar agentes de carga con historiales s√≥lidos de cr√©dito y de pago.,1,admin,1462376735,,/node/221,1,1,0,,,,,,,
+365,365,Product,Factoring Electr√≥nico,Factoring Electr√≥nico,"<h2>Complete su documentaci√≥n en donde sea y cuando usted quiera</h2>
+
+<p>El exclusivo software Invoice Manager de RTS Financial le permite crear facturas, enviar documentos de compra y recibir <strong>estados de su cuenta de factoraje</strong>. Esta tecnolog√≠a en l√≠nea es f√°cil de usar y le ayuda a ahorrar tiempo, reducir el papeleo y, lo mejor de todo, a recibir pagos m√°s r√°pido. Invoice Manager tambi√©n proporciona un historial de cuenta de todas sus transacciones de factoring anteriores.</p>
+
+<p>Si usted ya es usuario de nuestro servicio de factoring financiero puede usar Invoice Manager en el Centro de Atenci√≥n al Cliente de <a href=""http://www.rtsfinancial.com/page/customer-center"">RTSFinancial.com</a>.</p>
+
+<h2>Con Invoice Manager usted puede:</h2>
+
+<ul>
+	<li>Carga f√°cilmente documentos financieros</li>
+	<li>Importaci√≥n en masa de documentos y hojas de c√°lculo</li>
+	<li>Acceso en l√≠nea a todo el historial de su cuenta</li>
+	<li>Ahorrar tiempo y le ayuda a recibir sus pagos m√°s r√°pido</li>
+</ul>
+
+<p><strong>Para obtener m√°s informaci√≥n sobre Invoice Manager, cont√°ctenos hoy mismo al <a href=""tel:855-851-1005"">(855) 851-1005</a>.</strong></p>
+",,,,,Spanish,935,office-83y3kf.jpg,https://www.rtsinc.com/sites/default/files/office-83y3kf_0.jpg,,,Software en l√≠nea que elimina la necesidad de proporcionar documentos originales al financiar sus cuentas por cobrar.,27,dhacker,1525882603,,/node/365,1,1,0,,,,,,,
+1106,18,Product,RTS Pro,RTS Pro,"<h2 class=""margin-top-80"">Centros de combustible 
+</h2>
+
+<p>Encuentre los precios de combustible Diesel m√°s bajos en m√°s de 1.550 centros de combustible en todo el pa√≠s.</p>
+
+<ul>
+	<li>Encuentre descuentos de combustible en m√°s de 900 locaciones de Pilot Flying J y Speedway y m√°s de 650 estaciones de servicio independientes en la red de RTS Plus.</li>
+	<li>Busque estaciones de servicio por estado, carretera, a lo largo de su ruta o en su ubicaci√≥n actual.</li>
+	<li>Acceda a sus puntos de recompensa y ofertas de myPilot dentro de RTS Pro.</li>
+</ul>
+
+<h2>El servicio y la carretera</h2>
+
+<p>Cree y env√≠e facturas desde RTS Pro a su cuenta en l√≠nea de RTS Financial.</p>
+
+<ul>
+	<li>Find nearby Truck Care locations</li>
+	<li>See the latest discounts on maintenance, tires and more</li>
+	<li>Access 24/7 emergency roadside assistance</li>
+</ul>
+
+<h2>Factoring</h2>
+
+<p>Create and submit invoices from RTS Pro to your <a href=""/product/factoring-services"">factoring account</a>.</p>
+
+<ul>
+	<li>Suba en l√≠nea los documentos de facturaci√≥n de manera sencilla desde cualquier lugar y en cualquier momento.</li>
+	<li>Mire su historial de facturaci√≥n con las im√°genes descargadas.</li>
+	<li>Revise convenientemente el resumen y los reportes de su cuenta a trav√©s del panel web de RTS Pro.</li>
+</ul>
+
+<h2>Calificaciones crediticias de agentes</h2>
+
+<p>Obtenga los √∫ltimos datos de cr√©dito y pago de m√°s de 70.000 agentes y expedidores.</p>
+
+<ul>
+	<li>Vea la informaci√≥n actual de los d√≠as de pago.</li>
+	<li>Revise las puntuaciones utilizando un sistema de clasificaci√≥n simple y f√°cil de usar.</li>
+	<li>Utilice la funci√≥n de favoritos para rastrear las empresas con las que trabaja regularmente.</li>
+</ul>
+
+<h2>Gesti√≥n del viaje</h2>
+
+<p>Los despachadores pueden asignar viajes, rastrear cargas y comunicarse directamente con los conductores a trav√©s de la aplicaci√≥n.</p>
+
+<ul>
+	<li>Ver los viajes activos, disponibles y completados.</li>
+	<li>Enviar documentos del viaje y recibos de entrega en tiempo real.</li>
+	<li>Comunicaci√≥n instant√°nea entre los conductores y los despachadores.</li>
+</ul>
+
+<h2>Soporte de RTS Pro</h2>
+
+<p>Para utilizar RTS Pro, debe ser un cliente RTS. Descargar la aplicaci√≥n en su dispositivo a trav√©s de  <a href=""https://play.google.com/store/apps/details?id=com.rtsfinancial.carrierpro&hl=en_US"">Google Play</a> o <a href=""https://apps.apple.com/us/app/carrierpro/id705434007"">App Store</a> or visitar <a href=""http://www.RTSPro.com"">www.rtspro.com</a>. Si tiene alguna pregunta o comentario sobre RTS Pro, llame al (888) 874-7053 o env√≠e un correo electr√≥nico a support@rtspro.com.</p>
+
+
+
+",,,,Simplifique el transporte camionero con RTS Pro,Spanish,1303,trucker-3nbuf.jpg,https://www.rtsinc.com/sites/default/files/trucker-3nbuf.jpg,,,"RTS Pro es una soluci√≥n todo en uno para su empresa de transporte camionero, proporcionando un r√°pido acceso a sus descuentos de combustible, servicios de factoraje, calificaciones crediticias de agentes y software de transporte camionero.",28,wjorgensen,1590516943,,/node/1106,1,1,0,,Contact Us,,,Software,"<?xml version=""1.0"" encoding=""utf-8""?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version=""1.1"" id=""Layer_1"" xmlns=""http://www.w3.org/2000/svg"" xmlns:xlink=""http://www.w3.org/1999/xlink"" x=""0px"" y=""0px""
+	 viewBox=""0 0 88 88"" enable-background=""new 0 0 88 88"" xml:space=""preserve"">
+<path fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" d=""
+	M18.9,12.6c0-5.3,4.3-9.6,9.6-9.6h31.1c5.3,0,9.6,4.3,9.6,9.6v62.8c0,5.3-4.3,9.6-9.6,9.6H28.5c-5.3,0-9.6-4.3-9.6-9.6V12.6z""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""18.9"" y1=""17.5"" x2=""69.1"" y2=""17.5""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""40.7"" y1=""10.3"" x2=""47.3"" y2=""10.3""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""18.9"" y1=""70.5"" x2=""69.1"" y2=""70.5""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""37.4"" y1=""63.5"" x2=""37.4"" y2=""58.6""/>
+<line class=""blue"" fill=""none"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""44.7"" y1=""63.5"" x2=""44.7"" y2=""52.7""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""52"" y1=""63.5"" x2=""52"" y2=""55.2""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""59.3"" y1=""63.5"" x2=""59.3"" y2=""51.1""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""30.1"" y1=""63.5"" x2=""30.1"" y2=""60.2""/>
+<polyline class=""blue"" fill=""none"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" points=""
+	25.2,57.3 31.8,50.7 35.2,54.1 38.3,51 ""/>
+<line class=""blue"" fill=""none"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""62.4"" y1=""39"" x2=""51.8"" y2=""49.7""/>
+<polyline fill=""none"" stroke=""#0078D2"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" points=""
+	62.5,43.5 62.5,39 58,39 ""/>
+<path class=""blue"" fill=""none"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" d=""
+	M39.9,40.7c0.7,1.5,2.6,2.6,4.7,2.6c2.8,0,5.1-1.8,5.1-4.1c0-3.1-2.4-3.7-5.1-4.1c-3.5-0.4-5.1-1.8-5.1-4.1c0-2.3,2.3-4.1,5.1-4.1
+	c2.1,0,3.9,1,4.7,2.5""/>
+<line class=""blue"" fill=""none"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""44.7"" y1=""24.5"" x2=""44.7"" y2=""45.6""/>
+</svg>
+",
+1107,298,Product,ProTransport,ProTransport,"<div class=""max-width-960"">
+<h2 class=""margin-top-80"">Software Designed for Trucking Fleets</h2>
+
+<p>ProTransport software integrates every aspect of your trucking business into one integrated system. Every function, including safety, dispatch, accounting, reporting, driver communications and factoring, is instantly accessible. In addition to saving time and resources, ProTransport helps you analyze your fleet's performance and make well-informed decisions for future growth.</p>
+
+<h2>A User-Friendly Platform</h2>
+
+<p>One of ProTransport‚Äôs greatest advantages is its simplicity. The software's user-friendly interface and wide range of features¬†makes it easy to understand, allowing you to harness the full potential of the system.</p>
+
+<h2>Built for Fleets of Any Size</h2>
+
+<p>ProTransport was developed by over-the-road trucking professionals who understand the industry. The software's advanced features focus on different aspects of running a trucking company and can be customized for any client. Built to serve carriers of all sizes, ProTransport delivers the best overall value in today's trucking software market.</p>
+
+<h2>Factoring Made Easier</h2>
+
+<p>ProTransport‚Äôs software is seamlessly integrated with RTS Financial, which allows you to upload invoices and documents to your online factoring account with a single click. This makes the factoring process even faster, saving you¬†valuable time and resources.</p>
+
+<h2>The ProTransport Difference</h2>
+
+<ul>
+	<li>More than 15 years serving the trucking industry</li>
+	<li>Competitive, affordable subscription pricing</li>
+	<li>Thousands of dollars in savings on technology and operating expenses</li>
+	<li>Integration with fuel cards, factoring, QuickBooks, ELDs, IFTA and more</li>
+	<li>Mobile app with two-way messaging, trip planning and document uploading</li>
+	<li>Customizable for trucking fleets of any size</li>
+</ul>
+
+<p><a href=""http://www.pro-transport.com"">Click here for more information about ProTransport</a>, or call (888) 804-8187.</p>
+</div>
+",,,,"Despacho, contabilidad, mantenimiento y m√°s ",Spanish,774,truck-374jqpldk.jpg,https://www.rtsinc.com/sites/default/files/truck-374jqpldk.jpg,,,Un software de transporte f√°cil de usar para todas sus necesidades operativas diarias.,28,wjorgensen,1590517790,,/node/1107,1,1,0,,Contact Us,,,Software,"<?xml version=""1.0"" encoding=""utf-8""?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version=""1.1"" id=""Layer_1"" xmlns=""http://www.w3.org/2000/svg"" xmlns:xlink=""http://www.w3.org/1999/xlink"" x=""0px"" y=""0px""
+	 viewBox=""0 0 88 88"" enable-background=""new 0 0 88 88"" xml:space=""preserve"">
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""47.1"" y1=""24.1"" x2=""48.3"" y2=""24.1""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""61"" y1=""24.1"" x2=""62.2"" y2=""24.1""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""67.9"" y1=""24.1"" x2=""69.1"" y2=""24.1""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""74.9"" y1=""24.1"" x2=""76"" y2=""24.1""/>
+</g>
+<path fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" d=""
+	M10.6,33.3V18.6c0-3.7,3-6.7,6.7-6.7h60.9c3.7,0,6.7,3,6.7,6.7v38.5c0,3.7-3,6.7-6.7,6.7H37.7""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""45.7"" y1=""59.3"" x2=""49.9"" y2=""59.3""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""40.6"" y1=""55.2"" x2=""85"" y2=""55.2""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""40.7"" y1=""72.1"" x2=""41.4"" y2=""63.8""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""54.2"" y1=""63.8"" x2=""55"" y2=""72.1""/>
+<line fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""33.3"" y1=""72.1"" x2=""62.3"" y2=""72.1""/>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""40.2"" y1=""24.1"" x2=""41.4"" y2=""24.1""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""47.1"" y1=""28.8"" x2=""48.3"" y2=""28.8""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""54.1"" y1=""28.8"" x2=""55.2"" y2=""28.8""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""61"" y1=""28.8"" x2=""62.2"" y2=""28.8""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""67.9"" y1=""28.8"" x2=""69.1"" y2=""28.8""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""33.3"" y1=""28.8"" x2=""34.4"" y2=""28.8""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""40.2"" y1=""28.8"" x2=""41.4"" y2=""28.8""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""47.1"" y1=""33.4"" x2=""48.3"" y2=""33.4""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""54.1"" y1=""33.4"" x2=""55.2"" y2=""33.4""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""61"" y1=""33.4"" x2=""62.2"" y2=""33.4""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""67.9"" y1=""33.4"" x2=""69.1"" y2=""33.4""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""74.9"" y1=""33.4"" x2=""76"" y2=""33.4""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""33.3"" y1=""33.4"" x2=""34.4"" y2=""33.4""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""47.1"" y1=""38"" x2=""48.3"" y2=""38""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""54.1"" y1=""38"" x2=""55.2"" y2=""38""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""61"" y1=""38"" x2=""62.2"" y2=""38""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""74.9"" y1=""38"" x2=""76"" y2=""38""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""40.2"" y1=""38"" x2=""41.4"" y2=""38""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""47.1"" y1=""42.6"" x2=""48.3"" y2=""42.6""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""61"" y1=""42.6"" x2=""62.2"" y2=""42.6""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""67.9"" y1=""42.6"" x2=""69.1"" y2=""42.6""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""74.9"" y1=""42.6"" x2=""76"" y2=""42.6""/>
+</g>
+<g>
+	
+		<line fill=""none"" stroke=""#0091EA"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" x1=""40.2"" y1=""42.6"" x2=""41.4"" y2=""42.6""/>
+</g>
+<ellipse transform=""matrix(0.7071 -0.7071 0.7071 0.7071 -32.0438 28.9954)"" fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" cx=""19"" cy=""53.2"" rx=""16"" ry=""16""/>
+<polyline fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" points=""
+	10.3,59.1 10.3,54.3 15.9,54.3 15.9,59.1 ""/>
+<polyline fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" points=""
+	16,59.1 16,46.4 21.6,46.4 21.6,59.1 ""/>
+<polyline fill=""none"" stroke=""#000000"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-miterlimit=""10"" points=""
+	21.6,59.1 21.6,51.2 27.2,51.2 27.2,59.1 ""/>
+</svg>
+",
+1325,835,Product,FACTORAJE PARA TRANSPORTISTAS MEXICANOS,FACTORAJE PARA TRANSPORTISTAS MEXICANOS,"<div class=""max-width-960"">
+
+<p>En 35 a√±os de experiencia dedicados a servir a la industria del transporte, hemos decidido expandir nuestros servicios de factoraje para transportistas a trav√©s de la frontera sur. RTS International, nuestra divisi√≥n de factoraje internacional, ofrece financiamiento en menos de 24 horas en pesos mexicanos para las compa√±√≠as de transporte que tienen operaciones a lo largo y ancho de la rep√∫blica mexicana.</p>
+
+<ul>
+	<li>Financiamiento en 24 horas, sin cargos ocultos</li>
+	<li>Las tasas m√°s competitivas del mercado</li>
+	<li>Acceso en l√≠nea y f√°cil carga de facturas</li>
+	<li>Representantes biling√ºes</li>
+	<li>Excelente servicio a cliente</li>
+	<li>Sin l√≠mites de financiamiento</li>
+</ul>
+
+<div class=""btn blue-solid"">
+  <a href=""https://www.rtsinternational.com/es/page/factoring-para-transportistas"">Conozca m√°s sobre RTS International</a>
+</div>
+
+</div>
+",,,"Factoring, International, Mexico, Trucking",Factoraje para compa√±√≠as de transporte en M√©xico,Spanish,1451,main-highway-1sui.jpg,https://www.rtsinc.com/sites/default/files/main-highway-1sui.jpg,,,Convierta sus facturas en efectivo en 24 horas con RTS International,28,wjorgensen,1610132326,,/node/1325,1,1,0,,,Show,,,,

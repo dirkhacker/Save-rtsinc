@@ -1,0 +1,45 @@
+id: product_es
+label: 'Migration for spanish Product Pages'
+migration_group: rtsinc_product
+migration_tags:
+  - RTS Product Pages
+source:
+  translations: true
+  plugin: csv
+  header_rows: 1
+  path: modules/custom/rts_migrations/sources/product/product-es.csv
+  ids: [tnid]
+  constants:
+    image_destination: 'public://product/'
+    lang_es: es
+process:
+  langcode: constants/lang_es
+  content_translation_source:
+    plugin: default_value
+    default_value: 'en'
+  nid:
+    plugin: migration_lookup
+    source: tnid
+    migration: product
+  type:
+    plugin: default_value
+    default_value: product
+  title: title
+  field_heading: field_heading
+  body/value: body
+  body/langcode: es
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  uid:
+    plugin: default_value
+    default_value: 3
+  field_subheading: field_sub_headline
+  field_headline: field_headline
+destination:
+  plugin: 'entity:node'
+  translations: true
+migration_dependencies:
+  required:
+    - migration_plus.migration.product
+#  optional: []
