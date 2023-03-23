@@ -4,9 +4,16 @@ status: true
 dependencies:
   config:
     - field.field.node.product.body
+    - field.field.node.product.field_featured_article
+    - field.field.node.product.field_global_taxonomy
     - field.field.node.product.field_heading
+    - field.field.node.product.field_hero_contact_toggle
+    - field.field.node.product.field_hero_contact_toggle_es
     - field.field.node.product.field_image
+    - field.field.node.product.field_product_type
     - field.field.node.product.field_subheading
+    - field.field.node.product.field_svg_code
+    - field.field.node.product.field_weight
     - node.type.product
   module:
     - manage_display
@@ -34,9 +41,16 @@ content:
     region: content
 hidden:
   created: true
+  field_featured_article: true
+  field_global_taxonomy: true
   field_heading: true
+  field_hero_contact_toggle: true
+  field_hero_contact_toggle_es: true
   field_image: true
+  field_product_type: true
   field_subheading: true
+  field_svg_code: true
+  field_weight: true
   langcode: true
   links: true
   uid: true

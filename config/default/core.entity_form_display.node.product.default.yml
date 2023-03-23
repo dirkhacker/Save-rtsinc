@@ -4,15 +4,23 @@ status: true
 dependencies:
   config:
     - field.field.node.product.body
+    - field.field.node.product.field_featured_article
+    - field.field.node.product.field_global_taxonomy
     - field.field.node.product.field_heading
+    - field.field.node.product.field_hero_contact_toggle
+    - field.field.node.product.field_hero_contact_toggle_es
     - field.field.node.product.field_image
+    - field.field.node.product.field_product_type
     - field.field.node.product.field_subheading
+    - field.field.node.product.field_svg_code
+    - field.field.node.product.field_weight
     - image.style.thumbnail
     - node.type.product
   module:
     - path
     - svg_image
     - text
+    - weight
 id: node.product.default
 targetEntityType: node
 bundle: product
@@ -20,7 +28,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 4
+    weight: 9
     region: content
     settings:
       rows: 9
@@ -28,44 +36,20 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  field_heading:
-    type: string_textfield
-    weight: 2
+  field_featured_article:
+    type: boolean_checkbox
+    weight: 10
     region: content
     settings:
-      size: 60
-      placeholder: ''
+      display_label: true
     third_party_settings: {  }
-  field_image:
-    type: image_image
-    weight: 0
-    region: content
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-  field_subheading:
-    type: string_textarea
-    weight: 3
-    region: content
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 2
-    region: content
-    settings:
-      include_locked: true
-    third_party_settings: {  }
-  path:
-    type: path
-    weight: 5
+  field_global_taxonomy:
+    type: options_buttons
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
-  title:
+  field_heading:
     type: string_textfield
     weight: 1
     region: content
@@ -73,8 +57,82 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  url_redirects:
+  field_hero_contact_toggle:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_hero_contact_toggle_es:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: image_image
     weight: 6
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_product_type:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_subheading:
+    type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_svg_code:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_weight:
+    type: weight_selector
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 12
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 13
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 15
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  url_redirects:
+    weight: 14
     region: content
     settings: {  }
     third_party_settings: {  }
