@@ -1,26 +1,26 @@
-uuid: 264e9207-c626-4266-9c7b-52e56f498441
+uuid: 1ea23de9-653c-4e3d-b062-9c559b6c0321
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: n43k55ELJBNITmBPnE6UX1sURKPVxRVkSPCsOoDe1pI
-id: industry_es
+  default_config_hash: WeUHCdGw1soTJwWjr2IrAR5aeVd9Z_eqxGZpdKrVGFU
+id: product_es
 class: null
 field_plugin_method: null
 cck_plugin_method: null
 migration_tags:
-  - 'RTS Industry'
-migration_group: rtsinc_industry
-label: 'RTS node migration for spanish Industry content type'
+  - 'RTS Product Pages'
+migration_group: rtsinc_product
+label: 'Migration for spanish Product Pages'
 source:
   translations: true
   plugin: csv
   header_rows: 1
-  path: modules/custom/rts_migrations/sources/industry/industry-es.csv
+  path: modules/custom/rts_migrations/sources/product/product-es.csv
   ids:
     - tnid
   constants:
-    image_destination: 'public://industry/'
+    image_destination: 'public://product/'
     lang_es: es
 process:
   langcode: constants/lang_es
@@ -30,10 +30,10 @@ process:
   nid:
     plugin: migration_lookup
     source: tnid
-    migration: industry
+    migration: product
   type:
     plugin: default_value
-    default_value: industry
+    default_value: product
   title: title
   field_heading: field_heading
   body/value: body
@@ -46,10 +46,9 @@ process:
     default_value: 3
   field_subheading: field_sub_headline
   field_headline: field_headline
-  field_views_title: field_views_title
 destination:
   plugin: 'entity:node'
   translations: true
 migration_dependencies:
   required:
-    - migration_plus.migration.blogs
+    - migration_plus.migration.product

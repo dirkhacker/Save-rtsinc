@@ -1,9 +1,9 @@
-uuid: df7cb4d6-243b-42fb-91ca-4d2e3e56cb33
+uuid: 63537db5-5c18-4545-9396-fda31355c268
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: ElOVGatAsJ-OF6eOj0VWG-sKae708LmHHfRZmNA1TYQ
+  default_config_hash: Qk3MyQSLDXNqBYRSboXFoDz7Z0nhJchxyyeVr-nGNSY
 id: landing_page_es_not_translated
 class: null
 field_plugin_method: null
@@ -61,7 +61,7 @@ process:
       plugin: migration_lookup
       migration: rtsm_landing_page_taxonomy_terms
       no_stub: true
-  admin_description: admin_description
+  field_admin_description: admin_description
   created:
     plugin: format_date
     source: created
