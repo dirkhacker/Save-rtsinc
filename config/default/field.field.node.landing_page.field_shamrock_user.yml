@@ -1,4 +1,4 @@
-uuid: 36f15067-c463-4751-b60d-77e9d3430f92
+uuid: 479adabd-07ef-433d-8c80-5da5483ad3fc
 langcode: en
 status: true
 dependencies:
@@ -20,7 +20,7 @@ settings:
   handler_settings:
     target_bundles: null
     sort:
-      field: name
+      field: _none
       direction: ASC
     auto_create: false
     filter:
@@ -30,5 +30,5 @@ settings:
         agent_company_editor: agent_company_editor
         content_editor: '0'
         administrator: '0'
-    include_anonymous: false
+    include_anonymous: true
 field_type: entity_reference
