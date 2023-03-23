@@ -1,30 +1,30 @@
-uuid: 4b9e6c02-1097-467c-a696-66c048120edd
+uuid: 9dd0678b-72cb-4f86-98d1-71ab0f7f2c4e
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: WmQ_anL2N33w5_Sndx48ZuEHbuBuGO-oNMM67yH5rXo
-id: blogs
+  default_config_hash: 4xCWC0PiLrmCOOQaIOKQSE3PXwooAM96Q23n_9G22Fc
+id: landing_page
 class: null
 field_plugin_method: null
 cck_plugin_method: null
 migration_tags:
-  - 'RTS Blog'
-migration_group: rtsinc_blogs
-label: 'RTS node migration for blogs'
+  - 'RTS Landing Pages'
+migration_group: rtsinc_landing_page
+label: 'RTS node migration for landing pages'
 source:
   plugin: csv
   header_rows: 1
-  path: modules/custom/rts_migrations/sources/blogs/blogs.csv
+  path: modules/custom/rts_migrations/sources/landing_pages/landing-page.csv
   ids:
     - nid
   constants:
-    image_destination: 'public://blogs/'
+    image_destination: 'public://landing_pages/'
     lang_en: en
 process:
   type:
     plugin: default_value
-    default_value: blog_posts
+    default_value: landing_page
   title: title
   field_heading: field_heading
   body/value: body
@@ -35,49 +35,33 @@ process:
     plugin: default_value
     default_value: 0
   path/alias: alias_path
-  uid: user_id
+  uid:
+    plugin: default_value
+    default_value: 3
   field_subheading: field_sub_headline
-  field_premium_content: field_premium_content
-  field_headline: field_headline
-  field_weight: field_weight
   field_image:
     plugin: image_import
     source: field_image
     destination: constants/image_destination
     title: field_image_title
     alt: field_image_alt
-  field_category:
+  field_landing_page_categories:
     -
       plugin: skip_on_empty
-      source: field_category
+      source: landing_page_categories
       method: process
       message: 'Row does not contain category.'
     -
       plugin: explode
-      delimiter: ;
+      delimiter: ', '
     -
       plugin: callback
       callable: trim
     -
       plugin: migration_lookup
-      migration: rtsm_category_taxonomy_terms
+      migration: rtsm_landing_page_taxonomy_terms
       no_stub: true
-  field_global_taxonomy:
-    -
-      plugin: skip_on_empty
-      source: field_global_taxonomy
-      method: process
-      message: 'Row does not contain global taxonomy.'
-    -
-      plugin: explode
-      delimiter: ','
-    -
-      plugin: callback
-      callable: trim
-    -
-      plugin: migration_lookup
-      migration: rtsm_global_taxonomy_terms
-      no_stub: true
+  field_admin_description: admin_description
   created:
     plugin: format_date
     source: created
@@ -89,11 +73,9 @@ process:
   promote: promote
   sticky: sticky
   langcode: constants/lang_en
-  field_featured_article: field_featured_article
 destination:
   plugin: 'entity:node'
-  default_bundle: blog_posts
+  default_bundle: landing_page
 migration_dependencies:
   required:
-    - rtsm_global_taxonomy_terms
-    - rtsm_category_taxonomy_terms
+    - rtsm_landing_page_taxonomy_terms
