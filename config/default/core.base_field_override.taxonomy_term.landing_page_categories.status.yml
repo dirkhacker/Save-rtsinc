@@ -1,0 +1,22 @@
+uuid: 328d4758-9f3a-42bc-86c4-bae26f0d8235
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.landing_page_categories
+id: taxonomy_term.landing_page_categories.status
+field_name: status
+entity_type: taxonomy_term
+bundle: landing_page_categories
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

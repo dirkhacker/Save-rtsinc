@@ -1,0 +1,20 @@
+uuid: 4dc6986c-f671-4206-839f-915bf1a9683c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.landing_page_categories
+  module:
+    - text
+id: taxonomy_term.landing_page_categories.description
+field_name: description
+entity_type: taxonomy_term
+bundle: landing_page_categories
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
