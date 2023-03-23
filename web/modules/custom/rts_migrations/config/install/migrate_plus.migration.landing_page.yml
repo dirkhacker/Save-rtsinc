@@ -48,7 +48,6 @@ process:
     - plugin: migration_lookup
       migration: rtsm_landing_page_taxonomy_terms
       no_stub: true
-  admin_description: admin_description
   created:
     plugin: format_date
     source: created
