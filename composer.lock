@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8dac5cd267cccda181441d3fb9a9282b",
+    "content-hash": "467d2d924b5f3336ac828f839b3440ce",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1250,6 +1250,67 @@
             "time": "2022-05-31T18:46:25+00:00"
         },
         {
+            "name": "dragonmantank/cron-expression",
+            "version": "v3.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonmantank/cron-expression.git",
+                "reference": "782ca5968ab8b954773518e9e49a6f892a34b2a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/782ca5968ab8b954773518e9e49a6f892a34b2a8",
+                "reference": "782ca5968ab8b954773518e9e49a6f892a34b2a8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0",
+                "webmozart/assert": "^1.0"
+            },
+            "replace": {
+                "mtdowling/cron-expression": "^1.0"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^1.0",
+                "phpstan/phpstan-webmozart-assert": "^1.0",
+                "phpunit/phpunit": "^7.0|^8.0|^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cron\\": "src/Cron/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Tankersley",
+                    "email": "chris@ctankersley.com",
+                    "homepage": "https://github.com/dragonmantank"
+                }
+            ],
+            "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+            "keywords": [
+                "cron",
+                "schedule"
+            ],
+            "support": {
+                "issues": "https://github.com/dragonmantank/cron-expression/issues",
+                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/dragonmantank",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-09-10T18:51:20+00:00"
+        },
+        {
             "name": "drupal/admin_toolbar",
             "version": "3.3.0",
             "source": {
@@ -1827,6 +1888,58 @@
             ],
             "support": {
                 "source": "https://git.drupalcode.org/project/bootstrap_styles"
+            }
+        },
+        {
+            "name": "drupal/bpmn_io",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bpmn_io.git",
+                "reference": "1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bpmn_io-1.1.1.zip",
+                "reference": "1.1.1",
+                "shasum": "2052704984e7bc3d12a7ba36e646abf96633365c"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10",
+                "drupal/eca": "^1.0",
+                "drupal/eca_modeller_bpmn": "*",
+                "php": ">=7.4"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.1",
+                    "datestamp": "1672757606",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "boromino",
+                    "homepage": "https://www.drupal.org/user/859722"
+                },
+                {
+                    "name": "jurgenhaas",
+                    "homepage": "https://www.drupal.org/user/168924"
+                }
+            ],
+            "description": "BPMN modeller for ECA, integrated into Drupal's admin UI.",
+            "homepage": "https://www.drupal.org/project/bpmn_io",
+            "support": {
+                "source": "https://drupal.org/project/bpmn_io",
+                "issues": "https://drupal.org/project/issues/bpmn_io"
             }
         },
         {
@@ -2452,21 +2565,220 @@
             }
         },
         {
-            "name": "drupal/entity_clone",
-            "version": "2.0.0-alpha1",
+            "name": "drupal/eca",
+            "version": "dev-1.1.x",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/entity_clone.git",
-                "reference": "2.0.0-alpha1"
+                "url": "https://git.drupalcode.org/project/eca.git",
+                "reference": "118ba021f768f0dce29a82d58d9bd50759fb7f24"
+            },
+            "require": {
+                "dragonmantank/cron-expression": "^3.1",
+                "drupal/core": "^9.4 || ^10",
+                "ext-dom": "*",
+                "ext-json": "*",
+                "mtownsend/xml-to-array": "^2.0",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "drupal/eca_ui": "*",
+                "drupal/token": "^1.10"
+            },
+            "suggest": {
+                "drupal/context_stack": "Integrates ECA with Context Stacks for more fine-grained control",
+                "drupal/eca_state_machine": "Integrates ECA with State Machine functionality",
+                "drupal/eca_tamper": "Integrates ECA with the Tamper API",
+                "drupal/entity_share": "Integrates ECA with Entity Share functionality",
+                "drupal/group_action": "Integrates ECA with Group Actions if you're using groups",
+                "drupal/token": "Provides the token browser in the UI and offers more token values"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.1.x": "1.1.x-dev"
+                },
+                "drupal": {
+                    "version": "1.1.2+9-dev",
+                    "datestamp": "1679921156",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10 || ^11"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "boromino",
+                    "homepage": "https://www.drupal.org/user/859722"
+                },
+                {
+                    "name": "danielspeicher",
+                    "homepage": "https://www.drupal.org/user/3621778"
+                },
+                {
+                    "name": "jurgenhaas",
+                    "homepage": "https://www.drupal.org/user/168924"
+                }
+            ],
+            "description": "Event, Conditions, Actions - powerful, versatile, and user-friendly rules engine for Drupal",
+            "homepage": "https://www.drupal.org/project/eca",
+            "support": {
+                "source": "https://drupal.org/project/eca",
+                "issues": "https://drupal.org/project/issues/eca"
+            }
+        },
+        {
+            "name": "drupal/eca_modeller_bpmn",
+            "version": "1.1.2",
+            "require": {
+                "drupal/core": "^9 || ^10",
+                "drupal/eca": "^1",
+                "drupal/eca_ui": "*"
+            },
+            "type": "metapackage",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.2",
+                    "datestamp": "1677666496",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "boromino",
+                    "homepage": "https://www.drupal.org/user/859722"
+                },
+                {
+                    "name": "danielspeicher",
+                    "homepage": "https://www.drupal.org/user/3621778"
+                },
+                {
+                    "name": "jurgenhaas",
+                    "homepage": "https://www.drupal.org/user/168924"
+                }
+            ],
+            "description": "Common functionality for all BPMN based modeller implementations.",
+            "homepage": "https://www.drupal.org/project/eca",
+            "support": {
+                "source": "https://git.drupalcode.org/project/eca"
+            }
+        },
+        {
+            "name": "drupal/eca_ui",
+            "version": "1.1.2",
+            "require": {
+                "drupal/core": "^9 || ^10",
+                "drupal/eca": "*"
+            },
+            "type": "metapackage",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.2",
+                    "datestamp": "1677666496",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "boromino",
+                    "homepage": "https://www.drupal.org/user/859722"
+                },
+                {
+                    "name": "danielspeicher",
+                    "homepage": "https://www.drupal.org/user/3621778"
+                },
+                {
+                    "name": "jurgenhaas",
+                    "homepage": "https://www.drupal.org/user/168924"
+                }
+            ],
+            "description": "Provides a user interface for managing ECA models.",
+            "homepage": "https://www.drupal.org/project/eca",
+            "support": {
+                "source": "https://git.drupalcode.org/project/eca"
+            }
+        },
+        {
+            "name": "drupal/eca_webform",
+            "version": "1.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/eca_webform.git",
+                "reference": "1.0.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/entity_clone-2.0.0-alpha1.zip",
-                "reference": "2.0.0-alpha1",
-                "shasum": "35c53a8469c2e242cea9b1ce1340bdcebb7c6bd9"
+                "url": "https://ftp.drupal.org/files/projects/eca_webform-1.0.0-beta2.zip",
+                "reference": "1.0.0-beta2",
+                "shasum": "2ceb44173c66d1372816bdf4bd00061854ae0221"
             },
             "require": {
-                "drupal/core": "^8 || ^9 || ^10"
+                "drupal/core": "^9 || ^10",
+                "drupal/eca": "^1.0",
+                "drupal/webform": "^6.2",
+                "php": ">=7.4"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-beta2",
+                    "datestamp": "1676114980",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "jurgenhaas",
+                    "homepage": "https://www.drupal.org/user/168924"
+                }
+            ],
+            "description": "Integrate ECA with the Webform module and its plugins.",
+            "homepage": "https://www.drupal.org/project/eca_webform",
+            "support": {
+                "source": "https://drupal.org/project/eca_webform",
+                "issues": "https://drupal.org/project/issues/eca_webform"
+            }
+        },
+        {
+            "name": "drupal/entity_clone",
+            "version": "dev-2.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/entity_clone.git",
+                "reference": "e2e3ef13e3d4c1dfac970a07d67ac0707c47a47d"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10"
             },
             "require-dev": {
                 "drupal/entity_browser": "2.x-dev",
@@ -2476,12 +2788,15 @@
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
                 "drupal": {
-                    "version": "2.0.0-alpha1",
-                    "datestamp": "1665381824",
+                    "version": "2.0.0-beta2+6-dev",
+                    "datestamp": "1679734002",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -5079,46 +5394,45 @@
         },
         {
             "name": "drupal/webform",
-            "version": "6.1.4",
+            "version": "6.2.0-beta5",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform.git",
-                "reference": "6.1.4"
+                "reference": "6.2.0-beta5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-6.1.4.zip",
-                "reference": "6.1.4",
-                "shasum": "b1c27c2a210670b6d149cdd92cbb37100b19cf64"
+                "url": "https://ftp.drupal.org/files/projects/webform-6.2.0-beta5.zip",
+                "reference": "6.2.0-beta5",
+                "shasum": "db1e05e7dc841b52b5721e82c5ad9f8aa2583c61"
             },
             "require": {
-                "drupal/core": "^8.8 || ^9"
+                "drupal/core": "^9.4 || ^10"
             },
             "require-dev": {
                 "drupal/address": "~1.0",
+                "drupal/bartik": "~1.0",
                 "drupal/bootstrap": "~3.0",
                 "drupal/captcha": "~1.0",
                 "drupal/chosen": "~3.0",
-                "drupal/clientside_validation": "*",
+                "drupal/ckeditor": "~1.0",
+                "drupal/clientside_validation": "~4.0",
                 "drupal/clientside_validation_jquery": "*",
-                "drupal/devel": "*",
+                "drupal/devel": "~5.0",
                 "drupal/entity": "~1.0",
-                "drupal/entity_print": "*",
-                "drupal/gnode": "*",
-                "drupal/group": "*",
+                "drupal/entity_print": "~2.0",
+                "drupal/hal": "1 - 2",
                 "drupal/jquery_ui": "~1.0",
-                "drupal/jquery_ui_checkboxradio": "*",
+                "drupal/jquery_ui_checkboxradio": "~2.0",
                 "drupal/jquery_ui_datepicker": "~1.0",
-                "drupal/lingotek": "~3.0",
+                "drupal/lingotek": "~4.0",
                 "drupal/mailsystem": "~4.0",
                 "drupal/paragraphs": "~1.0",
                 "drupal/select2": "~1.0",
+                "drupal/seven": "~1.0",
                 "drupal/smtp": "~1.0",
-                "drupal/styleguide": "~2.0",
-                "drupal/telephone_validation": "~2.0",
-                "drupal/token": "*",
+                "drupal/token": "~1.0",
                 "drupal/variationcache": "~1.0",
-                "drupal/webform-webform_group": "*",
                 "drupal/webform_access": "*",
                 "drupal/webform_attachment": "*",
                 "drupal/webform_clientside_validation": "*",
@@ -5137,16 +5451,16 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "6.1.4",
-                    "datestamp": "1673535467",
+                    "version": "6.2.0-beta5",
+                    "datestamp": "1673535773",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
                     }
                 },
                 "drush": {
                     "services": {
-                        "drush.services.yml": "^9 || ^10"
+                        "drush.services.yml": ">=9"
                     }
                 }
             },
@@ -6529,6 +6843,59 @@
                 "source": "https://github.com/Masterminds/html5-php/tree/2.7.6"
             },
             "time": "2022-08-18T16:18:26+00:00"
+        },
+        {
+            "name": "mtownsend/xml-to-array",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mtownsend5512/xml-to-array.git",
+                "reference": "0734720a8462dba36d90fb8b2723bf46af0091f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mtownsend5512/xml-to-array/zipball/0734720a8462dba36d90fb8b2723bf46af0091f4",
+                "reference": "0734720a8462dba36d90fb8b2723bf46af0091f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~7.0|~8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Mtownsend\\XmlToArray\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Townsend",
+                    "email": "mtownsend5512@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily convert valid xml to a php array.",
+            "keywords": [
+                "array",
+                "convert",
+                "laravel",
+                "xml"
+            ],
+            "support": {
+                "issues": "https://github.com/mtownsend5512/xml-to-array/issues",
+                "source": "https://github.com/mtownsend5512/xml-to-array/tree/2.0.0"
+            },
+            "time": "2021-02-27T22:39:18+00:00"
         },
         {
             "name": "neilime/php-css-lint",
@@ -15104,7 +15471,9 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/block_library": 15,
-        "drupal/entity_clone": 15,
+        "drupal/eca": 20,
+        "drupal/eca_webform": 10,
+        "drupal/entity_clone": 20,
         "drupal/feeds": 10,
         "drupal/feeds_tamper": 10,
         "drupal/fontyourface": 20,
@@ -15112,6 +15481,7 @@
         "drupal/manage_display": 10,
         "drupal/svg_image_field": 10,
         "drupal/views_bootstrap": 15,
+        "drupal/webform": 10,
         "pantheon-upstreams/upstream-configuration": 20
     },
     "prefer-stable": true,
@@ -15121,5 +15491,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
