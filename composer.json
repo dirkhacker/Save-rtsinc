@@ -63,6 +63,7 @@
         "drupal/twig_vardumper": "^3",
         "drupal/views_bootstrap": "^5.5@alpha",
         "drupal/webform": "^6.2@beta",
+        "drupal/webform_import_tab": "1.0.x-dev@dev",
         "drupal/weight": "^3.3",
         "drush/drush": "^11.5",
         "pantheon-systems/drupal-integrations": "^9",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "467d2d924b5f3336ac828f839b3440ce",
+    "content-hash": "bce709a19b54789449305171c3de2a8b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5499,6 +5499,48 @@
                 "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
+            }
+        },
+        {
+            "name": "drupal/webform_import_tab",
+            "version": "dev-1.0.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/webform_import_tab.git",
+                "reference": "535d212b9afd6b9aed4624a40d14df181abf4b8a"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9",
+                "drupal/webform": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                },
+                "drupal": {
+                    "version": "1.0.x-dev",
+                    "datestamp": "1647282531",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "spotzero",
+                    "homepage": "https://www.drupal.org/user/657848"
+                }
+            ],
+            "description": "Add an import tab to webforms.",
+            "homepage": "http://drupal.org/project/webform_import_tab",
+            "support": {
+                "source": "https://git.drupalcode.org/project/webform_import_tab"
             }
         },
         {
@@ -15482,6 +15524,7 @@
         "drupal/svg_image_field": 10,
         "drupal/views_bootstrap": 15,
         "drupal/webform": 10,
+        "drupal/webform_import_tab": 20,
         "pantheon-upstreams/upstream-configuration": 20
     },
     "prefer-stable": true,
