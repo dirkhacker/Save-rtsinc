@@ -14,6 +14,7 @@ module:
   block_content: 0
   bootstrap_layout_builder: 0
   bootstrap_styles: 0
+  bpmn_io: 0
   breakpoint: 0
   captcha: 0
   ckeditor: 0
@@ -27,6 +28,11 @@ module:
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
+  eca: 0
+  eca_form: 0
+  eca_modeller_bpmn: 0
+  eca_ui: 0
+  eca_webform: 0
   editor: 0
   entity_clone: 0
   feeds: 0
@@ -103,6 +109,7 @@ module:
   views_bootstrap: 0
   views_ui: 0
   webform: 0
+  webform_import_tab: 0
   webform_ui: 0
   weight: 0
   fontyourface: 1

@@ -1,0 +1,362 @@
+uuid: 27d2a218-e41b-4146-b048-7ccb0a39b0e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - eca_form
+id: process_v0meeus
+modeller: bpmn_io
+label: 'Default URL query values'
+version: ''
+weight: -8
+events:
+  Event_1mi05a0:
+    plugin: 'form:form_validate'
+    label: 'Query Params'
+    configuration:
+      form_id: ''
+      entity_type_id: ''
+      bundle: ''
+      operation: ''
+    successors:
+      -
+        id: Activity_1yluklf
+        condition: Flow_1imfjeo
+      -
+        id: Activity_0y3liis
+        condition: Flow_1o6g0pk
+      -
+        id: Activity_1e7r7s1
+        condition: Flow_08pgosk
+      -
+        id: Activity_0dfl037
+        condition: Flow_188lciv
+      -
+        id: Activity_0mvm4cm
+        condition: Flow_08mhd0s
+      -
+        id: Activity_0h959r6
+        condition: Flow_0dbkwta
+      -
+        id: Activity_12uojvh
+        condition: Flow_00bbvrm
+      -
+        id: Activity_0sfuz8x
+        condition: Flow_1n8ndwv
+      -
+        id: Activity_0ddd2qy
+        condition: Flow_1ccdiin
+      -
+        id: Activity_06g421y
+        condition: Flow_175jnfh
+      -
+        id: Activity_11v9jd8
+        condition: Flow_0cxpot7
+      -
+        id: Activity_1t1bxcw
+        condition: Flow_111xz1s
+      -
+        id: Activity_1vb3nxa
+        condition: Flow_16q61t3
+conditions:
+  Flow_1imfjeo:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: keyword
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1o6g0pk:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: source
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_08pgosk:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_188lciv:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: ppc_campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_08mhd0s:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: ad
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_0dbkwta:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: adgroup
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_00bbvrm:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: segment
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1n8ndwv:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: placement
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1ccdiin:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: topic
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_175jnfh:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: record_type
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_0cxpot7:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: lead_source
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_111xz1s:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: medium
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_16q61t3:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: gclid
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+gateways: {  }
+actions:
+  Activity_1yluklf:
+    plugin: eca_form_field_set_value
+    label: 'keyword value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: keyword
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0y3liis:
+    plugin: eca_form_field_set_value
+    label: 'source value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: source
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_1e7r7s1:
+    plugin: eca_form_field_set_value
+    label: 'campaign value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0dfl037:
+    plugin: eca_form_field_set_value
+    label: ppc_campaign
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: ppc_campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0mvm4cm:
+    plugin: eca_form_field_set_value
+    label: 'Ad value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: ad
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0h959r6:
+    plugin: eca_form_field_set_value
+    label: 'adgroup value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: adgroup
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_12uojvh:
+    plugin: eca_form_field_set_value
+    label: 'segment Value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: segment
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0sfuz8x:
+    plugin: eca_form_field_set_value
+    label: 'placement value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: placement
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0ddd2qy:
+    plugin: eca_form_field_set_value
+    label: 'topic value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: topic
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_06g421y:
+    plugin: eca_form_field_set_value
+    label: 'record type value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: record_type
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_11v9jd8:
+    plugin: eca_form_field_set_value
+    label: 'lead source value'
+    configuration:
+      field_value: Internet
+      use_yaml: false
+      field_name: lead_source
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_1t1bxcw:
+    plugin: eca_form_field_set_value
+    label: 'medium value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: medium
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_1vb3nxa:
+    plugin: eca_form_field_set_value
+    label: 'gclid value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: gclid
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
