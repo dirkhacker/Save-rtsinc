@@ -60,7 +60,7 @@ third_party_settings:
       label: Row
       parent_name: group_container
       region: content
-      weight: 2
+      weight: 1
       format_type: html_element
       format_settings:
         classes: row
@@ -84,7 +84,7 @@ third_party_settings:
       label: 'Card container'
       parent_name: group_container
       region: content
-      weight: 3
+      weight: 2
       format_type: html_element
       format_settings:
         classes: 'card-container row'
@@ -100,12 +100,11 @@ third_party_settings:
     group_column_card_1:
       children:
         - field_image_1
-        - field_card_title_1
-        - field_card_text_1
+        - group_card_body_1
       label: 'Column Card 1'
       parent_name: group_card_container
       region: content
-      weight: 13
+      weight: 29
       format_type: html_element
       format_settings:
         classes: 'col-md-6 pb-4'
@@ -121,12 +120,11 @@ third_party_settings:
     group_col_card_2:
       children:
         - field_image_2
-        - field_card_title_2
-        - field_card_text_2
+        - group_card_body_2
       label: 'Col Card 2'
       parent_name: group_card_container
       region: content
-      weight: 14
+      weight: 31
       format_type: html_element
       format_settings:
         classes: 'col-md-6 pb-4'
@@ -142,12 +140,11 @@ third_party_settings:
     group_col_card_3:
       children:
         - field_image_3
-        - field_card_title_3
-        - field_card_text_3
+        - group_card_body_3
       label: 'Col Card 3'
       parent_name: group_card_container
       region: content
-      weight: 15
+      weight: 32
       format_type: html_element
       format_settings:
         classes: 'col-md-6 pb-4'
@@ -163,12 +160,11 @@ third_party_settings:
     group_col_card_:
       children:
         - field_image_4
-        - field_card_title_4
-        - field_card_text_4
+        - group_card_body_4
       label: 'Col Card 4'
       parent_name: group_card_container
       region: content
-      weight: 16
+      weight: 33
       format_type: html_element
       format_settings:
         classes: 'col-md-6 pb-4'
@@ -184,12 +180,11 @@ third_party_settings:
     group_col_card_5:
       children:
         - field_image_5
-        - field_card_title_5
-        - field_card_text_
+        - group_card_body_5
       label: 'Col Card 5'
       parent_name: group_card_container
       region: content
-      weight: 17
+      weight: 34
       format_type: html_element
       format_settings:
         classes: 'col-md-6 pb-4'
@@ -205,15 +200,134 @@ third_party_settings:
     group_col_card_6:
       children:
         - field_image_6
-        - field_card_title_6
-        - field_card_text_6
+        - group_card_body_6
       label: 'Col Card 6'
       parent_name: group_card_container
       region: content
-      weight: 18
+      weight: 35
       format_type: html_element
       format_settings:
         classes: 'col-md-6 pb-4'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_card_body_1:
+      children:
+        - field_card_title_1
+        - field_card_text_1
+      label: 'Card Body 1'
+      parent_name: group_column_card_1
+      region: content
+      weight: 5
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_card_body_2:
+      children:
+        - field_card_title_2
+        - field_card_text_2
+      label: 'Card Body 2'
+      parent_name: group_col_card_2
+      region: content
+      weight: 30
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_card_body_3:
+      children:
+        - field_card_title_3
+        - field_card_text_3
+      label: 'Card Body 3'
+      parent_name: group_col_card_3
+      region: content
+      weight: 28
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_card_body_4:
+      children:
+        - field_card_title_4
+        - field_card_text_4
+      label: 'Card Body 4'
+      parent_name: group_col_card_
+      region: content
+      weight: 23
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_card_body_5:
+      children:
+        - field_card_title_5
+        - field_card_text_
+      label: 'Card Body 5'
+      parent_name: group_col_card_5
+      region: content
+      weight: 36
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_card_body_6:
+      children:
+        - field_card_title_6
+        - field_card_text_6
+      label: 'Card Body 6'
+      parent_name: group_col_card_6
+      region: content
+      weight: 28
+      format_type: html_element
+      format_settings:
+        classes: ''
         show_empty_fields: false
         id: ''
         element: div
@@ -235,7 +349,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: text-gray-6
-    weight: 31
+    weight: 38
     region: content
   field_card_text_1:
     type: text_default
@@ -244,7 +358,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: text-gray-6
-    weight: 27
+    weight: 34
     region: content
   field_card_text_2:
     type: text_default
@@ -253,7 +367,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: text-gray-6
-    weight: 28
+    weight: 32
     region: content
   field_card_text_3:
     type: text_default
@@ -262,7 +376,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: text-gray-6
-    weight: 29
+    weight: 30
     region: content
   field_card_text_4:
     type: text_default
@@ -271,7 +385,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: text-gray-6
-    weight: 24
+    weight: 25
     region: content
   field_card_text_6:
     type: text_default
@@ -280,7 +394,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: text-gray-6
-    weight: 32
+    weight: 30
     region: content
   field_card_title_1:
     type: string
@@ -290,7 +404,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: 'display-4 pb-2'
-    weight: 26
+    weight: 33
     region: content
   field_card_title_2:
     type: string
@@ -300,7 +414,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: 'display-4 pb-2'
-    weight: 27
+    weight: 31
     region: content
   field_card_title_3:
     type: string
@@ -310,7 +424,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: 'display-4 pb-2'
-    weight: 28
+    weight: 29
     region: content
   field_card_title_4:
     type: string
@@ -320,7 +434,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: 'display-4 pb-2'
-    weight: 23
+    weight: 24
     region: content
   field_card_title_5:
     type: string
@@ -330,7 +444,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: 'display-4 pb-2'
-    weight: 30
+    weight: 37
     region: content
   field_card_title_6:
     type: string
@@ -340,7 +454,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: 'display-4 pb-2'
-    weight: 31
+    weight: 29
     region: content
   field_image_1:
     type: image
@@ -359,7 +473,7 @@ content:
         class: ''
       image_class:
         class: img-fluid
-    weight: 25
+    weight: 4
     region: content
   field_image_2:
     type: image
@@ -378,7 +492,7 @@ content:
         class: ''
       image_class:
         class: img-fluid
-    weight: 26
+    weight: 29
     region: content
   field_image_3:
     type: image
@@ -435,7 +549,7 @@ content:
         class: ''
       image_class:
         class: img-fluid
-    weight: 29
+    weight: 35
     region: content
   field_image_6:
     type: image
@@ -454,7 +568,7 @@ content:
         class: ''
       image_class:
         class: img-fluid
-    weight: 30
+    weight: 27
     region: content
   field_subheading:
     type: text_default
