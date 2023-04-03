@@ -81,7 +81,7 @@ modeldata: |
             <camunda:string>no</camunda:string>
           </camunda:field>
           <camunda:field name="field_name">
-            <camunda:string>services</camunda:string>
+            <camunda:string>rts_products</camunda:string>
           </camunda:field>
           <camunda:field name="strip_tags">
             <camunda:string>yes</camunda:string>
@@ -144,7 +144,7 @@ modeldata: |
             <camunda:string>no</camunda:string>
           </camunda:field>
           <camunda:field name="field_name">
-            <camunda:string>services</camunda:string>
+            <camunda:string>rts_products</camunda:string>
           </camunda:field>
           <camunda:field name="strip_tags">
             <camunda:string>yes</camunda:string>
@@ -188,7 +188,7 @@ modeldata: |
             <camunda:string>no</camunda:string>
           </camunda:field>
           <camunda:field name="field_name">
-            <camunda:string>services</camunda:string>
+            <camunda:string>rts_products</camunda:string>
           </camunda:field>
           <camunda:field name="strip_tags">
             <camunda:string>yes</camunda:string>
@@ -251,7 +251,7 @@ modeldata: |
             <camunda:string>no</camunda:string>
           </camunda:field>
           <camunda:field name="field_name">
-            <camunda:string>services</camunda:string>
+            <camunda:string>rts_products</camunda:string>
           </camunda:field>
           <camunda:field name="strip_tags">
             <camunda:string>yes</camunda:string>
@@ -289,7 +289,7 @@ modeldata: |
             <camunda:string>no</camunda:string>
           </camunda:field>
           <camunda:field name="field_name">
-            <camunda:string>services</camunda:string>
+            <camunda:string>rts_products</camunda:string>
           </camunda:field>
           <camunda:field name="strip_tags">
             <camunda:string>yes</camunda:string>
@@ -327,7 +327,7 @@ modeldata: |
             <camunda:string>no</camunda:string>
           </camunda:field>
           <camunda:field name="field_name">
-            <camunda:string>services</camunda:string>
+            <camunda:string>rts_products</camunda:string>
           </camunda:field>
           <camunda:field name="strip_tags">
             <camunda:string>yes</camunda:string>
@@ -616,7 +616,7 @@ modeldata: |
             <camunda:string>no</camunda:string>
           </camunda:field>
           <camunda:field name="field_name">
-            <camunda:string>services</camunda:string>
+            <camunda:string>rts_products</camunda:string>
           </camunda:field>
           <camunda:field name="strip_tags">
             <camunda:string>yes</camunda:string>
@@ -654,7 +654,7 @@ modeldata: |
             <camunda:string>no</camunda:string>
           </camunda:field>
           <camunda:field name="field_name">
-            <camunda:string>services</camunda:string>
+            <camunda:string>rts_products</camunda:string>
           </camunda:field>
           <camunda:field name="strip_tags">
             <camunda:string>yes</camunda:string>
@@ -717,7 +717,7 @@ modeldata: |
             <camunda:string>no</camunda:string>
           </camunda:field>
           <camunda:field name="field_name">
-            <camunda:string>services</camunda:string>
+            <camunda:string>rts_products</camunda:string>
           </camunda:field>
           <camunda:field name="strip_tags">
             <camunda:string>yes</camunda:string>
@@ -1255,6 +1255,10 @@ modeldata: |
             <dc:Bounds x="288" y="278" width="24" height="14" />
           </bpmndi:BPMNLabel>
         </bpmndi:BPMNShape>
+        <bpmndi:BPMNShape id="Activity_07weth0_di" bpmnElement="Activity_07weth0">
+          <dc:Bounds x="810" y="0" width="100" height="80" />
+          <bpmndi:BPMNLabel />
+        </bpmndi:BPMNShape>
         <bpmndi:BPMNShape id="Activity_11r6wso_di" bpmnElement="Activity_11r6wso">
           <dc:Bounds x="810" y="210" width="100" height="80" />
           <bpmndi:BPMNLabel />
@@ -1359,10 +1363,6 @@ modeldata: |
         </bpmndi:BPMNShape>
         <bpmndi:BPMNShape id="Activity_0z3e85b_di" bpmnElement="Activity_0z3e85b">
           <dc:Bounds x="1120" y="680" width="100" height="80" />
-          <bpmndi:BPMNLabel />
-        </bpmndi:BPMNShape>
-        <bpmndi:BPMNShape id="Activity_07weth0_di" bpmnElement="Activity_07weth0">
-          <dc:Bounds x="810" y="0" width="100" height="80" />
           <bpmndi:BPMNLabel />
         </bpmndi:BPMNShape>
         <bpmndi:BPMNEdge id="Flow_0vidj5e_di" bpmnElement="Flow_0vidj5e">

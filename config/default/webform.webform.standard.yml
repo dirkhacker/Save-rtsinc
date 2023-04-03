@@ -1,4 +1,4 @@
-uuid: 833eaffc-d8e7-4857-a595-0a20833bfb6f
+uuid: bb1352e1-fadf-49b3-8bd4-f1cb1d9f4a97
 langcode: en
 status: open
 dependencies:
@@ -13,8 +13,8 @@ close: null
 uid: 1
 template: false
 archive: false
-id: standard_multiselect
-title: 'Standard Multiselect'
+id: standard
+title: Standard
 description: ''
 category: ''
 elements: |-
@@ -22,21 +22,10 @@ elements: |-
     '#type': webform_markup
     '#admin_title': 'Form Header'
     '#markup': |-
-      <h3>We Look Forward to Hearing From You</h3>
-
-      <p>Complete this form and a representative will call you quickly with more information.</p>
-  rts_products:
-    '#type': checkboxes
-    '#title': 'What Services Are You Interested In?'
-    '#title_display': before
-    '#options':
-      factoring: Factoring
-      fuel: Fuel
-      software: 'Trucking Software'
-    '#options_display': side_by_side
-    '#required': true
-    '#required_error': 'Please select an option'
-    '#admin_title': 'Multiselect Products'
+      <div class="form-sidebar-header">
+      <h3>Interested in This Feature?</h3>
+      <p class="text-gray-6">If you believe you should have access to this feature, please reach out to your company’s administrator. For additional information, fill out the form and an RTS representative will reach out shortly.</p>
+      </div>
   first_name:
     '#type': textfield
     '#title': 'First Name'
@@ -407,7 +396,7 @@ handlers:
       file_data: true
       cast: false
       debug: false
-      completed_url: 'https://hooks.zapier.com/hooks/catch/1932221/bncqpbt/'
+      completed_url: 'https://hooks.zapier.com/hooks/catch/1932221/32d1s8p/'
       completed_custom_data: ''
       updated_url: ''
       updated_custom_data: ''

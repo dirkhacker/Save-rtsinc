@@ -1,0 +1,31 @@
+uuid: cd031fba-8149-4eda-8d27-f9a60f1f8b6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.standard
+  module:
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+id: webform_2
+theme: rtsbarrio
+region: sidebar_second
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  label_display: '0'
+  provider: webform
+  webform_id: standard
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /lp/rtspro-fuel

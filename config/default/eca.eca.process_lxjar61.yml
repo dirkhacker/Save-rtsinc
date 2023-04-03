@@ -29,7 +29,7 @@ conditions:
       negate: false
       case: false
       field_value: fuel
-      field_name: services
+      field_name: rts_products
       strip_tags: true
       trim: true
       xss_filter: true
@@ -41,7 +41,7 @@ conditions:
       negate: false
       case: false
       field_value: Factoring
-      field_name: services
+      field_name: rts_products
       strip_tags: true
       trim: true
       xss_filter: true
@@ -52,7 +52,7 @@ conditions:
     configuration:
       case: false
       field_value: Fuel
-      field_name: services
+      field_name: rts_products
       strip_tags: true
       trim: true
       xss_filter: true
@@ -65,7 +65,7 @@ conditions:
       negate: false
       case: false
       field_value: software
-      field_name: services
+      field_name: rts_products
       strip_tags: true
       trim: true
       xss_filter: true
@@ -76,7 +76,7 @@ conditions:
     configuration:
       case: false
       field_value: fuel
-      field_name: services
+      field_name: rts_products
       strip_tags: true
       trim: true
       xss_filter: true
@@ -88,7 +88,7 @@ conditions:
     configuration:
       case: false
       field_value: factoring
-      field_name: services
+      field_name: rts_products
       strip_tags: true
       trim: true
       xss_filter: true
@@ -101,7 +101,7 @@ conditions:
       negate: false
       case: false
       field_value: fuel
-      field_name: services
+      field_name: rts_products
       strip_tags: true
       trim: true
       xss_filter: true
@@ -112,7 +112,7 @@ conditions:
     configuration:
       case: false
       field_value: factoring
-      field_name: services
+      field_name: rts_products
       strip_tags: true
       trim: true
       xss_filter: true
@@ -125,7 +125,7 @@ conditions:
       negate: false
       case: false
       field_value: factoring
-      field_name: services
+      field_name: rts_products
       strip_tags: true
       trim: true
       xss_filter: true

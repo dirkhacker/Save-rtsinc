@@ -994,7 +994,7 @@ modeldata: |
           <di:waypoint x="350" y="450" />
           <di:waypoint x="640" y="450" />
           <bpmndi:BPMNLabel>
-            <dc:Bounds x="332" y="547" width="69" height="14" />
+            <dc:Bounds x="355" y="433" width="69" height="14" />
           </bpmndi:BPMNLabel>
         </bpmndi:BPMNEdge>
       </bpmndi:BPMNPlane>
