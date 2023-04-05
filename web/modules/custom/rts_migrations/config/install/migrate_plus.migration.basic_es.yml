@@ -39,5 +39,5 @@ destination:
   translations: true
 migration_dependencies:
   required:
-    - migration_plus.migration.blogs
+    - migration_plus.migration.basic
 #  optional: []
