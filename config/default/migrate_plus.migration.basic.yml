@@ -1,9 +1,9 @@
-uuid: 9046c6e9-4477-485d-a266-af9ff67f3587
+uuid: 54d8c533-4803-4724-9d9e-c426525eeb25
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: nXFdyr6mTjf9q0R-ZrHUadOC--e8QHfhCN2Hz288Z0c
+  default_config_hash: 5Q_5AkP28FzQJsmJkDFLB-J-Jlz3eP8RPUOfAxEEBgQ
 id: basic
 class: null
 field_plugin_method: null
@@ -24,7 +24,7 @@ source:
 process:
   type:
     plugin: default_value
-    default_value: blog_posts
+    default_value: page
   title: title
   field_heading: field_heading
   body/value: body

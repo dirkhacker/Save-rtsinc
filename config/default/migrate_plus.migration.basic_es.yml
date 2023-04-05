@@ -1,9 +1,9 @@
-uuid: 34afb19f-f8f1-4ea3-b515-829857b997f0
+uuid: ee6ad5cf-85c2-4b01-adc0-305ed703fc79
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: C16wsHdH2eKiSe1EhFF7dv-Sy6kUS3an5QydhWpFqME
+  default_config_hash: X1NClnCBApCjNZ0TLAEkRMNditxcovgQHMqgcmUxTz8
 id: basic_es
 class: null
 field_plugin_method: null
@@ -49,4 +49,4 @@ destination:
   translations: true
 migration_dependencies:
   required:
-    - migration_plus.migration.blogs
+    - migration_plus.migration.basic
