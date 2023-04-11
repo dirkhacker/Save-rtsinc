@@ -1,4 +1,4 @@
-nid,tnid,type,title,field_heading,body,field_featured_article,field_category,field_global_taxonomy,field_headline,language,fid,filename,field_image,field_image_alt,field_image_title,field_premium_content,field_sub_headline,user_id,author,created,field_weight,alias_path,promote,status,sticky,field_hero_agent_toggle,field_hero_contact_toggle,field_hero_contact_toggle_es,field_hero_modal_toggle
+nid,tnid,type,title,field_heading,body,field_featured_article,field_category,field_global_taxonomy,field_headline,language,fid,filename,field_image,field_image_alt,field_image_title,field_sub_headline,user_id,author,created,updated,field_weight,alias_path,promote,status,sticky,field_hero_agent_toggle,field_hero_contact_toggle,field_hero_contact_toggle_es,field_hero_modal_toggle
 40,40,Basic page,Privacy Policy,Privacy Policy,"<div>
 <p><b>PRIVACY POLICY</b></p>
 </div>
@@ -184,7 +184,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 <p> </p>
 
 <p>Last Modified: August 1, 2022</p>
-",0,,,,English,667,mosiac-bg.jpg,https://www.rtsinc.com/sites/default/files/mosiac-bg.jpg,,,,,3,dschneider,1386886758,,/page/privacy-policy,0,1,0,,,,
+",0,,,,English,667,mosiac-bg.jpg,https://www.rtsinc.com/sites/default/files/mosiac-bg.jpg,,,,1,admin,1386886758,1677016602,,/page/privacy-policy,0,1,0,,,,
 41,41,Basic page,Terms of Use,Terms of Use,"<h2><strong>Terms of Use</strong></h2>
 
 <p>Welcome to the websites of RTS Financial Service, Inc. and RTS Carrier Services, Inc. (“RTS,” “we,” or “us”).  By using any of our websites (“Sites”), currently <a href=""http://www.rtsinc.com"">www.rtsinc.com</a> and <a href=""http://www.pro-transport.com"">www.pro-transport.com</a>, you consent to these Terms of Use.  If you do not agree with the Terms of Use, you may not use our Sites.   </p>
@@ -329,7 +329,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 <p><strong>All other trademarks are the property of their respective owners.</strong></p>
 
 <p><strong>Last </strong><b>modified:  August 1, 2022</b></p>
-",0,,,,English,,,,,,,,3,dschneider,1386886790,,/page/terms-use,0,1,0,,,,
+",0,,,,English,,,,,,,1,admin,1386886790,1663612766,,/page/terms-use,0,1,0,,,,
 49,0,Basic page,Customer Center,Customer Center,"<div class=""btn btn-lg blue-solid margin-top-40 margin-bottom-40 display-inline-block"">
 <a class=""factorsoft"" href=""https://rtspro.com/index.html#/login"">Click Here To Login To Your Factoring Account</a>
 </div>
@@ -340,7 +340,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 
 
 
-",0,,,,English,513,building-785689343.jpg,https://www.rtsinc.com/sites/default/files/building-785689343.jpg,,,,,3,dschneider,1387577972,,/page/customer-center,0,1,0,,,,
+",0,,,,English,513,building-785689343.jpg,https://www.rtsinc.com/sites/default/files/building-785689343.jpg,,,,1,admin,1387577972,1661308129,,/page/customer-center,0,1,0,,,,
 93,0,Basic page,RTS Pro,RTS Pro,"<p>By downloading or using the RTS Pro App (the “App”) from RTS Financial Service, Inc. you agree to comply with this Mobile App User Agreement (the “Mobile Terms”). Your use of the App is subject to your acceptance of these terms. By completing the online registration process, you confirm and affirm that you have read, understood, and agree to these Mobile Terms. If you do not agree to these terms, or are incapable of complying with them, do not use the App.</p>
 
 <h2><strong>Ownership, License & Restrictions on Use</strong></h2>
@@ -418,9 +418,9 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 <p><strong>All other trademarks are the property of their respective owners.</strong></p>
 
 <p><strong>Last modified:  June 23, 2020</strong></p>
-",0,,,RTS Mobile Application End User Agreement,English,,,,,,,,3,dschneider,1401304481,,/page/mobile-user-agreement,0,1,0,,,,
-176,176,Basic page,Insights,Insights,,0,,Company Information,,English,,,,,,,Check out our collection of in-depth articles on a variety of industry topics.,3,dschneider,1447360723,,/page/blog,0,1,0,,,,
-177,177,Basic page,Welcome to RTS,Welcome to RTS,,0,,Company Information,Save on Factoring!,English,1034,truck-434ur2.jpg,https://www.rtsinc.com/sites/default/files/truck-434ur2_0.jpg,,,,"At RTS, we offer bundled services that give companies lower factoring rates and better fuel savings.",3,dschneider,1447711325,,/page/rts-financial,0,1,0,,Contact Us,,
+",0,,,RTS Mobile Application End User Agreement,English,,,,,,,1,admin,1401304481,1676907083,,/page/mobile-user-agreement,0,1,0,,,,
+176,176,Basic page,Insights,Insights,,0,,Company Information,,English,,,,,,Check out our collection of in-depth articles on a variety of industry topics.,1,admin,1447360723,1603290364,,/page/blog,0,1,0,,,,
+177,177,Basic page,Welcome to RTS,Welcome to RTS,,0,,Company Information,Save on Factoring!,English,1034,truck-434ur2.jpg,https://www.rtsinc.com/sites/default/files/truck-434ur2_0.jpg,,,"At RTS, we offer bundled services that give companies lower factoring rates and better fuel savings.",1,admin,1447711325,1675195354,,/page/rts-financial,0,1,0,,Contact Us,,
 192,192,Basic page,Agents,Agents,"<div class=""two-col block-inner"">
 <div class=""col col-lg "">
 <h2 class=""display2 margin-top-0"">Why Partner with Us?</h2>
@@ -456,7 +456,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 <p>Get funding on open invoices within 24 hours and simple, transparent pricing with no hidden fees.</p>
 </div>
 
-<div class=""block-list-1""><div class=""view view-factoring-features view-id-factoring_features view-display-id-default features-list-1 view-dom-id-f291e6e95cca20697bec537d85517d61 contextual-links-region"">
+<div class=""block-list-1""><div class=""view view-factoring-features view-id-factoring_features view-display-id-default features-list-1 view-dom-id-a85aaa331e82c2d57f83d284d7859f46 contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/factoring_features/edit/default?destination=exportbasic"">Edit view</a></li></ul></div>  
   
   
@@ -471,12 +471,12 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get more of your money with industry-leading advance rates and scalable funding options.</div>  </div>  </div>
   <div class=""views-row views-row-3 views-row-odd"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Fuel Card Program</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get substantial savings at over 2,000 locations nationwide and credit lines of up to $2,500 per truck, per week.</div>  </div>  </div>
-  <div class=""views-row views-row-4 views-row-even"">
-      
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No Hidden Fees</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Including no ACH fees and no invoice-uploading fees.</div>  </div>  </div>
+  <div class=""views-row views-row-4 views-row-even"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Fuel Card Program</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get substantial savings at over 2,400 locations nationwide and credit lines of up to $2,500 per truck, per week.</div>  </div>  </div>
   <div class=""views-row views-row-5 views-row-odd"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Upload Invoices Online</h3>  </div>  
@@ -506,7 +506,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 <p>Big savings at more than 2,000 fuel stations, and credit lines of up to $2,500 per truck, per week.</p>
 </div>
 
-<div class=""block-list-1""><div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-aa59d237a1b0fb9d11618749bf5f1c42 contextual-links-region"">
+<div class=""block-list-1""><div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-6b0fb4abf7defcbf86366b660e927a65 contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/fuel_features/edit/default?destination=exportbasic"">Edit view</a></li></ul></div>  
   
   
@@ -514,14 +514,14 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
         <div class=""views-row views-row-1 views-row-odd views-row-first"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Save 25¢ per Gallon</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,000 fuel stations.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,400 fuel stations.</div>  </div>  </div>
   <div class=""views-row views-row-2 views-row-even"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">$2,500 Line of Credit</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get as much as $2,500 per truck, per week.</div>  </div>  </div>
   <div class=""views-row views-row-3 views-row-odd"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,000 Fuel Stations</h3>  </div>  
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,400 Fuel Stations</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
   <div class=""views-row views-row-4 views-row-even"">
       
@@ -534,7 +534,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
   <div class=""views-row views-row-6 views-row-even views-row-last"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No Annual Fees</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no contract and you are not charged yearly card fees.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no fuel card contract and no annual card fees.</div>  </div>  </div>
     </div>
   
   
@@ -545,10 +545,10 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 </div></div>
 </div>
 </div>
-",0,,Agent,Refer Your Contacts with Confidence,English,1313,building-2kcndu.jpg,https://www.rtsinc.com/sites/default/files/building-2kcndu.jpg,,,,"Help your friends and partners improve their businesses by adopting best-in-class services, and get paid for it.",3,dschneider,1449005586,,/page/agent-program,0,1,0,Show,,,
-208,0,Basic page,Welcome to a Better Factoring Experience,Welcome to a Better Factoring Experience,,0,,,,English,618,building-684685.jpg,https://www.rtsinc.com/sites/default/files/building-684685.jpg,,,,"For more than 20 years, RTS Financial has designed funding solutions that speed up cash flow and drive business growth for companies of all sizes.  ",3,dschneider,1457625281,,/page/home2,0,0,0,,,,
+",0,,Agent,Refer Your Contacts with Confidence,English,1313,building-2kcndu.jpg,https://www.rtsinc.com/sites/default/files/building-2kcndu.jpg,,,"Help your friends and partners improve their businesses by adopting best-in-class services, and get paid for it.",1,admin,1449005586,1643648572,,/page/agent-program,0,1,0,Show,,,
+208,0,Basic page,Welcome to a Better Factoring Experience,Welcome to a Better Factoring Experience,,0,,,,English,618,building-684685.jpg,https://www.rtsinc.com/sites/default/files/building-684685.jpg,,,"For more than 20 years, RTS Financial has designed funding solutions that speed up cash flow and drive business growth for companies of all sizes.  ",1,admin,1457625281,1464800176,,/page/home2,0,0,0,,,,
 240,0,Basic page,Invoice Manager ,Invoice Manager ,"<p style=""font-size: 1.5em; line-height: 1.45em;"">Sorry, but the page your are looking for no longer exists. Try searching in the header of our website for the information you need.</p>
-",0,,,,English,671,mosiac-bg.jpg,https://www.rtsinc.com/sites/default/files/mosiac-bg_0.jpg,,,,,3,dschneider,1465574380,,/error/404,0,1,0,,,,
+",0,,,,English,671,mosiac-bg.jpg,https://www.rtsinc.com/sites/default/files/mosiac-bg_0.jpg,,,,1,admin,1465574380,1500386800,,/error/404,0,1,0,,,,
 257,257,Basic page,International Factoring,International Factoring,"<div style=""max-width: 800px !important; margin-bottom: 64px;"">
 <h2>RTS International</h2>
 
@@ -576,7 +576,118 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 	<li>Textile and apparel</li>
 	<li>Trucking</li>
 </ul>
-",0,,"Factoring, Finance, International",Global Factoring Solutions for International Business,English,910,intl-8suydf.jpg,https://www.rtsinc.com/sites/default/files/intl-8suydf.jpg,,,,Turn your invoices into cash within 24 hours by factoring with RTS International.,3,dschneider,1473194802,,/page/international-factoring,0,1,0,,,,
+",0,,"Factoring, Finance, International",Global Factoring Solutions for International Business,English,910,intl-8suydf.jpg,https://www.rtsinc.com/sites/default/files/intl-8suydf.jpg,,,Turn your invoices into cash within 24 hours by factoring with RTS International.,1,admin,1473194802,1610554810,,/page/international-factoring,0,1,0,,,,
+271,0,Basic page,Turn Invoices Into Immediate Cash with Factoring,Turn Invoices Into Immediate Cash with Factoring,,0,,,,English,722,city-pak8hrdg.jpg,https://www.rtsinc.com/sites/default/files/city-pak8hrdg_0.jpg,,,"Since 1995, we have provided same-day funding, advance rates up to 97%, and outstanding customer service. ",1,admin,1487284335,1488487108,,/page/home-2,0,1,0,,,,
+277,0,Basic page,Equipment Leasing ,Equipment Leasing ,"<p class=""margin-top-0"">As an RTS Financial client, you have access to leases on high-quality used trucks for your fleet.</p>
+
+<p>RTS Financial has many relationships in the equipment leasing space, including a relationship with OTR Leasing that features model year 2009-2014 tractors with an average of 350,000 to 550,000 miles. The program offers an easy approval process and an opportunity to lease multiple trucks. The inventory includes Freightliner, Peterbilt, Kenworth, Volvo and International tractors.</p>
+
+<h2>Advantages of the Truck and Equipment Leasing Program:</h2>
+<ul>
+<li>Easy credit approval process</li>
+<li>Low down payments</li>
+<li>Lease-to-own opportunities</li>
+<li>Optional maintenance savings and benefits program</li>
+<li>24-hour roadside assistance</li>
+<li>Fleet-level discounts on parts and labor at many OEM shops</li>
+<li>Six-month/50,000-mile warranty for all tractors</li>
+</ul>
+
+<p><strong>For more information about equipment leasing, call RTS Financial at (877) 577-7943.</strong></p>",0,,,,English,726,truck-389ty4ff44.jpg,https://www.rtsinc.com/sites/default/files/truck-389ty4ff44.jpg,,,"Fast, easy approvals for leasing Class 8 trucks, trailers and other equipment. ",1,admin,1488317615,1519333188,,/page/truck-and-equipment-leasing,0,1,0,,,,
+279,0,Basic page,How Factoring Builds Working Capital and Fuels Business Growth,How Factoring Builds Working Capital and Fuels Business Growth,"<h2 class=""margin-top-0"">How Does Factoring Work?</h2>
+<p>Factoring is a transaction in which a business sells its invoices, or receivables, to a third-party financial company known as a “factor.” The factor then collects payment on those invoices from the business’s customers. Factoring is known in some industries as “accounts receivable financing.”</p>
+<p>The main reason that companies choose to factor is that they want to receive cash quickly on their receivables, rather than waiting the 30 to 60 days it often takes a customer to pay. Factoring allows companies to quickly build up their cash flow, which makes it easier for them to pay employees, handle customer orders and add more business.</p>
+
+<h2>What is a Cash Advance?</h2>
+<p>When you factor an invoice, the factoring provider advances to you a percentage of that invoice value, usually within 24 hours. The factor will then pay you the balance of the invoice, minus fees, after it collects payment from your customer.  
+The cash advance rate can vary depending on what industry your company is in and whom you choose as a factor. The advance rate can range from 80% of an invoice value to as much as 95%. Your industry, your customers’ credit histories and other criteria help determine the advance rate you receive.</p>
+      
+<h2>Why Not Just Wait for My Customers to Pay?</h2>
+<p>The long wait on customer payments can limit the amount of cash your company has on hand to meet expenses and achieve financial goals. 
+While there are many advantages to factoring, the main benefit is quick payment on your invoices. Let’s say, for example, that your company averages $100,000 in receivables each month. However, you have nothing to show for it at month’s end because your customers wait longer than 30 days to pay. Factoring ensures that you receive cash on those invoices immediately. Even at an 80% advance rate, your business can count on having $80,000 in the bank at month’s end, instead of zero.</p>
+           
+<h2>Factoring in Five Simple Steps</h2>
+
+<p>This <a href=""http://www.rtsfinancial.com/articles/illustrated-guide-how-factoring-works"">simple graphic illustrates</a> how a factoring transaction typically works.</p>
+      
+<h2>What Are Some Other Benefits of Factoring?</h2>
+<p>Boosting cash flow is the main reason most companies factor. However, factoring provides many other advantages as well. Here are a few of them: 
+</p><ul>  
+<li>Factors provide free back-office support, including managing collections from your customers. This gives you more time and resources to focus on growing your company.</li>
+<li>Factoring is based on the quality of your customers’ credit, not your own credit or business history.</li>
+<li>Factoring can be customized and managed so that it provides necessary capital when your company needs it.</li>
+<li>Factoring is not a loan, so you do not incur debt when you factor.</li>
+<li>Factoring is scalable, meaning the amount of funding can grow as your receivables grow. </li>
+</ul>
+      
+<h2>What Kinds of Companies Factor?</h2>
+<p>Companies of all sizes, from one-person businesses, to Fortune 500 corporations, use factoring as a way to increase their cash flow. Factoring spans all industries, including trucking, transportation, manufacturing, government contracting, textiles, oilfield services, health care and staffing agencies. Companies use the cash generated from factoring to pay for inventory, buy new equipment, add employees and expand operations—basically any expenses related to their business. Factoring allows a company to make quicker decisions and expand at a faster pace.</p>
+      
+<h2>How Long Has Factoring Been Around?</h2>
+<p>Factoring actually <a href=""http://www.rtsfinancial.com/articles/brief-history-factoring-accounts-receivable-financing"">goes back many centuries</a>. The origin of factoring lies in overseas trade among nations. It became a part of doing business in England as early as the 1400s, and came to America with the Pilgrims in 1620. Like all financial tools, factoring has evolved over the years. It grew in the United States as an effective way for companies to build more cash flow, due to limitations companies faced securing loans in the nation’s fragmented banking system.</p>
+      
+<h2>How Much Do I Need to Factor?</h2>
+<p>It depends on your company’s unique business needs. Some companies factor all of their invoices, while others factor only invoices for customers that take a longer time to pay. The volume of receivables that a company may choose to factor can range from a few thousand dollars to millions of dollars a month.</p>
+      
+<div class=""bvf-container"">
+<div class=""bvf-container-inner"">
+<h2>Factoring versus a Traditional Bank Loan</h2>
+<p class=""medium"">Factoring, or “accounts receivable financing,” is a quick, flexible way for businesses to build up their cash flow. Here is how factoring differs from a bank business loan or line of credit:</p>
+<div class=""bvf-header-container"">
+<h3 class=""bvf-header bvf-factoring"">Factoring</h3>
+<h3 class=""bvf-header bvf-banking"">Bank Loan</h3>
+</div>
+<div class=""bvf-row row-1"">
+<div class=""bvf-item bvf-item-factoring"">The amount of money you can finance grows as your receivables grow.</div>
+<div class=""bvf-item bvf-item-banking"">The money you borrow comes with a cap or a limit.</div>
+</div>
+<div class=""bvf-row row-2"">
+<div class=""bvf-item bvf-item-factoring"">Factoring is not a loan. You assume no debt.</div>
+<div class=""bvf-item bvf-item-banking"">You repay principal and interest on your loan.</div>
+</div>
+<div class=""bvf-row row-3"">
+<div class=""bvf-item bvf-item-factoring"">You can qualify for factoring regardless of your credit score; most factors are more concerned with your customers’ credit strength.</div>
+<div class=""bvf-item bvf-item-banking"">Qualifying for a loan requires a review of your company’s financials, assets and liabilities, and credit history.</div>
+</div>
+<div class=""bvf-row row-4"">
+<div class=""bvf-item bvf-item-factoring"">It can take less than five days to set up an account.</div>
+<div class=""bvf-item bvf-item-banking"">Securing a loan or line of credit takes between one and two months.</div>
+</div>
+<div class=""bvf-row row-5"">
+<div class=""bvf-item bvf-item-factoring"">Funding can take place within 24 hours.</div>
+<div class=""bvf-item bvf-item-banking"">Once your loan is approved, you have immediate access to those funds.</div>
+</div>
+<div class=""bvf-row row-6"">
+<div class=""bvf-item bvf-item-factoring"">Minimal paperwork and documentation are required to start factoring.</div>
+<div class=""bvf-item bvf-item-banking"">Extensive paperwork, financial statements and personal information are required.</div>
+</div>
+<div class=""bvf-row row-7"">
+<div class=""bvf-item bvf-item-factoring"">Some factors handle collections of your accounts receivable and provide additional back-office services.</div>
+<div class=""bvf-item bvf-item-banking"">No accounts receivable or back office services are provided.</div>
+</div>
+<div class=""bvf-row row-8"">
+<div class=""bvf-item bvf-item-factoring"">Rates can be adjusted as you finance more money through factoring.</div>
+<div class=""bvf-item bvf-item-banking"">Your annual percentage rate is locked long-term, or for the life of the loan.</div>
+</div>
+<div class=""bvf-row row-9"">
+<div class=""bvf-item bvf-item-factoring"">Some factors provide credit reports and other information on your existing and potential customers.</div>
+<div class=""bvf-item bvf-item-banking"">No credit services provided, which means you manage your own credit policy.</div>
+</div>
+</div>
+</div>
+<h2>What is the Difference Between Recourse and Non-Recourse Factoring?</h2>
+<p>Recourse factoring means that the factoring client ultimately takes responsibility for payment of an invoice if the factor cannot collect payment from the customer, or debtor.</p>
+<p>Non-recourse factoring allows companies to sell their invoices to the factoring company, which assumes all of the credit risks for collecting on the invoices. Some factoring providers offer both recourse and non-recourse factoring to their clients.</p>
+<h2>What about Fees or Contract Terms?</h2>
+<p>Different factors have different fee structures. Some only charge an overall factoring fee that is determined by the monthly volume of receivables and the creditworthiness of a client’s customers. Other factoring providers have additional fees that cover money transfers, shipping, collateral and other costs of doing business.</p>
+<p>When selecting a factor, pay close attention to the fee structure. Make sure the factor you work with is up-front with you about its fees as well as the term of the factoring contract. Most factoring contracts are 12 months with annual renewals.</p>
+      
+<h2>Is Credit Insurance Needed on Debtors?</h2>
+      <p>Insurance is not typically necessary, but may be required in specific circumstances.</p> 
+
+      <p>For much more information about factoring, please read the other articles in <em><strong>The Complete Guide to Factoring</strong></em>.</p>
+  
+",0,,,,English,728,building-389t83.jpg,https://www.rtsinc.com/sites/default/files/building-389t83.jpg,,,Learn what every business owner should know about factoring receivables to build cash flow. ,1,admin,1488483124,1488483542,,/page/what-is-factoring-ab,0,1,0,,,,
 295,295,Basic page,About Us,About Us,"<div class=""block-heading"">
 <h2 class=""display2"">
 <svg class=""shamrock-logo"" data-name=""Option 2 copy"" viewbox=""0 0 200 200"" xmlns=""http://www.w3.org/2000/svg""> 
@@ -719,119 +830,7 @@ A Family of Brands</h2>
 </div>
 </div>
 </div>
-",0,,Company Information,Dedicated to Trucking Since 1995,English,767,building-1thduf.jpg,https://www.rtsinc.com/sites/default/files/building-1thduf.jpg,,,,"For over 25 years, we have focused on helping trucking companies get paid faster, lower their fuel costs and run their businesses more efficiently.",3,dschneider,1499718309,,/page/about-us,0,1,0,,None,,Modal Link
-754,754,Basic page,Contact Us,Contact Us,,0,,Contact,Contact Us Today,English,1305,building-2sudge.jpg,https://www.rtsinc.com/sites/default/files/building-2sudge.jpg,,,,"Get a fast response to your questions about our factoring services, fuel card program and trucking software.",3,dschneider,1567781264,,/page/contact-us,0,1,0,,,,
-271,0,Basic page,Turn Invoices Into Immediate Cash with Factoring,Turn Invoices Into Immediate Cash with Factoring,,0,,,,,722,city-pak8hrdg.jpg,https://www.rtsinc.com/sites/default/files/city-pak8hrdg_0.jpg,,,,"Since 1995, we have provided same-day funding, advance rates up to 97%, and outstanding customer service. ",3,dschneider,1487284335,,/page/home-2,0,1,0,,,,
-277,0,Basic page,Equipment Leasing ,Equipment Leasing ,"<p class=""margin-top-0"">As an RTS Financial client, you have access to leases on high-quality used trucks for your fleet.</p>
-
-<p>RTS Financial has many relationships in the equipment leasing space, including a relationship with OTR Leasing that features model year 2009-2014 tractors with an average of 350,000 to 550,000 miles. The program offers an easy approval process and an opportunity to lease multiple trucks. The inventory includes Freightliner, Peterbilt, Kenworth, Volvo and International tractors.</p>
-
-<h2>Advantages of the Truck and Equipment Leasing Program:</h2>
-<ul>
-<li>Easy credit approval process</li>
-<li>Low down payments</li>
-<li>Lease-to-own opportunities</li>
-<li>Optional maintenance savings and benefits program</li>
-<li>24-hour roadside assistance</li>
-<li>Fleet-level discounts on parts and labor at many OEM shops</li>
-<li>Six-month/50,000-mile warranty for all tractors</li>
-</ul>
-
-<p><strong>For more information about equipment leasing, call RTS Financial at (877) 577-7943.</strong></p>",0,,,,,726,truck-389ty4ff44.jpg,https://www.rtsinc.com/sites/default/files/truck-389ty4ff44.jpg,,,,"Fast, easy approvals for leasing Class 8 trucks, trailers and other equipment. ",3,dschneider,1488317615,,/page/truck-and-equipment-leasing,0,1,0,,,,
-279,0,Basic page,How Factoring Builds Working Capital and Fuels Business Growth,How Factoring Builds Working Capital and Fuels Business Growth,"<h2 class=""margin-top-0"">How Does Factoring Work?</h2>
-<p>Factoring is a transaction in which a business sells its invoices, or receivables, to a third-party financial company known as a “factor.” The factor then collects payment on those invoices from the business’s customers. Factoring is known in some industries as “accounts receivable financing.”</p>
-<p>The main reason that companies choose to factor is that they want to receive cash quickly on their receivables, rather than waiting the 30 to 60 days it often takes a customer to pay. Factoring allows companies to quickly build up their cash flow, which makes it easier for them to pay employees, handle customer orders and add more business.</p>
-
-<h2>What is a Cash Advance?</h2>
-<p>When you factor an invoice, the factoring provider advances to you a percentage of that invoice value, usually within 24 hours. The factor will then pay you the balance of the invoice, minus fees, after it collects payment from your customer.  
-The cash advance rate can vary depending on what industry your company is in and whom you choose as a factor. The advance rate can range from 80% of an invoice value to as much as 95%. Your industry, your customers’ credit histories and other criteria help determine the advance rate you receive.</p>
-      
-<h2>Why Not Just Wait for My Customers to Pay?</h2>
-<p>The long wait on customer payments can limit the amount of cash your company has on hand to meet expenses and achieve financial goals. 
-While there are many advantages to factoring, the main benefit is quick payment on your invoices. Let’s say, for example, that your company averages $100,000 in receivables each month. However, you have nothing to show for it at month’s end because your customers wait longer than 30 days to pay. Factoring ensures that you receive cash on those invoices immediately. Even at an 80% advance rate, your business can count on having $80,000 in the bank at month’s end, instead of zero.</p>
-           
-<h2>Factoring in Five Simple Steps</h2>
-
-<p>This <a href=""http://www.rtsfinancial.com/articles/illustrated-guide-how-factoring-works"">simple graphic illustrates</a> how a factoring transaction typically works.</p>
-      
-<h2>What Are Some Other Benefits of Factoring?</h2>
-<p>Boosting cash flow is the main reason most companies factor. However, factoring provides many other advantages as well. Here are a few of them: 
-</p><ul>  
-<li>Factors provide free back-office support, including managing collections from your customers. This gives you more time and resources to focus on growing your company.</li>
-<li>Factoring is based on the quality of your customers’ credit, not your own credit or business history.</li>
-<li>Factoring can be customized and managed so that it provides necessary capital when your company needs it.</li>
-<li>Factoring is not a loan, so you do not incur debt when you factor.</li>
-<li>Factoring is scalable, meaning the amount of funding can grow as your receivables grow. </li>
-</ul>
-      
-<h2>What Kinds of Companies Factor?</h2>
-<p>Companies of all sizes, from one-person businesses, to Fortune 500 corporations, use factoring as a way to increase their cash flow. Factoring spans all industries, including trucking, transportation, manufacturing, government contracting, textiles, oilfield services, health care and staffing agencies. Companies use the cash generated from factoring to pay for inventory, buy new equipment, add employees and expand operations—basically any expenses related to their business. Factoring allows a company to make quicker decisions and expand at a faster pace.</p>
-      
-<h2>How Long Has Factoring Been Around?</h2>
-<p>Factoring actually <a href=""http://www.rtsfinancial.com/articles/brief-history-factoring-accounts-receivable-financing"">goes back many centuries</a>. The origin of factoring lies in overseas trade among nations. It became a part of doing business in England as early as the 1400s, and came to America with the Pilgrims in 1620. Like all financial tools, factoring has evolved over the years. It grew in the United States as an effective way for companies to build more cash flow, due to limitations companies faced securing loans in the nation’s fragmented banking system.</p>
-      
-<h2>How Much Do I Need to Factor?</h2>
-<p>It depends on your company’s unique business needs. Some companies factor all of their invoices, while others factor only invoices for customers that take a longer time to pay. The volume of receivables that a company may choose to factor can range from a few thousand dollars to millions of dollars a month.</p>
-      
-<div class=""bvf-container"">
-<div class=""bvf-container-inner"">
-<h2>Factoring versus a Traditional Bank Loan</h2>
-<p class=""medium"">Factoring, or “accounts receivable financing,” is a quick, flexible way for businesses to build up their cash flow. Here is how factoring differs from a bank business loan or line of credit:</p>
-<div class=""bvf-header-container"">
-<h3 class=""bvf-header bvf-factoring"">Factoring</h3>
-<h3 class=""bvf-header bvf-banking"">Bank Loan</h3>
-</div>
-<div class=""bvf-row row-1"">
-<div class=""bvf-item bvf-item-factoring"">The amount of money you can finance grows as your receivables grow.</div>
-<div class=""bvf-item bvf-item-banking"">The money you borrow comes with a cap or a limit.</div>
-</div>
-<div class=""bvf-row row-2"">
-<div class=""bvf-item bvf-item-factoring"">Factoring is not a loan. You assume no debt.</div>
-<div class=""bvf-item bvf-item-banking"">You repay principal and interest on your loan.</div>
-</div>
-<div class=""bvf-row row-3"">
-<div class=""bvf-item bvf-item-factoring"">You can qualify for factoring regardless of your credit score; most factors are more concerned with your customers’ credit strength.</div>
-<div class=""bvf-item bvf-item-banking"">Qualifying for a loan requires a review of your company’s financials, assets and liabilities, and credit history.</div>
-</div>
-<div class=""bvf-row row-4"">
-<div class=""bvf-item bvf-item-factoring"">It can take less than five days to set up an account.</div>
-<div class=""bvf-item bvf-item-banking"">Securing a loan or line of credit takes between one and two months.</div>
-</div>
-<div class=""bvf-row row-5"">
-<div class=""bvf-item bvf-item-factoring"">Funding can take place within 24 hours.</div>
-<div class=""bvf-item bvf-item-banking"">Once your loan is approved, you have immediate access to those funds.</div>
-</div>
-<div class=""bvf-row row-6"">
-<div class=""bvf-item bvf-item-factoring"">Minimal paperwork and documentation are required to start factoring.</div>
-<div class=""bvf-item bvf-item-banking"">Extensive paperwork, financial statements and personal information are required.</div>
-</div>
-<div class=""bvf-row row-7"">
-<div class=""bvf-item bvf-item-factoring"">Some factors handle collections of your accounts receivable and provide additional back-office services.</div>
-<div class=""bvf-item bvf-item-banking"">No accounts receivable or back office services are provided.</div>
-</div>
-<div class=""bvf-row row-8"">
-<div class=""bvf-item bvf-item-factoring"">Rates can be adjusted as you finance more money through factoring.</div>
-<div class=""bvf-item bvf-item-banking"">Your annual percentage rate is locked long-term, or for the life of the loan.</div>
-</div>
-<div class=""bvf-row row-9"">
-<div class=""bvf-item bvf-item-factoring"">Some factors provide credit reports and other information on your existing and potential customers.</div>
-<div class=""bvf-item bvf-item-banking"">No credit services provided, which means you manage your own credit policy.</div>
-</div>
-</div>
-</div>
-<h2>What is the Difference Between Recourse and Non-Recourse Factoring?</h2>
-<p>Recourse factoring means that the factoring client ultimately takes responsibility for payment of an invoice if the factor cannot collect payment from the customer, or debtor.</p>
-<p>Non-recourse factoring allows companies to sell their invoices to the factoring company, which assumes all of the credit risks for collecting on the invoices. Some factoring providers offer both recourse and non-recourse factoring to their clients.</p>
-<h2>What about Fees or Contract Terms?</h2>
-<p>Different factors have different fee structures. Some only charge an overall factoring fee that is determined by the monthly volume of receivables and the creditworthiness of a client’s customers. Other factoring providers have additional fees that cover money transfers, shipping, collateral and other costs of doing business.</p>
-<p>When selecting a factor, pay close attention to the fee structure. Make sure the factor you work with is up-front with you about its fees as well as the term of the factoring contract. Most factoring contracts are 12 months with annual renewals.</p>
-      
-<h2>Is Credit Insurance Needed on Debtors?</h2>
-      <p>Insurance is not typically necessary, but may be required in specific circumstances.</p> 
-
-      <p>For much more information about factoring, please read the other articles in <em><strong>The Complete Guide to Factoring</strong></em>.</p>
-  
-",0,,,,,728,building-389t83.jpg,https://www.rtsinc.com/sites/default/files/building-389t83.jpg,,,,Learn what every business owner should know about factoring receivables to build cash flow. ,3,dschneider,1488483124,,/page/what-is-factoring-ab,0,1,0,,,,
+",0,,Company Information,Dedicated to Trucking Since 1995,English,767,building-1thduf.jpg,https://www.rtsinc.com/sites/default/files/building-1thduf.jpg,,,"For over 25 years, we have focused on helping trucking companies get paid faster, lower their fuel costs and run their businesses more efficiently.",1,admin,1499718309,1645071634,,/page/about-us,0,1,0,,None,,Modal Link
 325,0,Basic page,Freight Broker Days-to-Pay Trends,Freight Broker Days-to-Pay Trends,"<p>Every day, RTS Financial receives thousands of payments from thousands of freight brokers nationwide on behalf of our factoring customers in the trucking industry. The two charts below, which are updated daily, illustrate the average number of days it takes brokers to pay for shipments.</p> 
 
 <p>If your trucking company works with brokers, this data can provide useful insights into days-to-pay trends and help you make informed business decisions for your company.</p>
@@ -842,12 +841,12 @@ While there are many advantages to factoring, the main benefit is quick payment 
 
 <h2>Freight Broker Days-to-Pay Average, by Week</h2> 
 
-<iframe src=""https://public.domo.com/cards/b66jL"" width=""960"" height=""600"" marginheight=""0"" marginwidth=""0"" frameborder=""0"" scrolling=""no""></iframe>",0,,,,,824,AdobeStock_110057584.jpeg,https://www.rtsinc.com/sites/default/files/AdobeStock_110057584.jpeg,,,,Explore the most recent payment trends in the freight brokerage industry. ,3,dschneider,1509656082,,/page/credit-data,0,1,0,,,,
+<iframe src=""https://public.domo.com/cards/b66jL"" width=""960"" height=""600"" marginheight=""0"" marginwidth=""0"" frameborder=""0"" scrolling=""no""></iframe>",0,,,,English,824,AdobeStock_110057584.jpeg,https://www.rtsinc.com/sites/default/files/AdobeStock_110057584.jpeg,,,Explore the most recent payment trends in the freight brokerage industry. ,1,admin,1509656082,1509658010,,/page/credit-data,0,1,0,,,,
 341,0,Basic page,RTS Financial Reviews ,RTS Financial Reviews ,"<p class=""margin-top-0"">Since 1995, RTS Financial has been committed to providing outstanding service and customized funding solutions that meet our clients’ needs. We believe that dedicated customer account teams, quick responses to customer questions and 23 years of professional experience make RTS Financial a superior factoring experience.</p>
 
 <h2>Here’s what some of our clients have to say about working with RTS Financial:</h2>
 
-<div class=""view view-factoring-reviews view-id-factoring_reviews view-display-id-default content-list-1 view-dom-id-6166c14da7d42c2327762b9c418a9370 contextual-links-region"">
+<div class=""view view-factoring-reviews view-id-factoring_reviews view-display-id-default content-list-1 view-dom-id-6fe1389909427367d309dce7345a9545 contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/factoring_reviews/edit/default?destination=exportbasic"">Edit view</a></li></ul></div>  
   
   
@@ -882,7 +881,7 @@ While there are many advantages to factoring, the main benefit is quick payment 
 </div>
 
 <p>For more customer reviews and testimonials about RTS Financial,<a href=""https://www.google.com/search?ludocid=3395167332750962189&hl=en-US&q=RTS%20Financial%209300%20Metcalf%20Ste%20301%20Overland%20Park%2C%20KS%2066212&_ga=2.76270293.1547502418.1519660020-2108085931.1519660020#lrd=0x87c0eb54dbf107f5:0x2f1e0eb365a1ae0d,1,,,"" target=""_blank""> <strong>click here</strong></a>.</p>
-",0,,,What Our Customers Have to Say,,860,building-84ht8.jpg,https://www.rtsinc.com/sites/default/files/building-84ht8.jpg,,,,We have a great team of customer service representatives that work hard to exceed your expectations.,3,dschneider,1519659919,,/page/rts-financial-reviews,0,1,0,,,,
+",0,,,What Our Customers Have to Say,English,860,building-84ht8.jpg,https://www.rtsinc.com/sites/default/files/building-84ht8.jpg,,,We have a great team of customer service representatives that work hard to exceed your expectations.,1,admin,1519659919,1595361579,,/page/rts-financial-reviews,0,1,0,,,,
 345,0,Basic page,Pilot Flying J Fuel Card,Pilot Flying J Fuel Card,"<p>As the largest operator of travel centers in North America, Pilot Flying J is committed to making life on the road for truck drivers as convenient as possible. Pilot Flying J continues to invest hundreds of millions of dollars into improving every aspect of its business, including fuel lanes, showers, parking, stores, food options and mobile technology. The size of Pilot Flying J’s nationwide network ensures that RTS Carrier Services members have access to significant diesel discounts and outstanding amenities no matter where their trucks run.</p>
 
 <h2>The Value of Pilot Flying J</h2>
@@ -912,14 +911,14 @@ While there are many advantages to factoring, the main benefit is quick payment 
 	<li>Serves 1.6 million customers per day</li>
 	<li>Travel centers across 43 U.S. states</li>
 </ul>
-",0,,,Pilot Flying J Fuel Card Discounts for Trucking Companies,,936,truck-stop-7gfdaz.jpg,https://www.rtsinc.com/sites/default/files/truck-stop-7gfdaz.jpg,,,,RTS Carrier Services’ partnership with Pilot Flying J provides fuel savings at 750-plus locations.,3,dschneider,1522357958,,/page/fuel-card-discounts-pilot-flying-j,0,1,0,,Contact Us,,
+",0,,,Pilot Flying J Fuel Card Discounts for Trucking Companies,English,936,truck-stop-7gfdaz.jpg,https://www.rtsinc.com/sites/default/files/truck-stop-7gfdaz.jpg,,,RTS Carrier Services’ partnership with Pilot Flying J provides fuel savings at 750-plus locations.,1,admin,1522357958,1643646649,,/page/fuel-card-discounts-pilot-flying-j,0,1,0,,Contact Us,,
 520,0,Basic page,Page Not Found,Page Not Found,"<div style=""max-width: 800px;"">
 <p class=""subheading2"">We're sorry, but the web page you requested was not found. If you arrived here by following a link from another website, please notify the webmaster of that site. </p>
 
 <p class=""subheading2"">If you typed the address, please check that you typed it correctly. Addresses are case sensitive.</p>
 
 <p class=""subheading2"">If you know what you're looking for but aren't sure where to find it, <a href=""https://www.rtsfinancial.com"">please visit our home page</a> or use the search feature on this site.</p>
-</div>",0,,,,,1180,404.jpg,https://www.rtsinc.com/sites/default/files/404.jpg,,,,404 - Document Not Found,3,dschneider,1553200526,,/page/page-not-found,0,1,0,,,,
+</div>",0,,,,English,1180,404.jpg,https://www.rtsinc.com/sites/default/files/404.jpg,,,404 - Document Not Found,28,wjorgensen,1553200526,1553200751,,/page/page-not-found,0,1,0,,,,
 746,0,Basic page,Factoring Services,Factoring Services,"<div class=""max-width-960 margin-top-80"">
 <h2 class=""margin-top-0"">What Makes Us Different</h2>
 
@@ -958,7 +957,8 @@ While there are many advantages to factoring, the main benefit is quick payment 
 </ul>
 
 
-",0,,,Same-Day Funding and a 97% Advance Rate,,1290,truck-434ur2g5.jpg,https://www.rtsinc.com/sites/default/files/truck-434ur2g5.jpg,,,,Upload your invoice to CarrierPro and get a 97% advance in less than 24 hours.,3,dschneider,1566267443,,/page/factoring-test,0,0,0,,Contact Us,,
+",0,,,Same-Day Funding and a 97% Advance Rate,English,1290,truck-434ur2g5.jpg,https://www.rtsinc.com/sites/default/files/truck-434ur2g5.jpg,,,Upload your invoice to CarrierPro and get a 97% advance in less than 24 hours.,28,wjorgensen,1566267443,1635361369,,/page/factoring-test,0,0,0,,Contact Us,,
+754,754,Basic page,Contact Us,Contact Us,,0,,Contact,Contact Us Today,English,1305,building-2sudge.jpg,https://www.rtsinc.com/sites/default/files/building-2sudge.jpg,,,"Get a fast response to your questions about our factoring services, fuel card program and trucking software.",28,wjorgensen,1567781264,1603290343,,/page/contact-us,0,1,0,,,,
 760,0,Basic page,Customer Support,Customer Support,"<div class=""max-width-960"">
 
 <p class=""margin-top-0 margin-bottom-32 subheading1"">Contact our support team at the following phone number or email address if you have any questions or feedback regarding your RTS Pro mobile or web account. Please note, to use RTS Pro, you must be an existing customer of RTS Financial, RTS Carrier Services or ProTransport.</p>
@@ -967,7 +967,7 @@ While there are many advantages to factoring, the main benefit is quick payment 
 
 <p class=""margin-bottom-80""><a class=""subheading1"" href=""mailto:""support@rtspro.com"">support@rtspro.com</a></p>
 
-</div>",0,,,RTS Pro Support,,1520,building-1thduf.jpg,https://www.rtsinc.com/sites/default/files/building-1thduf_0.jpg,,,,"Welcome to the support page for RTS Pro, formerly known as CarrierPro. ",3,dschneider,1568773049,,/page/customer-support,0,1,0,,,,
+</div>",0,,,RTS Pro Support,English,1520,building-1thduf.jpg,https://www.rtsinc.com/sites/default/files/building-1thduf_0.jpg,,,"Welcome to the support page for RTS Pro, formerly known as CarrierPro. ",28,wjorgensen,1568773049,1589838561,,/page/customer-support,0,1,0,,,,
 765,0,Basic page,Credit Rating FAQ,Credit Rating FAQ,"<div class=""max-width-960"">
 
 <h2 class=""subheading1"">Our broker credit ratings provide our carrier network with real-time credit data on more than 70,000 brokers and shippers.</h2>
@@ -1013,14 +1013,14 @@ While there are many advantages to factoring, the main benefit is quick payment 
 <p>We update our credit information daily to ensure accuracy. We constantly review our credit scoring practices to make sure our reports are as detailed as possible and reflect any changes in the industry.</p>
 
 
-</div>",0,,,Questions and Answers About Freight Broker Credit Ratings,,1317,mosiac-1fbhfd.jpg,https://www.rtsinc.com/sites/default/files/mosiac-1fbhfd.jpg,,,,New to working with our network of carriers? See below for answers to frequently asked questions.,3,dschneider,1570200027,,/page/broker-credit-rating-questions,0,1,0,,,,
+</div>",0,,,Questions and Answers About Freight Broker Credit Ratings,English,1317,mosiac-1fbhfd.jpg,https://www.rtsinc.com/sites/default/files/mosiac-1fbhfd.jpg,,,New to working with our network of carriers? See below for answers to frequently asked questions.,28,wjorgensen,1570200027,1570200895,,/page/broker-credit-rating-questions,0,1,0,,,,
 786,0,Basic page,Industries We Serve,Industries We Serve,"<div class=""block-heading"">
 <h2 class=""display2 margin-top-0"">Working Capital Solutions For All Industries</h2>
 <p class=""subheading2"">We offer factoring solutions to all industries, including:</p>
 </div>
 
 
-<div class=""view view-industries-all view-id-industries_all view-display-id-default grid-main industries-list  view-dom-id-60ff380f5b93edc7b57617cbd8f85d9d contextual-links-region"">
+<div class=""view view-industries-all view-id-industries_all view-display-id-default grid-main industries-list  view-dom-id-eec425fcca514d6e12952c17a705b1b8 contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/industries_all/edit/default?destination=exportbasic"">Edit view</a></li></ul></div>  
   
   
@@ -1059,7 +1059,7 @@ While there are many advantages to factoring, the main benefit is quick payment 
   
   
 </div>
-",0,,"Factoring, Finance",Same-Day Funding For Multiple Industries,,1360,oil-1ysivd.jpg,https://www.rtsinc.com/sites/default/files/oil-1ysivd_0.jpg,,,,"Delivering experience, knowledge and factoring solutions to a wide variety of industries.",3,dschneider,1571750344,,/page/factoring-industries,0,1,0,,Contact Us,,
+",0,,"Factoring, Finance",Same-Day Funding For Multiple Industries,English,1360,oil-1ysivd.jpg,https://www.rtsinc.com/sites/default/files/oil-1ysivd_0.jpg,,,"Delivering experience, knowledge and factoring solutions to a wide variety of industries.",28,wjorgensen,1571750344,1603220785,,/page/factoring-industries,0,1,0,,Contact Us,,
 1102,0,Basic page,RTS Mobile Application End User Agreement,RTS Mobile Application End User Agreement,"<p>By downloading or using the RTS Pro App (the “App”) from RTS Financial Service, Inc. you agree to comply with this Mobile App User Agreement (the “Mobile Terms”). Your use of the App is subject to your acceptance of these terms. By completing the online registration process, you confirm and affirm that you have read, understood, and agree to these Mobile Terms. If you do not agree to these terms, or are incapable of complying with them, do not use the App.</p>
 
 <h2><strong>Ownership, License & Restrictions on Use</strong></h2>
@@ -1135,8 +1135,8 @@ While there are many advantages to factoring, the main benefit is quick payment 
 <p><strong>All other trademarks are the property of their respective owners.</strong></p>
 
 <p><strong>Last modified:  October 15, 2019</strong></p>
-",0,,,,,,,,,,,,3,dschneider,1589835075,,/page/mobile-user-agreement,0,1,0,,,,
-1152,0,Basic page,Trucking Industry Reports,Trucking Industry Reports,"<iframe width=""1200"" height=""1000"" src=""https://app.powerbi.com/view?r=eyJrIjoiMjQyMDg1MjgtOGY3Zi00YTlhLWIyZTktZjU4OGIyNjA3NzRkIiwidCI6ImVlNzNlZDJkLWVmY2QtNDVlNy05ZmE2LTVmMzg1NjU3ZDAyYyIsImMiOjN9"" frameborder=""0"" allowFullScreen=""true""></iframe>",0,,,Identify Important Trends in the Trucking Industry,,,,,,,,asdfdsa,3,dschneider,1595270680,,/page/trucking-industry-reports,0,1,0,,,,
+",0,,,,English,,,,,,,28,wjorgensen,1589835075,1589835116,,/page/mobile-user-agreement,0,1,0,,,,
+1152,0,Basic page,Trucking Industry Reports,Trucking Industry Reports,"<iframe width=""1200"" height=""1000"" src=""https://app.powerbi.com/view?r=eyJrIjoiMjQyMDg1MjgtOGY3Zi00YTlhLWIyZTktZjU4OGIyNjA3NzRkIiwidCI6ImVlNzNlZDJkLWVmY2QtNDVlNy05ZmE2LTVmMzg1NjU3ZDAyYyIsImMiOjN9"" frameborder=""0"" allowFullScreen=""true""></iframe>",0,,,Identify Important Trends in the Trucking Industry,English,,,,,,asdfdsa,28,wjorgensen,1595270680,1595271023,,/page/trucking-industry-reports,0,1,0,,,,
 1211,0,Basic page,Boss Shop Service Centers,Boss Shop Service Centers,"<div class=""two-col"">
 <div class=""col-xl"">
 <p>With more than 70 years of service to the trucking industry, Boss Shop provides the highest standard of truck and tire repair services. Boss Shop offers many truck and maintenance services, as well as a large variety of new and retread tire brands. Earn and redeem Pilot Points at Boss Shop locations throughout the U.S. and stay safe behind the wheel with high-quality repairs and preventative maintenance.</p>
@@ -1187,7 +1187,7 @@ While there are many advantages to factoring, the main benefit is quick payment 
 
 <div class=""col-xs""><img src=""/sites/default/files/app-boss-shop-home-logo.png"" style=""max-width: 320px !important;"" /></div>
 </div>
-",0,,,Boss Shop Truck Care Discounts,,1751,truck-maintenance-1ufdi.jpg,https://www.rtsinc.com/sites/default/files/truck-maintenance-1ufdi.jpg,,,,"RTS and Boss Shop partnered to offer exclusive discounts on repairs, preventative maintenance and more.",3,dschneider,1600197747,,/page/boss-shops,0,1,0,,Contact Us,,
+",0,,,Boss Shop Truck Care Discounts,English,1751,truck-maintenance-1ufdi.jpg,https://www.rtsinc.com/sites/default/files/truck-maintenance-1ufdi.jpg,,,"RTS and Boss Shop partnered to offer exclusive discounts on repairs, preventative maintenance and more.",28,wjorgensen,1600197747,1638206847,,/page/boss-shops,0,1,0,,Contact Us,,
 1212,0,Basic page,Sapp Bros. Service Centers,Sapp Bros. Service Centers,"<div class=""two-col"">
 <div class=""col-xl"">
 <p>As an RTS Carrier Services member you can receive discounts on diesel fuel at their 19 travel centers and truck care discounts at their 10 service centers. Sapp Bros. offers a variety of services performed by their ASE certified technicians, including 24-hour roadside service. You never need an appointment, and most work can be done while you wait.</p>
@@ -1228,7 +1228,7 @@ While there are many advantages to factoring, the main benefit is quick payment 
 
 <div class=""col-sm""><img src=""/sites/default/files/Sapp2.png"" style=""max-width: 320px !important;"" /></div>
 </div>
-",0,,,Sapp Bros. Fuel and Truck Care Discounts,,1753,maint-2uhdf.jpg,https://www.rtsinc.com/sites/default/files/maint-2uhdf.jpg,,,,"RTS and Sapp Bros. partnered to offer exclusive discounts on fuel, repairs, preventative maintenance and more.",3,dschneider,1600203393,,/page/sapp-bros,0,1,0,,Contact Us,,
+",0,,,Sapp Bros. Fuel and Truck Care Discounts,English,1753,maint-2uhdf.jpg,https://www.rtsinc.com/sites/default/files/maint-2uhdf.jpg,,,"RTS and Sapp Bros. partnered to offer exclusive discounts on fuel, repairs, preventative maintenance and more.",28,wjorgensen,1600203393,1638206868,,/page/sapp-bros,0,1,0,,Contact Us,,
 1585,0,Basic page,Southern Tire Mart Service Centers,Southern Tire Mart Service Centers,"<div class=""two-col"">
 <div class=""col-xl"">
 <p>Since 1973, Southern Tire Mart has been dedicated to providing carriers with superior quality products and unparalleled customer service. We’ve partnered with them to bring best-in-class truck care to our customers, who will now get exclusive offers on tires, repairs and services at more than 175 Southern Tire Mart and Southern Tire Mart at Pilot Flying J locations nationwide.</p>
@@ -1264,7 +1264,7 @@ While there are many advantages to factoring, the main benefit is quick payment 
 <p> </p>
 <img src=""/sites/default/files/STMP_Logo_2.png"" style=""max-width: 270px !important;"" /></div>
 </div>
-",0,,"Fuel Card, Trucking",Southern Tire Mart Truck Care Discounts,,3791,STM Webpage Header Image RESIZED.jpg,https://www.rtsinc.com/sites/default/files/STM%20Webpage%20Header%20Image%20RESIZED.jpg,,,,"RTS partnered with Southern Tire Mart and Southern Tire Mart at Pilot Flying J to offer exclusive savings on popular tire brands, truck services and preventative maintenance.",3,dschneider,1637265770,,/page/southern-tire-mart-service-centers,0,1,0,,Contact Us,,
+",0,,"Fuel Card, Trucking",Southern Tire Mart Truck Care Discounts,English,3791,STM Webpage Header Image RESIZED.jpg,https://www.rtsinc.com/sites/default/files/STM%20Webpage%20Header%20Image%20RESIZED.jpg,,,"RTS partnered with Southern Tire Mart and Southern Tire Mart at Pilot Flying J to offer exclusive savings on popular tire brands, truck services and preventative maintenance.",31,dschneider,1637265770,1638206806,,/page/southern-tire-mart-service-centers,0,1,0,,Contact Us,,
 1606,0,Basic page,RTS Plus Merchant Agreement Additional Terms & Conditions,RTS Plus Merchant Agreement Additional Terms & Conditions,"<h2>ADDITIONAL TERMS & CONDITIONS TO THE RTS PLUS NETWORK MERCHANT AGREEMENT</h2>
 
 <p>Last Updated on 5/31/2016</p>
@@ -1286,7 +1286,7 @@ While there are many advantages to factoring, the main benefit is quick payment 
 	<li>RTS and Provider hereby consent to utilize binding arbitration for all claims or controversies arising under this Agreement for which a federal or state court or other dispute-resolving body would otherwise be authorized to grant relief. By signing this Agreement the parties voluntarily and knowingly waive any right they may otherwise have to seek remedies in court or other forums, including the right to a jury trial. The purpose and effect of utilizing binding arbitration is to substitute arbitration as the forum for resolving all disputes between the parties relating to this Agreement. A single neutral arbitrator engaged in the practice of law shall be mutually agreed upon to conduct the arbitration in accordance with the Commercial Arbitration Rules of the American Arbitration Association in effect as of the date of filing by the party claiming to be aggrieved. The parties agree that any hearings, meetings, or conferences relating the dispute shall take place at a mutually agreed upon location in Kansas City, Kansas, unless otherwise agreed to by the parties. The parties to this Agreement are prohibited from arbitrating claims subject to this Agreement as, or on behalf of, a class. The parties are also prohibited from consolidating claims subject to this Agreement with claims of any other individual or entity, or of joining the claims of any other individual or entity, except upon the express written agreement of all parties. Any judgment on the award rendered by the arbitrator shall be final and binding upon the parties and will be the exclusive remedy for all claims under this Agreement. The final award may be entered in any court having jurisdiction thereof. Each party may be represented by an attorney at their own cost and expense. The prevailing Party will be entitled to recover its reasonable costs and fees (including reasonable attorneys' fees) and neither party, nor the arbitrator, may disclose the existence, content or results of any arbitration hereunder without the prior written consent of the other party.</li>
 	<li>The relationship of the parties shall be that of independent contractors and neither party shall have authority to bind the other party in any manner.</li>
 </ol>
-",0,,Company Information,,,,,,,,,,3,dschneider,1640646334,,/page/rts-plus-merchant-agreement-additional-terms-use,0,1,0,,,,
+",0,,Company Information,,English,,,,,,,31,dschneider,1640646334,1640646502,,/page/rts-plus-merchant-agreement-additional-terms-use,0,1,0,,,,
 1614,0,Basic page,Bundle Agreement Terms & Conditions,Bundle Agreement Terms & Conditions,"<p>Qualifying carriers have access to the following benefits on or after [INSERT START DATE].</p>
 
 <h2>Benefits</h2>
@@ -1332,4 +1332,4 @@ While there are many advantages to factoring, the main benefit is quick payment 
 	<li>Double brokered loads do not qualify for factoring and will not qualify for the discounted rate.</li>
 	<li>Ryan Transportation Service, Inc., RTS Carrier Services, Inc. and RTS Financial Service, Inc. are Shamrock Trading Corporation Brands.</li>
 </ul>
-",0,,,,,,,,,,,,3,dschneider,1644255143,,/page/bundle-agreement-terms-conditions,0,1,0,,,,
+",0,,,,English,,,,,,,31,dschneider,1644255143,1644266722,,/page/bundle-agreement-terms-conditions,0,1,0,,,,

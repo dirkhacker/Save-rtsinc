@@ -1,4 +1,4 @@
-nid,tnid,type,title,field_heading,body,field_featured_article,field_category,field_global_taxonomy,field_headline,language,fid,filename,field_image,field_image_alt,field_image_title,field_premium_content,field_sub_headline,user_id,author,created,field_weight,alias_path,promote,status,sticky,field_hero_agent_toggle,field_hero_contact_toggle,field_hero_contact_toggle_es,field_hero_modal_toggle
+nid,tnid,type,title,field_heading,body,field_featured_article,field_category,field_global_taxonomy,field_headline,language,fid,filename,field_image,field_image_alt,field_image_title,field_sub_headline,user_id,author,created,updated,field_weight,alias_path,promote,status,sticky,field_hero_agent_toggle,field_hero_contact_toggle,field_hero_contact_toggle_es,field_hero_modal_toggle
 212,177,Basic page,RTS Financial,RTS Financial,"<h2>Nuestra Compañía</h2>
 <p>RTS International™ brinda servicios financieros para empresas internacionales que exportan alrededor del mundo, principalmente a los Estados Unidos y/o Canadá. Apoyamos a cientos de empresas en América Latina, Europa y Asia a desarrollar soluciones de capital a corto plazo diseñadas para incrementar y simplificar sus exportaciones. El servicio financiero principal ofrecido por RTS International™ es el factoraje (financiamiento de cuentas por cobrar). Este instrumento financiero, de fácil acceso, es una alternativa atractiva para empresas internacionales, más simple que los financiamientos bancarios tradicionales.</p>
 
@@ -10,7 +10,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 <li>Conocimiento extenso de industrias claves incluyendo: manufactura, textil, transportes, agrícola, acuícola y mucho más.</li>
 <li>Una vez activada su cuenta, nuestras soluciones financieras le proporcionan un rápido acceso a capital de trabajo, generalmente el mismo día.</li>
 <li>De manera exclusiva, le asignamos una persona de contacto para asistirle con todos los aspectos de su cuenta.</li>
-</ul> ",0,,,Ofreciendo una Experiencia de Factoraje Completa,Spanish,1617,truck-434ur2_0.jpg,https://www.rtsinc.com/sites/default/files/truck-434ur2_0_0.jpg,,,,"RTS Financial ofrece una solución integral y de fácil uso para el factoraje, descuentos en combustible y software de transporte. Ayudamos a las empresas de transporte a crecer mucho más rápido, a controlar sus gastos y a mejorar su eficiencia. ",3,dschneider,1458330808,,/node/212,0,1,0,,,,
+</ul> ",0,,,Ofreciendo una Experiencia de Factoraje Completa,Spanish,1617,truck-434ur2_0.jpg,https://www.rtsinc.com/sites/default/files/truck-434ur2_0_0.jpg,,,"RTS Financial ofrece una solución integral y de fácil uso para el factoraje, descuentos en combustible y software de transporte. Ayudamos a las empresas de transporte a crecer mucho más rápido, a controlar sus gastos y a mejorar su eficiencia. ",1,admin,1458330808,1591646356,,/node/212,0,1,0,,,,
 214,192,Basic page,Nuestro Programa de Agente,Nuestro Programa de Agente,"<h2>Sobre Nuestro Programa</h2>
 
 <p>Nuestro programa de agente es una gran oportunidad para obtener ingresos adicionales y ayudar a empresas a aumentar su capital de trabajo. Los agentes de ventas pueden ganar comisiones por referir a sus clientes y contactos a RTS Financial.  Entre más tratos financiemos nosotros, más dinero ganas tú. No hay límite a lo que puedes ganar. Cuando refieres a un cliente, recibirás comisiones mensuales, siempre y cuando tu referencia se quede con nosotros y tú sigas siendo agente de RTS Financial.</p>
@@ -31,8 +31,8 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 <li>Asociación con un representante de ventas dedicado al que puedes llamar directamente.</li>
 <li>Entrenamiento sustancial para ayudar a convertirte en un agente exitoso.</li>
 <li>Materiales de ventas y varios otros tipos de apoyo de mercadotecnia.</li>
-</ul>",0,,,,Spanish,518,building-785689343.jpg,https://www.rtsinc.com/sites/default/files/building-785689343_2.jpg,,,,"Gana comisiones ilimitadas refiriendo tus contactos a RTS Financial.
-",3,dschneider,1458332540,,/node/214,0,1,0,,,,
+</ul>",0,,,,Spanish,518,building-785689343.jpg,https://www.rtsinc.com/sites/default/files/building-785689343_2.jpg,,,"Gana comisiones ilimitadas refiriendo tus contactos a RTS Financial.
+",1,admin,1458332540,1501276824,,/node/214,0,1,0,,,,
 269,257,Basic page,Factoraje Internacional,Factoraje Internacional,"<p class=""margin-top-0"">Ya sea que su empresa exporte mariscos de Costa Rica o haga ropa en India, el tener que esperar los pagos de clientes por semanas o meses puede repercutir en su flujo de efectivo. Nuestra empresa filial, RTS International, ofrece soluciones de factoraje, a lo que también se le llama “financiamiento de cuentas por cobrar” para empresas que exportan a todo el mundo, principalmente a los Estados Unidos y Canadá. RTS International brinda sus servicios a una amplia gama de industrias en 40 países de Latinoamérica, Europa, Asia y África.</p>
 
 <p>Con los servicios de factoraje de RTS International, usted recibe el pago de sus facturas en un plazo de 24 horas. Esto le permite concentrar más tiempo y recursos en servir a sus clientes y hacer que su negocio crezca.</p>
@@ -69,7 +69,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 
 
 
-",0,,,Soluciones de factoraje global para negocios internacionales ,Spanish,697,ships-83hnf89hdf.jpg,https://www.rtsinc.com/sites/default/files/ships-83hnf89hdf.jpg,,,,Convierta sus facturas en dinero en efectivo en 24 horas mediante el factoraje con RTS International.,3,dschneider,1486765426,,/node/269,0,1,0,,,Show,
+",0,,,Soluciones de factoraje global para negocios internacionales ,Spanish,697,ships-83hnf89hdf.jpg,https://www.rtsinc.com/sites/default/files/ships-83hnf89hdf.jpg,,,Convierta sus facturas en dinero en efectivo en 24 horas mediante el factoraje con RTS International.,1,admin,1486765426,1591041732,,/node/269,0,1,0,,,Show,
 296,295,Basic page,Sobre RTS,Sobre RTS,"<div class=""block-heading"">
 <h2 class=""display2"">Una familia de marcas</h2>
 
@@ -169,9 +169,9 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 </div>
 </div>
 </div>
-</div>",0,,,Dedicados a la industria del transporte desde 1995.,Spanish,767,building-1thduf.jpg,https://www.rtsinc.com/sites/default/files/building-1thduf.jpg,,,,"Durante más de 30 años, nos hemos centrado en ayudar a las empresas de transporte a que se les pague más rápido, a que reduzcan sus costes de combustible y a que lleven su negocio de forma más eficiente.",3,dschneider,1499718446,,/node/296,0,1,0,,,Show,
-312,0,Basic page,Blog,Blog,,0,,,,Spanish,578,devices-31864.jpg,https://www.rtsinc.com/sites/default/files/devices-31864.jpg,,,,"Artículos sobre una variedad de temas de la industria, así como las últimas noticias de la compañía sobre RTS Financial.",3,dschneider,1502896194,,/node/312,0,1,0,,,,
-915,754,Basic page,Contáctenos,Contáctenos,,0,,,Contáctenos hoy,Spanish,1305,building-2sudge.jpg,https://www.rtsinc.com/sites/default/files/building-2sudge.jpg,,,,"Obtenga una rápida respuesta a sus preguntas sobre nuestros servicios de factoraje, programa de tarjetas de combustible y software de transporte.",3,dschneider,1585841019,,/node/915,0,1,0,,,,
+</div>",0,,,Dedicados a la industria del transporte desde 1995.,Spanish,767,building-1thduf.jpg,https://www.rtsinc.com/sites/default/files/building-1thduf.jpg,,,"Durante más de 30 años, nos hemos centrado en ayudar a las empresas de transporte a que se les pague más rápido, a que reduzcan sus costes de combustible y a que lleven su negocio de forma más eficiente.",1,admin,1499718446,1591047973,,/node/296,0,1,0,,,Show,
+312,0,Basic page,Blog,Blog,,0,,,,Spanish,578,devices-31864.jpg,https://www.rtsinc.com/sites/default/files/devices-31864.jpg,,,"Artículos sobre una variedad de temas de la industria, así como las últimas noticias de la compañía sobre RTS Financial.",1,admin,1502896194,1502896194,,/node/312,0,1,0,,,,
+915,754,Basic page,Contáctenos,Contáctenos,,0,,,Contáctenos hoy,Spanish,1305,building-2sudge.jpg,https://www.rtsinc.com/sites/default/files/building-2sudge.jpg,,,"Obtenga una rápida respuesta a sus preguntas sobre nuestros servicios de factoraje, programa de tarjetas de combustible y software de transporte.",28,wjorgensen,1585841019,1585857212,,/node/915,0,1,0,,,,
 1711,40,Basic page,Politica de Privacidad,Politica de Privacidad,"<div>
 <p><strong>POLITICA DE </strong><b>PRIVACIDAD</b></p>
 </div>
@@ -361,7 +361,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 <p>Última modificación: 1 de junio de 2022</p>
 </div>
 </div>
-",0,,,,Spanish,667,mosiac-bg.jpg,https://www.rtsinc.com/sites/default/files/mosiac-bg.jpg,,,,,3,dschneider,1663613665,,/node/1711,0,1,0,,,,
+",0,,,,Spanish,667,mosiac-bg.jpg,https://www.rtsinc.com/sites/default/files/mosiac-bg.jpg,,,,1652,tdavis,1663613665,1663786640,,/node/1711,0,1,0,,,,
 1712,41,Basic page,Términos de Uso,Términos de Uso,"<p><strong>Términos de Uso</strong></p>
 
 <p>Bienvenido a los sitios web de RTS Financial Service, Inc. y RTS Carrier Services, Inc. (""RTS"" o ""nosotros""). Al usar cualquiera de nuestros sitios web (""Sitios""), actualmente <a href=""https://www.rtsinc.com/es"">https://www.rtsinc.com/es</a> y <a href=""https://www.pro-transport.com"">https://www.pro-transport.com</a>, usted acepta estos Términos de Uso. Si no está de acuerdo con los Términos de Uso, no podrá utilizar nuestros Sitios.</p>
@@ -502,4 +502,4 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 <p>Todas las demás marcas comerciales son propiedad de sus respectivos dueños.</p>
 
 <p>Última modificación: 1 de junio de 2022</p>
-",0,,,,Spanish,,,,,,,,3,dschneider,1663614724,,/node/1712,0,1,0,,,,
+",0,,,,Spanish,,,,,,,1652,tdavis,1663614724,1663617816,,/node/1712,0,1,0,,,,
