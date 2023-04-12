@@ -56,6 +56,13 @@ process:
     to_format: 'U'
     from_timezone: 'UTC'
     to_timezone: 'UTC'
+  changed:
+    plugin: format_date
+    source: updated
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
   status: status
   promote: promote
   sticky: sticky

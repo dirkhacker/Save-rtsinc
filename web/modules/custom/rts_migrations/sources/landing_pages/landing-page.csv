@@ -1,4 +1,4 @@
-nid,tnid,type,title,field_heading,body,field_featured_article,field_category,field_global_taxonomy,field_headline,language,fid,filename,field_image,field_image_alt,field_image_title,field_sub_headline,user_id,author,created,field_weight,alias_path,promote,status,sticky,field_hero_agent_toggle,field_hero_contact_toggle,field_hero_contact_toggle_es,field_hero_modal_toggle,shamrock_user,landing_page_categories,admin_description
+nid,tnid,type,title,field_heading,body,field_featured_article,field_category,field_global_taxonomy,field_headline,language,fid,filename,field_image,field_image_alt,field_image_title,field_sub_headline,user_id,author,created,updated,field_weight,alias_path,promote,status,sticky,field_hero_agent_toggle,field_hero_contact_toggle,field_hero_contact_toggle_es,field_hero_modal_toggle,shamrock_user,landing_page_categories,admin_description
 42,0,Landing Page,More Than 25 Years of Providing Same-Day Cash for Trucking Companies,More Than 25 Years of Providing Same-Day Cash for Trucking Companies,"<h2 class=""subheading-left first"">Highlights of Our Factoring Services</h2>
 
 <p>By focusing on our clients and their business needs, we have created a better factoring experience. Here is what you can expect when you work with RTS Financial:</p>
@@ -14,7 +14,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 </ul>
 ",,,,,English,,,,,,"Our factoring services feature same-day funding, competitive advance rates and average fuel card savings of 25¢ per gallon.
 
-",1,admin,1386946000,,/lp/trucking-factoring-services,1,1,0,,,,,,,
+",1,admin,1386946000,1661308129,,/lp/trucking-factoring-services,1,1,0,,,,,,,
 43,0,Landing Page,Turn Your Invoices into Same-Day Cash with Factoring,Turn Your Invoices into Same-Day Cash with Factoring,"<p>When cash flow becomes a challenge, it makes sense to get paid faster. RTS Financial provides unique, customized financial solutions that help you manage operating expenses for an active oilfield without taking on debt.</p>
 
 <ul class=""super-list"">
@@ -26,12 +26,12 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 	<li>Online account access and easy uploading of documents</li>
 	<li>Scalable funding that grows with your company</li>
 </ul>
-",,,,,English,,,,,,Get more working capital for your oilfield services company. Receive same-day funding with competitive advance rates and no hidden fees.,1,admin,1386947478,,/lp/oilfield-services-factoring,1,1,0,,,,,,,
+",,,,,English,,,,,,Get more working capital for your oilfield services company. Receive same-day funding with competitive advance rates and no hidden fees.,1,admin,1386947478,1661308129,,/lp/oilfield-services-factoring,1,1,0,,,,,,,
 51,0,Landing Page,Turn Invoices into Same-Day Capital with Factoring,Turn Invoices into Same-Day Capital with Factoring,"<p class=""first gray"">Waiting 30, 60 and sometimes 90 days for customer payments can put a great deal of stress on your cash flow. By factoring with RTS Financial, you can build up more working capital to pay vendors, meet customer demands and grow your company.</p>
 
 <h2 class=""subheading-left"">Highlights of Our Factoring Services</h2>
 
-<div class=""view view-factoring-features view-id-factoring_features view-display-id-default features-list-1 view-dom-id-d5f758e8c3cf4949bda5c4fddc948dac contextual-links-region"">
+<div class=""view view-factoring-features view-id-factoring_features view-display-id-default features-list-1 view-dom-id-b3c68e01ae399f453e314e64abb5bd2d contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/factoring_features/edit/default?destination=exportlandingpage"">Edit view</a></li></ul></div>  
   
   
@@ -51,7 +51,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
   <div class=""views-row views-row-4 views-row-even"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Fuel Card Program</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get substantial savings at over 2,000 locations nationwide and credit lines of up to $2,500 per truck, per week.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get substantial savings at over 2,400 locations nationwide and credit lines of up to $2,500 per truck, per week.</div>  </div>  </div>
   <div class=""views-row views-row-5 views-row-odd"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Upload Invoices Online</h3>  </div>  
@@ -78,7 +78,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 <li>Online account access and easy uploading of documents</li>
 <li>Scalable funding that grows with your company</li>
 </ul>
-",,,,,English,,,,,,Stop waiting weeks for customer payments. Get cash on your receivables within 24 hours by factoring with RTS Financial.,1,admin,1390235519,,/lp/factoring-general,1,1,0,,,,,,,
+",,,,,English,,,,,,Stop waiting weeks for customer payments. Get cash on your receivables within 24 hours by factoring with RTS Financial.,1,admin,1390235519,1661308129,,/lp/factoring-general,1,1,0,,,,,,,
 90,0,Landing Page,Your Complete Guide To Factoring,Your Complete Guide To Factoring,"<img style=""float: left; margin: 0 30px 45px 0; max-width: 240px !important;"" src=""http://www.rtsfinancial.com/sites/default/files/Your%20Complete%20Guide%20to%20Factoring%20cover.png"" />
 
 <p class=""medium"">For many companies, factoring (also known as ""accounts receivable financing"") is an effective way to build up cash flow immediately instead of waiting weeks for customer payments. This free guide from RTS Financial provides an in-depth review of how factoring works, what you should look for in a factoring company, and how factoring can help you improve and expand your business.</p>
@@ -100,7 +100,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 
 
 ",,,,,English,,,,,,"Download this free guide to learn how factoring receivables can fuel the growth of your company. 
-",1,admin,1398975576,,/lp/your-complete-guide-factoring,1,1,0,,,,,,,
+",1,admin,1398975576,1661308129,,/lp/your-complete-guide-factoring,1,1,0,,,,,,,
 143,0,Landing Page,Agent Referral Submission Form,Agent Referral Submission Form,"<p>Fill out the form below to share a factoring referral or a lead with the RTS Financial sales team. Please provide as much information as you can about your referral. We will contact you shortly if we have additional questions.</p>
 
 <form class=""webform body-form"" id=""factoringForm"" name=""factoringForm"" enctype=""multipart/form-data"" action=""http://analytics.clickdimensions.com/forms/h/aq71PF8WgfEiyk2unJ6u2Q"" method=""post"" onsubmit=""return validateForm();"" accept-charset=""UTF-8"">
@@ -172,7 +172,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 </div>
 </form>
 
-",,,,,English,,,,,,,1,admin,1426178329,,/lp/agent-referral-form,1,1,0,,,,,Matt M,,General lead form for agents
+",,,,,English,,,,,,,1,admin,1426178329,1661308129,,/lp/agent-referral-form,1,1,0,,,,,Matt M,,General lead form for agents
 167,0,Landing Page,More Than 25 Years of Providing Same-Day Funding for Trucking Companies,More Than 25 Years of Providing Same-Day Funding for Trucking Companies,"<h2>Highlights of Our Factoring Services</h2>
 
 <p>By focusing on our clients and their business needs, we have created a better factoring experience. Here is what you can expect when you work with RTS Financial:</p>
@@ -186,7 +186,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 	<li>Online account access and easy uploading of documents</li>
 	<li>Scalable funding that grows with your company</li>
 </ul>
-",,,,,English,,,,,,"Our factoring services feature same-day funding, competitive advance rates and no hidden fees.",1,admin,1438780891,,/lp/factoring-trucking-b,1,1,0,,,,,,,
+",,,,,English,,,,,,"Our factoring services feature same-day funding, competitive advance rates and no hidden fees.",1,admin,1438780891,1661308129,,/lp/factoring-trucking-b,1,1,0,,,,,,,
 173,0,Landing Page,"RTS Financial Offers Fast, Flexible Funding Solutions ","RTS Financial Offers Fast, Flexible Funding Solutions ","<p class=""first"">Waiting 30, 60 and sometimes 90 days on customer receivables can put a great deal of stress on your cash conversion cycle. But what if you could receive payment on the same day?</p>
 
 <p>GT Nexus has been working with RTS Financial to create an early payment process for suppliers transacting on the GT Nexus platform. RTS Financial offers payment solutions that advance cash on your invoices within 24 hours, allowing your company to access cash flow and grow at a faster pace.</p>
@@ -224,7 +224,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 </div>
 
 </div>
-",,,,,English,,,,,,Stop waiting for customer payments. Get cash on your receivables within 24 hours by financing with RTS Financial.,1,admin,1443805048,,/lp/factoring-general-bc,1,1,0,,,,,,,"Landing page doesn't mention ""factoring.""  Used in cases involving factoring averse prospects."
+",,,,,English,,,,,,Stop waiting for customer payments. Get cash on your receivables within 24 hours by financing with RTS Financial.,1,admin,1443805048,1661308129,,/lp/factoring-general-bc,1,1,0,,,,,,,"Landing page doesn't mention ""factoring.""  Used in cases involving factoring averse prospects."
 201,0,Landing Page,How to Start a Trucking Company,How to Start a Trucking Company,"<h2 class=""margin-top-0"">Guide Summary</h2>
 
 <p>While trucking is a rapidly growing industry, owning and operating a trucking fleet requires careful planning, dedication, and hard work. This series of blogs from RTS Financial is a concise, comprehensive resource for understanding everything involved in getting your authority and breaking into the business.</p>
@@ -241,7 +241,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 	<li><a href=""https://www.rtsinc.com/guides/why-leasing-might-be-best-way-build-your-fleet"">Why Leasing Might Be the Best Way to Build Your Fleet</a></li>
 	<li><a href=""https://www.rtsinc.com/articles/top-five-load-boards-every-trucker-should-know"">The Five Best Load Boards</a></li>
 </ul>
-",,,,,English,,,,,,Everything you need to know to gain authority and get your trucking company off to a solid start.,1,admin,1454511456,,/lp/how-start-trucking-company,1,1,0,,,,,Webster,,Guide download page
+",,,,,English,,,,,,Everything you need to know to gain authority and get your trucking company off to a solid start.,1,admin,1454511456,1661308129,,/lp/how-start-trucking-company,1,1,0,,,,,Webster,,Guide download page
 222,0,Landing Page,Factoring for Staffing Companies,Factoring for Staffing Companies,"<p class=""first"">Factoring with RTS Financial is a great way to build up your staffing company's cash flow and expand your business. Instead of waiting 30 to 60 days on customer payments, you can receive as much as 97% on your receivables from us within one day. This boost in working capital makes it easier to make payroll, pay vendors, meet customer demands and grow your company.</p>
 
 <h2 class=""subheading-left"">Highlights of Our Factoring Services</h2>
@@ -257,7 +257,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 
 <h2>Professional Factoring and Superior Service</h2>
 
-<p>Our representatives have more than two decades of factoring experience serving a range of industries, including staffing agencies. RTS Financial will put its knowledge to work in providing a financial solution that meets your business needs. In addition to factoring, RTS Financial handles customer collections and other back-office support, allowing you to focus more on serving your customers. Your transactions are confidential and can be accessed online through our secured customer login.</p>",,,,,English,,,,,,Eliminate the long wait for payment by receiving same-day cash on your receivables from RTS Financial.,1,admin,1462809094,,/lp/factoring-staffing,1,1,0,,,,,Webster,,
+<p>Our representatives have more than two decades of factoring experience serving a range of industries, including staffing agencies. RTS Financial will put its knowledge to work in providing a financial solution that meets your business needs. In addition to factoring, RTS Financial handles customer collections and other back-office support, allowing you to focus more on serving your customers. Your transactions are confidential and can be accessed online through our secured customer login.</p>",,,,,English,,,,,,Eliminate the long wait for payment by receiving same-day cash on your receivables from RTS Financial.,1,admin,1462809094,1661308129,,/lp/factoring-staffing,1,1,0,,,,,Webster,,
 223,0,Landing Page,Payroll Factoring,Payroll Factoring,"<p class=""first"">Paying your employees can be a challenge when you have to wait 30 to 60 days, or even longer, on customer payments. When you work with RTS Financial, we offer you industry-leading advance rates on your receivables. This boost in working capital makes it easier to meet payroll, serve your customers and even expand your business.</p>
 
 <h2 class=""subheading-left"">Highlights of Our Factoring Services</h2>
@@ -277,7 +277,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 <h2>Professional Factoring and Superior Service</h2>
 
 <p>Our representatives have more than two decades of factoring experience serving a range of industries. RTS Financial will put its knowledge to work in providing a financial solution that meets your business needs. In addition to factoring, RTS Financial handles collections and other back-office support, allowing you to focus more on serving your customers. Your transactions are confidential and can be accessed online through our secured customer login.</p>
-",,,,,English,,,,,,Stop waiting weeks for customer payments. Get cash on your receivables within 24 hours by factoring with RTS Financial.,1,admin,1462809180,,/lp/payroll-factoring,1,1,0,,,,,,,
+",,,,,English,,,,,,Stop waiting weeks for customer payments. Get cash on your receivables within 24 hours by factoring with RTS Financial.,1,admin,1462809180,1661308129,,/lp/payroll-factoring,1,1,0,,,,,,,
 228,0,Landing Page,Turn Invoices into Same-Day Capital with Factoring,Turn Invoices into Same-Day Capital with Factoring,"<p>At RTS Financial, our accounts receivable financing solutions, also known as ""factoring,"" are designed to increase cash flow within 24 hours for international companies that sell goods to the United States and Canada.</p>
 
 <p>Here is the accounts receivable financing process, explained in five simple steps:</p>
@@ -310,7 +310,7 @@ nid,tnid,type,title,field_heading,body,field_featured_article,field_category,fie
 </ul>
 
 <h3>Contact us today to learn how RTS Financial can increase your working capital and grow your business.</h3>
-",,,,,English,,,,,,Stop waiting weeks for customer payments. Get cash on your receivables within 24 hours by factoring with RTS Financial.,1,admin,1463069865,,/lp/factoring-es,1,1,0,,,,,,,
+",,,,,English,,,,,,Stop waiting weeks for customer payments. Get cash on your receivables within 24 hours by factoring with RTS Financial.,1,admin,1463069865,1643737051,,/lp/factoring-es,1,1,0,,,,,,,
 238,0,Landing Page,Debtor in Possession Financing,Debtor in Possession Financing,"Factoring is among the most cost-effective, flexible forms of financing available to debtors-in-possession or companies in Chapter 11. RTS Financial’s factoring solutions allow you to maintain your cash flow, making it easier to pay employees and meet customer demands while your company reorganizes.
 
 Unlike other forms of financing, factoring does not rely entirely on your company’s credit history. Factoring providers like RTS Financial are more concerned about your customers’ ability to pay.
@@ -345,7 +345,7 @@ By focusing on our clients and their business needs, we have created a better fa
 <li>Free collections and credit analysis</li>
 <li>Online account access and easy uploading of documents</li>
 <li>Scalable funding that grows with your company</li>
-</ul>",,,,,English,,,,,,Working with RTS Financial improves cash flow while your company bounces back from bankruptcy protection.,1,admin,1465405151,,/lp/factoring-dip,1,0,0,,,,,Webster,,LP for DIP Finance
+</ul>",,,,,English,,,,,,Working with RTS Financial improves cash flow while your company bounces back from bankruptcy protection.,1,admin,1465405151,1552102090,,/lp/factoring-dip,1,0,0,,,,,Webster,,LP for DIP Finance
 241,0,Landing Page,Test Landing Page,Test Landing Page,"<p>Performing contract work for the government can be lucrative for your company. However, waiting as long as four months for the government to pay for your services may put a lot of stress on your company’s cash flow.</p>
 <p>One solution is RTS Financial's Early Pay program. We fund your receivables within 24 hours, allowing you to build up more cash flow, pay your employees, meet customer demands and grow your business.</p>
 <h2>Advantages of Early Pay:</h2>
@@ -371,7 +371,7 @@ By focusing on our clients and their business needs, we have created a better fa
 <li>Online account access and easy uploading of documents</li>
 <li>Scalable funding that grows with your company</li>
 </ul>
-",,,,,English,,,,,,"Instead of waiting months to get paid, turn your receivables into cash in less than 24 hours.  ",1,admin,1466005948,,/lp/test,0,0,0,,,,,,,
+",,,,,English,,,,,,"Instead of waiting months to get paid, turn your receivables into cash in less than 24 hours.  ",1,admin,1466005948,1643735856,,/lp/test,0,0,0,,,,,,,
 259,0,Landing Page,How Factoring Can Help Government Contractors Boost Their Cash Flow ,How Factoring Can Help Government Contractors Boost Their Cash Flow ,"<img style=""max-width: 320px !important; float: left; margin: 0 40px 30px 0;"" src=""http://www.rtsfinancial.com/sites/default/files/RTS%20Financial%20-%20Government%20Contractor%20PDF.png"" />
 
 <p class=""lg-sans"">Performing contract work for government agencies can be lucrative for your company. However, waiting weeks for the government to pay for your services may put a lot of stress on your company’s cash flow and ability to expand.</p>
@@ -380,7 +380,7 @@ By focusing on our clients and their business needs, we have created a better fa
 
 <p class=""lg-sans""><strong>To learn about the ways factoring can benefit government contractors, download RTS Financial's free white paper by completing the form on this page.</strong></p>
 
-",,,,,English,,,,,,Download this free white paper to learn how factoring your receivables can eliminate the long wait on payments from the government. ,1,admin,1476802284,,/lp/government-factoring-guide,0,0,0,,,,,Webster,,
+",,,,,English,,,,,,Download this free white paper to learn how factoring your receivables can eliminate the long wait on payments from the government. ,1,admin,1476802284,1549386036,,/lp/government-factoring-guide,0,0,0,,,,,Webster,,
 265,0,Landing Page,Don't Make These 5 Mistakes When Choosing A Factoring Company,Don't Make These 5 Mistakes When Choosing A Factoring Company,"<p>Factoring is a great way to build up your company's cash flow. However, some factoring companies are much more reliable than others. To find a provider that will best serve your business, you need to avoid these common factoring pitfalls:</p>
 
 <h2>Paying Hidden Fees</h2>
@@ -396,7 +396,7 @@ Make sure you can call your account representative directly when you need inform
 <p>Some factoring companies make it difficult for you to see your account information. Make sure you can access your account balance, aging and reserve reports online. This is critical information you need to run your business effectively.</p>
 
 <h2>Being Forced to Fax Documents</h2>
-<p>Many factoring companies still require their customers to provide original documents for each transaction. Look for a factoring company that allows you to easily upload invoices and other documents online.</p>",,,,,English,,,,,,,1,admin,1486137494,,/lp/factoring-mistakes,1,1,0,,,,,Webster,,
+<p>Many factoring companies still require their customers to provide original documents for each transaction. Look for a factoring company that allows you to easily upload invoices and other documents online.</p>",,,,,English,,,,,,,1,admin,1486137494,1497978609,,/lp/factoring-mistakes,1,1,0,,,,,Webster,,
 273,0,Landing Page,Stop Waiting on Payments. Get Paid Today with RTS Financial.,Stop Waiting on Payments. Get Paid Today with RTS Financial.,"<style type=""text/css"">
 <!--/*--><![CDATA[/* ><!--*/
 .page-node-273 .header-phone { display: none; }
@@ -421,7 +421,7 @@ Make sure you can call your account representative directly when you need inform
 </ul>
 
 <h3><strong>To learn more about factoring with RTS Financial, call (855) 456-5146.</strong></h3>
-",,,,,English,,,,,,RTS Financial provides factoring solutions that help trucking companies turn their invoices into cash within 24 hours of the request for payment.,1,admin,1487971415,,/lp/ctsi-lp,1,1,0,,,,,Meg Willaims,,Agent Referral page for CTSI
+",,,,,English,,,,,,RTS Financial provides factoring solutions that help trucking companies turn their invoices into cash within 24 hours of the request for payment.,1,admin,1487971415,1643736483,,/lp/ctsi-lp,1,1,0,,,,,Meg Willaims,,Agent Referral page for CTSI
 274,0,Landing Page,Help Your Clients Get Paid Faster with RTS Financial ,Help Your Clients Get Paid Faster with RTS Financial ,"<style>
 <!--/*--><![CDATA[/* ><!--*/
 
@@ -481,7 +481,7 @@ Make sure you can call your account representative directly when you need inform
 </div>
 </form>
 
-<!-- end sidebar form container -->",,,,,English,,,,,,"Thank you for referring your CTSI-Global carrier to RTS Financial. Please fill out the form below, along with any additional information you think would be useful.",1,admin,1487973071,,/lp/ctsi-referral,1,1,0,,,,,Meg Williams,,Agent referral page for CTSI
+<!-- end sidebar form container -->",,,,,English,,,,,,"Thank you for referring your CTSI-Global carrier to RTS Financial. Please fill out the form below, along with any additional information you think would be useful.",1,admin,1487973071,1497979035,,/lp/ctsi-referral,1,1,0,,,,,Meg Williams,,Agent referral page for CTSI
 275,0,Landing Page,How to Solve Cash Flow Problems Without a Loan,How to Solve Cash Flow Problems Without a Loan,"<p>Cash is the lifeblood of any business. Your company may be the best as what it does, customers may be lining up for your product or services. Without adequate cash flow, however, you can’t pay your employees, meet operating expenses, or fund an expansion of your business.</p> 
 
 <p>How do you build up cash while waiting 30, 60 or even 90 days on customer payments? A bank line of credit is a possibility, but the application process can take weeks and involve a lot of paperwork.</p> 
@@ -513,7 +513,7 @@ In addition to being debt-free, factoring is fast. Most factors advance funding 
 </ul>
 
 <h2>More About Factoring</h2>
-To learn more about how your company can use factoring to meet today’s market demands, read this detailed article about how factoring works. ",,,,,English,,,,,,,1,admin,1487975531,,/lp/how-solve-cash-flow-problems-without-getting-loan,1,1,0,,,,,Webster,,"Landing page for generic cash flow keywords. E.g. ""How to Increase Working Capital"""
+To learn more about how your company can use factoring to meet today’s market demands, read this detailed article about how factoring works. ",,,,,English,,,,,,,1,admin,1487975531,1549385713,,/lp/how-solve-cash-flow-problems-without-getting-loan,1,1,0,,,,,Webster,,"Landing page for generic cash flow keywords. E.g. ""How to Increase Working Capital"""
 281,0,Landing Page,Get Paid Faster with RTS Financial,Get Paid Faster with RTS Financial,"<style>
 <!--/*--><![CDATA[/* ><!--*/
 
@@ -573,7 +573,7 @@ To learn more about how your company can use factoring to meet today’s market 
 </div>
 </form>
 
-<!-- end sidebar form container -->",,,,,English,,,,,,,1,admin,1490022971,,/lp/justyna,1,1,0,,,,,Meg Williams,,Agent Referral Page for Justyna
+<!-- end sidebar form container -->",,,,,English,,,,,,,1,admin,1490022971,1497978714,,/lp/justyna,1,1,0,,,,,Meg Williams,,Agent Referral Page for Justyna
 282,0,Landing Page,Our Guarantee: The Best Customer Service in Factoring,Our Guarantee: The Best Customer Service in Factoring,"<p>Most clients choose RTS Financial because of our competitive factoring rates and easy approval process. They stay with RTS Financial because we put a premium on serving customers like no other factoring company in the industry.</p>
 
 <h2>As a customer of RTS Financial, here’s what you can expect:</h2>
@@ -594,7 +594,7 @@ To learn more about how your company can use factoring to meet today’s market 
 	<li>Free collections and credit analysis</li>
 	<li>Scalable, debt-free funding that can match your company’s growth</li>
 </ul>
-",,,,,English,,,,,,"Quick responses, dedicated customer teams and more than 25 years of professional expertise make RTS Financial a superior factoring experience.",1,admin,1490996657,,/lp/customer-service-factoring,1,1,0,,,,,,,
+",,,,,English,,,,,,"Quick responses, dedicated customer teams and more than 25 years of professional expertise make RTS Financial a superior factoring experience.",1,admin,1490996657,1643731606,,/lp/customer-service-factoring,1,1,0,,,,,,,
 289,0,Landing Page,The Quickest Way to Build More Cash Flow,The Quickest Way to Build More Cash Flow,"<p>As the freight market continues to rebound, you may find that increased demand from your customers is putting a strain on your trucking company’s cash flow.</p>
 
 <p>The most effective way to build cash flow quickly is by factoring your company’s receivables. RTS Financial provides same-day funding of your invoices at competitive rates, eliminating the 30- to 60-day wait on customer payments.</p>
@@ -612,7 +612,7 @@ To learn more about how your company can use factoring to meet today’s market 
 	<li><strong><strong>Free, unlimited credit checks</strong> </strong>on brokers and shippers</li>
 	<li><strong><strong>Scalable funding</strong> </strong>that grows with your company</li>
 </ul>
-",,,,,English,,,,,,,1,admin,1494448334,,/lp/factoring-email,1,1,0,,,,,,,
+",,,,,English,,,,,,,1,admin,1494448334,1643736363,,/lp/factoring-email,1,1,0,,,,,,,
 292,0,Landing Page,Outstanding Factoring Service Since 1995,Outstanding Factoring Service Since 1995,"<p>Most clients choose RTS Financial because of our competitive factoring rates and easy approval process. They stay with RTS Financial because we put a premium on serving customers like no other factoring company in the industry.</p>
 
 <h2>As a customer of RTS Financial, here’s what you can expect:</h2>
@@ -635,7 +635,7 @@ To learn more about how your company can use factoring to meet today’s market 
 </ul>
 
 <div class=""lg-sans margin-top-40"">Contact Us Today About Factoring: <strong>888-684-2309</strong></div>
-",,,,,English,,,,,,"Quick responses, dedicated customer teams and more than 25 years of professional expertise make RTS Financial a superior factoring experience.",1,admin,1497902305,,/lp/ap-retargeting,1,1,0,,,,,,,
+",,,,,English,,,,,,"Quick responses, dedicated customer teams and more than 25 years of professional expertise make RTS Financial a superior factoring experience.",1,admin,1497902305,1643736204,,/lp/ap-retargeting,1,1,0,,,,,,,
 293,0,Landing Page,Stop Waiting on Payments. Get Paid Today with Technicolor and RTS Financial.,Stop Waiting on Payments. Get Paid Today with Technicolor and RTS Financial.,"<style type=""text/css"">
 <!--/*--><![CDATA[/* ><!--*/
 .page-node-293 .header-phone { display: none; }
@@ -653,7 +653,7 @@ To learn more about how your company can use factoring to meet today’s market 
 	<li>Dedicated customer service representatives fluent in 25 languages</li>
 	<li>Scalable, debt-free funding that can match your company’s growth</li>
 </ul>
-",,,,,English,,,,,,Technicolor Global Logistics is partnering with RTS Financial to provide new quick-pay solutions so companies like yours can turn invoices into cash in 24 hours. ,1,admin,1497979790,,/lp/technicolor-referral,1,1,0,,,,,Meg Williams,,Agent referral page for Technicolor
+",,,,,English,,,,,,Technicolor Global Logistics is partnering with RTS Financial to provide new quick-pay solutions so companies like yours can turn invoices into cash in 24 hours. ,1,admin,1497979790,1643736440,,/lp/technicolor-referral,1,1,0,,,,,Meg Williams,,Agent referral page for Technicolor
 294,0,Landing Page,RTS Pro Factoring,RTS Pro Factoring,"<h2 class=""margin-top-0"">File Paperwork From Anywhere at Any Time</h2>
 
 <p>RTS Pro is our exclusive web and mobile app that lets you create and upload invoices into your online factoring account. This easy-to-use technology helps you save time, reduce paperwork and, best of all, get paid faster.</p>
@@ -678,8 +678,8 @@ To learn more about how your company can use factoring to meet today’s market 
 	<li>Online account access and easy uploading of documents</li>
 	<li>Scalable funding that grows with your company</li>
 </ul>
-",,,,,English,,,,,,Online software eliminates the need to provide original paperwork when factoring your receivables,1,admin,1499701743,,/lp/invoice-manager,1,1,0,,,,,,,
-299,0,Landing Page,"Average Savings of 25¢ Per Gallon at 2,000+ Fuel Stations","Average Savings of 25¢ Per Gallon at 2,000+ Fuel Stations","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-b98d96db146bb390b5c6175b070dce38 contextual-links-region"">
+",,,,,English,,,,,,Online software eliminates the need to provide original paperwork when factoring your receivables,1,admin,1499701743,1643726009,,/lp/invoice-manager,1,1,0,,,,,,,
+299,0,Landing Page,"Average Savings of 25¢ Per Gallon at 2,000+ Fuel Stations","Average Savings of 25¢ Per Gallon at 2,000+ Fuel Stations","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-841fc8f8cd1263707b78b1c73a59eef9 contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/fuel_features/edit/default?destination=exportlandingpage"">Edit view</a></li></ul></div>  
   
   
@@ -687,27 +687,27 @@ To learn more about how your company can use factoring to meet today’s market 
         <div class=""views-row views-row-1 views-row-odd views-row-first"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Save 25¢ per Gallon</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,000 fuel stations.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,400 fuel stations.</div>  </div>  </div>
   <div class=""views-row views-row-2 views-row-even"">
-      
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,000 Fuel Stations</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
-  <div class=""views-row views-row-3 views-row-odd"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">$2,500 Line of Credit</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get as much as $2,500 per truck, per week.</div>  </div>  </div>
-  <div class=""views-row views-row-4 views-row-even"">
+  <div class=""views-row views-row-3 views-row-odd"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">RTS Pro Mobile App</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Use our mobile app to find the lowest fuel prices along your route.</div>  </div>  </div>
-  <div class=""views-row views-row-5 views-row-odd"">
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,400 Fuel Stations</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
+  <div class=""views-row views-row-4 views-row-even"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Pilot Flying J Discounts</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get point-of-sale fuel discounts at more than 750 Pilot Flying J locations nationwide</div>  </div>  </div>
+  <div class=""views-row views-row-5 views-row-odd"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">RTS Pro Mobile App</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Use our mobile app to find the lowest fuel prices along your route.</div>  </div>  </div>
   <div class=""views-row views-row-6 views-row-even views-row-last"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No Annual Fees</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no contract and you are not charged yearly card fees.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no fuel card contract and no annual card fees.</div>  </div>  </div>
     </div>
   
   
@@ -715,7 +715,7 @@ To learn more about how your company can use factoring to meet today’s market 
   
   
   
-</div>",,,,,English,,,,,,"Join 40,000+ carriers in the fastest growing fuel card program in the trucking industry. Contact us today.",1,admin,1500483359,,/lp/fuel-card,1,1,0,,,,,,,
+</div>",,,,,English,,,,,,"Join 40,000+ carriers in the fastest growing fuel card program in the trucking industry. Contact us today.",1,admin,1500483359,1643731879,,/lp/fuel-card,1,1,0,,,,,,,
 301,0,Landing Page,Thank You For Your Interest In Our Services,Thank You For Your Interest In Our Services,"<style>
 <!--/*--><![CDATA[/* ><!--*/
 
@@ -747,7 +747,7 @@ Check out these popular articles from our blog:
 <img style=""width: 150px;"" class=""margin-bottom-30"" src=""/sites/default/files/docuSign-logo.png"">
 
 <p class=""subheading1 margin-top-0"">Once you have completed the factoring application, we can provide specific details about your eligibility, advance rate, factoring rate and more.</p>
--->",,,,,English,,,,,,,1,admin,1500670819,,/lp/factoring-thank-you-app,1,1,0,,,,,,,
+-->",,,,,English,,,,,,,1,admin,1500670819,1600350081,,/lp/factoring-thank-you-app,1,1,0,,,,,,,
 304,0,Landing Page,Turn Invoices into Same-Day Capital with Factoring,Turn Invoices into Same-Day Capital with Factoring,"<p class=""first"">Waiting 30, 60 and sometimes 90 days for customer payments can put a great deal of stress on your cash flow. By factoring with RTS Financial, you can build up more working capital to pay vendors, meet customer demands and grow your company.</p>
 
 <h2 class=""subheading-left"">Highlights of Our Factoring Services</h2>
@@ -762,7 +762,7 @@ Check out these popular articles from our blog:
 <li>Online account access and easy uploading of documents</li>
 <li>Scalable funding that grows with your company</li>
 </ul>
-",,,,,English,,,,,,Stop waiting weeks for customer payments. Get cash on your receivables within 24 hours by factoring with RTS Financial.,1,admin,1501517709,,/lp/factoring-email-wj,1,1,0,,,,,,,For email marketing via BlueConic
+",,,,,English,,,,,,Stop waiting weeks for customer payments. Get cash on your receivables within 24 hours by factoring with RTS Financial.,1,admin,1501517709,1643736020,,/lp/factoring-email-wj,1,1,0,,,,,,,For email marketing via BlueConic
 305,0,Landing Page,Online Factoring Application,Online Factoring Application,"<style>
 <!--/*--><![CDATA[/* ><!--*/
 
@@ -781,7 +781,7 @@ body {  min-height: 100vh; }
 
 <img style=""width: 200px;"" class=""margin-bottom-30"" src=""/sites/default/files/docuSign-logo.png"" />
 
-",,,,,English,,,,,,Quickly find out how much funding you qualify for by completing the factoring application below,1,admin,1502115637,,/lp/factoring-application-internet,1,1,0,,,,,,,
+",,,,,English,,,,,,Quickly find out how much funding you qualify for by completing the factoring application below,1,admin,1502115637,1502487715,,/lp/factoring-application-internet,1,1,0,,,,,,,
 310,0,Landing Page,Truckers Love Our Factoring Services,Truckers Love Our Factoring Services,"<p class=""first"">Waiting 30, 60 and sometimes 90 days for customer payments can put a great deal of stress on your cash flow. By factoring with RTS Financial, you can build up more working capital to pay vendors, meet customer demands and grow your company.</p>
 
 <h2 class=""subheading-left"">Highlights of Our Factoring Services</h2>
@@ -795,14 +795,14 @@ body {  min-height: 100vh; }
 	<li>Upload invoices from your smartphone with RTS Pro, our easy-to-use mobile app</li>
 	<li>Scalable funding that grows with your company</li>
 </ul>
-",,,,,English,,,,,,"Better rates, same-day funding and competitive advance rates. Use your factoring funds to pay for fuel. ",1,admin,1502481101,,/lp/truckers-love-our-factoring,1,1,0,,,,,,,
+",,,,,English,,,,,,"Better rates, same-day funding and competitive advance rates. Use your factoring funds to pay for fuel. ",1,admin,1502481101,1643731707,,/lp/truckers-love-our-factoring,1,1,0,,,,,,,
 319,0,Landing Page,Thank You For Your Interest in The Complete Guide To Factoring,Thank You For Your Interest in The Complete Guide To Factoring,"<p class=""lg-sans"">This free guide from RTS Financial provides an in-depth review of how factoring works, what you should look for in a factoring company, and how factoring can help you improve and expand your business.</p>
 
 <div class=""btn blue-solid margin-bottom-40"">
   <a id=""factoringGuideDownloadLink"" href=""http://www.rtsfinancial.com/sites/default/files/Your%20Complete%20Guide%20to%20Factoring%20web.pdf"">Click Here to Download This PDF</a>
 </div>
 
-<p class=""lg-sans"">Call 855-230-9364 to talk with a representative about our factoring services.</p>",,,,,English,,,,,,,1,admin,1503685984,,/lp/factoring-guide-download-link,1,1,0,,,,,,,
+<p class=""lg-sans"">Call 855-230-9364 to talk with a representative about our factoring services.</p>",,,,,English,,,,,,,1,admin,1503685984,1504617697,,/lp/factoring-guide-download-link,1,1,0,,,,,,,
 320,0,Landing Page,Thank You For Your Interest in Our Fuel Savings Guide,Thank You For Your Interest in Our Fuel Savings Guide,"<style>
 <!--/*--><![CDATA[/* ><!--*/
 
@@ -817,7 +817,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   <a id=""factoringGuideLink"" href=""http://www.rtsfinancial.com/sites/default/files/RTS%20Carrier%20Services%20Fuel%20Savings%20Guide%20-%20Web.pdf"">Click Here to View The Guide</a>
 </div>
 
-",,,,,English,,,,,,,1,admin,1503686576,,/lp/fuel-savings-guide-download,1,1,0,,,,,,,
+",,,,,English,,,,,,,1,admin,1503686576,1504617704,,/lp/fuel-savings-guide-download,1,1,0,,,,,,,
 349,0,Landing Page,Factoring Services for Companies in Latin America,Factoring Services for Companies in Latin America,"<p>Stop waiting 30 to 60 days for payments from customers. Turn your invoices into immediate cash by factoring with RTS Financial.</p>
 
 <h2>Benefits of Working with RTS Financial</h2>
@@ -840,7 +840,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <li>Seafood</li>
 <li>Textiles and apparel</li>
 <li>Manufacturing</li>
-</ul>",,,,,English,,,,,,We've been helping Latin American companies grow their working capital since 1995.,1,admin,1522849659,,/lp/factoring-services-companies-latin-america,1,1,0,,,,,,,For English speakers in Latin America
+</ul>",,,,,English,,,,,,We've been helping Latin American companies grow their working capital since 1995.,1,admin,1522849659,1643735784,,/lp/factoring-services-companies-latin-america,1,1,0,,,,,,,For English speakers in Latin America
 366,0,Landing Page,"How Smart Truckers Get Paid Faster, Cut Costs and Manage Operations","How Smart Truckers Get Paid Faster, Cut Costs and Manage Operations","<p class=""margin-top-0"">With RTS, you can use factoring funds to load your fuel card or pay down your credit line. You can also upload invoices, find fuel prices, and more with the RTS Pro mobile app.</p>
 
 <h2>Our Fuel Card Program</h2>
@@ -867,7 +867,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 </ul>
 
 <p>Setting up an account with RTS is quick and easy. Contact us today to learn more!</p>
-",,,,,English,,,,,,"We offer an easy-to-use solution that integrates fuel savings, invoice factoring and fleet management. Sign up today to join more than 40,000 carriers using our fuel card and factoring services.",27,dhacker,1527000018,,/lp/factoring-fuel-card,0,1,0,,,,,,,
+",,,,,English,,,,,,"We offer an easy-to-use solution that integrates fuel savings, invoice factoring and fleet management. Sign up today to join more than 40,000 carriers using our fuel card and factoring services.",27,dhacker,1527000018,1643731651,,/lp/factoring-fuel-card,0,1,0,,,,,,,
 392,0,Landing Page,Same-Day Factoring Services for Trucking Companies,Same-Day Factoring Services for Trucking Companies,"<h2>Why Truckers Love Our Factoring Services</h2>
 <p>Our approach is simple. We offer great rates, outstanding service and no tricks. We believe in a transparent, easy-to-understand pricing structure</p>
 <ul>
@@ -887,10 +887,10 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 	<li><strong>Flexible payment terms</strong> for small fleets</li>
 	<li><strong>PlusCheks</strong> you can cash at locations throughout our network</li>
 </ul>
-",,,,,English,,,,,,"Our factoring services feature same-day funding, competitive advance rates and a fuel card with average savings of 25¢ per gallon.",28,wjorgensen,1547157539,,/lp/factoring-trucking-display,1,1,0,,,,,Webster,,Uses longer webform with captcha for display campaigns
+",,,,,English,,,,,,"Our factoring services feature same-day funding, competitive advance rates and a fuel card with average savings of 25¢ per gallon.",28,wjorgensen,1547157539,1643734018,,/lp/factoring-trucking-display,1,1,0,,,,,Webster,,Uses longer webform with captcha for display campaigns
 448,0,Landing Page,Doing Invoice Factoring the Right Way Since 1995,Doing Invoice Factoring the Right Way Since 1995,"<h2 class=""display3"">Why RTS Offers a Better Factoring Experience</h2>
 
-<div class=""view view-factoring-features-service view-id-factoring_features_service view-display-id-default features-list-1 view-dom-id-d65888556a9144f1c735eec30360cc29 contextual-links-region"">
+<div class=""view view-factoring-features-service view-id-factoring_features_service view-display-id-default features-list-1 view-dom-id-e371be153910e71ce4c83b5cc1ddd4ac contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/factoring_features_service/edit/default?destination=exportlandingpage"">Edit view</a></li></ul></div>  
   
   
@@ -905,16 +905,16 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Aplicación móvil o web fácil de utilizar para cargar facturas y gestionar su cuenta en línea.</div>  </div>  </div>
   <div class=""views-row views-row-3 views-row-odd"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Lien Filed Later</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Some factoring companies file a lien early in the application process, limiting your options.</div>  </div>  </div>
-  <div class=""views-row views-row-4 views-row-even"">
-      
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No se llena ningún gravamen durante la solicitud </h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Algunas empresas de factoraje archivan un gravamen durante el proceso de solicitud.</div>  </div>  </div>
+  <div class=""views-row views-row-4 views-row-even"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Lien Filed Later</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Some factoring companies file a lien early in the application process, limiting your options.</div>  </div>  </div>
   <div class=""views-row views-row-5 views-row-odd"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Dedicated Account Representative</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">We partner every customer with a single point of contact.</div>  </div>  </div>
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No ACH Fees</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Our customers get free ACH transfers.</div>  </div>  </div>
   <div class=""views-row views-row-6 views-row-even views-row-last"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Low Wire Fees</h3>  </div>  
@@ -927,8 +927,8 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   
   
 </div>
-",,,,,English,,,,,,"Our approach to factoring is simple. We offer transparent pricing, no hidden fees, and outstanding customer service. ",28,wjorgensen,1549386400,,/lp/factoring-right-way,1,1,0,,,,,Webster,,Focus on customer service advantages
-554,0,Landing Page,Save 25¢ per Gallon with Wex Fleet One and RTS,Save 25¢ per Gallon with Wex Fleet One and RTS,"<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-e9b35d8e43505dc90b5b5b9077cfa2fd contextual-links-region"">
+",,,,,English,,,,,,"Our approach to factoring is simple. We offer transparent pricing, no hidden fees, and outstanding customer service. ",28,wjorgensen,1549386400,1553012086,,/lp/factoring-right-way,1,1,0,,,,,Webster,,Focus on customer service advantages
+554,0,Landing Page,Save 25¢ per Gallon with Wex Fleet One and RTS,Save 25¢ per Gallon with Wex Fleet One and RTS,"<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-3b31d8235e83af3d3d400dfd6559acfa contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/fuel_features/edit/default?destination=exportlandingpage"">Edit view</a></li></ul></div>  
   
   
@@ -936,27 +936,27 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
         <div class=""views-row views-row-1 views-row-odd views-row-first"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Save 25¢ per Gallon</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,000 fuel stations.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,400 fuel stations.</div>  </div>  </div>
   <div class=""views-row views-row-2 views-row-even"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">$2,500 Line of Credit</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get as much as $2,500 per truck, per week.</div>  </div>  </div>
   <div class=""views-row views-row-3 views-row-odd"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,000 Fuel Stations</h3>  </div>  
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,400 Fuel Stations</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
   <div class=""views-row views-row-4 views-row-even"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Pilot Flying J Discounts</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get point-of-sale fuel discounts at more than 750 Pilot Flying J locations nationwide</div>  </div>  </div>
-  <div class=""views-row views-row-5 views-row-odd"">
-      
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">RTS Pro Mobile App</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Use our mobile app to find the lowest fuel prices along your route.</div>  </div>  </div>
+  <div class=""views-row views-row-5 views-row-odd"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Pilot Flying J Discounts</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get point-of-sale fuel discounts at more than 750 Pilot Flying J locations nationwide</div>  </div>  </div>
   <div class=""views-row views-row-6 views-row-even views-row-last"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No Annual Fees</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no contract and you are not charged yearly card fees.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no fuel card contract and no annual card fees.</div>  </div>  </div>
     </div>
   
   
@@ -964,7 +964,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   
   
   
-</div>",,,,,English,,,,,,"Our members save an average of 25¢ per gallon at more than 2,000 fuel stations nationwide. Join more than 40,000 trucking companies and sign up today.",28,wjorgensen,1556047969,,/lp/fuel-card-fleet,1,1,0,,,,,,,
+</div>",,,,,English,,,,,,"Our members save an average of 25¢ per gallon at more than 2,000 fuel stations nationwide. Join more than 40,000 trucking companies and sign up today.",28,wjorgensen,1556047969,1643733495,,/lp/fuel-card-fleet,1,1,0,,,,,,,
 669,0,Landing Page,Save 12¢ per Gallon at 750+ Pilot Flying J Fuel Stations,Save 12¢ per Gallon at 750+ Pilot Flying J Fuel Stations,"As the largest operator of travel centers in North America, Pilot Flying J is committed to making life on the road for truck drivers as convenient as possible. The size of Pilot Flying J’s nationwide network ensures that RTS Carrier Services members have access to significant diesel discounts and outstanding amenities no matter where their trucks run.
 
 <h2>Highlights of Our Pilot Flying J Fuel Card:</h2>
@@ -976,7 +976,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <li>Mobile app to find stations and plan routes</li>
 <li>PlusCheks you can cash at locations throughout our network</li>
 <li>Free credit reports on more than 85,000 shippers and brokers</li>
-</ul>",,,,,English,,,,,,"Better discounts and zero fees. No setup fees, no monthly fees, and no annual fees. Contact us and start saving today.",28,wjorgensen,1561693379,,/lp/pilot-flying-j-fuel-card,1,1,0,,,,,,,
+</ul>",,,,,English,,,,,,"Better discounts and zero fees. No setup fees, no monthly fees, and no annual fees. Contact us and start saving today.",28,wjorgensen,1561693379,1643733445,,/lp/pilot-flying-j-fuel-card,1,1,0,,,,,,,
 759,0,Landing Page,Quick Pay Financing,Quick Pay Financing,"<h2>Highlights of Our Quick Pay and Factoring Services</h2>
 <p>By focusing on our clients and their business needs, we have created a better carrier finance experience. We offer carriers both factoring or quick pay. Contact us to find out which option is best for your trucking company. Here is what you can expect when you work with RTS Financial:</p>
 <ul class=""super-list"">
@@ -987,8 +987,8 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <li>Online account access and easy uploading of documents</li>
 <li>Scalable funding that grows with your company</li>
 </ul>
-",,,,,English,,,,,,"We partner with Ryan Transportation to offer you high quality freight, same-day quick pay with fast approval.",28,wjorgensen,1568170449,,/lp/quick-pay-financing,1,1,0,,,,,,,Quick Pay Landing Page
-768,0,Landing Page,Average Savings of 25¢/Gallon with a Wex Fleet One Fuel Card,Average Savings of 25¢/Gallon with a Wex Fleet One Fuel Card,"<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-470f6c2a60922a5926ea40d030360664 contextual-links-region"">
+",,,,,English,,,,,,"We partner with Ryan Transportation to offer you high quality freight, same-day quick pay with fast approval.",28,wjorgensen,1568170449,1643735618,,/lp/quick-pay-financing,1,1,0,,,,,,,Quick Pay Landing Page
+768,0,Landing Page,Average Savings of 25¢/Gallon with a Wex Fleet One Fuel Card,Average Savings of 25¢/Gallon with a Wex Fleet One Fuel Card,"<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-264b56cedbcc0cfce86d90bea933948a contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/fuel_features/edit/default?destination=exportlandingpage"">Edit view</a></li></ul></div>  
   
   
@@ -996,52 +996,15 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
         <div class=""views-row views-row-1 views-row-odd views-row-first"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Save 25¢ per Gallon</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,000 fuel stations.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,400 fuel stations.</div>  </div>  </div>
   <div class=""views-row views-row-2 views-row-even"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,400 Fuel Stations</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
+  <div class=""views-row views-row-3 views-row-odd"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">$2,500 Line of Credit</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get as much as $2,500 per truck, per week.</div>  </div>  </div>
-  <div class=""views-row views-row-3 views-row-odd"">
-      
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,000 Fuel Stations</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
-  <div class=""views-row views-row-4 views-row-even"">
-      
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Pilot Flying J Discounts</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get point-of-sale fuel discounts at more than 750 Pilot Flying J locations nationwide</div>  </div>  </div>
-  <div class=""views-row views-row-5 views-row-odd"">
-      
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">RTS Pro Mobile App</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Use our mobile app to find the lowest fuel prices along your route.</div>  </div>  </div>
-  <div class=""views-row views-row-6 views-row-even views-row-last"">
-      
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No Annual Fees</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no contract and you are not charged yearly card fees.</div>  </div>  </div>
-    </div>
-  
-  
-  
-  
-  
-  
-</div>",,,,,English,,,,,,"The Wex Fleet One card from RTS Carrier Services allows members to save on diesel fuel at more than 2,000 fuel stations nationwide.",28,wjorgensen,1570722345,,/lp/fuel-card-wex-fleet-one,1,1,0,,,,,,,
-785,0,Landing Page,"Truckers Love Our Fuel Card. Save 25¢/Gallon at More Than 2,000 Locations","Truckers Love Our Fuel Card. Save 25¢/Gallon at More Than 2,000 Locations","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-e2bcbd6dc590acce5086f2743277f235 contextual-links-region"">
-      <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/fuel_features/edit/default?destination=exportlandingpage"">Edit view</a></li></ul></div>  
-  
-  
-      <div class=""view-content"">
-        <div class=""views-row views-row-1 views-row-odd views-row-first"">
-      
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Save 25¢ per Gallon</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,000 fuel stations.</div>  </div>  </div>
-  <div class=""views-row views-row-2 views-row-even"">
-      
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">$2,500 Line of Credit</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get as much as $2,500 per truck, per week.</div>  </div>  </div>
-  <div class=""views-row views-row-3 views-row-odd"">
-      
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,000 Fuel Stations</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
   <div class=""views-row views-row-4 views-row-even"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">RTS Pro Mobile App</h3>  </div>  
@@ -1053,7 +1016,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   <div class=""views-row views-row-6 views-row-even views-row-last"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No Annual Fees</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no contract and you are not charged yearly card fees.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no fuel card contract and no annual card fees.</div>  </div>  </div>
     </div>
   
   
@@ -1061,7 +1024,44 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   
   
   
-</div>",,,,,English,,,,,,"Join 40,000+ carriers in the fasting growing fuel card program in the trucking industry.",28,wjorgensen,1571707443,,/lp/truckers-love-our-fuel-card,1,1,0,,,,,,,
+</div>",,,,,English,,,,,,"The Wex Fleet One card from RTS Carrier Services allows members to save on diesel fuel at more than 2,000 fuel stations nationwide.",28,wjorgensen,1570722345,1610402650,,/lp/fuel-card-wex-fleet-one,1,1,0,,,,,,,
+785,0,Landing Page,"Truckers Love Our Fuel Card. Save 25¢/Gallon at More Than 2,000 Locations","Truckers Love Our Fuel Card. Save 25¢/Gallon at More Than 2,000 Locations","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-7ff1276e2ea1a6edbce996a327bb1ec8 contextual-links-region"">
+      <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/fuel_features/edit/default?destination=exportlandingpage"">Edit view</a></li></ul></div>  
+  
+  
+      <div class=""view-content"">
+        <div class=""views-row views-row-1 views-row-odd views-row-first"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Save 25¢ per Gallon</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,400 fuel stations.</div>  </div>  </div>
+  <div class=""views-row views-row-2 views-row-even"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">$2,500 Line of Credit</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get as much as $2,500 per truck, per week.</div>  </div>  </div>
+  <div class=""views-row views-row-3 views-row-odd"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,400 Fuel Stations</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
+  <div class=""views-row views-row-4 views-row-even"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">RTS Pro Mobile App</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Use our mobile app to find the lowest fuel prices along your route.</div>  </div>  </div>
+  <div class=""views-row views-row-5 views-row-odd"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Pilot Flying J Discounts</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get point-of-sale fuel discounts at more than 750 Pilot Flying J locations nationwide</div>  </div>  </div>
+  <div class=""views-row views-row-6 views-row-even views-row-last"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No Annual Fees</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no fuel card contract and no annual card fees.</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>",,,,,English,,,,,,"Join 40,000+ carriers in the fasting growing fuel card program in the trucking industry.",28,wjorgensen,1571707443,1643733563,,/lp/truckers-love-our-fuel-card,1,1,0,,,,,,,
 820,0,Landing Page,EFS Fuel Card,EFS Fuel Card,"<p>As the largest operator of travel centers in North America, Pilot Flying J is committed to making life on the road for truck drivers as convenient as possible. The size of Pilot Flying J’s nationwide network ensures that RTS Carrier Services members have access to significant diesel discounts and outstanding amenities no matter where their trucks run.</p>
 
 <ul class=""md-list"">
@@ -1074,19 +1074,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 </ul>
 
 <p>Contact us today to learn more.</p>
-",,,,,English,,,,,,Save 12¢ per gallon at 750 fuel stations with an EFS fuel card from RTS,28,wjorgensen,1576517842,,/lp/efs-fuel-card,1,1,0,,,,,,,
-827,0,Landing Page,Proporcionando Dinero en Efectivo el Mismo Día a Empresas Camioneras Por Más de 25 Años,Proporcionando Dinero en Efectivo el Mismo Día a Empresas Camioneras Por Más de 25 Años,"<h2>Lo Más Destacado de Nuestros Servicios de Factoraje</h2>
-<p>Al enfocarnos en nuestros clientes y sus necesidades empresariales, hemos creado una mejor experiencia de factoraje. Esto es lo que usted puede esperar cuando trabaja con RTS Financial:</p>
-
-<ul>
-<li>Financiamiento el mismo día</li>
-<li>Más de 25 años de experiencia en factoraje</li>
-<li>Tasas de anticipo competitivas</li>
-<li>Cobros y análisis de crédito gratuitos</li>
-<li>Tarjeta de combustible con líneas de crédito y descuentos importantes</li>
-<li>Acceso a la cuenta en línea y fácil carga de documentos en línea</li>
-<li>Financiamiento escalable que crece con su empresa</li>
-</ul>",,,,,English,,,,,,"Nuestros servicios de factoraje ofrecen fondos el mismo día, tasas de anticipo competitivas y un ahorro promedio de 25 centavos por galón en las tarjetas de combustible.",28,wjorgensen,1578504003,,/lp/trucking-factoring-es,1,1,0,,,,,wjorgensen,,Factoring Trucking Spanish 
+",,,,,English,,,,,,Save 12¢ per gallon at 750 fuel stations with an EFS fuel card from RTS,28,wjorgensen,1576517842,1643731831,,/lp/efs-fuel-card,1,1,0,,,,,,,
 946,0,Landing Page,Significant Discounts at 150+ Speedway Fuel Stations,Significant Discounts at 150+ Speedway Fuel Stations,"<h2>Highlights of Our Speedway and Pilot Flying J Fuel Card Program</h2>
 
 <ul class=""md-list"">
@@ -1097,8 +1085,8 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <li>Exclusive mobile app to find stations and plan routes</li>
 <li>PlusCheks you can cash at locations throughout our network</li>
 <li>Free credit reports on more than 70,000 shippers and brokers</li>
-</ul>",,,,,English,,,,,,"Better discounts, and zero fees. No setup fees, no monthly fees and no annual fees.",28,wjorgensen,1586958836,,/lp/speedway-fuel-card,0,0,0,,,,,,,
-947,0,Landing Page,"Save An Average of 25¢ per Gallon at More Than 2,000 Fuel Stations","Save An Average of 25¢ per Gallon at More Than 2,000 Fuel Stations","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-9f47d919468617b40edf800cf7e4e090 contextual-links-region"">
+</ul>",,,,,English,,,,,,"Better discounts, and zero fees. No setup fees, no monthly fees and no annual fees.",28,wjorgensen,1586958836,1643733317,,/lp/speedway-fuel-card,0,0,0,,,,,,,
+947,0,Landing Page,"Save An Average of 25¢ per Gallon at More Than 2,000 Fuel Stations","Save An Average of 25¢ per Gallon at More Than 2,000 Fuel Stations","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-f6fa8cb2f60669e8d578ee41200d00c0 contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/fuel_features/edit/default?destination=exportlandingpage"">Edit view</a></li></ul></div>  
   
   
@@ -1106,10 +1094,10 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
         <div class=""views-row views-row-1 views-row-odd views-row-first"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Save 25¢ per Gallon</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,000 fuel stations.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,400 fuel stations.</div>  </div>  </div>
   <div class=""views-row views-row-2 views-row-even"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,000 Fuel Stations</h3>  </div>  
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,400 Fuel Stations</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
   <div class=""views-row views-row-3 views-row-odd"">
       
@@ -1126,7 +1114,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   <div class=""views-row views-row-6 views-row-even views-row-last"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No Annual Fees</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no contract and you are not charged yearly card fees.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no fuel card contract and no annual card fees.</div>  </div>  </div>
     </div>
   
   
@@ -1134,7 +1122,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   
   
   
-</div>",,,,,English,,,,,,"Join 40,000+ carriers in the fasting growing fuel card program in the trucking industry. Contact us today.",28,wjorgensen,1586968897,,/lp/fuel-card-brand,1,1,0,,,,,,,Fuel landing page for brand keywords
+</div>",,,,,English,,,,,,"Join 40,000+ carriers in the fasting growing fuel card program in the trucking industry. Contact us today.",28,wjorgensen,1586968897,1643731525,,/lp/fuel-card-brand,1,1,0,,,,,,,Fuel landing page for brand keywords
 1086,0,Landing Page,Speedway and One9 Fuel Network Discounts,Speedway and One9 Fuel Network Discounts,"Speedway and the One9 Fuel Network are committed to making life on the road for truck drivers as convenient as possible. The size of the nationwide network ensures that RTS members have access to significant diesel discounts and outstanding amenities no matter where their trucks run.
 
 <h2>Highlights of Our Speedway, Pilot Flying J and One9 Fuel Network Discounts</h2>
@@ -1146,7 +1134,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <li>Mobile app to find stations and plan routes</li>
 <li>PlusCheks you can cash at locations throughout our network.</li>
 <li>Free credit reports on more than 70,000 shippers and brokers.</li>
-</ul>",,,,,English,,,,,,"Substantial savings and zero fees. No setup fees, no monthly fees, and no annual fees. Contact us today and start saving.",28,wjorgensen,1588262304,,/lp/speedway,0,0,0,,,,,,,
+</ul>",,,,,English,,,,,,"Substantial savings and zero fees. No setup fees, no monthly fees, and no annual fees. Contact us today and start saving.",28,wjorgensen,1588262304,1643733273,,/lp/speedway,0,0,0,,,,,,,
 1175,0,Landing Page,More Than 25 Years Providing Same-Day Cash for Trucking Companies,More Than 25 Years Providing Same-Day Cash for Trucking Companies,"<h2>Highlights of Our Factoring Services</h2>
 
 <p>By focusing on our clients and their business needs, we created a better factoring experience. Here is what you can expect when you work with us:</p>
@@ -1160,8 +1148,8 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 	<li>Scalable funding that grows with your company</li>
 	<li>Convenient mobile and web access</li>
 </ul>
-",,,,,English,,,,,,Our factoring services feature same-day funding & competitive advance rates.,28,wjorgensen,1596818067,,/lp/rtspro-factoring,1,1,0,,,,,,"factoring, rtspro",
-1184,0,Landing Page,"Save an Average of 25¢ per Gallon at More Than 2,000 Fuel Stations","Save an Average of 25¢ per Gallon at More Than 2,000 Fuel Stations","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-bab969ef3ccb38676eeef951f0328e52 contextual-links-region"">
+",,,,,English,,,,,,Our factoring services feature same-day funding & competitive advance rates.,28,wjorgensen,1596818067,1644265736,,/lp/rtspro-factoring,1,1,0,,,,,,"factoring, rtspro",
+1184,0,Landing Page,"Save an Average of 25¢ per Gallon at More Than 2,000 Fuel Stations","Save an Average of 25¢ per Gallon at More Than 2,000 Fuel Stations","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-2c34386431973391a0344978a4a03d29 contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/fuel_features/edit/default?destination=exportlandingpage"">Edit view</a></li></ul></div>  
   
   
@@ -1169,15 +1157,15 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
         <div class=""views-row views-row-1 views-row-odd views-row-first"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Save 25¢ per Gallon</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,000 fuel stations.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,400 fuel stations.</div>  </div>  </div>
   <div class=""views-row views-row-2 views-row-even"">
-      
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,000 Fuel Stations</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
-  <div class=""views-row views-row-3 views-row-odd"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">$2,500 Line of Credit</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get as much as $2,500 per truck, per week.</div>  </div>  </div>
+  <div class=""views-row views-row-3 views-row-odd"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,400 Fuel Stations</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
   <div class=""views-row views-row-4 views-row-even"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">RTS Pro Mobile App</h3>  </div>  
@@ -1189,7 +1177,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   <div class=""views-row views-row-6 views-row-even views-row-last"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No Annual Fees</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no contract and you are not charged yearly card fees.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no fuel card contract and no annual card fees.</div>  </div>  </div>
     </div>
   
   
@@ -1198,7 +1186,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   
   
 </div>
-",,,,,English,,,,,,"Join 40,000+ trucking companies in the fastest growing fuel card program in the trucking industry. ",28,wjorgensen,1597331173,,/lp/rtspro-fuel,1,1,0,,,,,,"fuel, rtspro",
+",,,,,English,,,,,,"Join 40,000+ trucking companies in the fastest growing fuel card program in the trucking industry. ",28,wjorgensen,1597331173,1644265352,,/lp/rtspro-fuel,1,1,0,,,,,,"fuel, rtspro",
 1187,0,Landing Page,Check Credit in RTS Pro Before Booking Your Next Load,Check Credit in RTS Pro Before Booking Your Next Load,"<p>Credit ratings are a valuable tool that help you weigh the risk of working with a specific broker or shipper. Knowing credit history and days-to-pay information can help you make an informed decision on who to work with. RTS Pro Credit offers quick, convenient access to credit data on over 85,000 brokers and shippers.</p>
 
 <h2>What is included with RTS Pro Credit?</h2>
@@ -1211,7 +1199,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 	<li>‘Favorite’ feature to track the companies you work with regularly</li>
 	<li>Convenient mobile and web access</li>
 </ul>
-",,,,,English,,,,,,Make informed decisions on whether to work with specific brokers and shippers.,28,wjorgensen,1597331955,,/lp/rtspro-credit,1,1,0,,,,,,"freight, rtspro",
+",,,,,English,,,,,,Make informed decisions on whether to work with specific brokers and shippers.,28,wjorgensen,1597331955,1644265422,,/lp/rtspro-credit,1,1,0,,,,,,"freight, rtspro",
 1188,0,Landing Page,Communicate all the Trip Details with Your Drivers,Communicate all the Trip Details with Your Drivers,"<h2>Benefits of ProTransport Driver Trips:</h2>
 
 <ul>
@@ -1219,7 +1207,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <li>Send trip documents and delivery receipts in real time</li>
 <li>Instant communication between drivers and dispatchers</li>
 </ul>
-",,,,,English,,,,,,,28,wjorgensen,1597332093,,/lp/rtspro-trip-management,1,1,0,,,,,,"freight, rtspro",
+",,,,,English,,,,,,,28,wjorgensen,1597332093,1647362857,,/lp/rtspro-trip-management,1,1,0,,,,,,"freight, rtspro",
 1194,0,Landing Page,Easily and Conveniently Manage Your Daily Operations,Easily and Conveniently Manage Your Daily Operations,"<!--<img style=""max-width: 600px !important; width: 100%;"" src=""/sites/default/files/credit-3hbifs.jpg"">-->
 
 <ul>
@@ -1229,7 +1217,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 	<li>Export invoices and paperwork</li>
 	<li>Convenient mobile and web access</li>
 </ul>
-",,,,,English,,,,,,RTS Pro Load Management is a simple and user-friendly transportation management feature designed to help you manage your day-to-day operations.,28,wjorgensen,1597781392,,/lp/rtspro-load-management,1,1,0,,,,,,"factoring, rtspro",
+",,,,,English,,,,,,RTS Pro Load Management is a simple and user-friendly transportation management feature designed to help you manage your day-to-day operations.,28,wjorgensen,1597781392,1614286758,,/lp/rtspro-load-management,1,1,0,,,,,,"factoring, rtspro",
 1320,0,Landing Page,Helping Fleets Save Money on Fuel and Factoring,Helping Fleets Save Money on Fuel and Factoring,"<h3>RTS Financial Factoring Services</h3>
 
 <ul>
@@ -1249,7 +1237,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 </ul>
 
 <p>For more information or to apply for bundled services, please call (866) 779-7670 or fill out the form.</p>
-",,,,,English,,,,,,RTS Financial and Pilot Company have partnered to offer fuel and factoring solutions to keep your cash flowing and business moving.,28,wjorgensen,1609358694,,/lp/pfj-press,1,1,0,,,,,,"factoring, rtspro",
+",,,,,English,,,,,,RTS Financial and Pilot Company have partnered to offer fuel and factoring solutions to keep your cash flowing and business moving.,28,wjorgensen,1609358694,1643731914,,/lp/pfj-press,1,1,0,,,,,,"factoring, rtspro",
 1321,0,Landing Page,Bundle Your Fuel and Factoring,Bundle Your Fuel and Factoring,"<h3>RTS Financial Factoring Services</h3>
 
 <ul>
@@ -1271,8 +1259,8 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <p>For more information or to apply for bundled services, please fill out the form.</p>
 
 <div style=""margin-bottom: 120px;""> </div>
-",,,,,English,,,,,,RTS Financial and Pilot Company have partnered to offer fuel and factoring solutions to keep your cash flowing and business moving.,28,wjorgensen,1609358957,,/lp/pfj-mkt,1,1,0,,,,,,"factoring, rtspro",
-1417,0,Landing Page,"Average Savings of 25¢ Per Gallon at 2,000+ Fuel Stations","Average Savings of 25¢ Per Gallon at 2,000+ Fuel Stations","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-047e4537eac73a1182c82caa888850cc contextual-links-region"">
+",,,,,English,,,,,,RTS Financial and Pilot Company have partnered to offer fuel and factoring solutions to keep your cash flowing and business moving.,28,wjorgensen,1609358957,1617309003,,/lp/pfj-mkt,1,1,0,,,,,,"factoring, rtspro",
+1417,0,Landing Page,"Average Savings of 25¢ Per Gallon at 2,000+ Fuel Stations","Average Savings of 25¢ Per Gallon at 2,000+ Fuel Stations","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-592551f1e2ad19adf07da2e5ebd847e0 contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/fuel_features/edit/default?destination=exportlandingpage"">Edit view</a></li></ul></div>  
   
   
@@ -1280,14 +1268,14 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
         <div class=""views-row views-row-1 views-row-odd views-row-first"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Save 25¢ per Gallon</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,000 fuel stations.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,400 fuel stations.</div>  </div>  </div>
   <div class=""views-row views-row-2 views-row-even"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">$2,500 Line of Credit</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get as much as $2,500 per truck, per week.</div>  </div>  </div>
   <div class=""views-row views-row-3 views-row-odd"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,000 Fuel Stations</h3>  </div>  
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,400 Fuel Stations</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
   <div class=""views-row views-row-4 views-row-even"">
       
@@ -1300,7 +1288,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   <div class=""views-row views-row-6 views-row-even views-row-last"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No Annual Fees</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no contract and you are not charged yearly card fees.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no fuel card contract and no annual card fees.</div>  </div>  </div>
     </div>
   
   
@@ -1308,7 +1296,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   
   
   
-</div>",,,,,English,,,,,,"Join 40,000+ carriers in the fastest growing fuel card program in the trucking industry. Contact us today.",28,wjorgensen,1615331510,,/lp/fuel-card-email,1,1,0,,,,,,"factoring, rtspro",
+</div>",,,,,English,,,,,,"Join 40,000+ carriers in the fastest growing fuel card program in the trucking industry. Contact us today.",28,wjorgensen,1615331510,1643731745,,/lp/fuel-card-email,1,1,0,,,,,,"factoring, rtspro",
 1433,0,Landing Page,Get Up to 30% Off in Additional Savings,Get Up to 30% Off in Additional Savings,"<h3>RTS Financial Factoring Services</h3>
 
 <ul>
@@ -1330,7 +1318,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <p>For more information or to apply for bundled services, please fill out the form.</p>
 
 <div style=""margin-bottom: 120px;""> </div>
-",,,,,English,,,,,,"When you bundle fuel and factoring services from RTS Financial and Pilot Company, you save up to 30% more, helping you cut costs and increase cash flow. ",28,wjorgensen,1616701434,,/lp/pfj-mkt-fuel,1,1,0,,,,,,"factoring, rtspro",
+",,,,,English,,,,,,"When you bundle fuel and factoring services from RTS Financial and Pilot Company, you save up to 30% more, helping you cut costs and increase cash flow. ",28,wjorgensen,1616701434,1643731459,,/lp/pfj-mkt-fuel,1,1,0,,,,,,"factoring, rtspro",
 1439,0,Landing Page,Operations Lead Form,Operations Lead Form,"<h3>RTS Financial Factoring Services</h3>
 
 <ul>
@@ -1352,7 +1340,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <p>For more information or to apply for bundled services, please fill out the form.</p>
 
 <div style=""margin-bottom: 120px;""> </div>
-",,,,,English,,,,,,Use this form to create a fuel or factoring lead in SalesForce.,28,wjorgensen,1617049726,,/lp/ops-lead,1,1,0,,,,,,"factoring, rtspro",
+",,,,,English,,,,,,Use this form to create a fuel or factoring lead in SalesForce.,28,wjorgensen,1617049726,1643731479,,/lp/ops-lead,1,1,0,,,,,,"factoring, rtspro",
 1463,0,Landing Page,Bundle Your Fuel and Factoring,Bundle Your Fuel and Factoring,"<h3>RTS Financial Factoring Services</h3>
 
 <ul>
@@ -1374,13 +1362,13 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <p>For more information or to apply for bundled services, please fill out the form.</p>
 
 <div style=""margin-bottom: 120px;""> </div>
-",,,,,English,,,,,,RTS Financial and Pilot Company have partnered to offer fuel and factoring solutions to keep your cash flowing and business moving.,28,wjorgensen,1619018554,,/lp/pfj-mkt-fuel-sm,1,1,0,,,,,,"factoring, rtspro",
+",,,,,English,,,,,,RTS Financial and Pilot Company have partnered to offer fuel and factoring solutions to keep your cash flowing and business moving.,28,wjorgensen,1619018554,1643730833,,/lp/pfj-mkt-fuel-sm,1,1,0,,,,,,"factoring, rtspro",
 1637,0,Landing Page,Save on Factoring!,Save on Factoring!,"<h2>(866) 935-2882</h2>
 
 <h3><strong>¡Hablamos español!</strong></h3>
 
 <h3><strong>ਅਸੀਂ ਪੰਜਾਬੀ ਵੀ ਬੋਲਦੇ ਹਾਂ</strong></h3>
-",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1651263212,,/lp/bundle-and-save-rts-and-pilot-company,1,1,0,,,,,,"factoring, fuel, software",Pilot In-Store Poster (shower hallway)
+",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1651263212,1664820301,,/lp/bundle-and-save-rts-and-pilot-company,1,1,0,,,,,,"factoring, fuel, software",Pilot In-Store Poster (shower hallway)
 1638,0,Landing Page,Ready for Bigger Savings and Faster Growth?,Ready for Bigger Savings and Faster Growth?,"<p>When you bundle factoring with fuel, you get same-day funding at a lower factoring rate, better fuel savings and more!</p>
 
 <ul>
@@ -1392,13 +1380,13 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 </ul>
 
 <p>Sign up for services today by filling out the form!</p>
-",,,,,English,,,,,,"RTS and Pilot Company have partnered to offer an exclusive fuel and factoring bundle. Combine your fuel card program, factoring services and additional benefits for bigger savings and faster growth.",31,dschneider,1651522072,,/lp/ready-bigger-savings-and-faster-growth,1,1,0,,,,,,"factoring, fuel, rtspro",Pilot Kiosk 
+",,,,,English,,,,,,"RTS and Pilot Company have partnered to offer an exclusive fuel and factoring bundle. Combine your fuel card program, factoring services and additional benefits for bigger savings and faster growth.",31,dschneider,1651522072,1654090169,,/lp/ready-bigger-savings-and-faster-growth,1,1,0,,,,,,"factoring, fuel, rtspro",Pilot Kiosk 
 1639,0,Landing Page,Save on Factoring!,Save on Factoring!,"<h2>(866) 355-1175</h2>
 
 <h3><strong>¡Hablamos español!</strong></h3>
 
 <h3><strong>ਅਸੀਂ ਪੰਜਾਬੀ ਵੀ ਬੋਲਦੇ ਹਾਂ</strong></h3>
-",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1651522393,,/lp/save-more-when-you-bundle-padd-1,1,1,0,,,,,,"factoring, fuel, pilot flying j",Pilot Beverage Center - PADD 1 (East Coast)
+",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1651522393,1664820369,,/lp/save-more-when-you-bundle-padd-1,1,1,0,,,,,,"factoring, fuel, pilot flying j",Pilot Beverage Center - PADD 1 (East Coast)
 1645,0,Landing Page,Thank You For Joining Our Network!,Thank You For Joining Our Network!,"<h2>Factoring</h2>
 
 <p>With our factoring services, you get funding on open invoices within 24 hours with simple, transparent pricing and no hidden fees.</p>
@@ -1424,31 +1412,31 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <p> </p>
 
 <p><small>*<em>These savings are based on fueling information from last quarter’s transactions.</em></small></p>
-",,,,,English,,,,,,"By joining the Ryan Transportation carrier network, you’ve become part of a family of brands dedicated to serving the trucking industry for over 35 years. Find out more about our services below.",31,dschneider,1652126818,,/lp/thank-you-joining-our-network,1,1,0,,,,,,"factoring, fuel, rtspro",Onboarding email campaign cross-sell
+",,,,,English,,,,,,"By joining the Ryan Transportation carrier network, you’ve become part of a family of brands dedicated to serving the trucking industry for over 35 years. Find out more about our services below.",31,dschneider,1652126818,1653662684,,/lp/thank-you-joining-our-network,1,1,0,,,,,,"factoring, fuel, rtspro",Onboarding email campaign cross-sell
 1654,0,Landing Page,Save on Factoring!,Save on Factoring!,"<h2>(866) 706-1177</h2>
 
 <h3><strong>¡Hablamos español!</strong></h3>
 
 <h3><strong>ਅਸੀਂ ਪੰਜਾਬੀ ਵੀ ਬੋਲਦੇ ਹਾਂ</strong></h3>
-",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1653333012,,/lp/save-more-when-you-bundle-padd-2,1,1,0,,,,,,"factoring, fuel, pilot flying j",Pilot Beverage Center - PADD 2 (Midwest)
+",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1653333012,1664820404,,/lp/save-more-when-you-bundle-padd-2,1,1,0,,,,,,"factoring, fuel, pilot flying j",Pilot Beverage Center - PADD 2 (Midwest)
 1655,0,Landing Page,Save on Factoring!,Save on Factoring!,"<h2>(866) 351-2556</h2>
 
 <h3><strong>¡Hablamos español!</strong></h3>
 
 <h3><strong>ਅਸੀਂ ਪੰਜਾਬੀ ਵੀ ਬੋਲਦੇ ਹਾਂ</strong></h3>
-",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1653333178,,/lp/save-more-when-you-bundle-padd-3,1,1,0,,,,,,"factoring, fuel, pilot flying j",Pilot Beverage Center - PADD 3 (Gulf Coast)
+",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1653333178,1664820422,,/lp/save-more-when-you-bundle-padd-3,1,1,0,,,,,,"factoring, fuel, pilot flying j",Pilot Beverage Center - PADD 3 (Gulf Coast)
 1656,0,Landing Page,Save on Factoring!,Save on Factoring!,"<h2>(866) 984-3478</h2>
 
 <h3><strong>¡Hablamos español!</strong></h3>
 
 <h3><strong>ਅਸੀਂ ਪੰਜਾਬੀ ਵੀ ਬੋਲਦੇ ਹਾਂ</strong></h3>
-",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1653333210,,/lp/save-more-when-you-bundle-padd-4,1,1,0,,,,,,"factoring, fuel, pilot flying j",Pilot Beverage Center - PADD 4 (Rocky Mountain)
+",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1653333210,1664820432,,/lp/save-more-when-you-bundle-padd-4,1,1,0,,,,,,"factoring, fuel, pilot flying j",Pilot Beverage Center - PADD 4 (Rocky Mountain)
 1657,0,Landing Page,Save on Factoring!,Save on Factoring!,"<h2>(866) 506-3959</h2>
 
 <h3><strong>¡Hablamos español!</strong></h3>
 
 <h3><strong>ਅਸੀਂ ਪੰਜਾਬੀ ਵੀ ਬੋਲਦੇ ਹਾਂ</strong></h3>
-",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1653333258,,/lp/save-more-when-you-bundle-padd-5,1,1,0,,,,,,"factoring, fuel, pilot flying j","Pilot Beverage Center - PADD 5 (West Coast, AK, HI)"
+",,,,,English,,,,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1653333258,1664820443,,/lp/save-more-when-you-bundle-padd-5,1,1,0,,,,,,"factoring, fuel, pilot flying j","Pilot Beverage Center - PADD 5 (West Coast, AK, HI)"
 1663,0,Landing Page,Thank You For Joining Our Network!,Thank You For Joining Our Network!,"<h2>Factoring</h2>
 
 <p>With our factoring services, you get funding on open invoices within 24 hours with simple, transparent pricing and no hidden fees.</p>
@@ -1474,7 +1462,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <p> </p>
 
 <p><small>*<em>These savings are based on fueling information from last quarter’s transactions.</em></small></p>
-",,,,,English,,,,,,"By joining the Ryan Transportation carrier network, you’ve become part of a family of brands dedicated to serving the trucking industry for over 35 years. Find out more about our services below.",31,dschneider,1653661330,,/lp/thank-you-joining-our-network-rmis,1,1,0,,,,,,"factoring, fuel, rtspro",RMIS registration cross-sell
+",,,,,English,,,,,,"By joining the Ryan Transportation carrier network, you’ve become part of a family of brands dedicated to serving the trucking industry for over 35 years. Find out more about our services below.",31,dschneider,1653661330,1653662689,,/lp/thank-you-joining-our-network-rmis,1,1,0,,,,,,"factoring, fuel, rtspro",RMIS registration cross-sell
 1669,0,Landing Page,Book Your Next Load Using Our Exclusive Load Board,Book Your Next Load Using Our Exclusive Load Board,"<h2>Benefits of our load board:</h2>
 
 <ul>
@@ -1488,7 +1476,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <h4>For access to our load board, you must register as a carrier in our network. The process is quick and easy and should take about 10 minutes to complete. Get started <a href=""http://ryantranscarriers.rmissecure.com/_s/reg/GeneralRequirementsV2.aspx"">HERE</a>!</h4>
 
 <h4>If you have a question about this feature, or believe you should already have access, please email <a href=""mailto:support@rtspro.com"">support@rtspro.com</a>. </h4>
-",,,,,English,,,,,,"With RTS Pro Freight, you can quickly and easily search thousands of available loads to find freight in the lanes you love. ",31,dschneider,1654141124,,/lp/rtspro-freight,1,1,0,,,,,,"factoring, rtspro",RTS Pro feature access landing page (freight)
+",,,,,English,,,,,,"With RTS Pro Freight, you can quickly and easily search thousands of available loads to find freight in the lanes you love. ",31,dschneider,1654141124,1655323220,,/lp/rtspro-freight,1,1,0,,,,,,"factoring, rtspro",RTS Pro feature access landing page (freight)
 1671,0,Landing Page,Sign Up for the New Mixed Fleet Card!,Sign Up for the New Mixed Fleet Card!,"<h2>Why Choose Mixed Fleet?</h2>
 
 <ul>
@@ -1501,7 +1489,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 	<li>Access to free credit data on 85,000+ brokers and shippers</li>
 	<li>And more!</li>
 </ul>
-",,,,,English,,,,,,"As the newest offering from RTS, the Mixed Fleet fuel card is designed for fleets with a mix of gasoline and diesel vehicles and is universally accepted at major truck stops and gas stations nationwide.",31,dschneider,1654879113,,/lp/sign-new-mixed-fleet-card,1,1,0,,,,, ,fuel,Google PPC Landing Page
+",,,,,English,,,,,,"As the newest offering from RTS, the Mixed Fleet fuel card is designed for fleets with a mix of gasoline and diesel vehicles and is universally accepted at major truck stops and gas stations nationwide.",31,dschneider,1654879113,1654879113,,/lp/sign-new-mixed-fleet-card,1,1,0,,,,, ,fuel,Google PPC Landing Page
 1673,0,Landing Page,Thank You For Visiting Southern Tire Mart at Pilot Flying J,Thank You For Visiting Southern Tire Mart at Pilot Flying J,"<h2>Fuel Card Program</h2>
 
 <p>Save an average of 25¢* at over 2,000 fuel stations and get access to additional discounts on tires and maintenance at over 200 truck care locations throughout our network.</p>
@@ -1527,7 +1515,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <p> </p>
 
 <p><small>*<em>These savings are based on fueling information from last quarter’s transactions.</em></small></p>
-",,,,,English,,,,,,"RTS and Southern Tire Mart have partnered to offer discounts and special offers on tires and maintenance at over 175 service center locations nationwide. As an RTS customer, you also have access to additional services and benefits from our family of brands. ",31,dschneider,1655818300,,/lp/thank-you-visiting-stmp,1,1,0,,,,,,"factoring, freight, fuel",STMP In-Store Signage Landing Page
+",,,,,English,,,,,,"RTS and Southern Tire Mart have partnered to offer discounts and special offers on tires and maintenance at over 175 service center locations nationwide. As an RTS customer, you also have access to additional services and benefits from our family of brands. ",31,dschneider,1655818300,1656449634,,/lp/thank-you-visiting-stmp,1,1,0,,,,,,"factoring, freight, fuel",STMP In-Store Signage Landing Page
 1674,0,Landing Page,Thank You For Visiting Southern Tire Mart,Thank You For Visiting Southern Tire Mart,"<h2>Fuel Card Program</h2>
 
 <p>Save an average of 25¢* at over 2,000 fuel stations and get access to additional discounts on tires and maintenance at over 200 truck care locations throughout our network.</p>
@@ -1553,11 +1541,11 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <p> </p>
 
 <p><small>*<em>These savings are based on fueling information from last quarter’s transactions.</em></small></p>
-",,,,,English,,,,,,"RTS and Southern Tire Mart have partnered to offer discounts and special offers on tires and maintenance at over 175 service center locations nationwide. As an RTS customer, you also have access to additional services and benefits from our family of brands. ",31,dschneider,1655818317,,/lp/thank-you-visiting-stm,1,1,0,,,,,,"factoring, rtspro",STM In-Store Signage Landing Page
+",,,,,English,,,,,,"RTS and Southern Tire Mart have partnered to offer discounts and special offers on tires and maintenance at over 175 service center locations nationwide. As an RTS customer, you also have access to additional services and benefits from our family of brands. ",31,dschneider,1655818317,1656449656,,/lp/thank-you-visiting-stm,1,1,0,,,,,,"factoring, rtspro",STM In-Store Signage Landing Page
 1697,1697,Landing Page,RTS Financial Application Security Interest and UCC Filing Information,RTS Financial Application Security Interest and UCC Filing Information,"<p>By submitting this application I hereby represent that I have authority to and do grant RTS Financial Service, Inc. and any of its affiliates a security interest in all the real and personal property and proceeds therefrom of both the company as well as my personal assets, including any accounts receivable of the company now existing or arising in the future, equipment, inventory, deposit accounts, chattel paper, instruments, contract rights, and/or insurance proceeds. I acknowledge and authorize (i) that this security interest may be evidenced by a financing statement in the appropriate jurisdiction filed by an agent on behalf of RTS Financial Service, Inc. and (ii) may be amended and expanded by RTS Financial Service, Inc. in a subsequent Factoring Agreement or amendment thereto in its sole discretion and (iii) that any factoring services will not commence until completion of the underwriting process.</p>
 
 <p>Updated 8/9/2022</p>
-",,,,,English,,,,,,,31,dschneider,1659995261,,/lp/rts-financial-application-ucc-filing-information,1,1,0,,,,,,factoring,UCC Legal Verbiage - linked from applications
+",,,,,English,,,,,,,31,dschneider,1659995261,1660081354,,/lp/rts-financial-application-ucc-filing-information,1,1,0,,,,,,factoring,UCC Legal Verbiage - linked from applications
 1705,0,Landing Page,Save More When You Bundle,Save More When You Bundle,"<p>When you bundle factoring with fuel, you get same-day funding at a lower factoring rate, better fuel savings and more!</p>
 
 <ul>
@@ -1568,7 +1556,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 	<li>Exclusive load board with access to thousands of available loads</li>
 </ul>
 
-<p>Sign up for services today by filling out the form!</p>",,,,,English,,,,,,"RTS and Pilot Company have partnered to offer an exclusive fuel and factoring bundle. Combine your fuel card program, factoring services and additional benefits for bigger savings and faster growth.",31,dschneider,1661372343,,/lp/save-more-when-you-bundle-survey,1,1,0,,,,,,"factoring, fuel, pilot flying j",Pilot Ad Survey
+<p>Sign up for services today by filling out the form!</p>",,,,,English,,,,,,"RTS and Pilot Company have partnered to offer an exclusive fuel and factoring bundle. Combine your fuel card program, factoring services and additional benefits for bigger savings and faster growth.",31,dschneider,1661372343,1661372354,,/lp/save-more-when-you-bundle-survey,1,1,0,,,,,,"factoring, fuel, pilot flying j",Pilot Ad Survey
 1713,0,Landing Page,California Privacy Rights ,California Privacy Rights ,"<p>California Civil Code Section 1798.83 permits users of our Sites that are California residents to request certain information regarding our disclosure of personal information to third parties for their direct marketing purposes. To make such a request, please send an e‐mail to legalnotices@rtsfinancial.com, or write us at 9300 Metcalf Avenue, Overland Park, KS 66212.</p>
 
 <p>California Privacy Rights</p>
@@ -1655,120 +1643,8 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <p>Any disclosures we provide will only cover the 12-month period preceding our receipt of your request. The response we provide will also explain the reasons we cannot comply with a request, if applicable. For data portability requests, we will select a format to provide your personal information that is readily useable and should allow you to transmit the information from one entity to another entity without hindrance.</p>
 
 <p>We do not charge a fee to process or respond to your verifiable consumer request unless it is excessive, repetitive, or manifestly unfounded. If we determine that the request warrants a fee, we will tell you why we made that decision and provide you with a cost estimate before completing your request.</p>
-",,,,,English,,,,,,,1652,tdavis,1663776362,,/lp/california-privacy-rights,1,1,0,,,,,,,
-1714,0,Landing Page,Los derechos de privacidad de California ,Los derechos de privacidad de California ,"<p>La Sección 1798.83 del Código Civil de California permite a los usuarios de nuestros Sitios que son residentes de California solicitar cierta información sobre nuestra divulgación de información personal a terceros para sus fines de mercadeo directo. Para realizar dicha solicitud, envíe un correo electrónico a legalnotices@rtsfinancial.com o escríbanos a 9300 Metcalf Avenue, Overland Park, KS 66212.</p>
-
-<p> </p>
-
-<p>Derechos de privacidad de California</p>
-
-<p>Si usted es un residente de California, menor de 18 años y un usuario registrado de cualquier sitio donde se publique esta política, la Sección 22581 del Código de Negocios y Profesiones de California le permite solicitar y obtener la eliminación del contenido o la información que ha publicado. Para realizar dicha solicitud, envíe un correo electrónico con una descripción detallada del contenido específico o información a legalnotices@rtsfinancial.com. Por favor tenga en cuenta que dicha solicitud no garantiza la eliminación completa o exhaustiva del contenido o la información que se haya publicado y que puede haber circunstancias en las que la ley no exija o permita la eliminación, incluso si se solicita.</p>
-
-<p> </p>
-
-<p>La Ley de Privacidad del Consumidor de California (CCPA por sus siglas en inglés) brinda a los consumidores (solo residentes de California) derechos específicos con respecto a su información personal. Esta sección describe sus derechos y explica cómo ejercerlos.</p>
-
-<p> </p>
-
-<p><strong>Derecho a saber y portabilidad de datos</strong></p>
-
-<p>Tiene derecho a solicitar que le divulguemos cierta información sobre nuestra recopilación y uso de su Información Personal durante los últimos 12 meses (el ""derecho a saber""). Una vez que recibamos su solicitud y confirmemos su identidad (consulte Como ejercer sus Derechos de Saber o Eliminar), revelaremos:</p>
-
-<ul>
-	<li>Las categorías de información personal que recopilamos sobre usted.</li>
-	<li>Las categorías de fuentes de la información personal que recopilamos sobre usted.</li>
-	<li>Nuestro negocio o propósito comercial para recopilar o vender esa información personal.</li>
-	<li>Las categorías de terceros con los que compartimos esa información personal.</li>
-	<li>Si vendimos o divulgamos su información personal con fines comerciales, dos listas separadas que revelan:
-	<ul style=""list-style-type:circle;"">
-		<li>ventas, identificando las categorías de información personal que compró cada categoría de destinatario; y</li>
-		<li>divulgaciones con fines comerciales, identificando las categorías de información personal que obtuvo cada categoría de destinatario.</li>
-	</ul>
-	</li>
-	<li>Las partes específicas de Información Personal que recopilamos sobre usted (también denominada solicitud de portabilidad de datos).</li>
-</ul>
-
-<p>No proporcionamos un derecho a saber o divulgación de portabilidad de datos para información personal B2B (negocio a negocio).</p>
-
-<p> </p>
-
-<p><strong>Derecho a eliminar</strong></p>
-
-<p>Tiene derecho a solicitar que eliminemos cualquier parte de su información personal que hayamos recopilado y retenido, sujeto a ciertas excepciones (el ""derecho a eliminar""). Una vez que recibamos su solicitud y confirmemos su identidad (consulte Como Ejercer sus Derechos a Saber o Eliminar), revisaremos su solicitud para ver si se aplica una excepción que nos permita retener la información. Podemos denegar su solicitud de eliminación si es necesario que nosotros o nuestro(s) proveedor(es) de servicios retengamos la información para:</p>
-
-<ol>
-	<li>Completar la transacción para la cual recopilamos la información personal, proporcionar un bien o servicio que solicitó, tomar medidas razonablemente anticipadas dentro del contexto de nuestra relación comercial en curso con usted, cumplir con los términos de una garantía por escrito o retiro del producto realizado de acuerdo con la ley federal, o de otra manera cumplir nuestro contrato con usted.</li>
-	<li>Detectar incidentes de seguridad, proteger contra actividades maliciosas, engañosas, fraudulentas o ilegales, o enjuiciar a los responsables de tales actividades.</li>
-	<li>Depurar productos para identificar y reparar errores que perjudiquen la funcionalidad prevista existente.</li>
-	<li>Ejercer la libertad de expresión, garantizar el derecho de otro consumidor a ejercer sus derechos de libertad de expresión, o ejercer otro derecho previsto por la ley.</li>
-	<li>Cumplir con la Ley de Privacidad de Comunicaciones Electrónicas de California (Cal. Código Penal § 1546 et. seq.).</li>
-	<li>Participar en investigaciones científicas, históricas o estadísticas públicas o revisadas por pares de interés público que se adhieran a todas las demás leyes de ética y privacidad aplicables, cuando la eliminación de la información probablemente imposibilite o perjudique gravemente el logro de la investigación, si usted proporcionó previamente consentimiento informado.</li>
-	<li>Permitir únicamente usos internos que estén razonablemente alineados con las expectativas del consumidor en función de su relación con nosotros.</li>
-	<li>Cumplir con una obligación legal.</li>
-	<li>Hacer otros usos internos y lícitos de esa información que sean compatibles con el contexto en el que la proporcionó.</li>
-</ol>
-
-<p> </p>
-
-<p>Eliminaremos o no identificaremos la información personal que no esté sujeta a una de estas excepciones de nuestros registros y ordenaremos a nuestros proveedores de servicios que tomen medidas similares.</p>
-
-<p> </p>
-
-<p>No proporcionamos estos derechos de eliminación para la información personal B2B.</p>
-
-<p> </p>
-
-<p><strong>Ejerciendo sus derechos de saber o eliminar</strong></p>
-
-<p>Para ejercer sus derechos de saber o eliminar descritos anteriormente, envíe una solicitud por cualquier de los siguientes medios:</p>
-
-<ul>
-	<li>Enviándonos un correo electrónico a <a href=""mailto:legalnotices@rtsfinancial.com"">legalnotices@rtsfinancial.com</a></li>
-	<li>Por correo postal a RTS Financial Service, Inc., Legal Dept., 9300 Metcalf Avenue, Overland Park, KS 66212.</li>
-</ul>
-
-<p> </p>
-
-<p>Las solicitudes enviadas por correo o correo electrónico deben tener ambos ""Derechos de Privacidad de California"" en la línea de asunto o encabezado y una afirmación de que usted es residente de California; de lo contrario, la solicitud no se considerará válida. Solo usted o alguien legalmente autorizado para actuar en su nombre, puede realizar una solicitud para saber o eliminar información relacionada con su información personal.</p>
-
-<p> </p>
-
-<p>Solo puede enviar una solicitud de información dos veces en un período de 12 meses. Su solicitud de saber o eliminar debe:</p>
-
-<ul>
-	<li>Proporcionar información suficiente que nos permita verificar razonablemente que usted es la persona sobre la que recopilamos información personal.</li>
-	<li>Describir su solicitud con suficiente detalle que nos permita comprenderla, evaluarla y responderla adecuadamente.</li>
-</ul>
-
-<p>No podemos responder a su solicitud ni brindarle información personal si no podemos verificar su identidad o autoridad para realizar la solicitud y confirmar que la información personal se relaciona con usted.</p>
-
-<p> </p>
-
-<p>No necesita crear una cuenta con nosotros para enviar una solicitud para conocer o eliminar. Sin embargo, consideramos que las solicitudes realizadas a través de su cuenta protegida con contraseña están suficientemente verificadas cuando la solicitud se relaciona con información personal asociada con esa cuenta específica.</p>
-
-<p> </p>
-
-<p>Solo utilizaremos la información personal proporcionada en la solicitud para verificar la identidad del solicitante o la autoridad para realizarla.</p>
-
-<p> </p>
-
-<p><strong>Tiempo y formato de respuesta</strong></p>
-
-<p>Le confirmaremos la recepción de su solicitud dentro de los diez (10) días hábiles. Si no recibe la confirmación dentro del plazo de 10 días, envíe su solicitud original a <a href=""mailto:legalnotices@rtsfinancial.com"">legalnotices@rtsfinancial.com</a>.</p>
-
-<p> </p>
-
-<p>Si tiene una cuenta con nosotros, enviaremos nuestra respuesta por escrito a esa cuenta. Si no tiene una cuenta con nosotros, le enviaremos nuestra respuesta por escrito por correo o electrónicamente, como usted elija.</p>
-
-<p> </p>
-
-<p>Cualquier divulgación que proporcionemos solo cubrirá el período de 12 meses anterior a la recepción de su solicitud. La respuesta que proporcionemos también explicará las razones por las que no podemos cumplir con una solicitud, si así corresponde. Para las solicitudes de portabilidad de datos, seleccionaremos un formato para proporcionar su información personal que sea fácil de usar y que le permita transmitir la información de una entidad a otra entidad sin obstáculos.</p>
-
-<p> </p>
-
-<p>No cobramos una tarifa para procesar o responder a su solicitud de consumidor verificable a menos que sea excesiva, repetitiva o evidentemente infundada. Si determinamos que la solicitud justifica una tarifa, le informaremos por qué tomamos esa decisión y le proporcionaremos un costo estimado antes de completar su solicitud.</p>
-",,,,,English,,,,,,,1652,tdavis,1663786223,,/lp/derechos-de-privacidad-de-california,1,1,0,,,,,,"factoring, rtspro",
-1716,0,Landing Page,"Save an Average of 25¢ per Gallon at More Than 2,000 Fuel Stations ","Save an Average of 25¢ per Gallon at More Than 2,000 Fuel Stations ","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-4a54c1bac83fedfea4baaa4baf93d8a2 contextual-links-region"">
+",,,,,English,,,,,,,1652,tdavis,1663776362,1663777349,,/lp/california-privacy-rights,1,1,0,,,,,,,
+1716,0,Landing Page,"Save an Average of 25¢ per Gallon at More Than 2,400 Fuel Stations ","Save an Average of 25¢ per Gallon at More Than 2,400 Fuel Stations ","<div class=""view view-fuel-features view-id-fuel_features view-display-id-default view-dom-id-d6609629196d05704a0bbfa874801888 contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/fuel_features/edit/default?destination=exportlandingpage"">Edit view</a></li></ul></div>  
   
   
@@ -1776,27 +1652,27 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
         <div class=""views-row views-row-1 views-row-odd views-row-first"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Save 25¢ per Gallon</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,000 fuel stations.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Save an average of 25¢ per gallon at over 2,400 fuel stations.</div>  </div>  </div>
   <div class=""views-row views-row-2 views-row-even"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">$2,500 Line of Credit</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get as much as $2,500 per truck, per week.</div>  </div>  </div>
   <div class=""views-row views-row-3 views-row-odd"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,000 Fuel Stations</h3>  </div>  
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">More Than 2,400 Fuel Stations</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Find discounts at thousands of fuel stations, including Pilot Flying J, Sapp Bros., Casey's and more.</div>  </div>  </div>
   <div class=""views-row views-row-4 views-row-even"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">RTS Pro Mobile App</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Use our mobile app to find the lowest fuel prices along your route.</div>  </div>  </div>
-  <div class=""views-row views-row-5 views-row-odd"">
-      
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Pilot Flying J Discounts</h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Get point-of-sale fuel discounts at more than 750 Pilot Flying J locations nationwide</div>  </div>  </div>
+  <div class=""views-row views-row-5 views-row-odd"">
+      
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">RTS Pro Mobile App</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Use our mobile app to find the lowest fuel prices along your route.</div>  </div>  </div>
   <div class=""views-row views-row-6 views-row-even views-row-last"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No Annual Fees</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no contract and you are not charged yearly card fees.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">There is no fuel card contract and no annual card fees.</div>  </div>  </div>
     </div>
   
   
@@ -1804,12 +1680,12 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
   
   
   
-</div>",,,,,English,,,,,,"Join 45,000+ trucking companies in the fastest growing fuel card program in the trucking industry. ",31,dschneider,1664552518,,/lp/save-25-cents-per-gallon,1,1,0,,,,,,"factoring, rtspro",Google Fuel Ad
+</div>",,,,,English,,,,,,"Join 45,000+ trucking companies in the fastest growing fuel card program in the trucking industry. ",31,dschneider,1664552518,1680197914,,/lp/save-25-cents-per-gallon,1,1,0,,,,,,"factoring, rtspro",Google Fuel Ad
 1718,0,Landing Page,Trucker Bundle Redirect,Trucker Bundle Redirect,"<h2>(866) 506-3959</h2>
 
 <h3><strong>¡Hablamos español!</strong></h3>
 
-<h3><strong>ਅਸੀਂ ਪੰਜਾਬੀ ਵੀ ਬੋਲਦੇ ਹਾਂ</strong></h3>",,,,,English,5169,Trucker Bundle Landing Page Placeholder Image.jpg,https://www.rtsinc.com/sites/default/files/Trucker%20Bundle%20Landing%20Page%20Placeholder%20Image.jpg,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1664902572,,/lp/truckerbundle,1,1,0,,,,,,"factoring, rtspro",
+<h3><strong>ਅਸੀਂ ਪੰਜਾਬੀ ਵੀ ਬੋਲਦੇ ਹਾਂ</strong></h3>",,,,,English,5169,Trucker Bundle Landing Page Placeholder Image.jpg,https://www.rtsinc.com/sites/default/files/Trucker%20Bundle%20Landing%20Page%20Placeholder%20Image.jpg,,,Get the best factoring rates and better fuel discounts with RTS and Pilot Company.,31,dschneider,1664902572,1664902639,,/lp/truckerbundle,1,1,0,,,,,,"factoring, rtspro",
 1753,0,Landing Page,Get the Best Factoring Rates with RTS,Get the Best Factoring Rates with RTS,"<h2>Why Choose RTS Financial</h2>
 
 <ul>
@@ -1824,7 +1700,7 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <h4><strong>To get started, fill out your information and a representative from our team will call you shortly.</strong></h4>
 
 <h4><strong>¡Hablamos español! | ਅਸੀਂ ਪੰਜਾਬੀ ਵੀ ਬੋਲਦੇ ਹਾਂ</strong></h4>
-",,,,,English,,,,,,"With factoring services from RTS, you get same-day funding, free credit data and more!",31,dschneider,1672860997,,/lp/turn-your-invoices-cash-24-hours,1,1,0,,,,,,"factoring, rtspro",
+",,,,,English,,,,,,"With factoring services from RTS, you get same-day funding, free credit data and more!",31,dschneider,1672860997,1673973353,,/lp/turn-your-invoices-cash-24-hours,1,1,0,,,,,,"factoring, rtspro",
 1761,0,Landing Page,More Than Just Factoring,More Than Just Factoring,"<p>RTS has over 35 years of experience helping trucking companies grow and succeed. In addition to our factoring services, we offer the following:</p>
 
 <h3>Industry-Leading Fuel Card</h3>
@@ -1844,4 +1720,6 @@ body.page-node-320 { padding: 5vh 0 40vh 0 !important; }
 <p>Additional savings when you combine services from our family of brands</p>
 
 <h4><strong>If you are interested in additional services, please fill out the form, and we will call you shortly.</strong></h4>
-",,,,,English,,,,,,"When you work with RTS, you gain access to a suite of additional trucking services from a family of brands in transportation, finance and technology. ",31,dschneider,1677535442,,/lp/more-than-just-factoring,1,1,0,,,,,,"freight, fuel, software",New Factoring Customer Onboarding Campaign
+",,,,,English,,,,,,"When you work with RTS, you gain access to a suite of additional trucking services from a family of brands in transportation, finance and technology. ",31,dschneider,1677535442,1677537396,,/lp/more-than-just-factoring,1,1,0,,,,,,"freight, fuel, software",New Factoring Customer Onboarding Campaign
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
