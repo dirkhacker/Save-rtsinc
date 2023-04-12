@@ -37,6 +37,20 @@ process:
   field_subheading: field_sub_headline
   field_headline: field_headline
   field_views_title: field_views_title
+  created:
+    plugin: format_date
+    source: created
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
+  changed:
+    plugin: format_date
+    source: updated
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
 destination:
   plugin: 'entity:node'
   translations: true
