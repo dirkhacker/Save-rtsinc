@@ -36,6 +36,20 @@ process:
     default_value: 3
   field_subheading: field_sub_headline
   field_headline: field_headline
+  created:
+    plugin: format_date
+    source: created
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
+  changed:
+    plugin: format_date
+    source: updated
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
 destination:
   plugin: 'entity:node'
   translations: true

@@ -1,11 +1,11 @@
-﻿nid,tnid,type,title,field_heading,body,field_featured_article,field_category,field_global_taxonomy,field_headline,language,fid,filename,field_image,field_image_alt,field_image_title,field_sub_headline,user_id,author,created,field_weight,alias_path,promote,status,sticky,field_hero_agent_toggle,field_hero_contact_toggle,field_hero_contact_toggle_es,field_hero_modal_toggle,product_type,svg_code,field_featured
+﻿nid,tnid,type,title,field_heading,body,field_featured_article,field_category,field_global_taxonomy,field_headline,language,fid,filename,field_image,field_image_alt,field_image_title,field_sub_headline,user_id,author,created,updated,field_weight,alias_path,promote,status,sticky,field_hero_agent_toggle,field_hero_contact_toggle,field_hero_contact_toggle_es,field_hero_modal_toggle,product_type,svg_code,field_featured
 211,211,Product,Factoraje de Transporte Camionero ,Factoraje de Transporte Camionero ,"<div class=""block-heading margin-top-0"">
 <h2 class=""display2"">Qu√© nos hace diferentes</h2>
 <p class=""margin-bottom-24"">Nuestro enfoque hacia el factoraje es simple. Atraemos nuevos clientes al ofrecer tarifas de factoraje simples y transparentes, sin tarifas ocultas. 
 Nuestros clientes se quedan con nosotros por nuestro r√°pido y receptivo servicio al cliente y por nuestra integridad.</p>
 </div>
 
-<div class=""view view-factoring-features-es view-id-factoring_features_es view-display-id-default features-list-1 view-dom-id-db4c3eefb62f3f1d736091014bc3d7a4 contextual-links-region"">
+<div class=""view view-factoring-features-es view-id-factoring_features_es view-display-id-default features-list-1 view-dom-id-d04de7db7ebb0c59f611396b5d9dc440 contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/factoring_features_es/edit/default?destination=exportproduct"">Edit view</a></li></ul></div>  
   
   
@@ -21,7 +21,7 @@ Nuestros clientes se quedan con nosotros por nuestro r√°pido y receptivo serv
   <div class=""views-row views-row-3 views-row-odd"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Programa de tarjeta de combustible</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Ahorros sustanciales en 2.000 locaciones en todo el pa√≠s y una l√≠nea de cr√©dito de hasta $2.500 por cami√≥n, semanalmente. </div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Ahorros sustanciales en 2.400 locaciones en todo el pa√≠s y una l√≠nea de cr√©dito de hasta $2.500 por cami√≥n, semanalmente. </div>  </div>  </div>
   <div class=""views-row views-row-4 views-row-even"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Sin tarifas ocultas</h3>  </div>  
@@ -43,7 +43,7 @@ Nuestros clientes se quedan con nosotros por nuestro r√°pido y receptivo serv
   
 </div>
 ",,,,Financiaci√≥n en el mismo d√≠a y una tasa de adelanto del 97%,Spanish,632,intl-43i95u4h.jpg,https://www.rtsinc.com/sites/default/files/intl-43i95u4h.jpg,,,"Precios simples, transparentes y sin tarifas ocultas. Sin tarifas ACH, sin tarifas de volumen m√≠nimo y sin tarifas de procesamiento.
-",1,admin,1458329103,,/node/211,1,1,0,,,Show,,,"<svg version=""1.1"" id=""Layer_1"" xmlns=""http://www.w3.org/2000/svg"" xmlns:xlink=""http://www.w3.org/1999/xlink"" x=""0px"" y=""0px""
+",1,admin,1458329103,1591041477,,/node/211,1,1,0,,,Show,,,"<svg version=""1.1"" id=""Layer_1"" xmlns=""http://www.w3.org/2000/svg"" xmlns:xlink=""http://www.w3.org/1999/xlink"" x=""0px"" y=""0px""
 	 viewBox=""0 0 88 88"" style=""enable-background:new 0 0 88 88;"" xml:space=""preserve"">
 <path d=""M16,27.8h-4.9c-5.1,0-9.2-4.1-9.2-9.2l0,0c0-5.1,4.1-9.2,9.2-9.2h50.3c5.1,0,9.2,4.1,9.2,9.2l0,0
 	c0,5.1-4.1,9.2-9.2,9.2h-4.9""/>
@@ -83,4 +83,4 @@ Nuestros clientes se quedan con nosotros por nuestro r√°pido y receptivo serv
 </ul>
 
 <p><strong>Para obtener m√°s informaci√≥n sobre Invoice Manager, cont√°ctenos hoy mismo al <a href=""tel:855-851-1005"">(855) 851-1005</a>.</strong></p>
-",,,,,Spanish,935,office-83y3kf.jpg,https://www.rtsinc.com/sites/default/files/office-83y3kf_0.jpg,,,Software en l√≠nea que elimina la necesidad de proporcionar documentos originales al financiar sus cuentas por cobrar.,27,dhacker,1525882603,,/node/365,1,1,0,,,,,,,
+",,,,,Spanish,935,office-83y3kf.jpg,https://www.rtsinc.com/sites/default/files/office-83y3kf_0.jpg,,,Software en l√≠nea que elimina la necesidad de proporcionar documentos originales al financiar sus cuentas por cobrar.,27,dhacker,1525882603,1526928496,,/node/365,1,1,0,,,,,,,
