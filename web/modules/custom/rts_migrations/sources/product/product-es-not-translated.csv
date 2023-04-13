@@ -1,38 +1,38 @@
-﻿nid,tnid,type,title,field_heading,body,field_featured_article,field_category,field_global_taxonomy,field_headline,language,fid,filename,field_image,field_image_alt,field_image_title,field_sub_headline,user_id,author,created,updated,field_weight,alias_path,promote,status,sticky,field_hero_agent_toggle,field_hero_contact_toggle,field_hero_contact_toggle_es,field_hero_modal_toggle,product_type,svg_code,field_featured
+nid,tnid,type,title,field_heading,body,field_featured_article,field_category,field_global_taxonomy,field_headline,language,fid,filename,field_image,field_image_alt,field_image_title,field_sub_headline,user_id,author,created,updated,field_weight,alias_path,promote,status,sticky,field_hero_agent_toggle,field_hero_contact_toggle,field_hero_contact_toggle_es,field_hero_modal_toggle,product_type,svg_code,field_featured
 211,211,Product,Factoraje de Transporte Camionero ,Factoraje de Transporte Camionero ,"<div class=""block-heading margin-top-0"">
-<h2 class=""display2"">Qu√© nos hace diferentes</h2>
+<h2 class=""display2"">Qué nos hace diferentes</h2>
 <p class=""margin-bottom-24"">Nuestro enfoque hacia el factoraje es simple. Atraemos nuevos clientes al ofrecer tarifas de factoraje simples y transparentes, sin tarifas ocultas. 
-Nuestros clientes se quedan con nosotros por nuestro r√°pido y receptivo servicio al cliente y por nuestra integridad.</p>
+Nuestros clientes se quedan con nosotros por nuestro rápido y receptivo servicio al cliente y por nuestra integridad.</p>
 </div>
 
-<div class=""view view-factoring-features-es view-id-factoring_features_es view-display-id-default features-list-1 view-dom-id-d04de7db7ebb0c59f611396b5d9dc440 contextual-links-region"">
+<div class=""view view-factoring-features-es view-id-factoring_features_es view-display-id-default features-list-1 view-dom-id-037e8f61a642ec5fbb607723ccef7436 contextual-links-region"">
       <div class=""contextual-links-wrapper""><ul class=""contextual-links""><li class=""views-ui-edit first last""><a href=""/admin/structure/views/view/factoring_features_es/edit/default?destination=exportproduct"">Edit view</a></li></ul></div>  
   
   
       <div class=""view-content"">
         <div class=""views-row views-row-1 views-row-odd views-row-first"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Financiamento el mismo d√≠a </h3>  </div>  
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Financiamento el mismo día </h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Nuestros representantes trabajan duro para asegurarse de que usted reciba su pago en 24 horas.</div>  </div>  </div>
   <div class=""views-row views-row-2 views-row-even"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Tasa de adelanto del 97%</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Obtenga m√°s de su dinero con las tasas de avance l√≠deres de la industria.</div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Obtenga más de su dinero con las tasas de avance líderes de la industria.</div>  </div>  </div>
   <div class=""views-row views-row-3 views-row-odd"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Programa de tarjeta de combustible</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Ahorros sustanciales en 2.400 locaciones en todo el pa√≠s y una l√≠nea de cr√©dito de hasta $2.500 por cami√≥n, semanalmente. </div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Ahorros sustanciales en 2.400 locaciones en todo el país y una línea de crédito de hasta $2.500 por camión, semanalmente. </div>  </div>  </div>
   <div class=""views-row views-row-4 views-row-even"">
       
   <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Sin tarifas ocultas</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Sin tarifas de volumen m√≠nimo. Sin tarifas ACH. Sin gastos por facturaci√≥n. </div>  </div>  </div>
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Sin tarifas de volumen mínimo. Sin tarifas ACH. Sin gastos por facturación. </div>  </div>  </div>
   <div class=""views-row views-row-5 views-row-odd"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Cargar facturas en l√≠nea</h3>  </div>  
-  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Aplicaci√≥n m√≥vil o web f√°cil de utilizar para cargar facturas y gestionar su cuenta en l√≠nea.</div>  </div>  </div>
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">Cargar facturas en línea</h3>  </div>  
+  <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Aplicación móvil o web fácil de utilizar para cargar facturas y gestionar su cuenta en línea.</div>  </div>  </div>
   <div class=""views-row views-row-6 views-row-even views-row-last"">
       
-  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No se llena ning√∫n gravamen durante la solicitud </h3>  </div>  
+  <div class=""views-field views-field-title"">        <h3 class=""field-content display4"">No se llena ningún gravamen durante la solicitud </h3>  </div>  
   <div class=""views-field views-field-field-description-60"">        <div class=""field-content gray"">Algunas empresas de factoraje archivan un gravamen durante el proceso de solicitud.</div>  </div>  </div>
     </div>
   
@@ -42,7 +42,7 @@ Nuestros clientes se quedan con nosotros por nuestro r√°pido y receptivo serv
   
   
 </div>
-",,,,Financiaci√≥n en el mismo d√≠a y una tasa de adelanto del 97%,Spanish,632,intl-43i95u4h.jpg,https://www.rtsinc.com/sites/default/files/intl-43i95u4h.jpg,,,"Precios simples, transparentes y sin tarifas ocultas. Sin tarifas ACH, sin tarifas de volumen m√≠nimo y sin tarifas de procesamiento.
+",,,,Financiación en el mismo día y una tasa de adelanto del 97%,Spanish,632,intl-43i95u4h.jpg,https://www.rtsinc.com/sites/default/files/intl-43i95u4h.jpg,,,"Precios simples, transparentes y sin tarifas ocultas. Sin tarifas ACH, sin tarifas de volumen mínimo y sin tarifas de procesamiento.
 ",1,admin,1458329103,1591041477,,/node/211,1,1,0,,,Show,,,"<svg version=""1.1"" id=""Layer_1"" xmlns=""http://www.w3.org/2000/svg"" xmlns:xlink=""http://www.w3.org/1999/xlink"" x=""0px"" y=""0px""
 	 viewBox=""0 0 88 88"" style=""enable-background:new 0 0 88 88;"" xml:space=""preserve"">
 <path d=""M16,27.8h-4.9c-5.1,0-9.2-4.1-9.2-9.2l0,0c0-5.1,4.1-9.2,9.2-9.2h50.3c5.1,0,9.2,4.1,9.2,9.2l0,0
@@ -67,20 +67,20 @@ Nuestros clientes se quedan con nosotros por nuestro r√°pido y receptivo serv
 <line x1=""52.3"" y1=""54.5"" x2=""52.3"" y2=""58.3""/>
 </svg>
 ",
-365,365,Product,Factoring Electr√≥nico,Factoring Electr√≥nico,"<h2>Complete su documentaci√≥n en donde sea y cuando usted quiera</h2>
+365,365,Product,Factoring Electrónico,Factoring Electrónico,"<h2>Complete su documentación en donde sea y cuando usted quiera</h2>
 
-<p>El exclusivo software Invoice Manager de RTS Financial le permite crear facturas, enviar documentos de compra y recibir <strong>estados de su cuenta de factoraje</strong>. Esta tecnolog√≠a en l√≠nea es f√°cil de usar y le ayuda a ahorrar tiempo, reducir el papeleo y, lo mejor de todo, a recibir pagos m√°s r√°pido. Invoice Manager tambi√©n proporciona un historial de cuenta de todas sus transacciones de factoring anteriores.</p>
+<p>El exclusivo software Invoice Manager de RTS Financial le permite crear facturas, enviar documentos de compra y recibir <strong>estados de su cuenta de factoraje</strong>. Esta tecnología en línea es fácil de usar y le ayuda a ahorrar tiempo, reducir el papeleo y, lo mejor de todo, a recibir pagos más rápido. Invoice Manager también proporciona un historial de cuenta de todas sus transacciones de factoring anteriores.</p>
 
-<p>Si usted ya es usuario de nuestro servicio de factoring financiero puede usar Invoice Manager en el Centro de Atenci√≥n al Cliente de <a href=""http://www.rtsfinancial.com/page/customer-center"">RTSFinancial.com</a>.</p>
+<p>Si usted ya es usuario de nuestro servicio de factoring financiero puede usar Invoice Manager en el Centro de Atención al Cliente de <a href=""http://www.rtsfinancial.com/page/customer-center"">RTSFinancial.com</a>.</p>
 
 <h2>Con Invoice Manager usted puede:</h2>
 
 <ul>
-	<li>Carga f√°cilmente documentos financieros</li>
-	<li>Importaci√≥n en masa de documentos y hojas de c√°lculo</li>
-	<li>Acceso en l√≠nea a todo el historial de su cuenta</li>
-	<li>Ahorrar tiempo y le ayuda a recibir sus pagos m√°s r√°pido</li>
+	<li>Carga fácilmente documentos financieros</li>
+	<li>Importación en masa de documentos y hojas de cálculo</li>
+	<li>Acceso en línea a todo el historial de su cuenta</li>
+	<li>Ahorrar tiempo y le ayuda a recibir sus pagos más rápido</li>
 </ul>
 
-<p><strong>Para obtener m√°s informaci√≥n sobre Invoice Manager, cont√°ctenos hoy mismo al <a href=""tel:855-851-1005"">(855) 851-1005</a>.</strong></p>
-",,,,,Spanish,935,office-83y3kf.jpg,https://www.rtsinc.com/sites/default/files/office-83y3kf_0.jpg,,,Software en l√≠nea que elimina la necesidad de proporcionar documentos originales al financiar sus cuentas por cobrar.,27,dhacker,1525882603,1526928496,,/node/365,1,1,0,,,,,,,
+<p><strong>Para obtener más información sobre Invoice Manager, contáctenos hoy mismo al <a href=""tel:855-851-1005"">(855) 851-1005</a>.</strong></p>
+",,,,,Spanish,935,office-83y3kf.jpg,https://www.rtsinc.com/sites/default/files/office-83y3kf_0.jpg,,,Software en línea que elimina la necesidad de proporcionar documentos originales al financiar sus cuentas por cobrar.,27,dhacker,1525882603,1526928496,,/node/365,1,1,0,,,,,,,
