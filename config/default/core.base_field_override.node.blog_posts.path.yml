@@ -1,15 +1,15 @@
-uuid: fde8ab03-712f-4b10-9732-7e0e3aba404d
-langcode: en
+uuid: e1d82e0f-7df0-4bbf-87fb-a7ffa45f7123
+langcode: es
 status: true
 dependencies:
   config:
-    - node.type.landing_page
+    - node.type.blog_posts
   module:
     - path
-id: node.landing_page.path
+id: node.blog_posts.path
 field_name: path
 entity_type: node
-bundle: landing_page
+bundle: blog_posts
 label: 'URL alias'
 description: ''
 required: false

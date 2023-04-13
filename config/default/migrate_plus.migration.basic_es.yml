@@ -1,9 +1,9 @@
-uuid: ee6ad5cf-85c2-4b01-adc0-305ed703fc79
+uuid: 9fd0c17b-fa5c-4937-829b-0fcb51f9b8bf
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: X1NClnCBApCjNZ0TLAEkRMNditxcovgQHMqgcmUxTz8
+  default_config_hash: Z855Ytt5jJ1SGAYz9sTOgg5KXJYmKrkcbkLxLNjynjM
 id: basic_es
 class: null
 field_plugin_method: null
@@ -41,7 +41,9 @@ process:
   body/format:
     plugin: default_value
     default_value: full_html
-  uid: user_id
+  uid:
+    plugin: default_value
+    default_value: 3
   field_subheading: field_sub_headline
   field_headline: field_headline
 destination:

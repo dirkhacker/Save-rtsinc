@@ -10,11 +10,13 @@ dependencies:
     - field.field.node.blog_posts.field_global_taxonomy
     - field.field.node.blog_posts.field_heading
     - field.field.node.blog_posts.field_image
+    - field.field.node.blog_posts.field_metatags
     - field.field.node.blog_posts.field_subheading
     - field.field.node.blog_posts.field_weight
     - image.style.thumbnail
     - node.type.blog_posts
   module:
+    - metatag
     - path
     - svg_image
     - text
@@ -74,6 +76,14 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_subheading:
     type: string_textarea
@@ -135,6 +145,11 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete

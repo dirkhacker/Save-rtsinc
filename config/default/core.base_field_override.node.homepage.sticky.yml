@@ -1,15 +1,14 @@
-uuid: c3cb3e58-d048-4973-847e-3d4269a6211e
+uuid: b4cbfd9c-a2f9-4351-983c-74892c93d25f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_featured_article
-    - node.type.blog_posts
-id: node.blog_posts.field_featured_article
-field_name: field_featured_article
+    - node.type.homepage
+id: node.homepage.sticky
+field_name: sticky
 entity_type: node
-bundle: blog_posts
-label: 'Featured Article'
+bundle: homepage
+label: 'Sticky at top of lists'
 description: ''
 required: false
 translatable: false
