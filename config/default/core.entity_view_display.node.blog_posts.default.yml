@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.blog_posts.field_global_taxonomy
     - field.field.node.blog_posts.field_heading
     - field.field.node.blog_posts.field_image
+    - field.field.node.blog_posts.field_metatags
     - field.field.node.blog_posts.field_subheading
     - field.field.node.blog_posts.field_weight
     - image.style.blog_image
@@ -18,6 +19,7 @@ dependencies:
     - field_formatter_class
     - image_class
     - manage_display
+    - metatag
     - svg_image
     - text
 id: node.blog_posts.default
@@ -50,6 +52,13 @@ content:
       image_class:
         class: img-fluid
     weight: 2
+    region: content
+  field_metatags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
     region: content
   links:
     settings: {  }

@@ -1,9 +1,9 @@
-uuid: ca5278fe-e1e2-4bc4-ab60-7b264c413fc2
+uuid: 02316878-5832-48c2-a0a8-c1c73d3f3fa1
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: n43k55ELJBNITmBPnE6UX1sURKPVxRVkSPCsOoDe1pI
+  default_config_hash: kAqDDVswJ8SLFHeJyKbEKqHnmRrWRvjG8CaWpv8qnXQ
 id: industry_es
 class: null
 field_plugin_method: null
@@ -47,9 +47,23 @@ process:
   field_subheading: field_sub_headline
   field_headline: field_headline
   field_views_title: field_views_title
+  created:
+    plugin: format_date
+    source: created
+    from_format: U
+    to_format: U
+    from_timezone: UTC
+    to_timezone: UTC
+  changed:
+    plugin: format_date
+    source: updated
+    from_format: U
+    to_format: U
+    from_timezone: UTC
+    to_timezone: UTC
 destination:
   plugin: 'entity:node'
   translations: true
 migration_dependencies:
   required:
-    - migration_plus.migration.blogs
+    - migration_plus.migration.industry

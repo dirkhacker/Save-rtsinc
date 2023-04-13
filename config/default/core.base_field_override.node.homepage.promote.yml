@@ -1,17 +1,17 @@
-uuid: 60053284-1a26-497a-88b8-8ebe9dc12dbb
+uuid: 1ec75012-437e-4d51-abf6-a50112e74d24
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.landing_page
-id: node.landing_page.status
-field_name: status
+    - node.type.homepage
+id: node.homepage.promote
+field_name: promote
 entity_type: node
-bundle: landing_page
-label: Published
+bundle: homepage
+label: 'Promoted to front page'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value:
   -
     value: 1

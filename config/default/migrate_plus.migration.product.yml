@@ -1,9 +1,9 @@
-uuid: f3a2a5ce-252c-4fcb-aad7-f559dad4f3e1
+uuid: 1ca7ede2-095d-4ecc-aae4-ea78c4523694
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: T44sLTmEuZjFgkm1lEyF1OmogicMfXY3QK5yOkITdaE
+  default_config_hash: dzn_KKOZ7sM98qUuTkg_Jmm2FI6hcyPhVHHr0CizG4Y
 id: product
 class: null
 field_plugin_method: null
@@ -67,6 +67,13 @@ process:
   created:
     plugin: format_date
     source: created
+    from_format: U
+    to_format: U
+    from_timezone: UTC
+    to_timezone: UTC
+  changed:
+    plugin: format_date
+    source: updated
     from_format: U
     to_format: U
     from_timezone: UTC

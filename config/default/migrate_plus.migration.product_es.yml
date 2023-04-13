@@ -1,9 +1,9 @@
-uuid: 491c5765-62cc-40ee-852e-69852ef77606
+uuid: 0b89d2b9-62fc-4864-902b-329cbe6604da
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: WeUHCdGw1soTJwWjr2IrAR5aeVd9Z_eqxGZpdKrVGFU
+  default_config_hash: amMiU9qHejQdb1fbyzFa2y5Kz1-sIm-vZnuX1Gd5su4
 id: product_es
 class: null
 field_plugin_method: null
@@ -46,6 +46,20 @@ process:
     default_value: 3
   field_subheading: field_sub_headline
   field_headline: field_headline
+  created:
+    plugin: format_date
+    source: created
+    from_format: U
+    to_format: U
+    from_timezone: UTC
+    to_timezone: UTC
+  changed:
+    plugin: format_date
+    source: updated
+    from_format: U
+    to_format: U
+    from_timezone: UTC
+    to_timezone: UTC
 destination:
   plugin: 'entity:node'
   translations: true

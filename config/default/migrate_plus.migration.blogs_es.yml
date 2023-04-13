@@ -1,9 +1,9 @@
-uuid: 328775ba-dd00-4328-8d60-3402bc284147
+uuid: 8f45ea37-92ae-4bf4-bd11-4135380ff351
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: IjQIWuXAgNABsPB6mtBffRZrRtDDP18Ca-AnniVFOa4
+  default_config_hash: 9u2zfq1Hs6tMf2NAycg_5NupyrRL-SKG1vQh9Nk2V3s
 id: blogs_es
 class: null
 field_plugin_method: null
@@ -41,9 +41,25 @@ process:
   body/format:
     plugin: default_value
     default_value: full_html
-  uid: user_id
+  uid:
+    plugin: default_value
+    default_value: 3
   field_subheading: field_sub_headline
   field_headline: field_headline
+  created:
+    plugin: format_date
+    source: created
+    from_format: U
+    to_format: U
+    from_timezone: UTC
+    to_timezone: UTC
+  changed:
+    plugin: format_date
+    source: updated
+    from_format: U
+    to_format: U
+    from_timezone: UTC
+    to_timezone: UTC
 destination:
   plugin: 'entity:node'
   translations: true
