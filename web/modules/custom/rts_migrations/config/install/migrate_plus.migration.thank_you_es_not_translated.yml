@@ -1,16 +1,16 @@
-id: thank_you
-label: 'RTS node migration for Thank You content'
+id: thank_you_es_not_translated
+label: 'RTS node migration for Thank You content spanish not translated'
 migration_group: rtsinc_thank_you
 migration_tags:
   - RTS Thank You content type
 source:
   plugin: csv
   header_rows: 1
-  path: modules/custom/rts_migrations/sources/thankyou/thankyou.csv
+  path: modules/custom/rts_migrations/sources/thankyou/thankyou-es-not-translated.csv
   ids: [nid]
   constants:
     image_destination: 'public://thank_you/'
-    lang_en: en
+    lang_en: es
 process:
   type:
     plugin: default_value
