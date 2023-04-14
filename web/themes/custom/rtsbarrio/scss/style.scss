@@ -389,6 +389,11 @@ $sbtl: $search-box-transition-length;
         display: none;
     }
 }
+
+/// Language Switcher
+#block-languageswitcher {z-index: 1080;}
+
+
 /* HERO
 --------------------------------------------------*/
 .hero-wrapper {
