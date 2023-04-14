@@ -252,7 +252,7 @@ form.webform-submission-form {
 --------------------------------------------------*/
 .navbar-brand img { height: 2.2rem;}
 .navbar {
-    & #block-megamainnav {
+    & #block-megamainnav, #block-megamainnaves {
         flex: 1;
     }
 }
@@ -391,7 +391,7 @@ $sbtl: $search-box-transition-length;
 }
 
 /// Language Switcher
-#block-languageswitcher {z-index: 1080;}
+#block-languageswitcher {z-index: 90;}
 
 
 /* HERO
