@@ -17,7 +17,7 @@ process:
     plugin: default_value
     default_value: industry
   title: title
-  field_heading: field_heading
+  field_heading: field_headline
   body/value: body
   body/format:
     plugin: default_value
@@ -30,7 +30,6 @@ process:
     plugin: default_value
     default_value: 3
   field_subheading: field_sub_headline
-  field_headline: field_headline
   field_image:
     plugin: image_import
     source: field_image

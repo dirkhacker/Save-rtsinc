@@ -17,7 +17,7 @@ process:
     plugin: default_value
     default_value: page
   title: title
-  field_heading: field_heading
+  field_heading: field_headline
   body/value: body
   body/format:
     plugin: default_value
@@ -31,7 +31,6 @@ process:
     default_value: 3
   field_subheading: field_sub_headline
   field_premium_content: field_premium_content
-  field_headline: field_headline
   field_weight: field_weight
   field_image:
     plugin: image_import

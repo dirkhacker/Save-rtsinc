@@ -25,7 +25,7 @@ process:
     plugin: default_value
     default_value: industry
   title: title
-  field_heading: field_heading
+  field_heading: field_headline
   body/value: body
   body/langcode: es
   body/format:
@@ -35,7 +35,6 @@ process:
     plugin: default_value
     default_value: 3
   field_subheading: field_sub_headline
-  field_headline: field_headline
   field_views_title: field_views_title
   created:
     plugin: format_date

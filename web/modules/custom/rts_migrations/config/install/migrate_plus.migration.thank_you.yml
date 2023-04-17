@@ -16,7 +16,7 @@ process:
     plugin: default_value
     default_value: thank_you
   title: title
-  field_heading: field_heading
+  field_heading: field_headline
   body/value: body
   body/format:
     plugin: default_value
@@ -28,7 +28,6 @@ process:
   uid:
     plugin: default_value
     default_value: 3
-  field_headline: field_headline
   field_image:
     plugin: image_import
     source: field_image
