@@ -32,6 +32,9 @@ h1, h2, h3, h4, h5, h6 {
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-6, .fs-lg, .fs-sm, .fs-xl, .fs-1, .fs-2, .fs-3, .fs-4, .fs-5, .fs-6 {
     color: $black;
 }
+.display-1 {
+    line-height: 1.1 !important;
+}
 
 .fs-lg { font-size: $font-size-lg; }
 .fs-sm { font-size: $font-size-sm; }
@@ -224,12 +227,20 @@ form.webform-submission-form {
     outline: none;
     box-shadow: none;
 }
-
+ .webform-required {
+    display: none;
+ }
+ .block-webform {
+    border: none !important;
+    & form {
+        border-radius: 8px;
+        border: 1px solid $gray-300;
+    }
+ }
 
 /* reCaptcha
 --------------------------------------------------*/
 .grecaptcha-badge { visibility: hidden; }
-
 
 
 /* LISTS
@@ -246,7 +257,6 @@ form.webform-submission-form {
 .field--name-body li {
     padding-bottom: 6px;
 }
-
 
 /* HEADER
 --------------------------------------------------*/
