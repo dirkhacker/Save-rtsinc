@@ -13,12 +13,14 @@ dependencies:
     - field.field.node.page.field_hero_contact_toggle_es
     - field.field.node.page.field_hero_modal_toggle
     - field.field.node.page.field_image
+    - field.field.node.page.field_metatags
     - field.field.node.page.field_premium_content
     - field.field.node.page.field_subheading
     - field.field.node.page.field_weight
     - image.style.thumbnail
     - node.type.page
   module:
+    - metatag
     - path
     - svg_image
     - text
@@ -98,6 +100,14 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_premium_content:
     type: boolean_checkbox

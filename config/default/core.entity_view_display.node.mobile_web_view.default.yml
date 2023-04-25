@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.mobile_web_view.body
+    - field.field.node.mobile_web_view.field_metatags
     - node.type.mobile_web_view
   module:
     - manage_display
+    - metatag
     - text
 id: node.mobile_web_view.default
 targetEntityType: node
@@ -19,6 +21,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_metatags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
     region: content
   links:
     settings: {  }

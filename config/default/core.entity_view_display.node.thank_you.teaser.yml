@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.thank_you.body
     - field.field.node.thank_you.field_heading
     - field.field.node.thank_you.field_headline
+    - field.field.node.thank_you.field_metatags
     - node.type.thank_you
   module:
     - manage_display
@@ -42,5 +43,6 @@ hidden:
   created: true
   field_heading: true
   field_headline: true
+  field_metatags: true
   langcode: true
   uid: true

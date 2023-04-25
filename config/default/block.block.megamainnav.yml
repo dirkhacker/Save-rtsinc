@@ -6,12 +6,14 @@ dependencies:
     - 'block_content:basic:4e103375-2e66-444f-bdad-a4fe42a6e59a'
   module:
     - block_content
+    - language
+    - node
   theme:
     - rtsbarrio
 id: megamainnav
 theme: rtsbarrio
 region: header
-weight: -21
+weight: -22
 provider: null
 plugin: 'block_content:4e103375-2e66-444f-bdad-a4fe42a6e59a'
 settings:
@@ -22,4 +24,25 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
+      blog_posts: blog_posts
+      homepage: homepage
+      industry: industry
+      layout_basic_page_: layout_basic_page_
+      page: page
+      product: product
+      thank_you: thank_you

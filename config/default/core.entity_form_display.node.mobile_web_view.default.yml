@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.mobile_web_view.body
+    - field.field.node.mobile_web_view.field_metatags
     - node.type.mobile_web_view
   module:
+    - metatag
     - path
     - text
 id: node.mobile_web_view.default
@@ -28,6 +30,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 122
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   langcode:
     type: language_select

@@ -13,6 +13,7 @@ dependencies:
     - field.field.node.page.field_hero_contact_toggle_es
     - field.field.node.page.field_hero_modal_toggle
     - field.field.node.page.field_image
+    - field.field.node.page.field_metatags
     - field.field.node.page.field_premium_content
     - field.field.node.page.field_subheading
     - field.field.node.page.field_weight
@@ -20,6 +21,7 @@ dependencies:
   module:
     - layout_builder
     - layout_builder_restrictions
+    - metatag
     - text
 third_party_settings:
   layout_builder:
@@ -45,6 +47,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_metatags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
     region: content
 hidden:
   created: true

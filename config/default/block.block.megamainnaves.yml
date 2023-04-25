@@ -1,0 +1,47 @@
+uuid: c8cbb65c-8993-4b8a-95c6-ccc5b4dab1cf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b7944d38-b9ed-4aeb-9f83-d686ad5c18cc'
+  module:
+    - block_content
+    - language
+    - node
+  theme:
+    - rtsbarrio
+id: megamainnaves
+theme: rtsbarrio
+region: header
+weight: -21
+provider: null
+plugin: 'block_content:b7944d38-b9ed-4aeb-9f83-d686ad5c18cc'
+settings:
+  id: 'block_content:b7944d38-b9ed-4aeb-9f83-d686ad5c18cc'
+  label: 'MegaMainNav ES'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      es: es
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
+      blog_posts: blog_posts
+      homepage: homepage
+      layout_basic_page_: layout_basic_page_
+      page: page
+      product: product
+      thank_you: thank_you

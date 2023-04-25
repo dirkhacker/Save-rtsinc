@@ -6,11 +6,13 @@ dependencies:
     - field.field.node.layout_basic_page_.body
     - field.field.node.layout_basic_page_.field_heading
     - field.field.node.layout_basic_page_.field_image
+    - field.field.node.layout_basic_page_.field_metatags
     - field.field.node.layout_basic_page_.field_subheading
     - field.field.node.layout_basic_page_.layout_builder__layout
     - image.style.thumbnail
     - node.type.layout_basic_page_
   module:
+    - metatag
     - path
     - svg_image
     - text
@@ -46,6 +48,14 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_subheading:
     type: string_textarea
@@ -87,6 +97,11 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   url_redirects:
     weight: 8

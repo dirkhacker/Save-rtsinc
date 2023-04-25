@@ -8,12 +8,14 @@ dependencies:
     - field.field.node.industry.field_heading
     - field.field.node.industry.field_hero_contact_toggle
     - field.field.node.industry.field_image
+    - field.field.node.industry.field_metatags
     - field.field.node.industry.field_show_in_list
     - field.field.node.industry.field_subheading
     - field.field.node.industry.field_views_title
     - image.style.thumbnail
     - node.type.industry
   module:
+    - metatag
     - path
     - svg_image
     - text
@@ -60,6 +62,14 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
+    third_party_settings: {  }
   field_show_in_list:
     type: options_select
     weight: 11
@@ -102,6 +112,11 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   url_redirects:
     weight: 10
