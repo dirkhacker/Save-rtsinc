@@ -1,9 +1,9 @@
-uuid: 02316878-5832-48c2-a0a8-c1c73d3f3fa1
+uuid: e5ed8107-7a5f-4411-ba22-2c2bedb3df6e
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: kAqDDVswJ8SLFHeJyKbEKqHnmRrWRvjG8CaWpv8qnXQ
+  default_config_hash: mDc4DarGGXTbtd3Jf1TwyEha8x4y0-E9ytZVnUgegjM
 id: industry_es
 class: null
 field_plugin_method: null
@@ -35,7 +35,7 @@ process:
     plugin: default_value
     default_value: industry
   title: title
-  field_heading: field_heading
+  field_heading: field_headline
   body/value: body
   body/langcode: es
   body/format:
@@ -45,7 +45,6 @@ process:
     plugin: default_value
     default_value: 3
   field_subheading: field_sub_headline
-  field_headline: field_headline
   field_views_title: field_views_title
   created:
     plugin: format_date

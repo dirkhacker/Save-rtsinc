@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - node
     - search
   theme:
     - rtsbarrio
@@ -18,4 +19,18 @@ settings:
   label_display: '0'
   provider: search
   page_id: ''
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
+      blog_posts: blog_posts
+      homepage: homepage
+      industry: industry
+      layout_basic_page_: layout_basic_page_
+      page: page
+      product: product
+      thank_you: thank_you

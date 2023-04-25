@@ -80,6 +80,8 @@ elements: |-
       Polish: Polish
     '#empty_option': English
     '#empty_value': English
+  captcha:
+    '#type': captcha
   formid:
     '#type': hidden
     '#title': 'Form ID'

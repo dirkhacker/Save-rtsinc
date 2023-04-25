@@ -8,12 +8,14 @@ dependencies:
     - field.field.node.industry.field_heading
     - field.field.node.industry.field_hero_contact_toggle
     - field.field.node.industry.field_image
+    - field.field.node.industry.field_metatags
     - field.field.node.industry.field_show_in_list
     - field.field.node.industry.field_subheading
     - field.field.node.industry.field_views_title
     - node.type.industry
   module:
     - manage_display
+    - metatag
     - text
 id: node.industry.default
 targetEntityType: node
@@ -26,6 +28,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_metatags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
     region: content
   title:
     type: title

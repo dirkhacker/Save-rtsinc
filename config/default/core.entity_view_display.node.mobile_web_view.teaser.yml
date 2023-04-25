@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.mobile_web_view.body
+    - field.field.node.mobile_web_view.field_metatags
     - node.type.mobile_web_view
   module:
     - manage_display
@@ -38,5 +39,6 @@ content:
     region: content
 hidden:
   created: true
+  field_metatags: true
   langcode: true
   uid: true

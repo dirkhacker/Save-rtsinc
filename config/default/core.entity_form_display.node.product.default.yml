@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.product.field_hero_contact_toggle
     - field.field.node.product.field_hero_contact_toggle_es
     - field.field.node.product.field_image
+    - field.field.node.product.field_metatags
     - field.field.node.product.field_product_type
     - field.field.node.product.field_subheading
     - field.field.node.product.field_svg_code
@@ -18,6 +19,7 @@ dependencies:
     - image.style.thumbnail
     - node.type.product
   module:
+    - metatag
     - path
     - svg_image
     - text
@@ -85,6 +87,14 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_product_type:
     type: options_select
