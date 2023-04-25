@@ -60,14 +60,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_headline:
-    type: string_textfield
-    weight: 16
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   field_hero_contact_toggle:
     type: options_select
     weight: 3
@@ -90,7 +82,7 @@ content:
     third_party_settings: {  }
   field_metatags:
     type: metatag_firehose
-    weight: 26
+    weight: 16
     region: content
     settings:
       sidebar: true
@@ -157,6 +149,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_headline: true
   promote: true
   simple_sitemap: true
   status: true

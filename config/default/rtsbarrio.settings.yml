@@ -110,3 +110,5 @@ bootstrap_barrio_region_clean_footer_bottom: 0
 bootstrap_barrio_region_class_footer_bottom: row
 bootstrap_barrio_region_clean_footer: 0
 bootstrap_barrio_region_class_footer: row
+bootstrap_barrio_button_type: primary
+bootstrap_barrio_float_label: 0
