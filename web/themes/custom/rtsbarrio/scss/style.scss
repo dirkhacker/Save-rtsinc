@@ -90,6 +90,11 @@ a {
         color: $white;
       }
 }
+.btn-outline-light {
+  &:hover {
+    color: $blue;
+  }
+}
 
 .site-footer {
     background: $footer-black !important;
