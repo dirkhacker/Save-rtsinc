@@ -67,6 +67,19 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 
+.sidebar {
+  h2 {
+    font-size: 1.7em;
+    line-height: 1.23em;
+    letter-spacing: -.4px;
+    border-bottom: none;
+  }
+  h3 {
+    font-size: 1.15em;
+    margin-top: 25px;
+    line-height: 1.3em;
+  }
+}
 
 /* COLORS 
 --------------------------------------------------*/
