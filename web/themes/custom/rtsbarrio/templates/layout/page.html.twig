@@ -157,7 +157,7 @@
               </div>
             {% endif %}
             {% if page.sidebar_second %}
-              <div{{ sidebar_second_attributes }}>
+              <div{{ sidebar_second_attributes.removeClass('col-md-3').addClass('col-12 col-md-6 col-lg-4') }}>
                 <aside class="section" role="complementary">
                   {{ page.sidebar_second }}
                 </aside>
