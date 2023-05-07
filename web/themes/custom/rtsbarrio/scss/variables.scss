@@ -89,3 +89,6 @@ $spacers: (
 // scss-docs-start navbar-variables
 $navbar-padding-y: $spacer * .5 !default;
 $navbar-padding-x: $spacer * 2 !default;
+
+//Fix for Barrio theme bug https://www.drupal.org/project/bootstrap_barrio/issues/3350493
+$barrio_path_images: "../images/" !default;

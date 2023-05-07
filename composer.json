@@ -130,6 +130,11 @@
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
             "drupal/core": "-p2"
+        },
+        "patches": {
+            "drupal/core": {
+              "ckeditor 5 imag % to px": "https://www.drupal.org/files/issues/2023-04-06/3348603-28.patch"
+            }
         }
     },
     "config": {
