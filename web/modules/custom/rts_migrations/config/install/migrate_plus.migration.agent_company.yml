@@ -44,7 +44,17 @@ process:
   field_website: field_website
   field_linkedin_page: field_linkedin_page
   field_facebook_page: field_facebook_page
-  field_headquarters_address: field_headquarters_address
+  field_headquarters_address/country_code:
+    plugin: default_value
+    default_value: 'US'
+  field_headquarters_address/address_line1: field_headquarters_address
+  field_headquarters_address/address_line2: field_headquarters_address_suite
+  field_headquarters_address/locality: field_headquarters_address_city
+  field_headquarters_address/administrative_area:
+    plugin: get_state_abbreviation
+    source: field_headquarters_address_state
+    method: getStateAbbreviation
+  field_headquarters_address/postal_code: field_headquarters_address_zip
   field_factoring_features_toggle:
     plugin: static_map
     source: field_factoring_features_toggle
