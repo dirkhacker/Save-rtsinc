@@ -81,6 +81,7 @@ process:
   field_agent_user_reference: field_agent_user_reference
   field_agent_contact_id: field_agent_contact_id
   field_main_content: field_main_content
+  field_agent_type: field_agent_type
   created:
     plugin: format_date
     source: created
