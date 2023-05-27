@@ -135,6 +135,12 @@
         "patches": {
             "drupal/core": {
               "ckeditor 5 imag % to px": "https://www.drupal.org/files/issues/2023-04-06/3348603-28.patch"
+            },
+            "drupal/language_switcher_extended": {
+                "Fatal error TypeError array_filter fix": "https://git.drupalcode.org/project/language_switcher_extended/-/merge_requests/4.patch"
+            },
+            "drupal/bootstrap_styles": {
+                "Fix not loading aos.local or aos.remote library": "https://www.drupal.org/files/issues/2023-01-25/3315218-17--1-0-x.patch"
             }
         }
     },
