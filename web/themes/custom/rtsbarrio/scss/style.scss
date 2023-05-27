@@ -96,7 +96,12 @@ a {
 .bg-lt-gray {
     background: #f1f1f1;
 }
-
+.btn {
+    padding: .6rem 1.2rem;
+    &:hover {
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23);
+    }
+}
 .btn-primary{
     color: $white;
     &:hover {
@@ -108,7 +113,9 @@ a {
     color: $blue;
   }
 }
-
+.link-url {
+    display: none;
+}
 .site-footer {
     background: $footer-black !important;
 }
