@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5df40477e0697a2f187ecd6033e9e594",
+    "content-hash": "19082275dd97ce6fbc6bc30795d3b9b2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1872,6 +1872,55 @@
                 "source": "https://git.drupalcode.org/project/block_class",
                 "issues": "https://www.drupal.org/project/issues/block_class",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/block_content_permissions",
+            "version": "1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/block_content_permissions.git",
+                "reference": "8.x-1.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/block_content_permissions-8.x-1.11.zip",
+                "reference": "8.x-1.11",
+                "shasum": "1ecb7330f69be30b6cf05f8682d1957c1aaf605e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "suggest": {
+                "drupal/block_region_permissions": "Block Region Permissions adds permissions for administering 'blocks' based on each theme's regions."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.11",
+                    "datestamp": "1674237116",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Joshua Roberson",
+                    "homepage": "https://www.drupal.org/u/joshuaroberson",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Block Content Permissions adds permissions for administering 'block content types' and 'block content'.",
+            "homepage": "https://www.drupal.org/project/block_content_permissions",
+            "support": {
+                "source": "https://git.drupalcode.org/project/block_content_permissions",
+                "issues": "https://www.drupal.org/project/issues/block_content_permissions"
             }
         },
         {
@@ -4877,6 +4926,54 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
+            }
+        },
+        {
+            "name": "drupal/permissions_filter",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/permissions_filter.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/permissions_filter-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "a53ea4aebf14236ad3748f09d5bf03c3e2d71de5"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1660570361",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ajay_reddy",
+                    "homepage": "https://www.drupal.org/user/3261994"
+                },
+                {
+                    "name": "DieterHolvoet",
+                    "homepage": "https://www.drupal.org/user/3567222"
+                }
+            ],
+            "description": "Create a filter for permission page.",
+            "homepage": "https://www.drupal.org/project/permissions_filter",
+            "support": {
+                "source": "https://git.drupalcode.org/project/permissions_filter"
             }
         },
         {
@@ -15826,5 +15923,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
