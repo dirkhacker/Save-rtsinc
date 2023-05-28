@@ -97,7 +97,7 @@ a {
     background: #f1f1f1;
 }
 .bg-blue {
-    background: #$blue;
+    background: $blue;
 }
 .btn {
     padding: .6rem 1.2rem;
@@ -440,7 +440,7 @@ $sbtl: $search-box-transition-length;
 /* HERO
 --------------------------------------------------*/
 .hero-wrapper {
-    height: 733px;
+    height: 585px;
 }
 .hero-blog-wrapper {
     min-height: 400px;
