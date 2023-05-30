@@ -27,6 +27,7 @@
  * - row: The raw result from the query, with all data it fetched.
  *
  * @see template_preprocess_views_view_fields()
+ *  <button id="open-webform-modal" class="btn btn-primary rounded-pill mt-auto">Contact Us Today</button>
  */
 #}
 {# {{ vardumper(fields) }} #}
@@ -41,7 +42,7 @@
         <div class="hero-heading display-1">{{ fields.field_heading.content }}</div>
         <div class="hero-subheading pb-3">{{ fields.field_subheading.content }}</div>
         <div class="pb-5">
-          <button id="open-webform-modal" class="btn btn-primary rounded-pill mt-auto">Contact Us Today</button>
+          <a href="/page/contact-us" class="btn btn-primary rounded-pill">Contact Us Today</a>
         </div>
       </div>
     </div>
