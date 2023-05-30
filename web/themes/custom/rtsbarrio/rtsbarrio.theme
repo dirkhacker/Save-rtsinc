@@ -70,9 +70,12 @@ function rtsbarrio_preprocess_image(&$variables) {
  * @return void
  */
 function rtsbarrio_form_views_exposed_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id): void {
-    $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
-    if ($form['#id'] == 'views-exposed-form-blog-blog-view-block' && $language == 'es') {
-        $form['#attributes']['class'][] = 'd-none';
+    if ($form['#id'] == 'views-exposed-form-blog-blog-view-block') {
+        $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+        $form['#attributes']['class'][] = 'mb-n5';
+        if ($language == 'es') {
+            $form['#attributes']['class'][] = 'd-none';
+        }
     }
 }
 
