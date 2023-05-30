@@ -30,20 +30,29 @@
  *  <button id="open-webform-modal" class="btn btn-primary rounded-pill mt-auto">Contact Us Today</button>
  */
 #}
-{# {{ vardumper(fields) }} #}
- 
- 
 
-<div class="hero-bg-image hero-wrapper">
-  <div class="hero-bg-image-trans w-100 h-100">
+{% set url = url('<current>') %}
+{% set imgClass = (fields.field_image_1.content|striptags|trim is not empty) ? 'hero-bg-image hero-wrapper' : 'my-6 py-2' %}
+{% set bgTrans = imgClass|split(" ") %}
+{% set bgCheck = (bgTrans[0] == 'hero-bg-image') ? 'hero-bg-image-trans w-100 h-100' : 'w-100 h-100' %}
+<div class="{{ imgClass }}">
+  <div class="{{ bgCheck }}">
     <div class="hero-content container">
       <div class="hero-col px-4 px-lg-0 col-12 col-md-8 col-lg-6">
-        <div class="overline pb-3">{{ fields.title.content }}</div>
-        <div class="hero-heading display-1">{{ fields.field_heading.content }}</div>
+        {% if fields.title.content %}
+          <div class="overline pb-3">{{ fields.title.content }}</div>
+        {% endif %}
+        {% if fields.field_heading.content %}
+          <div class="hero-heading display-1">{{ fields.field_heading.content }}</div>
+        {% endif %}
+        {% if fields.field_subheading.content %}
         <div class="hero-subheading pb-3">{{ fields.field_subheading.content }}</div>
+        {% endif %}
+        {% if 'page/mobile-user-agreement' not in url|render|render %}
         <div class="pb-5">
           <a href="/page/contact-us" class="btn btn-primary rounded-pill">Contact Us Today</a>
         </div>
+        {% endif %}
       </div>
     </div>
   </div>
