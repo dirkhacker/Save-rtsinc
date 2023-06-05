@@ -46,58 +46,78 @@
       }); 
 
 
-      //close "model" webform and go back to previous page
-      var form = $('#webform-submission-modal-multiselect-add-form');
-
-      // Attach the click event to the close icon
-      $('#custom-close-icon', context).once('rtsbarrio').on('click', function(event) {
-        event.stopPropagation();
-        // Handle the close icon click event here
-        // e.g., perform any desired action or redirect to another page
-      });
-
-      // Attach the click event to the document, but only for the specific webform
-      form.once('rtsbarrio').on('click', function(event) {
-        var clickedElement = event.target;
-
-        // Check if the clicked element is outside the form and not the close icon
-        if (!form.is(clickedElement) && form.has(clickedElement).length === 0 && !$(clickedElement).is(':submit')) {
-          window.history.back();
-        }
-      });
-
-
-      //modal webform      
-      var modal = $('<div id="webform-modal" class="webform-modal"></div>');
-      var closeButton = $('<button id="webform-modal-close" class="webform-modal-close">X</button>');
-      var webformContainer = $('<div id="webform-container" class="webform-container"></div>');
-      modal.append(closeButton);
-      modal.append(webformContainer);
-      $('body').append(modal);
-
-      function closeModal() {
-        modal.hide();
-      }
-
-      closeButton.on('click', closeModal);
-
-      modal.on('click', function(event) {
-        if ($(event.target).is(modal)) {
-          closeModal();
-        }
-      });
-
-      $('#open-webform-modal').not('.webform-modal-processed').addClass('webform-modal-processed').on('click', function() {
-        // Replace 'your_webform_id' with the actual Webform ID.
-        var webformId = 'rts_multiselect';
-
-        // Load only the form element inside the webform via AJAX and display the modal.
-        webformContainer.load('/webform/' + webformId + ' form', function() {
-          modal.show();
+      // Close icon behavior for modal webform
+      var pageId = 'modal-multiselect-form'; // Replace 'your-page-id' with the actual ID of your page
+      if ($('#' + pageId, context).length) {
+        // Code specific to your page with the given ID
+        var container = $('#main-wrapper', context);
+        var form = container.find('#webform-submission-modal-multiselect-add-form');
+        var closeIcon = container.find('#custom-close-icon');
+        var initialPageUrl = window.location.href;
+        var isFormSubmitted = false;
+        var isBackActionAllowed = true;
+        // Attach the click event to the close icon
+        closeIcon.once('rtsbarrio').on('click', function (event) {
+          event.stopPropagation();
+          if (isBackActionAllowed) {
+            window.history.back();
+          }
         });
-      });
+        // Attach the click event to the document, but only trigger the back action when clicking outside the form and not the close icon
+        $(document, context).once('rtsbarrio').on('click.rtsbarrio', function (event) {
+          var clickedElement = event.target;
+          // Check if the clicked element is outside the container, form, and not the form submission button or the close icon
+          if (!container.is(clickedElement) && container.has(clickedElement).length === 0 && !$(clickedElement).is(':submit') && !closeIcon.is(clickedElement)) {
+            // Check if the form has been submitted and the current page is not the initial page
+            if (!isFormSubmitted || window.location.href === initialPageUrl) {
+              isBackActionAllowed = true;
+              window.history.back();
+            } else if ($(clickedElement).closest('form').length === 0) {
+              isBackActionAllowed = false;
+            }
+          }
+        });
+        // Update the form submission status when the form is submitted
+        form.once('rtsbarrio-form').on('submit', function () {
+          isFormSubmitted = true;
+          isBackActionAllowed = true;
+        });
+      }      // End Close icon behavior for modal webform
+
+      
 
     }
   };
 
 })(jQuery, Drupal);
+
+
+/* //modal webform      
+var modal = $('<div id="webform-modal" class="webform-modal"></div>');
+var closeButton = $('<button id="webform-modal-close" class="webform-modal-close">X</button>');
+var webformContainer = $('<div id="webform-container" class="webform-container"></div>');
+modal.append(closeButton);
+modal.append(webformContainer);
+$('body').append(modal);
+
+function closeModal() {
+  modal.hide();
+}
+
+closeButton.on('click', closeModal);
+
+modal.on('click', function(event) {
+  if ($(event.target).is(modal)) {
+    closeModal();
+  }
+});
+
+$('#open-webform-modal').not('.webform-modal-processed').addClass('webform-modal-processed').on('click', function() {
+  // Replace 'your_webform_id' with the actual Webform ID.
+  var webformId = 'rts_multiselect';
+
+  // Load only the form element inside the webform via AJAX and display the modal.
+  webformContainer.load('/webform/' + webformId + ' form', function() {
+    modal.show();
+  });
+}); */
