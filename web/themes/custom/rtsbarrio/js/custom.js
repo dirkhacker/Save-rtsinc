@@ -46,6 +46,17 @@
       }); 
 
 
+      //close "model" webform and go back to previous page
+      $(document, context).once('customFunctionality').on('click', function(event) {
+        var form = $('#webform-submission-modal-multiselect-add-form');
+        var clickedElement = event.target;
+        
+        if (!form.is(clickedElement) && form.has(clickedElement).length === 0) {
+          window.history.back();
+        }
+      });
+
+
       //modal webform      
       var modal = $('<div id="webform-modal" class="webform-modal"></div>');
       var closeButton = $('<button id="webform-modal-close" class="webform-modal-close">X</button>');

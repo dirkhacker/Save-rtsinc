@@ -270,10 +270,23 @@ form.webform-submission-form {
         border: 1px solid $gray-300;
     }
  }
+ /* Modal Form */
+ form.webform-submission-modal-multiselect-form {
+    max-width: 747px;
+    margin: 0 auto;
+    background: none;
+    padding: 1rem;
+ }
+ .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  } 
 
 /* reCaptcha
 --------------------------------------------------*/
 .grecaptcha-badge { visibility: hidden; }
+form .captcha { padding-bottom: 1rem;}
 
 
 /* LISTS
