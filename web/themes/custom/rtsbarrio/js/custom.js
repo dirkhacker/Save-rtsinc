@@ -47,11 +47,21 @@
 
 
       //close "model" webform and go back to previous page
-      $(document, context).once('customFunctionality').on('click', function(event) {
-        var form = $('#webform-submission-modal-multiselect-add-form');
+      var form = $('#webform-submission-modal-multiselect-add-form');
+
+      // Attach the click event to the close icon
+      $('#custom-close-icon', context).once('rtsbarrio').on('click', function(event) {
+        event.stopPropagation();
+        // Handle the close icon click event here
+        // e.g., perform any desired action or redirect to another page
+      });
+
+      // Attach the click event to the document, but only for the specific webform
+      form.once('rtsbarrio').on('click', function(event) {
         var clickedElement = event.target;
-        
-        if (!form.is(clickedElement) && form.has(clickedElement).length === 0) {
+
+        // Check if the clicked element is outside the form and not the close icon
+        if (!form.is(clickedElement) && form.has(clickedElement).length === 0 && !$(clickedElement).is(':submit')) {
           window.history.back();
         }
       });
