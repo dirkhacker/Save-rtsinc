@@ -1,0 +1,5 @@
+name: Shamrock Update Hero
+type: module
+description: Update the hero node fields.
+core_version_requirement: 9.x
+package: Shamrock

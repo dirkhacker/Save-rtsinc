@@ -1,0 +1,28 @@
+<?php
+use Drupal\node\Entity\Node;
+
+/**
+ * @throws \Drupal\Core\Entity\EntityStorageException
+ */
+function shamrock_cron() {
+    $content_types = array(
+        'page',
+        'homepage',
+        'layout_basic_page_',
+        'product',
+        'industry',
+    );
+    $query = \Drupal::entityQuery('node')
+        ->condition('type', $content_types, 'IN');
+    $nids = $query->execute();
+    $nodes = Node::loadMultiple($nids);
+    foreach ($nodes as $node) {
+        $languages = $node->getTranslationLanguages();
+        foreach ($languages as $id => $language) {
+            $translation = $node->getTranslation($id);
+            $translation->set("field_cta", 1);
+        }
+        $node->save();
+    }
+    \Drupal::messenger()->addMessage('The field_cta field has been updated to the value of 1 on requested nodes.');
+}
