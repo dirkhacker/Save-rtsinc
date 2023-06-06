@@ -35,6 +35,7 @@
 {% set imgClass = (fields.field_image_1.content|striptags|trim is not empty) ? 'hero-bg-image hero-wrapper' : 'my-6 py-2' %}
 {% set bgTrans = imgClass|split(" ") %}
 {% set bgCheck = (bgTrans[0] == 'hero-bg-image') ? 'hero-bg-image-trans w-100 h-100' : 'w-100 h-100' %}
+{% set buttonText = fields.field_cta.content|striptags|trim %}
 <div class="{{ imgClass }}">
   <div class="{{ bgCheck }}">
     <div class="hero-content container">
@@ -46,12 +47,14 @@
           <div class="hero-heading display-1">{{ fields.field_heading.content }}</div>
         {% endif %}
         {% if fields.field_subheading.content %}
-        <div class="hero-subheading pb-3">{{ fields.field_subheading.content }}</div>
+          <div class="hero-subheading pb-3">{{ fields.field_subheading.content }}</div>
         {% endif %}
-        {% if 'page/mobile-user-agreement' not in url|render|render %}
-        <div class="pb-5">
-          <a href="/form/modal-multiselect" class="btn btn-primary rounded-pill">Contact Us Today</a>
-        </div>
+        {% if (buttonText == 'Contact Us Today') or (buttonText == 'Contáctenos') %}
+          <div class="pb-5">
+            <a href="/form/modal-multiselect" class="btn btn-primary rounded-pill">
+              {{ buttonText }}
+            </a>
+          </div>
         {% endif %}
       </div>
     </div>
