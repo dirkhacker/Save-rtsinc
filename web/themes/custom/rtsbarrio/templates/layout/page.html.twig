@@ -176,37 +176,37 @@
         </aside>
       </div>
     {% endif %}
-    <footer class="site-footer">
-        <div class="{{ container }}">
-            {% block footer %}
+      <footer class="site-footer">
+          {% block footer %}
               <div class="container">
                   {% if page.footer_top_left or page.footer_top_right %}
-                      <div class="site-footer__top">
-                          <div class="col-md-6">
-                              <div class="site-footer__top_left d-flex justify-content-start">
-                                  {{ page.footer_top_left }}
+                      <div class="site-footer__top row g-0">
+                          <div class="row g-0 d-flex">
+                              <div class="col-12 col-md-6 py-3 py-md-0">
+                                  <div class="site-footer__top_left d-flex justify-content-center justify-content-md-start">
+                                      {{ page.footer_top_left }}
+                                  </div>
                               </div>
-                          </div>
-                          <div class="col-md-6">
-                              <div class="site-footer__top_right d-flex justify-content-end">
-                                  {{ page.footer_top_right }}
+                              <div class="col-12 col-md-6 py-3 py-md-0">
+                                  <div class="site-footer__top_right d-flex justify-content-center justify-content-md-end">
+                                      {{ page.footer_top_right }}
+                                  </div>
                               </div>
                           </div>
                       </div>
                   {% endif %}
-                {% if page.footer_main %}
-                  <div class="site-footer__main">
-                      {{ page.footer_main }}
-                  </div>
-                {% endif %}
-                {% if page.footer_bottom %}
-                  <div class="site-footer__bottom">
-                    {{ page.footer_bottom }}
-                  </div>
-                {% endif %}
+                  {% if page.footer_main %}
+                      <div class="site-footer__main">
+                          {{ page.footer_main }}
+                      </div>
+                  {% endif %}
+                  {% if page.footer_bottom %}
+                      <div class="site-footer__bottom">
+                          {{ page.footer_bottom }}
+                      </div>
+                  {% endif %}
               </div>
-            {% endblock %}
-        </div>
-    </footer>
+          {% endblock %}
+      </footer>
   </div>
 </div>
