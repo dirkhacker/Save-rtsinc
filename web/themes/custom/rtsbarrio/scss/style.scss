@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 .fs-xs { font-size: $font-size-xs; }
 
 .overline { text-transform: uppercase; letter-spacing: 1.2px; font-size: 1.05em; font-weight: 400; color: $blue } 
+.overline-sm { text-transform: uppercase; letter-spacing: 1.2px; font-size: .95em; font-weight: 400; color: $blue } 
 .overline-lg { text-transform: uppercase; letter-spacing: 1.4px; font-size: 1.13em; font-weight: 400; color: $blue } 
 .text-blue { color: $blue; }
 .text-gray { color: $gray-600; }
@@ -306,14 +307,18 @@ form .captcha { padding-bottom: 1rem;}
 
 /* HEADER
 --------------------------------------------------*/
-.navbar-brand img { height: 2.2rem;}
+
+.navbar-brand img { 
+    height: 2.2rem;
+    min-width: 94px;
+}
 .navbar {
     & #block-megamainnav, #block-megamainnaves {
         flex: 1;
     }
 }
 
-//Mobile Nav Toggle
+//Mobile Nav Icon
 .mobile-nav-toggle {
     width: 27px;
     margin-right: 24px;
@@ -330,6 +335,91 @@ form .captcha { padding-bottom: 1rem;}
         display: none;
     }
 }
+//
+// Mobile Nav Toggle
+//
+.mobile-nav-toggle a {
+    transition: all 500ms ease-in-out; 
+    padding-right: 2rem; 
+    @include media-breakpoint-down(xs) {
+      padding-right: 1.5rem;
+      line-height: 0.5rem;
+    }
+  }
+  
+  .mobile-nav-toggle a:hover { 
+    text-decoration: none; 
+  }
+  
+  .mobile-nav-toggle svg { 
+    width: 23px; 
+    height: 23px; 
+    position: relative; 
+    transition-duration: 1.8s;
+    transition-property: transform;
+  }
+.mobile-nav-container { 
+  background: #fff; 
+  //@include card(5); 
+  position: fixed;
+  width: 540px;
+  max-width: 100%;
+  z-index: 1;
+  top: -0px;
+  left: -540px;
+  height: 102vh;
+  padding: 32px;
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+.mobile-nav-active .mobile-nav-container { 
+  display: block !important; 
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-right: 1px solid $gray-300;
+  transition: 0.3s;
+}
+
+.navm-top-row { 
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 0; 
+    margin-bottom: 2rem; 
+}
+
+// Mobile Nav X Hide Toggle
+.mobile-nav-x svg { 
+  float: left; 
+  width: 24px; 
+  height: 24px; 
+}
+
+.mobile-nav-x path { 
+  fill: $black; 
+}
+
+// Mobile Navigation 
+.mobile-group {
+  display: flex; 
+  flex-direction: column; 
+}
+.mobile-menu-group { 
+  display: flex; 
+  flex-direction: column; 
+  margin-bottom: 18px; 
+  padding-bottom: 18px; 
+  border-bottom: 1px solid $gray-300; 
+  & a { 
+    font-size: 1.4rem;
+    padding: 3px 0; 
+    color: $gray-600; 
+  }
+}
+
+
+
 
 ////////////////////////////// Language Switcher
 .language-switcher-custom { 

@@ -27,26 +27,49 @@
         }
       });
 
+      //MOBILE NAV TOGGLE
+      $(document).ready(function() {
+        $('.mobile-nav-toggle a').on("click", function(event) {
+          event.preventDefault(); // Prevents the default behavior of the link
+      
+          // Handle the logic for opening the modal popup here
+          $('body').addClass("mobile-nav-active");
+        });
+      
+        $(document).on("click", function(event) {
+          var $target = $(event.target);
+      
+          // Check if the click event occurred outside the mobile nav container or on the mobile-nav-x element
+          if (
+            (!$target.closest('.mobile-nav-container').length && !$target.closest('.mobile-nav-toggle').length) ||
+            $target.closest('.mobile-nav-x').length
+          ) {
+            // Handle the logic for closing the modal popup here
+            $('body').removeClass("mobile-nav-active");
+          }
+        });
+      }); //END MOBILE NAV TOGGLE
 
+
+      //LANGUAGE SWITCHER
       // Language Switcher active class
       $('.language-switcher-custom.active').click(function() {
         $('.language-switcher-custom').removeClass("active");
       });
-      $('.language-switcher-custom').click(function() {
-      if ( !$(".language-switcher-custom.active").length ) {
-        $('.language-links').addClass("active");
-      }  
+        $('.language-switcher-custom').click(function() {
+        if ( !$(".language-switcher-custom.active").length ) {
+          $('.language-links').addClass("active");
+        }  
       });
-
       // Language switcher hide when mouse out
       $(document).mouseup(function (e) {
-      if (!$('.language-switcher-custom').is(e.target) && !$("language-switcher-custom.active").length) {
-            $('.language-links').removeClass("active");
-        }   
-      }); 
+        if (!$('.language-switcher-custom').is(e.target) && !$("language-switcher-custom.active").length) {
+              $('.language-links').removeClass("active");
+          }   
+      }); //END LANGUAGE SWITCHER
 
 
-      // Close icon behavior for modal webform
+      // CLOSE MODAL WEBFORM
       var pageId = 'modal-multiselect-form'; // Replace 'your-page-id' with the actual ID of your page
       if ($('#' + pageId, context).length) {
         // Code specific to your page with the given ID
@@ -82,7 +105,7 @@
           isFormSubmitted = true;
           isBackActionAllowed = true;
         });
-      }      // End Close icon behavior for modal webform
+      }  // END CLOSE MODAL WEBFORM
 
       
 
