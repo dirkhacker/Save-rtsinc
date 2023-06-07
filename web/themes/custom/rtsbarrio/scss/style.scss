@@ -317,6 +317,11 @@ form .captcha { padding-bottom: 1rem;}
         flex: 1;
     }
 }
+@media only screen and (max-width: 767px) {
+    .navbar {
+        padding-left: 1.5rem;
+    }
+}
 
 //Mobile Nav Icon
 .mobile-nav-toggle {
@@ -729,7 +734,6 @@ $sbtl: $search-box-transition-length;
         background-color: #fff;
     }
     @media only screen and (max-width: 991px) {
-
         top: 0; 
         left: 0;
         height: 100%;
