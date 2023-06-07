@@ -627,6 +627,10 @@ $sbtl: $search-box-transition-length;
 
 }
 
+.page-user-login main .region-content, .page-user-password main .region-content {
+    max-width: 900px;
+}
+
 /* VIEWS
 --------------------------------------------------*/
 #block-views-block-blog-blog-view-block {
