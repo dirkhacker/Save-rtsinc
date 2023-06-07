@@ -279,9 +279,6 @@ form.webform-submission-form {
     padding: 1rem;
  }
  .close-icon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
   } 
 
 /* reCaptcha
@@ -376,11 +373,12 @@ form .captcha { padding-bottom: 1rem;}
   padding: 32px;
   overflow-x: hidden;
   transition: 0.3s;
+  z-index: 108;
 }
 
 .mobile-nav-active .mobile-nav-container { 
   display: block !important; 
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   border-right: 1px solid $gray-300;
