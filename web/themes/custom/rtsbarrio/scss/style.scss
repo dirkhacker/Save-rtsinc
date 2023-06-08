@@ -572,6 +572,9 @@ $sbtl: $search-box-transition-length;
 .hero-bg-image {
     background-repeat: repeat-x;
     background-position: 69% top;
+    @media only screen and (max-width: 767px) {
+        background:#f1f1f1; 
+    }
 }
 .hero-bg-image-trans {
     background: url(/themes/custom/rtsbarrio/images/bgimg-hero-trans.png);
@@ -582,6 +585,9 @@ $sbtl: $search-box-transition-length;
     background-position: 36% 0px; 
     @media only screen and (min-width: 2250px) {
         background-position: 54% 0px; 
+    }
+    @media only screen and (max-width: 767px) {
+        background:none; 
     }
 }
 
@@ -612,6 +618,9 @@ $sbtl: $search-box-transition-length;
     letter-spacing: -.2px;
     width: 100%;
     margin-bottom: 1.2rem;
+    @media only screen and (max-width: 767px) {
+        font-size: 1.3rem;
+    }
 }
 
 
@@ -624,8 +633,16 @@ $sbtl: $search-box-transition-length;
         text-align: left;
         border-right: none;
     }
-
 }
+
+// This should be placed in a template
+@media only screen and (max-width: 767px) {  
+    #block-views-block-hero-1-block-4 {
+        margin-right: 1.5rem !important;
+        margin-left: 1.5rem !important;
+    }
+}
+
 
 .page-user-login main .region-content, .page-user-password main .region-content {
     max-width: 900px;
