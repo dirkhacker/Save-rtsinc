@@ -173,6 +173,7 @@ a {
 
 /* FORMS
 --------------------------------------------------*/
+
 form.webform-submission-form {
     background: #f5f5f5;
     padding: 40px;
@@ -212,6 +213,7 @@ form.webform-submission-form {
             color: #0091ea;
         }
     }
+
     .form-type-textfield, .form-type-email, .form-type-tel, .form-type-number {
         position: relative;
         height: 45px;
@@ -249,6 +251,9 @@ form.webform-submission-form {
             min-height: 1.2em;
             padding: 0 2px 1px;
         }
+    }
+    @media only screen and (max-width: 991px) {
+        padding: 1rem;
     }
 }
 .has-value {
@@ -411,8 +416,9 @@ form .captcha { padding-bottom: 1rem;}
 .mobile-menu-group { 
   display: flex; 
   flex-direction: column; 
-  margin-bottom: 18px; 
-  padding-bottom: 18px; 
+  margin-top: 9px; 
+  margin-bottom: 21px; 
+  padding-bottom: 21px; 
   border-bottom: 1px solid $gray-300; 
   & a { 
     font-size: 1.4rem;
