@@ -255,7 +255,27 @@ form.webform-submission-form {
     @media only screen and (max-width: 991px) {
         padding: 1rem;
     }
-}
+}  // End form.webform-submission-form
+
+// change multiselect checkboxes to vertical on mobile
+@media only screen and (max-width: 991px) {
+    [class*="form-item-rts-products"] {
+      width: 100%;
+    }
+  
+    [class*="form-item-rts-products"] label {
+      font-size: 1.5rem !important;
+      padding-bottom: .5rem;
+      line-height: 1.4;
+    }
+
+    [class*="form-item-rts-products"] input {
+        font-size: 1.3rem !important;
+      }
+  }
+
+
+
 .has-value {
     top: -10px!important;
     left: 15px;
@@ -714,6 +734,12 @@ $sbtl: $search-box-transition-length;
     top: 0;
     left: 0;
   }
+
+
+/*    IMAGES    (find better solution) */
+@media only screen and (max-width: 767px) {  
+    #block-bundleyourfuelandfactoring img  { display: none; }
+}
 
 
 /* MODAL
