@@ -589,9 +589,12 @@ $sbtl: $search-box-transition-length;
 
 /* HERO
 --------------------------------------------------*/
-.hero-wrapper {
-    height: 585px;
+@media only screen and (min-width: 767px) {
+    .hero-wrapper {
+        height: 585px;
+    }
 }
+
 .hero-blog-wrapper {
     min-height: 246px;
     border-top: 1px solid $gray-300;
