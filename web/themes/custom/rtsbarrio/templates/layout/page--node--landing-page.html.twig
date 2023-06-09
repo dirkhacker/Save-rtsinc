@@ -142,7 +142,7 @@
       {% block content %}
         <div id="main">
           {{ page.breadcrumb }}
-          <div class="row row-offcanvas row-offcanvas-left clearfix">
+          <div class="row row-offcanvas row-offcanvas-left clearfix px-4 px-md-0">
               <main{{ content_attributes }}>
                 <section class="section">
                   <a id="main-content" tabindex="-1"></a>
@@ -157,7 +157,7 @@
               </div>
             {% endif %}
             {% if page.sidebar_second %}
-              <div class="col-12 col-md-5 order-last">
+              <div class="col-12 col-lg-5 order-last">
                 <aside class="section" role="complementary">
                   {{ page.sidebar_second }}
                 </aside>
