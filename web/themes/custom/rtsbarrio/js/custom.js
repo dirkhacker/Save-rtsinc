@@ -107,7 +107,92 @@
         });
       }  // END CLOSE MODAL WEBFORM
 
-      
+      // ADD URL QUERY PARAMS TO LOCAL STORAGE
+      $(window).once('queryParams').each(function () {
+        // Get the query string
+        var queryString = window.location.search;
+        // Remove the '?' at the start of the query string
+        queryString = queryString.substring(1);
+        // Split the query string into individual parameters
+        var params = queryString.split('&');
+        // Loop through each parameter
+        for (var i = 0; i < params.length; i++) {
+          // Split the parameter into name and value
+          var param = params[i].split('=');
+          // Store the parameter in local storage
+          localStorage.setItem(decodeURIComponent(param[0]), decodeURIComponent(param[1]));
+        }
+      });  //END URL QUERY PARAMS TO LOCAL STORAGE
+
+
+      //INSERT LOCAL STORAGE into current webform submit
+      $(".webform-submission-form", context).once('myCustomBehavior').each(function () {
+
+        $(this).submit(function(event) {
+          event.preventDefault();
+          // Get values from local storage:
+          var campaignValue = localStorage.getItem("campaign");
+          var sourceValue = localStorage.getItem("source");
+          var adValue = localStorage.getItem("ad");
+          var adgroupValue = localStorage.getItem("adgroup");
+          var gclidValue = localStorage.getItem("gclid");
+          var keywordValue = localStorage.getItem("keyword");
+          var lead_sourceValue = localStorage.getItem("lead_source");
+          var mediumValue = localStorage.getItem("medium");
+          var placementValue = localStorage.getItem("placement");
+          var segmentValue = localStorage.getItem("segment");
+          var ppc_campaignValue = localStorage.getItem("ppc_campaign"); 
+          var cpc_campaignValue = localStorage.getItem("cpc_campaign"); 
+          // Log the values to console for debugging:
+          console.log("Campaign value from local storage: ", campaignValue);
+          console.log("Source value from local storage: ", sourceValue);
+         // Set the values in the form if they exist in local storage
+          if (campaignValue) {
+            $("input[name='campaign']").val(campaignValue);
+          }
+          if (sourceValue) {
+            $("input[name='source']").val(sourceValue);
+          }
+          if (adValue) {
+            $("input[name='ad']").val(adValue);
+          }
+          if (adgroupValue) {
+            $("input[name='adgroup']").val(adgroupValue);
+          }
+          if (gclidValue) {
+            $("input[name='gclid']").val(gclidValue);
+          }
+          if (keywordValue) {
+            $("input[name='keyword']").val(keywordValue);
+          }
+          if (lead_sourceValue) {
+            $("input[name='lead_source']").val(lead_sourceValue);
+          }
+          if (mediumValue) {
+            $("input[name='medium']").val(mediumValue);
+          }
+          if (placementValue) {
+            $("input[name='placement']").val(placementValue);
+          }
+          if (segmentValue) {
+            $("input[name='segment']").val(segmentValue);
+          }
+          if (ppc_campaignValue) {
+            $("input[name='ppc_campaign']").val(ppc_campaignValue);
+          }
+          if (cpc_campaignValue) {
+            $("input[name='cpc_campaign']").val(cpc_campaignValue);
+          }
+
+          // Log the values after setting them
+          console.log("Campaign value after setting: ", $("input[name='campaign']").val());
+          console.log("Source value after setting: ", $("input[name='source']").val());
+          // Now submit the form
+          this.submit();
+        });
+      });  // END INERT LOCAL STORAGE  url params into current webform
+
+
 
     }
   };
