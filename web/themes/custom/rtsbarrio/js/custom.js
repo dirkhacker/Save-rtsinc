@@ -68,6 +68,23 @@
           }   
       }); //END LANGUAGE SWITCHER
 
+      // Search JS
+      $('.search-box').on('click', function() {
+        let mqm = window.matchMedia("screen and (max-width: 575px)").matches;
+        if (mqm) {
+          if ('.search-box:hidden') {
+            $('.header-logo').hide();
+          }
+        }
+      });
+
+      $('.search-box').focusout(function() {
+        let mqm = window.matchMedia("screen and (max-width: 575px)").matches;
+        if (mqm) {
+          $('.header-logo').show();
+        }
+      });
+
 
       // CLOSE MODAL WEBFORM
       var pageId = 'modal-multiselect-form'; // Replace 'your-page-id' with the actual ID of your page
@@ -143,9 +160,6 @@
           var segmentValue = localStorage.getItem("segment");
           var ppc_campaignValue = localStorage.getItem("ppc_campaign"); 
           var cpc_campaignValue = localStorage.getItem("cpc_campaign"); 
-          // Log the values to console for debugging:
-          console.log("Campaign value from local storage: ", campaignValue);
-          console.log("Source value from local storage: ", sourceValue);
          // Set the values in the form if they exist in local storage
           if (campaignValue) {
             $("input[name='campaign']").val(campaignValue);
@@ -183,10 +197,6 @@
           if (cpc_campaignValue) {
             $("input[name='cpc_campaign']").val(cpc_campaignValue);
           }
-
-          // Log the values after setting them
-          console.log("Campaign value after setting: ", $("input[name='campaign']").val());
-          console.log("Source value after setting: ", $("input[name='source']").val());
           // Now submit the form
           this.submit();
         });
