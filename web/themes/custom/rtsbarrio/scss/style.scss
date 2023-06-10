@@ -497,10 +497,9 @@ form .captcha {
 .language-links.active { display: block !important; }
 
 
-/////////////////////// SEARCH
-$search-box-transition-length: 0.1s;
+/////  SEARCH BOX SLIDER
+$search-box-transition-length: 0.2s;
 $search-box-size-inactive: 40px;
-$sbtl: $search-box-transition-length;
 
 .search {
   &-container {
@@ -517,11 +516,20 @@ $sbtl: $search-box-transition-length;
     cursor: pointer;
     height: 40px;
     width: 40px;
-    transition: width $sbtl, border-radius $sbtl, background $sbtl, box-shadow $sbtl;
+    transition: width $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
+                border-radius $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
+                background $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
+                box-shadow $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1);
 
     // using the sibling selector
-    & + label              { max-width: 0;}
-    & + label .search-icon { color: $gray-600; transition: all 0.1s }
+    & + label {
+      max-width: 0;
+    }
+    
+    & + label .search-icon {
+      color: $gray-600;
+      transition: all 0.1s;
+    }
 
     &:hover {
       background: $gray-200;
@@ -530,7 +538,9 @@ $sbtl: $search-box-transition-length;
       background-position: center center;
       box-shadow: 0 0 0 3px $blue;
 
-      & + label .search-icon { color: white; }
+      & + label .search-icon {
+        color: white;
+      }
     }
     
     &:focus {
@@ -542,16 +552,21 @@ $sbtl: $search-box-transition-length;
       cursor: text;
       outline: none;
       padding-left: 15px;
-      transition: width $sbtl cubic-bezier(0,1.22,.66,1.39), border-radius $sbtl, background $sbtl;
+      transition: width $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
+                  border-radius $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
+                  background $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1);
       width: 300px;
+    }
 
-    & + label .search-icon { color: $gray-600; }
+    & + label .search-icon {
+      color: $gray-600;
     }
     
     &:not(:focus) { 
       text-indent: 100%;
       white-space: nowrap;
-      overflow: hidden; 
+      overflow: hidden;
+      transition: none;
     }
   }
   
@@ -560,6 +575,8 @@ $sbtl: $search-box-transition-length;
     position: relative;
   }
 }
+    
+    
 
 .search-results {
     & .list-group-item {
