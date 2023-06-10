@@ -107,8 +107,9 @@
         });
       }  // END CLOSE MODAL WEBFORM
 
-      // ADD URL QUERY PARAMS TO LOCAL STORAGE
-      $(window).once('queryParams').each(function () {
+
+       // ADD URL QUERY PARAMS TO LOCAL STORAGE
+       $(window).each(function () {
         // Get the query string
         var queryString = window.location.search;
         // Remove the '?' at the start of the query string
@@ -122,13 +123,12 @@
           // Store the parameter in local storage
           localStorage.setItem(decodeURIComponent(param[0]), decodeURIComponent(param[1]));
         }
-      });  //END URL QUERY PARAMS TO LOCAL STORAGE
+      });
 
 
       //INSERT LOCAL STORAGE into current webform submit
-      $(".webform-submission-form", context).once('myCustomBehavior').each(function () {
-
-        $(this).submit(function(event) {
+      $(".webform-submission-form", context).each(function () {
+        $(this).submit(function (event) {
           event.preventDefault();
           // Get values from local storage:
           var campaignValue = localStorage.getItem("campaign");
@@ -229,3 +229,20 @@ $('#open-webform-modal').not('.webform-modal-processed').addClass('webform-modal
     modal.show();
   });
 }); */
+
+   // ADD URL QUERY PARAMS TO LOCAL STORAGE
+   /* $(window).once('queryParams').each(function () {
+    // Get the query string
+    var queryString = window.location.search;
+    // Remove the '?' at the start of the query string
+    queryString = queryString.substring(1);
+    // Split the query string into individual parameters
+    var params = queryString.split('&');
+    // Loop through each parameter
+    for (var i = 0; i < params.length; i++) {
+      // Split the parameter into name and value
+      var param = params[i].split('=');
+      // Store the parameter in local storage
+      localStorage.setItem(decodeURIComponent(param[0]), decodeURIComponent(param[1]));
+    }
+  });  */ //END URL QUERY PARAMS TO LOCAL STORAGE

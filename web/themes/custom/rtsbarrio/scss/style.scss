@@ -310,7 +310,10 @@ form.webform-submission-form {
 /* reCaptcha
 --------------------------------------------------*/
 .grecaptcha-badge { visibility: hidden; }
-form .captcha { padding-bottom: 1rem;}
+form .captcha { 
+    padding-bottom: 1rem;
+    overflow: hidden;
+}
 
 
 /* LISTS
