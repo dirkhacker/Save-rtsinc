@@ -70,18 +70,28 @@
 
       // Search JS
       $('.search-box').on('click', function() {
-        let mqm = window.matchMedia("screen and (max-width: 575px)").matches;
+        let mqm = window.matchMedia("screen and (max-width: 576px)").matches;
+        let mqt = window.matchMedia("screen and (min-width: 1200px)").matches;
         if (mqm) {
           if ('.search-box:hidden') {
             $('.header-logo').hide();
+          }
+        }
+        else if (mqt) {
+          if ('.search-box:hidden') {
+            $('#block-megamainnav').hide();
           }
         }
       });
 
       $('.search-box').focusout(function() {
         let mqm = window.matchMedia("screen and (max-width: 575px)").matches;
+        let mqt = window.matchMedia("screen and (min-width: 1200px)").matches;
         if (mqm) {
           $('.header-logo').show();
+        }
+        else if (mqt) {
+          $('#block-megamainnav').show();
         }
       });
 
