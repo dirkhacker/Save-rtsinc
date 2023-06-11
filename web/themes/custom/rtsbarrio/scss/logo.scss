@@ -1,0 +1,54 @@
+#header {
+  .header-logo {
+    svg {
+      fill: #0091ea;
+    }
+  }
+  .rtsf-logo {
+    svg {
+      width: 270px !important;
+      height: 30px !important;
+    }
+  }
+  .rtsf-tall {
+    svg {
+      width: 90px;
+      height: 50px;
+    }
+  }
+  .rtsintl-logo {
+    margin: 0 16px 0 0;
+    svg {
+      width:110px !important;
+      height: 54px !important;
+    }
+  }
+  .logo-tall {
+    path {
+      color: #0091ea;
+      fill: #0091ea;
+    }
+  }
+  .rtscs-logo {
+    svg {
+      width: 191px !important;
+      height: 34px !important;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo-tall {
+    display: block!important;
+  }
+  .rtscs-logo, .rtsf-logo {
+    display: none!important;
+  }
+}
+@media screen and (min-width: 601px) {
+  .logo-tall {
+    display: none!important;
+  }
+  .rtscs-logo, .rtsf-logo {
+    display: block!important;
+  }
+}
