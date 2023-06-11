@@ -498,14 +498,15 @@ form .captcha {
 
 
 /////  SEARCH BOX SLIDER
-$search-box-transition-length: 0.2s;
+$search-box-transition-length: 0.1s;
 $search-box-size-inactive: 40px;
+$search-box-transition-delay: 0.09s;
 
 .search {
   &-container {
     padding: 40px;
-  }  
-  
+  }
+
   &-box {
     background: rgb(255, 255, 255);
     background-image: url('../images/search.svg');
@@ -517,15 +518,15 @@ $search-box-size-inactive: 40px;
     height: 40px;
     width: 40px;
     transition: width $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
-                border-radius $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
-                background $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
-                box-shadow $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1);
+      border-radius $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
+      background $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
+      box-shadow $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1);
 
     // using the sibling selector
     & + label {
       max-width: 0;
     }
-    
+
     & + label .search-icon {
       color: $gray-600;
       transition: all 0.1s;
@@ -542,7 +543,7 @@ $search-box-size-inactive: 40px;
         color: white;
       }
     }
-    
+
     &:focus {
       border: none;
       border-radius: auto;
@@ -552,24 +553,27 @@ $search-box-size-inactive: 40px;
       cursor: text;
       outline: none;
       padding-left: 15px;
-      transition: width $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
-                  border-radius $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1),
-                  background $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1);
+      transition: width $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1) $search-box-transition-delay,
+        border-radius $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1) $search-box-transition-delay,
+        background $search-box-transition-length cubic-bezier(0.42, 0, 0.58, 1) $search-box-transition-delay;
       width: 300px;
+      @media only screen and (max-width: 576px) {
+        width: 225px;
+        }
     }
 
     & + label .search-icon {
       color: $gray-600;
     }
-    
-    &:not(:focus) { 
+
+    &:not(:focus) {
       text-indent: 100%;
       white-space: nowrap;
       overflow: hidden;
       transition: none;
     }
   }
-  
+
   &-btn {
     display: none;
     position: relative;

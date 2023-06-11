@@ -27,6 +27,9 @@
   padding-left: $navbar-padding-x; // default: null
   @include gradient-bg();
 
+  @media only screen and (max-width: 576px) {
+    padding-right: 1rem;
+  }
   // Because flex properties aren't inherited, we need to redeclare these first
   // few properties so that content nested within behave properly.
   // The `flex-wrap` property is inherited to simplify the expanded navbars
