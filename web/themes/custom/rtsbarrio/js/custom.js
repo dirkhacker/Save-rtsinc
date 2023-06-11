@@ -74,7 +74,7 @@
         let mqt = window.matchMedia("screen and (min-width: 1200px)").matches;
         if (mqm) {
           if ('.search-box:hidden') {
-            $('.header-logo').hide();
+            $('.header-logo, rtsf-tall').hide();
           }
         }
         else if (mqt) {
@@ -88,7 +88,8 @@
         let mqm = window.matchMedia("screen and (max-width: 575px)").matches;
         let mqt = window.matchMedia("screen and (min-width: 1200px)").matches;
         if (mqm) {
-          $('.header-logo').show();
+          $('.header-logo, .rtsf-tall').show();
+          $('.rtsf-logo').hide();
         }
         else if (mqt) {
           $('#block-megamainnav').show();

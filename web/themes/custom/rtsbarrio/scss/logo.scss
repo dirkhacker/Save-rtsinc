@@ -38,17 +38,17 @@
 }
 @media screen and (max-width: 600px) {
   .logo-tall {
-    display: block!important;
+    display: block;
   }
   .rtsf-logo {
-    display: none!important;
+    display: none;
   }
 }
 @media screen and (min-width: 601px) {
   .logo-tall {
-    display: none!important;
+    display: none;
   }
   .rtsf-logo {
-    display: block!important;
+    display: block;
   }
 }
