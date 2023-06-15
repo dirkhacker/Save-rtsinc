@@ -71,6 +71,7 @@
         "drupal/views_conditional": "^1.5",
         "drupal/webform": "^6.2@beta",
         "drupal/webform_import_tab": "1.0.x-dev@dev",
+        "drupal/webform_validation": "^2.0@alpha",
         "drupal/weight": "^3.3",
         "drush/drush": "^11.5",
         "pantheon-systems/drupal-integrations": "^9",
