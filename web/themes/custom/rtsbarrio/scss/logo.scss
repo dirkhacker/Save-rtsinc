@@ -36,15 +36,23 @@
     }
   }
 }
-@media screen and (max-width: 600px) {
+@include media-breakpoint-down(xxl) {
   .logo-tall {
     display: block;
   }
   .rtsf-logo {
     display: none;
   }
+  #header {
+    .rtscs-logo {
+      svg {
+        width: 146px !important;
+        height: 26px !important;
+      }
+    }
+  }
 }
-@media screen and (min-width: 601px) {
+@include media-breakpoint-only(xxl) {
   .logo-tall {
     display: none;
   }
