@@ -579,8 +579,7 @@ $search-box-transition-delay: 0.09s;
     position: relative;
   }
 }
-    
-    
+       
 
 .search-results {
     & .list-group-item {
@@ -625,7 +624,7 @@ $search-box-transition-delay: 0.09s;
 }
 .hero-bg-image {
     background-repeat: repeat-x;
-    background-position: 69% top;
+    background-position: 50% top;
     @media only screen and (max-width: 767px) {
         background:#f1f1f1; 
     }
