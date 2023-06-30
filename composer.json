@@ -31,6 +31,7 @@
         "drupal/config_split": "^1.9",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/csp": "^1.19",
         "drupal/eca": "1.1.x-dev@dev",
         "drupal/eca_webform": "^1.0@beta",
         "drupal/entity_clone": "2.x-dev@dev",
