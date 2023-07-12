@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.layout_basic_page_.body
+    - field.field.node.layout_basic_page_.field_cta
     - field.field.node.layout_basic_page_.field_heading
     - field.field.node.layout_basic_page_.field_image
     - field.field.node.layout_basic_page_.field_metatags
@@ -25,7 +26,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 4
+    weight: 3
     region: content
     settings:
       rows: 9
@@ -33,9 +34,15 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+  field_cta:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_heading:
     type: string_textfield
-    weight: 2
+    weight: 1
     region: content
     settings:
       size: 60
@@ -43,7 +50,7 @@ content:
     third_party_settings: {  }
   field_image:
     type: image_image
-    weight: 1
+    weight: 4
     region: content
     settings:
       progress_indicator: throbber
@@ -51,7 +58,7 @@ content:
     third_party_settings: {  }
   field_metatags:
     type: metatag_firehose
-    weight: 26
+    weight: 12
     region: content
     settings:
       sidebar: true
@@ -59,7 +66,7 @@ content:
     third_party_settings: {  }
   field_subheading:
     type: string_textarea
-    weight: 3
+    weight: 2
     region: content
     settings:
       rows: 5
@@ -67,25 +74,25 @@ content:
     third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 2
+    weight: 6
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 5
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }
   simple_sitemap:
-    weight: 7
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 6
+    weight: 8
     region: content
     settings:
       display_label: true
@@ -99,12 +106,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 10
+    weight: 11
     region: content
     settings: {  }
     third_party_settings: {  }
   url_redirects:
-    weight: 8
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }

@@ -1,0 +1,39 @@
+uuid: 895b8483-5745-4782-a02b-16254a13cecc
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.rts_survey_multiselect
+  module:
+    - language
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+id: webform_16
+theme: rtsbarrio
+region: sidebar_second
+weight: -24
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform RTS Survey Multiselect'
+  label_display: '0'
+  provider: webform
+  webform_id: rts_survey_multiselect
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en
+  request_path:
+    id: request_path
+    negate: false
+    pages: /lp/save-more-when-you-bundle-survey

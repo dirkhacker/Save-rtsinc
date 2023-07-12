@@ -33,7 +33,7 @@ content:
       tag: h2
     third_party_settings:
       field_formatter_class:
-        class: container
+        class: 'container g-0'
     weight: 0
     region: content
   field_metatags:

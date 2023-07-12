@@ -1,0 +1,31 @@
+uuid: ce44a752-396c-4dab-96ca-f0e23503a1ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.factoring_pfj_standard
+  module:
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+id: webform_4
+theme: rtsbarrio
+region: sidebar_second
+weight: -34
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform Factoring PFJ Standard'
+  label_display: '0'
+  provider: webform
+  webform_id: factoring_pfj_standard
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/lp/pfj-mkt\r\n/lp/pfj-press"

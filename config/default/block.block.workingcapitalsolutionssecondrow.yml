@@ -12,7 +12,7 @@ dependencies:
 id: workingcapitalsolutionssecondrow
 theme: rtsbarrio
 region: content
-weight: 3
+weight: -16
 provider: null
 plugin: 'block_content:284d1eb1-ae52-4283-b06f-0c3408cf40fc'
 settings:

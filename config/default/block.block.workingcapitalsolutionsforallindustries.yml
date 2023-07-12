@@ -12,7 +12,7 @@ dependencies:
 id: workingcapitalsolutionsforallindustries
 theme: rtsbarrio
 region: content
-weight: 2
+weight: -17
 provider: null
 plugin: 'block_content:7b9bef73-801c-4516-91c0-e25784af55df'
 settings:

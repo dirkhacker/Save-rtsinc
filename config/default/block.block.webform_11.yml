@@ -1,0 +1,39 @@
+uuid: cb7a22ba-bb8c-4250-a693-6602c84a8f7a
+langcode: es
+status: true
+dependencies:
+  config:
+    - webform.webform.ryantrans_rmis_multiselect
+  module:
+    - language
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+id: webform_11
+theme: rtsbarrio
+region: sidebar_second
+weight: -23
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform Ryantrans RMIS Multiselect'
+  label_display: '0'
+  provider: webform
+  webform_id: ryantrans_rmis_multiselect
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en
+  request_path:
+    id: request_path
+    negate: false
+    pages: /lp/thank-you-joining-our-network-rmis

@@ -12,7 +12,7 @@ dependencies:
 id: rtsprosupport
 theme: rtsbarrio
 region: content
-weight: -6
+weight: -32
 provider: null
 plugin: 'block_content:35deb908-3818-4d85-b566-c2ffb58c529e'
 settings:

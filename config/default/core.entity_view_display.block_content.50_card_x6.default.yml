@@ -43,7 +43,7 @@ third_party_settings:
       weight: 0
       format_type: html_element
       format_settings:
-        classes: 'container py-7'
+        classes: 'container g-0'
         show_empty_fields: false
         id: ''
         element: div
@@ -107,7 +107,7 @@ third_party_settings:
       weight: 29
       format_type: html_element
       format_settings:
-        classes: 'col-md-6 pb-4'
+        classes: 'col-md-6 pb-4 pe-0 pe-md-5'
         show_empty_fields: false
         id: ''
         element: div
@@ -127,7 +127,7 @@ third_party_settings:
       weight: 31
       format_type: html_element
       format_settings:
-        classes: 'col-md-6 pb-4'
+        classes: 'col-md-6 pb-4 pe-0 pe-md-5'
         show_empty_fields: false
         id: ''
         element: div
@@ -147,7 +147,7 @@ third_party_settings:
       weight: 32
       format_type: html_element
       format_settings:
-        classes: 'col-md-6 pb-4'
+        classes: 'col-md-6 pb-4 pe-0 pe-md-5'
         show_empty_fields: false
         id: ''
         element: div
@@ -167,7 +167,7 @@ third_party_settings:
       weight: 33
       format_type: html_element
       format_settings:
-        classes: 'col-md-6 pb-4'
+        classes: 'col-md-6 pb-4 pe-0 pe-md-5'
         show_empty_fields: false
         id: ''
         element: div
@@ -187,7 +187,7 @@ third_party_settings:
       weight: 34
       format_type: html_element
       format_settings:
-        classes: 'col-md-6 pb-4'
+        classes: 'col-md-6 pb-4 pe-0 pe-md-5'
         show_empty_fields: false
         id: ''
         element: div
@@ -207,7 +207,7 @@ third_party_settings:
       weight: 35
       format_type: html_element
       format_settings:
-        classes: 'col-md-6 pb-4'
+        classes: 'col-md-6 pb-4 pe-0 pe-md-5'
         show_empty_fields: false
         id: ''
         element: div
@@ -403,7 +403,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: h3
     weight: 33
     region: content
   field_card_title_2:
@@ -413,7 +413,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: h3
     weight: 31
     region: content
   field_card_title_3:
@@ -423,7 +423,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: h3
     weight: 29
     region: content
   field_card_title_4:
@@ -433,7 +433,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: h3
     weight: 24
     region: content
   field_card_title_5:
@@ -443,7 +443,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: h3
     weight: 37
     region: content
   field_card_title_6:
@@ -453,7 +453,7 @@ content:
       link_to_entity: false
     third_party_settings:
       field_formatter_class:
-        class: 'display-4 pb-2'
+        class: h3
     weight: 29
     region: content
   field_image_1:
@@ -470,7 +470,7 @@ content:
         attribute: lazy
     third_party_settings:
       field_formatter_class:
-        class: ''
+        class: 'pe-3 pe-md-0'
       image_class:
         class: img-fluid
     weight: 4
@@ -489,7 +489,7 @@ content:
         attribute: lazy
     third_party_settings:
       field_formatter_class:
-        class: ''
+        class: 'pe-3 pe-md-0'
       image_class:
         class: img-fluid
     weight: 29
@@ -508,7 +508,7 @@ content:
         attribute: lazy
     third_party_settings:
       field_formatter_class:
-        class: ''
+        class: 'pe-3 pe-md-0'
       image_class:
         class: img-fluid
     weight: 27
@@ -527,7 +527,7 @@ content:
         attribute: lazy
     third_party_settings:
       field_formatter_class:
-        class: ''
+        class: 'pe-3 pe-md-0'
       image_class:
         class: img-fluid
     weight: 22
@@ -546,7 +546,7 @@ content:
         attribute: lazy
     third_party_settings:
       field_formatter_class:
-        class: ''
+        class: 'pe-3 pe-md-0'
       image_class:
         class: img-fluid
     weight: 35
@@ -565,7 +565,7 @@ content:
         attribute: lazy
     third_party_settings:
       field_formatter_class:
-        class: ''
+        class: 'pe-3 pe-md-0'
       image_class:
         class: img-fluid
     weight: 27
@@ -576,7 +576,7 @@ content:
     settings: {  }
     third_party_settings:
       field_formatter_class:
-        class: pb-5
+        class: 'pb-5 fs-lg text-gray-6'
     weight: 10
     region: content
   field_title:

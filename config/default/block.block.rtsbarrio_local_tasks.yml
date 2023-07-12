@@ -9,7 +9,7 @@ _core:
 id: rtsbarrio_local_tasks
 theme: rtsbarrio
 region: content
-weight: -17
+weight: -39
 provider: null
 plugin: local_tasks_block
 settings:

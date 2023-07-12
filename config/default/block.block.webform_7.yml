@@ -1,0 +1,43 @@
+uuid: 93b737a5-a0e9-4b7f-88cb-7f0d3810b0cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.agent_multiselect
+  module:
+    - block_class
+    - node
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'container px-md-0'
+id: webform_7
+theme: rtsbarrio
+region: sidebar_second
+weight: -32
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform Agent Multiselect'
+  label_display: '0'
+  provider: webform
+  webform_id: agent_multiselect
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/e/*\r\n/agent-company/cellex-consulting-group-inc/*\r\n/agent-company/truckers-choice/*\r\n/agent-company/us-compliance-services/*\r\n/agent-company/aft-dispatch/*\r\n/agent-company/rl-services/*\r\n/agent-company/imperial-haulers-llc/*\r\n/agent-company/acw-transport-llc\r\n/agent-company/acw-transport-llc/*\r\n/agent-company/mvr-check\r\n/agent-company/mvr-check/*\r\n/agent-company/independent-haulers-association\r\n/agent-company/independent-haulers-association/*\r\n/agent-company/simple-truck-eld/*\r\n/agent-company/*"
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      agent_company: agent_company

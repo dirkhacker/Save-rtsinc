@@ -1,0 +1,21 @@
+uuid: e5da9188-cc1e-400a-9eb6-5781c1fc9c54
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_agent_crm_name
+field_name: field_agent_crm_name
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

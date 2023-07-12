@@ -1,0 +1,35 @@
+uuid: bb844e6c-4d59-4fa4-90b3-b99d54e3463f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:021b3573-6377-4fd1-9229-f392a34340e1'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: p-4
+    attributes: 'style|background-color: #f5f5f5; border: 1px solid #ddd; border-radius: 4px;'
+id: fuelphonegoogleppcbrand
+theme: rtsbarrio
+region: sidebar_second
+weight: -20
+provider: null
+plugin: 'block_content:021b3573-6377-4fd1-9229-f392a34340e1'
+settings:
+  id: 'block_content:021b3573-6377-4fd1-9229-f392a34340e1'
+  label: 'Fuel Phone Google PPC Brand'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /lp/fuel-card-brand

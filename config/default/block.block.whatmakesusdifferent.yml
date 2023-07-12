@@ -12,7 +12,7 @@ dependencies:
 id: whatmakesusdifferent
 theme: rtsbarrio
 region: content
-weight: -1
+weight: -27
 provider: null
 plugin: 'block_content:18a0cdf9-fe85-49f4-9696-e9326c4da7e9'
 settings:

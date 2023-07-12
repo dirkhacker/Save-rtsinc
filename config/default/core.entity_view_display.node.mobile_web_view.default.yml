@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.mobile_web_view.field_metatags
     - node.type.mobile_web_view
   module:
+    - field_formatter_class
     - manage_display
     - metatag
     - text
@@ -19,31 +20,31 @@ content:
     type: text_default
     label: hidden
     settings: {  }
-    third_party_settings: {  }
-    weight: 101
+    third_party_settings:
+      field_formatter_class:
+        class: 'px-4 px-md-0 '
+    weight: 1
     region: content
   field_metatags:
     type: metatag_empty_formatter
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 102
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 100
+    weight: 2
     region: content
   title:
     type: title
     label: hidden
     settings:
       linked: true
-      tag: h2
-    third_party_settings: {  }
-    weight: -49
+      tag: h1
+    third_party_settings:
+      field_formatter_class:
+        class: 'px-4 px-md-0'
+    weight: 0
     region: content
 hidden:
   created: true
   langcode: true
+  links: true
   uid: true

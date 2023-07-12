@@ -1,0 +1,39 @@
+uuid: b2c98d2c-5953-4c3c-aad4-c96bcef284f2
+langcode: es
+status: true
+dependencies:
+  config:
+    - webform.webform.fuel_es_standard
+  module:
+    - language
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+id: webform_9
+theme: rtsbarrio
+region: sidebar_second
+weight: -28
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform Fuel ES Standard'
+  label_display: '0'
+  provider: webform
+  webform_id: fuel_es_standard
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      es: es
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/programa-de-tarjeta-de-combustible

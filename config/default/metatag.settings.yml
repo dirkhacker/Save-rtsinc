@@ -1,0 +1,54 @@
+entity_type_groups:
+  node:
+    agent_company:
+      basic: basic
+    article:
+      basic: basic
+      advanced: advanced
+    blog_posts:
+      basic: basic
+      advanced: advanced
+    homepage:
+      basic: basic
+      advanced: advanced
+    industry:
+      basic: basic
+      advanced: advanced
+    landing_page:
+      basic: basic
+      advanced: advanced
+    layout_basic_page_:
+      basic: basic
+      advanced: advanced
+    mobile_web_view:
+      basic: basic
+      advanced: advanced
+    page:
+      basic: basic
+      advanced: advanced
+    product:
+      basic: basic
+      advanced: advanced
+    thank_you:
+      basic: basic
+      advanced: advanced
+    webform:
+      basic: basic
+      advanced: advanced
+  path_alias:
+    path_alias:
+      basic: basic
+      advanced: advanced
+  user:
+    user:
+      basic: basic
+tag_trim_method: beforeValue
+use_maxlength: true
+tag_trim_maxlength:
+  metatag_maxlength_description: null
+  metatag_maxlength_title: null
+  metatag_maxlength_abstract: null
+  metatag_maxlength_og_description: null
+  metatag_maxlength_og_title: null
+  metatag_maxlength_og_site_name: null
+tag_scroll_max_height: ''

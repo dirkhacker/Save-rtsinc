@@ -1,0 +1,38 @@
+uuid: be8bc5f8-d464-46f9-aaa0-8a9a3d344563
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9c114104-72ca-4f17-9635-39691ba5529c'
+  module:
+    - block_class
+    - block_content
+    - node
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'small mt-6 mb-5'
+    attributes: 'style|color: #999'
+id: agentdisclaimer
+theme: rtsbarrio
+region: content
+weight: -25
+provider: null
+plugin: 'block_content:9c114104-72ca-4f17-9635-39691ba5529c'
+settings:
+  id: 'block_content:9c114104-72ca-4f17-9635-39691ba5529c'
+  label: 'Agent Disclaimer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      agent_company: agent_company

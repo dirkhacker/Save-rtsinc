@@ -1,0 +1,23 @@
+uuid: 271aa380-9e9e-4bff-b4dd-ae734a32b28c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_factoring_features_toggle
+    - node.type.agent_company
+id: node.agent_company.field_factoring_features_toggle
+field_name: field_factoring_features_toggle
+entity_type: node
+bundle: agent_company
+label: 'Factoring Features Toggle'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

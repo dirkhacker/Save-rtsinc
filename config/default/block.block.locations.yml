@@ -12,11 +12,11 @@ dependencies:
     - rtsbarrio
 third_party_settings:
   block_class:
-    classes: container
+    classes: 'container g-0'
 id: locations
 theme: rtsbarrio
 region: content
-weight: 0
+weight: -20
 provider: null
 plugin: 'block_content:489a0624-d968-4faa-97ac-f56d4ee732da'
 settings:
@@ -31,4 +31,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /page/about-us
+    pages: "/page/about-us\r\n/page/acerca-de-rts-financial\r\n/page/contact-us\r\n/page/contactenos"

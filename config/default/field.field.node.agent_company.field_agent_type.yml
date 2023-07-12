@@ -1,0 +1,21 @@
+uuid: a7bb0291-2c45-4ab0-a1f1-c2cb2a05da96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_agent_type
+    - node.type.agent_company
+  module:
+    - options
+id: node.agent_company.field_agent_type
+field_name: field_agent_type
+entity_type: node
+bundle: agent_company
+label: 'Agent Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

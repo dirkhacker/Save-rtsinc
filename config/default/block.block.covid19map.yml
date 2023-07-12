@@ -1,0 +1,34 @@
+uuid: 6ca64693-58d6-49a7-8fc1-8dc6ed72fb25
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4c4191bb-6ecb-4349-b823-be9970c8d0fa'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: border-0
+id: covid19map
+theme: rtsbarrio
+region: sidebar_second
+weight: -41
+provider: null
+plugin: 'block_content:4c4191bb-6ecb-4349-b823-be9970c8d0fa'
+settings:
+  id: 'block_content:4c4191bb-6ecb-4349-b823-be9970c8d0fa'
+  label: 'COVID-19 Map'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /articles/coronavirus-trucking-news-updates

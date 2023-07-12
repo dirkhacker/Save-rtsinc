@@ -1,0 +1,18 @@
+uuid: 428cfd8d-0d59-41a9-b0a1-4ec79b6bd5ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6_blue_titles
+id: block_content.50_card_x6_blue_titles.metatag
+field_name: metatag
+entity_type: block_content
+bundle: 50_card_x6_blue_titles
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

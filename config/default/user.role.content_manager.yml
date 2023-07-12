@@ -1,0 +1,151 @@
+uuid: 22034eab-9d5e-4de5-ade1-35eae0291909
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.ckeditor_4
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - filter.format.webform_default
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+  module:
+    - block
+    - block_class
+    - block_content
+    - block_content_permissions
+    - captcha
+    - content_translation
+    - contextual
+    - entity_clone
+    - file
+    - filter
+    - layout_builder
+    - layout_builder_component_attributes
+    - media
+    - metatag
+    - node
+    - path
+    - pathauto
+    - quickedit
+    - rebuild_cache_access
+    - redirect
+    - search
+    - shortcut
+    - simple_sitemap
+    - system
+    - taxonomy
+    - toolbar
+    - webform
+id: content_manager
+label: 'Content Manager'
+weight: -9
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access in-place editing'
+  - 'access media overview'
+  - 'access shortcuts'
+  - 'access site in maintenance mode'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access webform overview'
+  - 'administer block classes'
+  - 'administer blocks'
+  - 'administer meta tags'
+  - 'administer nodes'
+  - 'administer redirects'
+  - 'administer sitemap settings'
+  - 'administer taxonomy'
+  - 'bypass node access'
+  - 'clone block entity'
+  - 'clone block_content entity'
+  - 'clone node entity'
+  - 'configure any layout'
+  - 'create 1_column block content'
+  - 'create 33_33_33_card block content'
+  - 'create 33_card_x6 block content'
+  - 'create 33_image_body_66_text block content'
+  - 'create 33_text_66_image_body block content'
+  - 'create 50_card_x6 block content'
+  - 'create 50_card_x6_blue_titles block content'
+  - 'create 50_img_50_text block content'
+  - 'create 50_text__50_img block content'
+  - 'create 66_text_33_image_body block content'
+  - 'create and edit custom blocks'
+  - 'create basic block content'
+  - 'create blue_card block content'
+  - 'create content translations'
+  - 'create document media'
+  - 'create image block content'
+  - 'create image media'
+  - 'create remote_video media'
+  - 'create url aliases'
+  - 'create webform'
+  - 'delete any 1_column block content'
+  - 'delete any 33_33_33_card block content'
+  - 'delete any 33_card_x6 block content'
+  - 'delete any 33_image_body_66_text block content'
+  - 'delete any 33_text_66_image_body block content'
+  - 'delete any 50_card_x6 block content'
+  - 'delete any 50_card_x6_blue_titles block content'
+  - 'delete any 50_img_50_text block content'
+  - 'delete any 50_text__50_img block content'
+  - 'delete any 66_text_33_image_body block content'
+  - 'delete any basic block content'
+  - 'delete any blue_card block content'
+  - 'delete any document media'
+  - 'delete any image block content'
+  - 'delete any image media'
+  - 'delete any media'
+  - 'delete any remote_video media'
+  - 'delete content translations'
+  - 'edit any document media'
+  - 'edit any image media'
+  - 'edit any remote_video media'
+  - 'edit any webform'
+  - 'link to any page'
+  - 'manage layout builder component attributes'
+  - 'notify of path changes'
+  - 'rebuild cache access'
+  - 'revert all revisions'
+  - 'skip CAPTCHA'
+  - 'take_ownership_on_clone node entity'
+  - 'translate any entity'
+  - 'translate block_content'
+  - 'translate editable entities'
+  - 'update any 1_column block content'
+  - 'update any 33_33_33_card block content'
+  - 'update any 33_card_66_body block content'
+  - 'update any 33_card_x6 block content'
+  - 'update any 33_image_body_66_text block content'
+  - 'update any 33_text_66_image_body block content'
+  - 'update any 50_card_x6 block content'
+  - 'update any 50_card_x6_blue_titles block content'
+  - 'update any 50_img_50_text block content'
+  - 'update any 50_text__50_img block content'
+  - 'update any 66_33_text_img block content'
+  - 'update any 66_text_33_image_body block content'
+  - 'update any basic block content'
+  - 'update any blue_card block content'
+  - 'update any card block content'
+  - 'update any card_img block content'
+  - 'update any image block content'
+  - 'update any img_33_66 block content'
+  - 'update any information_block block content'
+  - 'update any media'
+  - 'update content translations'
+  - 'use advanced search'
+  - 'use text format ckeditor_4'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'use text format webform_default'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view restricted block content'
+  - 'view the administration theme'

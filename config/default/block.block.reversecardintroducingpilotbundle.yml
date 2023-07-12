@@ -1,0 +1,34 @@
+uuid: 5121cca3-2c4e-46f0-b69a-08306dc057df
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:blue_card:db9b2c31-f080-418a-9048-1004c8e508e3'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: bg-blue
+id: reversecardintroducingpilotbundle
+theme: rtsbarrio
+region: featured_top
+weight: 0
+provider: null
+plugin: 'block_content:db9b2c31-f080-418a-9048-1004c8e508e3'
+settings:
+  id: 'block_content:db9b2c31-f080-418a-9048-1004c8e508e3'
+  label: 'Reverse Card: Introducing Pilot bundle'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

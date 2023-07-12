@@ -1,0 +1,21 @@
+uuid: fa48046b-3603-4a44-9fc7-85e5837aee74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_content
+    - node.type.agent_company
+  module:
+    - text
+id: node.agent_company.field_main_content
+field_name: field_main_content
+entity_type: node
+bundle: agent_company
+label: 'Main Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -5,15 +5,19 @@ dependencies:
   content:
     - 'block_content:basic:b7944d38-b9ed-4aeb-9f83-d686ad5c18cc'
   module:
+    - block_class
     - block_content
     - language
     - node
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'd-none d-xl-inline-block'
 id: megamainnaves
 theme: rtsbarrio
 region: header
-weight: -21
+weight: -33
 provider: null
 plugin: 'block_content:b7944d38-b9ed-4aeb-9f83-d686ad5c18cc'
 settings:
@@ -41,6 +45,7 @@ visibility:
       article: article
       blog_posts: blog_posts
       homepage: homepage
+      industry: industry
       layout_basic_page_: layout_basic_page_
       page: page
       product: product

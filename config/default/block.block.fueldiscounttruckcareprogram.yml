@@ -15,8 +15,8 @@ third_party_settings:
     classes: bg-lt-gray
 id: fueldiscounttruckcareprogram
 theme: rtsbarrio
-region: content
-weight: 0
+region: featured_bottom_first
+weight: -35
 provider: null
 plugin: 'block_content:721ef947-ed9a-49f1-8b2a-f5f68f1d275c'
 settings:

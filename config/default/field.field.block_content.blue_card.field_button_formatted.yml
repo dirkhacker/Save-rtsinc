@@ -1,0 +1,21 @@
+uuid: 9e4e19bb-262c-43ec-a748-58e59a3bae95
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.blue_card
+    - field.storage.block_content.field_button_formatted
+  module:
+    - text
+id: block_content.blue_card.field_button_formatted
+field_name: field_button_formatted
+entity_type: block_content
+bundle: blue_card
+label: 'Button '
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

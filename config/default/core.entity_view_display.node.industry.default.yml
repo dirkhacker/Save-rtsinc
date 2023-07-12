@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.industry.body
+    - field.field.node.industry.field_cta
     - field.field.node.industry.field_global_taxonomy
     - field.field.node.industry.field_heading
     - field.field.node.industry.field_hero_contact_toggle
@@ -47,6 +48,7 @@ content:
     region: content
 hidden:
   created: true
+  field_cta: true
   field_global_taxonomy: true
   field_heading: true
   field_hero_contact_toggle: true

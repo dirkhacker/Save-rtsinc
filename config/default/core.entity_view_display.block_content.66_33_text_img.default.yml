@@ -7,7 +7,9 @@ dependencies:
     - field.field.block_content.66_33_text_img.body
     - field.field.block_content.66_33_text_img.field_body
     - field.field.block_content.66_33_text_img.field_button
+    - field.field.block_content.66_33_text_img.field_button_formatted
     - field.field.block_content.66_33_text_img.field_image
+    - field.field.block_content.66_33_text_img.field_link_button
     - field.field.block_content.66_33_text_img.field_subtitle
     - field.field.block_content.66_33_text_img.field_title
   module:
@@ -43,7 +45,7 @@ third_party_settings:
         - field_title
         - field_subtitle
         - body
-        - field_button
+        - field_button_formatted
       label: 'Col Text'
       parent_name: group_wrapper
       region: content
@@ -122,14 +124,12 @@ content:
         class: mb-1
     weight: 3
     region: content
-  field_button:
-    type: basic_string
+  field_button_formatted:
+    type: text_default
     label: hidden
     settings: {  }
-    third_party_settings:
-      field_formatter_class:
-        class: 'btn btn-primary rounded-pill mt-5 mb-1'
-    weight: 9
+    third_party_settings: {  }
+    weight: 10
     region: content
   field_image:
     type: image
@@ -170,4 +170,6 @@ content:
     weight: 6
     region: content
 hidden:
+  field_button: true
+  field_link_button: true
   langcode: true

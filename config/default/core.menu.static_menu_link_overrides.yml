@@ -13,3 +13,21 @@ definitions:
     menu_name: main
     parent: ''
     expanded: false
+  webform__help__item:
+    enabled: false
+    menu_name: admin
+    parent: entity.webform.collection
+    expanded: false
+    weight: 60
+  block_class__help:
+    enabled: false
+    menu_name: admin
+    parent: block_class.admin
+    weight: 4
+    expanded: false
+  help__main:
+    enabled: false
+    menu_name: admin
+    parent: system.admin
+    weight: 9
+    expanded: false

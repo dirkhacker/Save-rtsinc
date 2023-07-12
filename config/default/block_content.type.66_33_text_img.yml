@@ -3,6 +3,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: 66_33_text_img
-label: 66-text-33-img
+label: 66-content-33-img
 revision: 0
 description: "66% 1 col - Title, Subtitle, Body, Button\r\n33% 1 col - Image"

@@ -1,0 +1,31 @@
+uuid: 30e30c19-21c7-491c-9d46-a1f4059b2a8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.fuel_pfj_standard
+  module:
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+id: webform_3
+theme: rtsbarrio
+region: sidebar_second
+weight: -33
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform Fuel PFJ Standard'
+  label_display: '0'
+  provider: webform
+  webform_id: fuel_pfj_standard
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/lp/pfj-mkt-fuel\r\n/lp/pfj-mkt-fuel-sm"

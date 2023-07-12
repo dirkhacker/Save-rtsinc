@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.layout_basic_page_.body
+    - field.field.node.layout_basic_page_.field_cta
     - field.field.node.layout_basic_page_.field_heading
     - field.field.node.layout_basic_page_.field_image
     - field.field.node.layout_basic_page_.field_metatags
@@ -43,6 +44,7 @@ content:
     region: content
 hidden:
   created: true
+  field_cta: true
   field_heading: true
   field_image: true
   field_metatags: true

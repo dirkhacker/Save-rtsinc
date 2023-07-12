@@ -1,0 +1,22 @@
+uuid: 1eef552b-44e8-4ebc-9753-6d9bc65085f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6_blue_titles
+id: block_content.50_card_x6_blue_titles.status
+field_name: status
+entity_type: block_content
+bundle: 50_card_x6_blue_titles
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

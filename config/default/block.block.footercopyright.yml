@@ -5,9 +5,13 @@ dependencies:
   config:
     - system.menu.footer-copyright
   module:
+    - block_class
     - system
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'fs-sm text-align-center'
 id: footercopyright
 theme: rtsbarrio
 region: footer_bottom

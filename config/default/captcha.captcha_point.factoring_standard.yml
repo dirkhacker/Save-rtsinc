@@ -1,0 +1,7 @@
+uuid: 44f3bd19-4202-40cf-8a75-232e69330a02
+langcode: en
+status: true
+dependencies: {  }
+formId: factoring_standard
+captchaType: recaptcha/reCAPTCHA
+label: factoring_standard

@@ -1,0 +1,23 @@
+uuid: 1e10eb9d-4648-4844-be2d-2a403e3b7f56
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6_blue_titles
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.50_card_x6_blue_titles.body
+field_name: body
+entity_type: block_content
+bundle: 50_card_x6_blue_titles
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

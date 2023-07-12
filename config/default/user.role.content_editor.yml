@@ -3,48 +3,144 @@ langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.ckeditor_4
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - filter.format.webform_default
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - node.type.agent_company
     - node.type.article
     - node.type.blog_posts
+    - node.type.homepage
+    - node.type.industry
+    - node.type.landing_page
+    - node.type.layout_basic_page_
+    - node.type.mobile_web_view
     - node.type.page
-    - taxonomy.vocabulary.tags
+    - node.type.product
+    - node.type.thank_you
   module:
-    - comment
+    - block_content
+    - block_content_permissions
+    - captcha
+    - content_translation
     - contextual
+    - entity_clone
     - file
+    - filter
+    - layout_builder
+    - media
     - node
     - path
+    - quickedit
+    - rebuild_cache_access
+    - search
+    - shortcut
     - system
     - taxonomy
     - toolbar
-    - tour
 _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
-label: 'Content editor'
-weight: 2
+label: 'Content Editor'
+weight: -8
 is_admin: false
 permissions:
   - 'access administration pages'
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access in-place editing'
+  - 'access shortcuts'
+  - 'access site in maintenance mode'
+  - 'access taxonomy overview'
   - 'access toolbar'
-  - 'access tour'
-  - 'administer url aliases'
+  - 'administer nodes'
+  - 'administer taxonomy'
+  - 'clone block entity'
+  - 'clone block_content entity'
+  - 'configure any layout'
+  - 'create 1_column block content'
+  - 'create 33_33_33_card block content'
+  - 'create 33_card_x6 block content'
+  - 'create 33_image_body_66_text block content'
+  - 'create 33_text_66_image_body block content'
+  - 'create 50_card_x6 block content'
+  - 'create 50_card_x6_blue_titles block content'
+  - 'create 50_img_50_text block content'
+  - 'create 50_text__50_img block content'
+  - 'create 66_text_33_image_body block content'
+  - 'create agent_company content'
+  - 'create and edit custom blocks'
   - 'create article content'
+  - 'create basic block content'
   - 'create blog_posts content'
+  - 'create blue_card block content'
+  - 'create content translations'
+  - 'create document media'
+  - 'create image block content'
+  - 'create image media'
+  - 'create industry content'
+  - 'create landing_page content'
+  - 'create mobile_web_view content'
   - 'create page content'
-  - 'create terms in tags'
+  - 'create product content'
+  - 'create remote_video media'
+  - 'create thank_you content'
   - 'create url aliases'
-  - 'delete article revisions'
-  - 'delete own article content'
-  - 'delete own page content'
-  - 'delete page revisions'
-  - 'edit own article content'
-  - 'edit own comments'
-  - 'edit own page content'
-  - 'edit terms in tags'
+  - 'delete any agent_company content'
+  - 'delete any document media'
+  - 'delete any image media'
+  - 'delete any remote_video media'
+  - 'delete media'
+  - 'edit any agent_company content'
+  - 'edit any article content'
+  - 'edit any blog_posts content'
+  - 'edit any document media'
+  - 'edit any homepage content'
+  - 'edit any image media'
+  - 'edit any industry content'
+  - 'edit any landing_page content'
+  - 'edit any layout_basic_page_ content'
+  - 'edit any mobile_web_view content'
+  - 'edit any page content'
+  - 'edit any product content'
+  - 'edit any remote_video media'
+  - 'edit any thank_you content'
+  - 'rebuild cache access'
   - 'revert all revisions'
+  - 'skip CAPTCHA'
+  - 'translate any entity'
+  - 'translate block_content'
+  - 'update any 1_column block content'
+  - 'update any 33_33_33_card block content'
+  - 'update any 33_card_66_body block content'
+  - 'update any 33_card_x6 block content'
+  - 'update any 33_image_body_66_text block content'
+  - 'update any 33_text_66_image_body block content'
+  - 'update any 50_card_x6 block content'
+  - 'update any 50_card_x6_blue_titles block content'
+  - 'update any 50_img_50_text block content'
+  - 'update any 50_text__50_img block content'
+  - 'update any 66_33_text_img block content'
+  - 'update any 66_text_33_image_body block content'
+  - 'update any basic block content'
+  - 'update any blue_card block content'
+  - 'update any card block content'
+  - 'update any card_img block content'
+  - 'update any image block content'
+  - 'update any img_33_66 block content'
+  - 'update any information_block block content'
+  - 'update any media'
+  - 'update content translations'
+  - 'use advanced search'
+  - 'use text format ckeditor_4'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'use text format webform_default'
+  - 'view all media revisions'
   - 'view all revisions'
   - 'view own unpublished content'
   - 'view the administration theme'

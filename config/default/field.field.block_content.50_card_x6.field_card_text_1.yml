@@ -14,7 +14,7 @@ bundle: 50_card_x6
 label: 'Card text 1'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

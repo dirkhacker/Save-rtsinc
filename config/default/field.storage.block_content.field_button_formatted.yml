@@ -1,0 +1,20 @@
+uuid: d9c97c15-b4b8-4add-a684-099a6b03492c
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_button_formatted
+field_name: field_button_formatted
+entity_type: block_content
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

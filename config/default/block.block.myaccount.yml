@@ -1,0 +1,34 @@
+uuid: 9c2a7b77-a3ac-4b4b-a6f2-f9466a8c8b39
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:330fb3f0-2513-4f55-9fa2-0257c7cda5a5'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'd-none d-lg-inline-block'
+id: myaccount
+theme: rtsbarrio
+region: header
+weight: -30
+provider: null
+plugin: 'block_content:330fb3f0-2513-4f55-9fa2-0257c7cda5a5'
+settings:
+  id: 'block_content:330fb3f0-2513-4f55-9fa2-0257c7cda5a5'
+  label: 'My Account'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/lp/rtspro-*\r\n/lp/*\r\n/user*"

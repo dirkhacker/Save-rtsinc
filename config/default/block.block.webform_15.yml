@@ -1,0 +1,31 @@
+uuid: b9d73063-2f9c-49a9-a3f6-a2e6f0d6f7d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.factoring_standard
+  module:
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+id: webform_15
+theme: rtsbarrio
+region: sidebar_second
+weight: -29
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform Factoring Standard'
+  label_display: '0'
+  provider: webform
+  webform_id: factoring_standard
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /lp/turn-your-invoices-cash-24-hours

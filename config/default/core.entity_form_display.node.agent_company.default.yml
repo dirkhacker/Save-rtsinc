@@ -4,81 +4,132 @@ status: true
 dependencies:
   config:
     - field.field.node.agent_company.body
+    - field.field.node.agent_company.field_additional_fuel_features
+    - field.field.node.agent_company.field_agent_contact_id
+    - field.field.node.agent_company.field_agent_crm_name
+    - field.field.node.agent_company.field_agent_type
+    - field.field.node.agent_company.field_agent_user_reference
+    - field.field.node.agent_company.field_company_logo
+    - field.field.node.agent_company.field_facebook_page
+    - field.field.node.agent_company.field_factoring_features_toggle
+    - field.field.node.agent_company.field_fuel_features_toggle
+    - field.field.node.agent_company.field_heading
+    - field.field.node.agent_company.field_headquarters_address
+    - field.field.node.agent_company.field_hero_image
+    - field.field.node.agent_company.field_image
+    - field.field.node.agent_company.field_landing_page_type
+    - field.field.node.agent_company.field_lead_email
+    - field.field.node.agent_company.field_linkedin_page
+    - field.field.node.agent_company.field_main_content
+    - field.field.node.agent_company.field_subheading
+    - field.field.node.agent_company.field_website
+    - image.style.thumbnail
     - node.type.agent_company
   module:
+    - address
+    - field_group
+    - link
     - path
+    - svg_image
     - text
+third_party_settings:
+  field_group:
+    group_website_and_social_media:
+      children:
+        - field_website
+        - field_linkedin_page
+        - field_facebook_page
+      label: 'Website and Social Media'
+      region: content
+      parent_name: ''
+      weight: 8
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: false
+        description: ''
+        required_fields: false
+    group_feature_settings:
+      children:
+        - field_factoring_features_toggle
+        - field_fuel_features_toggle
+        - field_additional_fuel_features
+      label: 'Feature Settings'
+      region: content
+      parent_name: ''
+      weight: 5
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: false
+        description: ''
+        required_fields: false
+    group_admin_fields:
+      children:
+        - field_agent_type
+        - field_lead_email
+        - field_agent_contact_id
+        - field_agent_crm_name
+        - field_agent_user_reference
+      label: 'Admin Fields'
+      region: content
+      parent_name: ''
+      weight: 6
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: false
+        description: ''
+        required_fields: false
 id: node.agent_company.default
 targetEntityType: node
 bundle: agent_company
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 121
-    region: content
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-      show_summary: false
-    third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 11
     region: content
     settings: {  }
     third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 2
-    region: content
-    settings:
-      include_locked: true
-    third_party_settings: {  }
-  path:
-    type: path
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  promote:
+  field_additional_fuel_features:
     type: boolean_checkbox
-    weight: 15
+    weight: 3
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
-  simple_sitemap:
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  status:
-    type: boolean_checkbox
-    weight: 120
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
-  sticky:
-    type: boolean_checkbox
-    weight: 16
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
-  title:
+  field_agent_contact_id:
     type: string_textfield
-    weight: -5
+    weight: 29
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  uid:
+  field_agent_crm_name:
+    type: string_textfield
+    weight: 30
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_agent_type:
+    type: options_select
+    weight: 27
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_agent_user_reference:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 31
     region: content
     settings:
       match_operator: CONTAINS
@@ -86,9 +137,146 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  url_redirects:
-    weight: 50
+  field_company_logo:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_facebook_page:
+    type: link_default
+    weight: 21
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_factoring_features_toggle:
+    type: boolean_checkbox
+    weight: 1
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_fuel_features_toggle:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_heading:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 255
+      placeholder: ''
+    third_party_settings: {  }
+  field_headquarters_address:
+    type: address_default
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+  field_image:
+    type: image_image
+    weight: 4
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_landing_page_type:
+    type: options_select
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_lead_email:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_linkedin_page:
+    type: link_default
+    weight: 20
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_main_content:
+    type: text_textarea
+    weight: 13
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_subheading:
+    type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_website:
+    type: link_default
+    weight: 18
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 15
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 14
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_hero_image: true
+  promote: true
+  simple_sitemap: true
+  sticky: true
+  url_redirects: true

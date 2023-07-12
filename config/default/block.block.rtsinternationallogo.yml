@@ -1,0 +1,30 @@
+uuid: 651e0d43-7eee-4006-a741-d8e9a4c3f647
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:860ef7ff-3f5f-411b-bfd7-b3a987cb6a28'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: rtsinternationallogo
+theme: rtsbarrio
+region: header
+weight: -38
+provider: null
+plugin: 'block_content:860ef7ff-3f5f-411b-bfd7-b3a987cb6a28'
+settings:
+  id: 'block_content:860ef7ff-3f5f-411b-bfd7-b3a987cb6a28'
+  label: 'RTS International Logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/page/international-factoring\r\n/product/trucking-factoring-mexico"

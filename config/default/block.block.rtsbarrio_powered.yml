@@ -11,7 +11,7 @@ _core:
 id: rtsbarrio_powered
 theme: rtsbarrio
 region: top_header
-weight: 10
+weight: -40
 provider: null
 plugin: system_powered_by_block
 settings:

@@ -5,8 +5,9 @@ dependencies:
   config:
     - block_content.type.1_column
     - field.field.block_content.1_column.body
-    - field.field.block_content.1_column.field_button
+    - field.field.block_content.1_column.field_button_formatted
     - field.field.block_content.1_column.field_image
+    - field.field.block_content.1_column.field_link_button
     - field.field.block_content.1_column.field_subtitle
     - field.field.block_content.1_column.field_title
   module:
@@ -27,13 +28,11 @@ content:
         class: mb-5
     weight: 3
     region: content
-  field_button:
-    type: basic_string
+  field_button_formatted:
+    type: text_default
     label: hidden
     settings: {  }
-    third_party_settings:
-      field_formatter_class:
-        class: 'btn btn-primary rounded-pill mb-1'
+    third_party_settings: {  }
     weight: 4
     region: content
   field_image:
@@ -57,7 +56,7 @@ content:
     settings: {  }
     third_party_settings:
       field_formatter_class:
-        class: mb-5
+        class: 'mb-5  fs-lg  text-gray-6'
     weight: 1
     region: content
   field_title:
@@ -71,4 +70,5 @@ content:
     weight: 0
     region: content
 hidden:
+  field_link_button: true
   langcode: true

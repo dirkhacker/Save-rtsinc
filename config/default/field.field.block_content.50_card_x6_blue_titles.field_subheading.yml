@@ -1,0 +1,21 @@
+uuid: 1cbf003c-fbac-4301-8af6-5443bf9ec937
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6_blue_titles
+    - field.storage.block_content.field_subheading
+  module:
+    - text
+id: block_content.50_card_x6_blue_titles.field_subheading
+field_name: field_subheading
+entity_type: block_content
+bundle: 50_card_x6_blue_titles
+label: Subheading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,15 @@
+uuid: af81875b-a315-4fc6-9c28-2ff92647a659
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rts_migrations
+_core:
+  default_config_hash: Evm1SW8Av6oOXNjiMgi9kOuOQeAsHBogTnLXaYmDXNM
+id: rtsinc_agent_company
+label: 'RTS Inc migration group for Agent Company'
+description: 'A container for migrations for RTS Inc Agent Company'
+source_type: 'CSV resource'
+module: null
+shared_configuration: null

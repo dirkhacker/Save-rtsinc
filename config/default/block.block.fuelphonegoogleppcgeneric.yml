@@ -1,0 +1,35 @@
+uuid: d069bcef-9238-44cd-a5ab-93fd0b673874
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0a6597ef-dfc7-47ba-8159-3dbed5b88ff2'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: p-4
+    attributes: 'style|background-color: #f5f5f5; border: 1px solid #ddd; border-radius: 4px;'
+id: fuelphonegoogleppcgeneric
+theme: rtsbarrio
+region: sidebar_second
+weight: -21
+provider: null
+plugin: 'block_content:0a6597ef-dfc7-47ba-8159-3dbed5b88ff2'
+settings:
+  id: 'block_content:0a6597ef-dfc7-47ba-8159-3dbed5b88ff2'
+  label: 'Fuel Phone Google PPC Generic'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/lp/fuel-card\r\n/lp/fuel-card-discount\r\n/lp/fuel-card-fleet\r\n/lp/truckers-love-our-fuel-card\r\n/lp/speedway-fuel-card\r\n/lp/fuel-card-captcha\r\n/lp/speedway\r\n/lp/pilot-flying-j-fuel-card\r\n/lp/fuel-card-wex-fleet-one"

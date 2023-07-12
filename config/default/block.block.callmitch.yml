@@ -1,0 +1,35 @@
+uuid: 0fe98105-de15-477e-b3bc-4d13e8fdb230
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:969cad54-5a9e-4984-9f43-a49ebb7eb935'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: p-4
+    attributes: 'style|background-color: #f5f5f5; border: 1px solid #ddd; border-radius: 4px;'
+id: callmitch
+theme: rtsbarrio
+region: sidebar_second
+weight: -40
+provider: null
+plugin: 'block_content:969cad54-5a9e-4984-9f43-a49ebb7eb935'
+settings:
+  id: 'block_content:969cad54-5a9e-4984-9f43-a49ebb7eb935'
+  label: 'Call Mitch'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/lp/factoring-application-internet\r\n/lp/factoring-thank-you-app"

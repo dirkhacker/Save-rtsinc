@@ -1,0 +1,23 @@
+uuid: cca50788-7cf5-491a-b8e8-54f391702501
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cta
+    - node.type.layout_basic_page_
+  module:
+    - options
+id: node.layout_basic_page_.field_cta
+field_name: field_cta
+entity_type: node
+bundle: layout_basic_page_
+label: 'Call to Action'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

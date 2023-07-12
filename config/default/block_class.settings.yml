@@ -3,7 +3,7 @@ _core:
 maxlength_block_class_field: 255
 field_type: multiple_textfields
 default_case: standard
-block_classes_stored: '{"":"","border-bottom":"border-bottom","container":"container","py-5":"py-5","border-top":"border-top","border-3":"border-3","border-light":"border-light","p-0":"p-0","px-0":"px-0","bg-primary":"bg-primary","g-0":"g-0","bg-lt-gray":"bg-lt-gray","border-0":"border-0"}'
+block_classes_stored: '{"":"","border-bottom":"border-bottom","container":"container","py-5":"py-5","border-top":"border-top","border-3":"border-3","border-light":"border-light","p-0":"p-0","px-0":"px-0","bg-primary":"bg-primary","g-0":"g-0","bg-lt-gray":"bg-lt-gray","border-0":"border-0","bg-secondary":"bg-secondary","border-radius-3":"border-radius-3","p-5":"p-5","rounded":"rounded","p-4":"p-4","col-md-8":"col-md-8","small":"small","mt-6":"mt-6","mb-4":"mb-4","bg-blue":"bg-blue","row":"row","text-center":"text-center","fs-sm":"fs-sm","text-align-center":"text-align-center","ms-auto":"ms-auto","d-none":"d-none","d-md-inline-block":"d-md-inline-block","d-lg-inline-block":"d-lg-inline-block","d-sm-inline-block":"d-sm-inline-block","d-xl-inline-block":"d-xl-inline-block","me-xl-auto":"me-xl-auto","px-md-4":"px-md-4","px-md-0":"px-md-0","mb-5":"mb-5"}'
 enable_attributes: true
 enable_auto_complete: true
 qty_classes_per_block: 10
@@ -18,5 +18,5 @@ filter_html_clean_css_identifier: ''
 maxlength_attributes: 0
 maxlength_id: 255
 attribute_keys_stored: '{"style":"style"}'
-attribute_value_stored: '{"margin: -0.78rem; background-color: #f1f1f1;":"margin: -0.78rem; background-color: #f1f1f1;","background-color: #f1f1f1;":"background-color: #f1f1f1;"}'
-attributes_inline: '{"style=margin: -0.78rem; background-color: #f1f1f1;":"style=margin: -0.78rem; background-color: #f1f1f1;","style=background-color: #f1f1f1;":"style=background-color: #f1f1f1;"}'
+attribute_value_stored: '{"margin: -0.78rem; background-color: #f1f1f1;":"margin: -0.78rem; background-color: #f1f1f1;","background-color: #f1f1f1;":"background-color: #f1f1f1;","background-color: #f5f5f5; border: 1px solid #ddd;":"background-color: #f5f5f5; border: 1px solid #ddd;","background-color: #f5f5f5; border: 1px solid #ddd; border-radius: 4px;":"background-color: #f5f5f5; border: 1px solid #ddd; border-radius: 4px;","color: #999":"color: #999"}'
+attributes_inline: '{"style=margin: -0.78rem; background-color: #f1f1f1;":"style=margin: -0.78rem; background-color: #f1f1f1;","style=background-color: #f1f1f1;":"style=background-color: #f1f1f1;","style=background-color: #f5f5f5; border: 1px solid #ddd;":"style=background-color: #f5f5f5; border: 1px solid #ddd;","style=background-color: #f5f5f5; border: 1px solid #ddd; border-radius: 4px;":"style=background-color: #f5f5f5; border: 1px solid #ddd; border-radius: 4px;","style=color: #999":"style=color: #999"}'

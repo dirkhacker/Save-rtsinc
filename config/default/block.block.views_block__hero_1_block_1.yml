@@ -6,6 +6,7 @@ dependencies:
     - views.view.hero_1
   module:
     - node
+    - system
     - views
   theme:
     - rtsbarrio
@@ -36,3 +37,7 @@ visibility:
       layout_basic_page_: layout_basic_page_
       page: page
       product: product
+  request_path:
+    id: request_path
+    negate: true
+    pages: /page/blog

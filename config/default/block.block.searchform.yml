@@ -3,14 +3,19 @@ langcode: en
 status: true
 dependencies:
   module:
+    - block_class
+    - language
     - node
     - search
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'ms-auto d-sm-inline-block'
 id: searchform
 theme: rtsbarrio
 region: header
-weight: -20
+weight: -32
 provider: null
 plugin: search_form_block
 settings:
@@ -34,3 +39,10 @@ visibility:
       page: page
       product: product
       thank_you: thank_you
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en

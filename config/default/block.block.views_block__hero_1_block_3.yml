@@ -1,0 +1,33 @@
+uuid: 9c879a9a-fcf6-4edf-b5f0-d77745eca136
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.hero_1
+  module:
+    - node
+    - views
+  theme:
+    - rtsbarrio
+id: views_block__hero_1_block_3
+theme: rtsbarrio
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:hero_1-block_3'
+settings:
+  id: 'views_block:hero_1-block_3'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      agent_company: agent_company

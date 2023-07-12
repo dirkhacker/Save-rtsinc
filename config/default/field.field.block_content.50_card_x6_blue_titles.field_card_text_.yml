@@ -1,0 +1,21 @@
+uuid: 38b904c1-cd6d-41dc-8278-5ab5f41f099d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6_blue_titles
+    - field.storage.block_content.field_card_text_
+  module:
+    - text
+id: block_content.50_card_x6_blue_titles.field_card_text_
+field_name: field_card_text_
+entity_type: block_content
+bundle: 50_card_x6_blue_titles
+label: 'Card text 5'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

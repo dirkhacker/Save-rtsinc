@@ -1,9 +1,3 @@
 _core:
   default_config_hash: NlDIUdPDDX0V4owUbxlYWoCwMZv_Wnv-wqzepvT5drs
-mode: process_untranslated
-current_language_mode: default
-untranslated_handler: hide_link
-translation_detection: default
-hide_single_link: true
-show_langcode: false
-hide_single_link_block: 1
+mode: default

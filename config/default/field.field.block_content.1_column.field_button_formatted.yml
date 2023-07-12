@@ -1,0 +1,21 @@
+uuid: e2f27bf4-2d76-43d6-9abe-cb727fb2b4df
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.1_column
+    - field.storage.block_content.field_button_formatted
+  module:
+    - text
+id: block_content.1_column.field_button_formatted
+field_name: field_button_formatted
+entity_type: block_content
+bundle: 1_column
+label: 'HTML Button '
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

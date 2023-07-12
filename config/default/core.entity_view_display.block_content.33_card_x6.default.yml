@@ -43,7 +43,7 @@ third_party_settings:
       weight: 0
       format_type: html_element
       format_settings:
-        classes: 'container py-7'
+        classes: 'container py-6'
         show_empty_fields: false
         id: ''
         element: div
@@ -108,7 +108,7 @@ third_party_settings:
       weight: 13
       format_type: html_element
       format_settings:
-        classes: col-md-4
+        classes: 'col-md-4 pe-md-5 pb-4'
         show_empty_fields: false
         id: ''
         element: div
@@ -129,7 +129,7 @@ third_party_settings:
       weight: 14
       format_type: html_element
       format_settings:
-        classes: col-md-4
+        classes: 'col-md-4 pe-md-3 pb-4'
         show_empty_fields: false
         id: ''
         element: div
@@ -150,7 +150,7 @@ third_party_settings:
       weight: 15
       format_type: html_element
       format_settings:
-        classes: col-md-4
+        classes: 'col-md-4 pe-md-5 pb-4'
         show_empty_fields: false
         id: ''
         element: div
@@ -171,7 +171,7 @@ third_party_settings:
       weight: 16
       format_type: html_element
       format_settings:
-        classes: col-md-4
+        classes: 'col-md-4 pe-md-5 pb-4'
         show_empty_fields: false
         id: ''
         element: div
@@ -192,7 +192,7 @@ third_party_settings:
       weight: 17
       format_type: html_element
       format_settings:
-        classes: col-md-4
+        classes: 'col-md-4 pe-md-5 pb-4'
         show_empty_fields: false
         id: ''
         element: div
@@ -213,7 +213,7 @@ third_party_settings:
       weight: 18
       format_type: html_element
       format_settings:
-        classes: 'col-md-4 '
+        classes: 'col-md-4 pe-md-5 pb-4'
         show_empty_fields: false
         id: ''
         element: div

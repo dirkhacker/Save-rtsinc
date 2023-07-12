@@ -1,0 +1,38 @@
+uuid: ada1c0b2-1ca4-4919-8d77-ac59dc9006f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6_blue_titles
+    - field.storage.block_content.field_image_3
+  module:
+    - image
+id: block_content.50_card_x6_blue_titles.field_image_3
+field_name: field_image_3
+entity_type: block_content
+bundle: 50_card_x6_blue_titles
+label: 'Image 3'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg svg'
+  max_filesize: '2 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

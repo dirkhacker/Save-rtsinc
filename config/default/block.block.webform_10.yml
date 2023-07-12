@@ -1,0 +1,39 @@
+uuid: a3f9495a-ebf2-469e-b269-b4136ab112ae
+langcode: es
+status: true
+dependencies:
+  config:
+    - webform.webform.stm_visiting_multiselect
+  module:
+    - language
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+id: webform_10
+theme: rtsbarrio
+region: sidebar_second
+weight: -22
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform STM Visiting MS'
+  label_display: '0'
+  provider: webform
+  webform_id: stm_visiting_multiselect
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/lp/thank-you-visiting-stm\r\n/lp/thank-you-visiting-stmp"

@@ -1,0 +1,30 @@
+uuid: 230e9d99-149c-4d95-b419-75653019ffc5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6b38d24b-8856-4873-8497-d558442e9987'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: rtscarrierserviceslogo
+theme: rtsbarrio
+region: header
+weight: -37
+provider: null
+plugin: 'block_content:6b38d24b-8856-4873-8497-d558442e9987'
+settings:
+  id: 'block_content:6b38d24b-8856-4873-8497-d558442e9987'
+  label: 'RTS Carrier Services Logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product/fuel-discount-program

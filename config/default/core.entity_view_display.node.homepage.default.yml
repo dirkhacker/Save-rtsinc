@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.homepage.body
+    - field.field.node.homepage.field_cta
     - field.field.node.homepage.field_heading
     - field.field.node.homepage.field_image
     - field.field.node.homepage.field_metatags
@@ -16,6 +17,7 @@ dependencies:
     - layout_discovery
     - manage_display
     - metatag
+    - options
     - svg_image
     - text
 third_party_settings:
@@ -139,6 +141,21 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 6
             additional: {  }
+          e1b2652f-32ec-453b-800a-cc5200f1e975:
+            uuid: e1b2652f-32ec-453b-800a-cc5200f1e975
+            region: content
+            configuration:
+              id: 'field_block:node:homepage:field_cta'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: list_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 7
+            additional: {  }
         third_party_settings: {  }
   layout_builder_restrictions:
     allowed_block_categories: {  }
@@ -162,6 +179,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_cta:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 106
     region: content
   field_heading:
     type: string

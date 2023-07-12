@@ -1,0 +1,165 @@
+uuid: 24a9739a-0ffc-4b3d-b73e-5657a45d6438
+langcode: en
+status: true
+dependencies:
+  module:
+    - eca_form
+id: process_fygp8bp
+modeller: bpmn_io
+label: 'Standard '
+version: ''
+weight: -7
+events:
+  Event_14pc3pe:
+    plugin: 'form:form_validate'
+    label: 'Standard Form'
+    configuration:
+      form_id: ''
+      entity_type_id: ''
+      bundle: ''
+      operation: ''
+    successors:
+      -
+        id: Gateway_1p0k510
+        condition: Flow_15dkdi1
+conditions:
+  Flow_1sh1poo:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: 0121H000001a2ShQAI
+      field_name: record_type
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: equal
+      type: value
+  Flow_0obsdgl:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: 0121H0000019mE7QAI
+      field_name: record_type
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: equal
+      type: value
+  Flow_18wiygq:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: 0121H0000019nQrQAI
+      field_name: record_type
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: equal
+      type: value
+  Flow_15dkdi1:
+    plugin: eca_form_field_exists
+    configuration:
+      field_name: rts-products
+      negate: true
+  Flow_0clkmzt:
+    plugin: eca_form_field_value
+    configuration:
+      case: false
+      field_value: current-page
+      field_name: ppc_campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+      negate: true
+  Flow_1jzgxk4:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: google
+      field_name: referrer_domaiin
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+gateways:
+  Gateway_1p0k510:
+    type: 0
+    successors:
+      -
+        id: Activity_0z7bu18
+        condition: Flow_1sh1poo
+      -
+        id: Activity_0rx9dxc
+        condition: Flow_0obsdgl
+      -
+        id: Activity_1d99nwv
+        condition: Flow_18wiygq
+      -
+        id: Activity_01q1fst
+        condition: Flow_0clkmzt
+      -
+        id: Activity_0sa0ut2
+        condition: Flow_1jzgxk4
+actions:
+  Activity_0z7bu18:
+    plugin: eca_form_field_set_value
+    label: 'Topic Fuel'
+    configuration:
+      field_value: 'RTS Carrier Services'
+      use_yaml: false
+      field_name: topic
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0rx9dxc:
+    plugin: eca_form_field_set_value
+    label: 'Topic Factoring'
+    configuration:
+      field_value: 'RTSF Factoring Domestic'
+      use_yaml: false
+      field_name: topic
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_1d99nwv:
+    plugin: eca_form_field_set_value
+    label: 'Topic Software'
+    configuration:
+      field_value: 'RTS Software'
+      use_yaml: false
+      field_name: topic
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_01q1fst:
+    plugin: eca_form_field_set_value
+    label: 'Medium PPC'
+    configuration:
+      field_value: ppc
+      use_yaml: false
+      field_name: medium
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0sa0ut2:
+    plugin: eca_form_field_set_value
+    label: 'Referrer Google'
+    configuration:
+      field_value: google
+      use_yaml: false
+      field_name: source
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }

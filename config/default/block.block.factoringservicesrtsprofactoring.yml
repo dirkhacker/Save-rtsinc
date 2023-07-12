@@ -16,8 +16,8 @@ third_party_settings:
     attributes: 'style|background-color: #f1f1f1;'
 id: factoringservicesrtsprofactoring
 theme: rtsbarrio
-region: content
-weight: 0
+region: featured_bottom_first
+weight: -36
 provider: null
 plugin: 'block_content:b20d326f-bf00-4624-b409-894edfe4985a'
 settings:

@@ -31,7 +31,7 @@ third_party_settings:
       weight: 0
       format_type: html_element
       format_settings:
-        classes: 'container g-0 py-5'
+        classes: 'container g-0 py-lg-5'
         show_empty_fields: false
         id: ''
         element: div

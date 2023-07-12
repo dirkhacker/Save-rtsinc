@@ -1,0 +1,30 @@
+uuid: 58201772-c0ec-4ae9-b1fa-3c4cb36c970b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c3d95cee-7504-4921-bd1f-0b122642669a'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: pfjheadlogo
+theme: rtsbarrio
+region: header
+weight: -36
+provider: null
+plugin: 'block_content:c3d95cee-7504-4921-bd1f-0b122642669a'
+settings:
+  id: 'block_content:c3d95cee-7504-4921-bd1f-0b122642669a'
+  label: 'PFJ Head Logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /lp/pilot-flying-j-fuel-card

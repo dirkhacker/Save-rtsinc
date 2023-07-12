@@ -1,0 +1,432 @@
+uuid: c949c8f5-87f7-4c38-b1ff-d353e84a8abe
+langcode: en
+status: true
+dependencies:
+  config:
+    - eca.eca.process_fygp8bp
+id: process_fygp8bp
+label: 'Standard '
+tags:
+  - untagged
+documentation: ''
+filename: ''
+modeldata: |
+  <?xml version="1.0" encoding="UTF-8"?>
+  <bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:qa="http://some-company/schema/bpmn/qa" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+    <bpmn2:process id="Process_fYGP8BP" name="Standard " isExecutable="true">
+      <bpmn2:startEvent id="Event_14pc3pe" name="Standard Form" camunda:modelerTemplate="org.drupal.event.form:form_validate">
+        <bpmn2:extensionElements>
+          <camunda:field name="form_id">
+            <camunda:string></camunda:string>
+          </camunda:field>
+          <camunda:field name="entity_type_id">
+            <camunda:string></camunda:string>
+          </camunda:field>
+          <camunda:field name="bundle">
+            <camunda:string></camunda:string>
+          </camunda:field>
+          <camunda:field name="operation">
+            <camunda:string></camunda:string>
+          </camunda:field>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="form:form_validate" />
+          </camunda:properties>
+        </bpmn2:extensionElements>
+        <bpmn2:outgoing>Flow_15dkdi1</bpmn2:outgoing>
+      </bpmn2:startEvent>
+      <bpmn2:task id="Activity_0z7bu18" name="Topic Fuel" camunda:modelerTemplate="org.drupal.action.eca_form_field_set_value">
+        <bpmn2:extensionElements>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="eca_form_field_set_value" />
+          </camunda:properties>
+          <camunda:field name="field_name">
+            <camunda:string>topic</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_value">
+            <camunda:string>RTS Carrier Services</camunda:string>
+          </camunda:field>
+          <camunda:field name="use_yaml">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+          <camunda:field name="strip_tags">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="trim">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="xss_filter">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+        </bpmn2:extensionElements>
+        <bpmn2:incoming>Flow_1sh1poo</bpmn2:incoming>
+      </bpmn2:task>
+      <bpmn2:sequenceFlow id="Flow_1sh1poo" name="Record Type Fuel" camunda:modelerTemplate="org.drupal.condition.eca_form_field_value" sourceRef="Gateway_1p0k510" targetRef="Activity_0z7bu18">
+        <bpmn2:extensionElements>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="eca_form_field_value" />
+          </camunda:properties>
+          <camunda:field name="operator">
+            <camunda:string>equal</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_value">
+            <camunda:string>0121H000001a2ShQAI</camunda:string>
+          </camunda:field>
+          <camunda:field name="type">
+            <camunda:string>value</camunda:string>
+          </camunda:field>
+          <camunda:field name="case">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_name">
+            <camunda:string>record_type</camunda:string>
+          </camunda:field>
+          <camunda:field name="strip_tags">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="trim">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="xss_filter">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="negate">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+        </bpmn2:extensionElements>
+      </bpmn2:sequenceFlow>
+      <bpmn2:task id="Activity_0rx9dxc" name="Topic Factoring" camunda:modelerTemplate="org.drupal.action.eca_form_field_set_value">
+        <bpmn2:extensionElements>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="eca_form_field_set_value" />
+          </camunda:properties>
+          <camunda:field name="field_name">
+            <camunda:string>topic</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_value">
+            <camunda:string>RTSF Factoring Domestic</camunda:string>
+          </camunda:field>
+          <camunda:field name="use_yaml">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+          <camunda:field name="strip_tags">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="trim">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="xss_filter">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+        </bpmn2:extensionElements>
+        <bpmn2:incoming>Flow_0obsdgl</bpmn2:incoming>
+      </bpmn2:task>
+      <bpmn2:sequenceFlow id="Flow_0obsdgl" name="Record Type Factoring" camunda:modelerTemplate="org.drupal.condition.eca_form_field_value" sourceRef="Gateway_1p0k510" targetRef="Activity_0rx9dxc">
+        <bpmn2:extensionElements>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="eca_form_field_value" />
+          </camunda:properties>
+          <camunda:field name="operator">
+            <camunda:string>equal</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_value">
+            <camunda:string>0121H0000019mE7QAI</camunda:string>
+          </camunda:field>
+          <camunda:field name="type">
+            <camunda:string>value</camunda:string>
+          </camunda:field>
+          <camunda:field name="case">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_name">
+            <camunda:string>record_type</camunda:string>
+          </camunda:field>
+          <camunda:field name="strip_tags">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="trim">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="xss_filter">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="negate">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+        </bpmn2:extensionElements>
+      </bpmn2:sequenceFlow>
+      <bpmn2:task id="Activity_1d99nwv" name="Topic Software" camunda:modelerTemplate="org.drupal.action.eca_form_field_set_value">
+        <bpmn2:extensionElements>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="eca_form_field_set_value" />
+          </camunda:properties>
+          <camunda:field name="field_name">
+            <camunda:string>topic</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_value">
+            <camunda:string>RTS Software</camunda:string>
+          </camunda:field>
+          <camunda:field name="use_yaml">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+          <camunda:field name="strip_tags">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="trim">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="xss_filter">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+        </bpmn2:extensionElements>
+        <bpmn2:incoming>Flow_18wiygq</bpmn2:incoming>
+      </bpmn2:task>
+      <bpmn2:sequenceFlow id="Flow_18wiygq" name="Record Type Software" camunda:modelerTemplate="org.drupal.condition.eca_form_field_value" sourceRef="Gateway_1p0k510" targetRef="Activity_1d99nwv">
+        <bpmn2:extensionElements>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="eca_form_field_value" />
+          </camunda:properties>
+          <camunda:field name="operator">
+            <camunda:string>equal</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_value">
+            <camunda:string>0121H0000019nQrQAI</camunda:string>
+          </camunda:field>
+          <camunda:field name="type">
+            <camunda:string>value</camunda:string>
+          </camunda:field>
+          <camunda:field name="case">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_name">
+            <camunda:string>record_type</camunda:string>
+          </camunda:field>
+          <camunda:field name="strip_tags">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="trim">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="xss_filter">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="negate">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+        </bpmn2:extensionElements>
+      </bpmn2:sequenceFlow>
+      <bpmn2:exclusiveGateway id="Gateway_1p0k510">
+        <bpmn2:incoming>Flow_15dkdi1</bpmn2:incoming>
+        <bpmn2:outgoing>Flow_18wiygq</bpmn2:outgoing>
+        <bpmn2:outgoing>Flow_0obsdgl</bpmn2:outgoing>
+        <bpmn2:outgoing>Flow_1sh1poo</bpmn2:outgoing>
+        <bpmn2:outgoing>Flow_0clkmzt</bpmn2:outgoing>
+        <bpmn2:outgoing>Flow_1jzgxk4</bpmn2:outgoing>
+      </bpmn2:exclusiveGateway>
+      <bpmn2:sequenceFlow id="Flow_15dkdi1" camunda:modelerTemplate="org.drupal.condition.eca_form_field_exists" sourceRef="Event_14pc3pe" targetRef="Gateway_1p0k510">
+        <bpmn2:extensionElements>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="eca_form_field_exists" />
+          </camunda:properties>
+          <camunda:field name="field_name">
+            <camunda:string>rts-products</camunda:string>
+          </camunda:field>
+          <camunda:field name="negate">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+        </bpmn2:extensionElements>
+      </bpmn2:sequenceFlow>
+      <bpmn2:task id="Activity_01q1fst" name="Medium PPC" camunda:modelerTemplate="org.drupal.action.eca_form_field_set_value">
+        <bpmn2:extensionElements>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="eca_form_field_set_value" />
+          </camunda:properties>
+          <camunda:field name="field_name">
+            <camunda:string>medium</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_value">
+            <camunda:string>ppc</camunda:string>
+          </camunda:field>
+          <camunda:field name="use_yaml">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+          <camunda:field name="strip_tags">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="trim">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="xss_filter">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+        </bpmn2:extensionElements>
+        <bpmn2:incoming>Flow_0clkmzt</bpmn2:incoming>
+      </bpmn2:task>
+      <bpmn2:sequenceFlow id="Flow_0clkmzt" camunda:modelerTemplate="org.drupal.condition.eca_form_field_value" sourceRef="Gateway_1p0k510" targetRef="Activity_01q1fst">
+        <bpmn2:extensionElements>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="eca_form_field_value" />
+          </camunda:properties>
+          <camunda:field name="operator">
+            <camunda:string>contains</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_value">
+            <camunda:string>current-page</camunda:string>
+          </camunda:field>
+          <camunda:field name="type">
+            <camunda:string>value</camunda:string>
+          </camunda:field>
+          <camunda:field name="case">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_name">
+            <camunda:string>ppc_campaign</camunda:string>
+          </camunda:field>
+          <camunda:field name="strip_tags">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="trim">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="xss_filter">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="negate">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+        </bpmn2:extensionElements>
+      </bpmn2:sequenceFlow>
+      <bpmn2:task id="Activity_0sa0ut2" name="Referrer Google" camunda:modelerTemplate="org.drupal.action.eca_form_field_set_value">
+        <bpmn2:extensionElements>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="eca_form_field_set_value" />
+          </camunda:properties>
+          <camunda:field name="field_name">
+            <camunda:string>source</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_value">
+            <camunda:string>google</camunda:string>
+          </camunda:field>
+          <camunda:field name="use_yaml">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+          <camunda:field name="strip_tags">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="trim">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="xss_filter">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+        </bpmn2:extensionElements>
+        <bpmn2:incoming>Flow_1jzgxk4</bpmn2:incoming>
+      </bpmn2:task>
+      <bpmn2:sequenceFlow id="Flow_1jzgxk4" camunda:modelerTemplate="org.drupal.condition.eca_form_field_value" sourceRef="Gateway_1p0k510" targetRef="Activity_0sa0ut2">
+        <bpmn2:extensionElements>
+          <camunda:properties>
+            <camunda:property name="pluginid" value="eca_form_field_value" />
+          </camunda:properties>
+          <camunda:field name="operator">
+            <camunda:string>contains</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_value">
+            <camunda:string>google</camunda:string>
+          </camunda:field>
+          <camunda:field name="type">
+            <camunda:string>value</camunda:string>
+          </camunda:field>
+          <camunda:field name="case">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+          <camunda:field name="field_name">
+            <camunda:string>referrer_domaiin</camunda:string>
+          </camunda:field>
+          <camunda:field name="strip_tags">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="trim">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="xss_filter">
+            <camunda:string>yes</camunda:string>
+          </camunda:field>
+          <camunda:field name="negate">
+            <camunda:string>no</camunda:string>
+          </camunda:field>
+        </bpmn2:extensionElements>
+      </bpmn2:sequenceFlow>
+    </bpmn2:process>
+    <bpmndi:BPMNDiagram id="sid-dbaa476f-b7d0-44b7-aad0-b98e0b5cbda9">
+      <bpmndi:BPMNPlane id="sid-02de5bcd-9d17-4c4e-957e-4fabafe56f6c" bpmnElement="Process_fYGP8BP">
+        <bpmndi:BPMNShape id="Event_14pc3pe_di" bpmnElement="Event_14pc3pe">
+          <dc:Bounds x="212" y="472" width="36" height="36" />
+          <bpmndi:BPMNLabel>
+            <dc:Bounds x="195" y="515" width="74" height="14" />
+          </bpmndi:BPMNLabel>
+        </bpmndi:BPMNShape>
+        <bpmndi:BPMNShape id="Activity_0z7bu18_di" bpmnElement="Activity_0z7bu18">
+          <dc:Bounds x="650" y="350" width="100" height="80" />
+          <bpmndi:BPMNLabel />
+        </bpmndi:BPMNShape>
+        <bpmndi:BPMNShape id="Activity_0rx9dxc_di" bpmnElement="Activity_0rx9dxc">
+          <dc:Bounds x="650" y="450" width="100" height="80" />
+          <bpmndi:BPMNLabel />
+        </bpmndi:BPMNShape>
+        <bpmndi:BPMNShape id="Activity_1d99nwv_di" bpmnElement="Activity_1d99nwv">
+          <dc:Bounds x="650" y="550" width="100" height="80" />
+          <bpmndi:BPMNLabel />
+        </bpmndi:BPMNShape>
+        <bpmndi:BPMNShape id="Gateway_1p0k510_di" bpmnElement="Gateway_1p0k510" isMarkerVisible="true">
+          <dc:Bounds x="385" y="465" width="50" height="50" />
+        </bpmndi:BPMNShape>
+        <bpmndi:BPMNShape id="Activity_0sa0ut2_di" bpmnElement="Activity_0sa0ut2">
+          <dc:Bounds x="360" y="350" width="100" height="80" />
+          <bpmndi:BPMNLabel />
+        </bpmndi:BPMNShape>
+        <bpmndi:BPMNShape id="Activity_01q1fst_di" bpmnElement="Activity_01q1fst">
+          <dc:Bounds x="360" y="550" width="100" height="80" />
+          <bpmndi:BPMNLabel />
+        </bpmndi:BPMNShape>
+        <bpmndi:BPMNEdge id="Flow_1sh1poo_di" bpmnElement="Flow_1sh1poo">
+          <di:waypoint x="435" y="490" />
+          <di:waypoint x="520" y="490" />
+          <di:waypoint x="520" y="390" />
+          <di:waypoint x="650" y="390" />
+          <bpmndi:BPMNLabel>
+            <dc:Bounds x="526" y="373" width="87" height="14" />
+          </bpmndi:BPMNLabel>
+        </bpmndi:BPMNEdge>
+        <bpmndi:BPMNEdge id="Flow_0obsdgl_di" bpmnElement="Flow_0obsdgl">
+          <di:waypoint x="435" y="490" />
+          <di:waypoint x="650" y="490" />
+          <bpmndi:BPMNLabel>
+            <dc:Bounds x="528" y="466" width="63" height="27" />
+          </bpmndi:BPMNLabel>
+        </bpmndi:BPMNEdge>
+        <bpmndi:BPMNEdge id="Flow_18wiygq_di" bpmnElement="Flow_18wiygq">
+          <di:waypoint x="435" y="490" />
+          <di:waypoint x="520" y="490" />
+          <di:waypoint x="520" y="590" />
+          <di:waypoint x="650" y="590" />
+          <bpmndi:BPMNLabel>
+            <dc:Bounds x="528" y="556" width="63" height="27" />
+          </bpmndi:BPMNLabel>
+        </bpmndi:BPMNEdge>
+        <bpmndi:BPMNEdge id="Flow_15dkdi1_di" bpmnElement="Flow_15dkdi1">
+          <di:waypoint x="248" y="490" />
+          <di:waypoint x="385" y="490" />
+          <bpmndi:BPMNLabel>
+            <dc:Bounds x="274" y="472" width="85" height="14" />
+          </bpmndi:BPMNLabel>
+        </bpmndi:BPMNEdge>
+        <bpmndi:BPMNEdge id="Flow_0clkmzt_di" bpmnElement="Flow_0clkmzt">
+          <di:waypoint x="410" y="515" />
+          <di:waypoint x="410" y="550" />
+        </bpmndi:BPMNEdge>
+        <bpmndi:BPMNEdge id="Flow_1jzgxk4_di" bpmnElement="Flow_1jzgxk4">
+          <di:waypoint x="410" y="465" />
+          <di:waypoint x="410" y="430" />
+        </bpmndi:BPMNEdge>
+      </bpmndi:BPMNPlane>
+    </bpmndi:BPMNDiagram>
+  </bpmn2:definitions>

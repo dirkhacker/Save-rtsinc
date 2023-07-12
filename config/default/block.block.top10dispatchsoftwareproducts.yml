@@ -1,0 +1,30 @@
+uuid: e92551c9-ba8e-47be-9ebf-d8299797cb2a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fabd4b15-7117-4501-87ea-7c4f2e3f653d'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: top10dispatchsoftwareproducts
+theme: rtsbarrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:fabd4b15-7117-4501-87ea-7c4f2e3f653d'
+settings:
+  id: 'block_content:fabd4b15-7117-4501-87ea-7c4f2e3f653d'
+  label: 'Top 10 Dispatch Software Products'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /articles/dispatch-software-products-trucking-companies

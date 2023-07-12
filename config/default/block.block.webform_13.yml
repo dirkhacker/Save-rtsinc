@@ -1,0 +1,39 @@
+uuid: f2e5cc9f-c83d-49fe-8284-5a9a70165441
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.pfj_qr_multiselect
+  module:
+    - language
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+id: webform_13
+theme: rtsbarrio
+region: sidebar_second
+weight: -26
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform PFJ QR Multiselect'
+  label_display: '0'
+  provider: webform
+  webform_id: pfj_qr_multiselect
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en
+  request_path:
+    id: request_path
+    negate: false
+    pages: /lp/bundle-and-save-rts-and-pilot-company

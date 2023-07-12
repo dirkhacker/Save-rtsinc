@@ -1,0 +1,21 @@
+uuid: eaa59868-0825-4231-8f5a-8cdf01ce27be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_type
+    - node.type.agent_company
+  module:
+    - options
+id: node.agent_company.field_landing_page_type
+field_name: field_landing_page_type
+entity_type: node
+bundle: agent_company
+label: 'Landing Page Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

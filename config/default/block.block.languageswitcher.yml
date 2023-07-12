@@ -3,14 +3,19 @@ langcode: en
 status: true
 dependencies:
   module:
+    - block_class
     - language
     - node
+    - system
   theme:
     - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'd-none d-lg-inline-block'
 id: languageswitcher
 theme: rtsbarrio
 region: header
-weight: -19
+weight: -31
 provider: null
 plugin: 'language_block:language_interface'
 settings:
@@ -33,3 +38,7 @@ visibility:
       page: page
       product: product
       thank_you: thank_you
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/page/contact-us\r\n/page/contactenos\r\n/es/page/contactenos"

@@ -6,7 +6,14 @@ dependencies:
     - block_content.type.33_card_x6
     - field.storage.block_content.field_image_6
   module:
+    - content_translation
     - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
 id: block_content.33_card_x6.field_image_6
 field_name: field_image_6
 entity_type: block_content
@@ -14,7 +21,7 @@ bundle: 33_card_x6
 label: 'Image 6'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

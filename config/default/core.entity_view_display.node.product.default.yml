@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.product.body
+    - field.field.node.product.field_cta
     - field.field.node.product.field_featured_article
     - field.field.node.product.field_global_taxonomy
     - field.field.node.product.field_heading
@@ -51,6 +52,7 @@ content:
     region: content
 hidden:
   created: true
+  field_cta: true
   field_featured_article: true
   field_global_taxonomy: true
   field_heading: true

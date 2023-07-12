@@ -1,0 +1,35 @@
+uuid: 856dea09-7e28-41e9-a8eb-353a04eb585a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:78ede74f-0647-4a90-8881-2b91e4aba360'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: 'p-5 rounded'
+    attributes: 'style|background-color: #f5f5f5; border: 1px solid #ddd;'
+id: customercenterservices
+theme: rtsbarrio
+region: sidebar_second
+weight: -39
+provider: null
+plugin: 'block_content:78ede74f-0647-4a90-8881-2b91e4aba360'
+settings:
+  id: 'block_content:78ede74f-0647-4a90-8881-2b91e4aba360'
+  label: 'Customer Center Services'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /page/customer-center

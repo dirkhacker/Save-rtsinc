@@ -1,0 +1,7 @@
+uuid: 371ac589-d4e2-4426-a227-d3ab357ad009
+langcode: en
+status: true
+dependencies: {  }
+formId: carrier_services_standard
+captchaType: default
+label: carrier_services_standard

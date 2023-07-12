@@ -1,0 +1,19 @@
+uuid: 16400741-7800-491a-ad6d-b58e5a44c64a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subheading
+    - node.type.agent_company
+id: node.agent_company.field_subheading
+field_name: field_subheading
+entity_type: node
+bundle: agent_company
+label: Subheading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

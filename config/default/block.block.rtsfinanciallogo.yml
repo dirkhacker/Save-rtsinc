@@ -1,0 +1,30 @@
+uuid: 6e6fe628-8ca5-4640-938b-81dc739b0c6b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0ea245f3-a959-4616-a6cb-8ba5bdd6be34'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: rtsfinanciallogo
+theme: rtsbarrio
+region: header
+weight: -35
+provider: null
+plugin: 'block_content:0ea245f3-a959-4616-a6cb-8ba5bdd6be34'
+settings:
+  id: 'block_content:0ea245f3-a959-4616-a6cb-8ba5bdd6be34'
+  label: 'RTS Financial Logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/product/factoring-services\r\n/product/factoring-software\r\n/industry/*\r\n/page/factoring-industries\r\n/industry/factoraje-de-yacimiento-petrol-fero"

@@ -1,0 +1,14 @@
+uuid: 31ce93fd-989c-4f3a-bf75-3abb59362155
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.technical_editor
+  module:
+    - user
+id: user_add_role_action.technical_editor
+label: 'Add the Technical Editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: technical_editor

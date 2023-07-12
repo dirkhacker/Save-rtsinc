@@ -46,7 +46,7 @@ third_party_settings:
       weight: 21
       format_type: html_element
       format_settings:
-        classes: col-sm-6
+        classes: 'col-12 col-md-6'
         show_empty_fields: false
         id: ''
         element: div
@@ -67,7 +67,7 @@ third_party_settings:
       weight: 22
       format_type: html_element
       format_settings:
-        classes: col-sm-6
+        classes: 'col-12 col-md-6'
         show_empty_fields: false
         id: ''
         element: div

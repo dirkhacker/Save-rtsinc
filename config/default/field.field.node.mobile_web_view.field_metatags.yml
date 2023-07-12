@@ -14,7 +14,7 @@ bundle: mobile_web_view
 label: Metatags
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

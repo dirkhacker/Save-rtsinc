@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.layout_basic_page_.body
+    - field.field.node.layout_basic_page_.field_cta
     - field.field.node.layout_basic_page_.field_heading
     - field.field.node.layout_basic_page_.field_image
     - field.field.node.layout_basic_page_.field_metatags
@@ -15,6 +16,7 @@ dependencies:
     - layout_builder_restrictions
     - layout_discovery
     - metatag
+    - options
 third_party_settings:
   layout_builder:
     enabled: true
@@ -40,6 +42,21 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
+          77296885-7000-4986-a456-ebf671d4a75b:
+            uuid: 77296885-7000-4986-a456-ebf671d4a75b
+            region: content
+            configuration:
+              id: 'field_block:node:layout_basic_page_:field_cta'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: list_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
         third_party_settings: {  }
   layout_builder_restrictions:
     allowed_block_categories: {  }
@@ -58,6 +75,13 @@ targetEntityType: node
 bundle: layout_basic_page_
 mode: default
 content:
+  field_cta:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
   field_metatags:
     type: metatag_empty_formatter
     label: above

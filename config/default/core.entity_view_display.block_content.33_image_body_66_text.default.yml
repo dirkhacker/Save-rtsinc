@@ -7,6 +7,7 @@ dependencies:
     - field.field.block_content.33_image_body_66_text.body
     - field.field.block_content.33_image_body_66_text.field_body
     - field.field.block_content.33_image_body_66_text.field_button
+    - field.field.block_content.33_image_body_66_text.field_button_formatted
     - field.field.block_content.33_image_body_66_text.field_image
     - field.field.block_content.33_image_body_66_text.field_subtitle
     - field.field.block_content.33_image_body_66_text.field_title
@@ -43,7 +44,7 @@ third_party_settings:
         - field_title
         - field_subtitle
         - body
-        - field_button
+        - field_button_formatted
       label: 'Col Text'
       parent_name: group_wrapper
       region: content
@@ -89,7 +90,7 @@ third_party_settings:
       weight: 0
       format_type: html_element
       format_settings:
-        classes: 'container py-7'
+        classes: 'container py-5'
         show_empty_fields: false
         id: ''
         element: div
@@ -122,13 +123,11 @@ content:
         class: mb-1
     weight: 3
     region: content
-  field_button:
-    type: basic_string
-    label: hidden
+  field_button_formatted:
+    type: text_default
+    label: above
     settings: {  }
-    third_party_settings:
-      field_formatter_class:
-        class: 'btn btn-primary rounded-pill mt-5 mb-1'
+    third_party_settings: {  }
     weight: 9
     region: content
   field_image:
@@ -156,7 +155,7 @@ content:
     settings: {  }
     third_party_settings:
       field_formatter_class:
-        class: mb-5
+        class: 'mb-5 fs-lg text-gray-6'
     weight: 7
     region: content
   field_title:
@@ -170,4 +169,5 @@ content:
     weight: 6
     region: content
 hidden:
+  field_button: true
   langcode: true

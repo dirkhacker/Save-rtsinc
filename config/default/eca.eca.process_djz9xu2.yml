@@ -1,0 +1,594 @@
+uuid: a0b92931-9240-4c47-9e4f-35e6e0267132
+langcode: en
+status: true
+dependencies:
+  module:
+    - eca_content
+    - eca_form
+id: process_djz9xu2
+modeller: bpmn_io
+label: 'Standard Form Override Values'
+version: ''
+weight: -8
+events:
+  Event_0zvf7ye:
+    plugin: 'form:form_validate'
+    label: 'Agent Multiselect'
+    configuration:
+      form_id: ''
+      entity_type_id: ''
+      bundle: ''
+      operation: ''
+    successors:
+      -
+        id: Activity_14jc4f2
+        condition: Flow_0oxojju
+  Event_0a3hqg4:
+    plugin: 'form:form_validate'
+    label: 'STM Visiting'
+    configuration:
+      form_id: ''
+      entity_type_id: ''
+      bundle: ''
+      operation: ''
+    successors:
+      -
+        id: Activity_1h0fh9h
+        condition: Flow_1o4jr7n
+  Event_1sf2fcm:
+    plugin: 'form:form_validate'
+    label: 'Carrier Services Standard'
+    configuration:
+      form_id: ''
+      entity_type_id: ''
+      bundle: ''
+      operation: ''
+    successors:
+      -
+        id: Gateway_1r9iiho
+        condition: Flow_0cikhmr
+  Event_09ozrrk:
+    plugin: 'form:form_validate'
+    label: 'Factoring Standard'
+    configuration:
+      form_id: ''
+      entity_type_id: ''
+      bundle: ''
+      operation: ''
+    successors:
+      -
+        id: Gateway_1r9iiho
+        condition: Flow_0okpwv4
+  Event_0xtwzju:
+    plugin: 'form:form_validate'
+    label: 'Fuel PFJ Standard'
+    configuration:
+      form_id: ''
+      entity_type_id: ''
+      bundle: ''
+      operation: ''
+    successors:
+      -
+        id: Gateway_0lwy9uw
+        condition: Flow_11ok1z2
+  Event_0ytzj1m:
+    plugin: 'form:form_validate'
+    label: 'Factoring PFJ Standard'
+    configuration:
+      form_id: ''
+      entity_type_id: ''
+      bundle: ''
+      operation: ''
+    successors:
+      -
+        id: Gateway_0lwy9uw
+        condition: Flow_14dcybf
+  Event_15fbj5c:
+    plugin: 'form:form_validate'
+    label: 'RTS Pro  MWV'
+    configuration:
+      form_id: ''
+      entity_type_id: ''
+      bundle: ''
+      operation: ''
+    successors:
+      -
+        id: Gateway_0k2is2d
+        condition: Flow_1hgvaec
+  Event_0f31u85:
+    plugin: 'form:form_validate'
+    label: 'RTS Pro'
+    configuration:
+      form_id: ''
+      entity_type_id: ''
+      bundle: ''
+      operation: ''
+    successors:
+      -
+        id: Gateway_13yh6vj
+        condition: Flow_1pozrxy
+conditions:
+  Flow_0oxojju:
+    plugin: eca_entity_type_bundle
+    configuration:
+      negate: false
+      type: 'webform_submission agent_multiselect'
+      entity: ''
+  Flow_1o4jr7n:
+    plugin: eca_entity_type_bundle
+    configuration:
+      negate: false
+      type: 'webform_submission stm_visiting_multiselect'
+      entity: ''
+  Flow_0uyymmd:
+    plugin: eca_entity_type_bundle
+    configuration:
+      negate: false
+      type: 'webform_submission ryantrans_rmis_multiselect'
+      entity: ''
+  Flow_07cq7bc:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: google
+      field_name: source
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_0okpwv4:
+    plugin: eca_entity_type_bundle
+    configuration:
+      negate: false
+      type: 'webform_submission factoring_standard'
+      entity: ''
+  Flow_0fmj35j:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_0cikhmr:
+    plugin: eca_entity_type_bundle
+    configuration:
+      negate: false
+      type: 'webform_submission carrier_services_standard'
+      entity: ''
+  Flow_11ok1z2:
+    plugin: eca_entity_type_bundle
+    configuration:
+      negate: false
+      type: 'webform_submission fuel_pfj_standard'
+      entity: ''
+  Flow_0ia702w:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: google
+      field_name: source
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_0qte3v8:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_14dcybf:
+    plugin: eca_entity_type_bundle
+    configuration:
+      negate: false
+      type: 'webform_submission factoring_pfj_standard'
+      entity: ''
+  Flow_1hgvaec:
+    plugin: eca_entity_type_bundle
+    configuration:
+      negate: false
+      type: 'webform_submission rts_pro_mwv_standard'
+      entity: ''
+  Flow_0xk2866:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: factoring
+      field_name: form_url
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_17aa1rr:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: fuel
+      field_name: form_url
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_110almv:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: lead_source
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1pozrxy:
+    plugin: eca_entity_type_bundle
+    configuration:
+      negate: false
+      type: 'webform_submission rts_pro_standard'
+      entity: ''
+  Flow_1o4abxr:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: rtspro-factoring
+      field_name: form_url
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1m9dpiz:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: rtspro-fuel
+      field_name: form_url
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1jatlog:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: lead_source
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1jng93v:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: rtspro-credit
+      field_name: form_url
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1qc4zgh:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: rtspro-freight
+      field_name: form_url
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1yhw3tj:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: freight
+      field_name: form_url
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1dni4zz:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: broker
+      field_name: form_url
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1x5sltc:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: trip-management
+      field_name: form_url
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+gateways:
+  Gateway_1r9iiho:
+    type: 0
+    successors:
+      -
+        id: Gateway_10om8jg
+        condition: Flow_07cq7bc
+  Gateway_104hjk4:
+    type: 0
+    successors:
+      -
+        id: Activity_0kz2jho
+        condition: Flow_0fmj35j
+  Gateway_0lwy9uw:
+    type: 0
+    successors:
+      -
+        id: Gateway_0c6qo5m
+        condition: Flow_0ia702w
+  Gateway_10om8jg:
+    type: 0
+    successors:
+      -
+        id: Activity_0irrder
+        condition: Flow_0qte3v8
+  Gateway_0c6qo5m:
+    type: 0
+    successors:
+      -
+        id: Activity_17b6qyw
+        condition: ''
+  Gateway_0k2is2d:
+    type: 0
+    successors:
+      -
+        id: Activity_1bn541z
+        condition: Flow_0xk2866
+      -
+        id: Activity_1pyulm1
+        condition: Flow_17aa1rr
+      -
+        id: Activity_1gn69qe
+        condition: Flow_110almv
+      -
+        id: Activity_1bn541z
+        condition: Flow_1yhw3tj
+      -
+        id: Activity_1pyulm1
+        condition: Flow_1dni4zz
+      -
+        id: Activity_1pyulm1
+        condition: Flow_1x5sltc
+  Gateway_13yh6vj:
+    type: 0
+    successors:
+      -
+        id: Activity_1a1kc0f
+        condition: Flow_1o4abxr
+      -
+        id: Activity_134nyh1
+        condition: Flow_1m9dpiz
+      -
+        id: Activity_0qxpyom
+        condition: Flow_1jatlog
+      -
+        id: Activity_1a1kc0f
+        condition: Flow_1jng93v
+      -
+        id: Activity_134nyh1
+        condition: Flow_1qc4zgh
+actions:
+  Activity_14jc4f2:
+    plugin: eca_form_field_set_value
+    label: 'Campaign Default'
+    configuration:
+      field_value: 'Agent Landing Page'
+      use_yaml: false
+      field_name: campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_1h0fh9h:
+    plugin: eca_form_field_set_value
+    label: 'Campaign Default'
+    configuration:
+      field_value: 7013x000001yboRAAQ
+      use_yaml: false
+      field_name: campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0kz2jho:
+    plugin: eca_form_field_set_value
+    label: Campaign
+    configuration:
+      field_value: 7013x000001yZzaAAE
+      use_yaml: false
+      field_name: campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0irrder:
+    plugin: eca_form_field_set_value
+    label: |-
+      Campaign
+      Ad
+    configuration:
+      field_value: 7013x000001yaj6AAA
+      use_yaml: false
+      field_name: campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_17b6qyw:
+    plugin: eca_form_field_set_value
+    label: 'Campaign Ad'
+    configuration:
+      field_value: 7011H000001EWdnQAG
+      use_yaml: false
+      field_name: campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_1bn541z:
+    plugin: eca_form_field_set_value
+    label: 'Record Type Factoring'
+    configuration:
+      field_value: 0121H0000019mE7QAI
+      use_yaml: false
+      field_name: record_type
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors:
+      -
+        id: Activity_1bmjyc0
+        condition: ''
+  Activity_1pyulm1:
+    plugin: eca_form_field_set_value
+    label: 'Record Type Fuel'
+    configuration:
+      field_value: 0121H000001a2ShQAI
+      use_yaml: false
+      field_name: record_type
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors:
+      -
+        id: Activity_14sjkfa
+        condition: ''
+  Activity_1bmjyc0:
+    plugin: eca_form_field_set_value
+    label: 'Topic Factoring'
+    configuration:
+      field_value: 'RTSF Factoring Domestic'
+      use_yaml: false
+      field_name: topic
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_14sjkfa:
+    plugin: eca_form_field_set_value
+    label: 'Topic Fuel'
+    configuration:
+      field_value: 'RTS Carrier Services'
+      use_yaml: false
+      field_name: topic
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_1gn69qe:
+    plugin: eca_form_field_set_value
+    label: 'Lead Source '
+    configuration:
+      field_value: 'RTS Pro'
+      use_yaml: false
+      field_name: lead_source
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_1a1kc0f:
+    plugin: eca_form_field_set_value
+    label: 'Record Type Factoring'
+    configuration:
+      field_value: 0121H0000019mE7QAI
+      use_yaml: false
+      field_name: record_type
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors:
+      -
+        id: Activity_1nbitjy
+        condition: ''
+  Activity_1nbitjy:
+    plugin: eca_form_field_set_value
+    label: 'Topic Factoring'
+    configuration:
+      field_value: 'RTSF Factoring Domestic'
+      use_yaml: false
+      field_name: topic
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_134nyh1:
+    plugin: eca_form_field_set_value
+    label: 'Record Type Fuel'
+    configuration:
+      field_value: 0121H000001a2ShQAI
+      use_yaml: false
+      field_name: record_type
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors:
+      -
+        id: Activity_0ax30i3
+        condition: ''
+  Activity_0ax30i3:
+    plugin: eca_form_field_set_value
+    label: 'Topic Fuel'
+    configuration:
+      field_value: 'RTS Carrier Services'
+      use_yaml: false
+      field_name: topic
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0qxpyom:
+    plugin: eca_form_field_set_value
+    label: 'Lead Source '
+    configuration:
+      field_value: 'RTS Pro'
+      use_yaml: false
+      field_name: lead_source
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }

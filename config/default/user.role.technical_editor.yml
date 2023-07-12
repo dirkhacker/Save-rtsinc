@@ -1,0 +1,34 @@
+uuid: 1a526bf0-1298-48e0-96a0-890453f2145b
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.webform_default
+  module:
+    - captcha
+    - filter
+    - metatag
+    - node
+    - path
+    - simple_sitemap
+    - system
+    - toolbar
+    - webform
+id: technical_editor
+label: 'Technical Editor'
+weight: -7
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access toolbar'
+  - 'access webform overview'
+  - 'administer meta tags'
+  - 'administer sitemap settings'
+  - 'create url aliases'
+  - 'create webform'
+  - 'delete own webform'
+  - 'edit any webform'
+  - 'skip CAPTCHA'
+  - 'use text format webform_default'
+  - 'view own unpublished content'
+  - 'view the administration theme'

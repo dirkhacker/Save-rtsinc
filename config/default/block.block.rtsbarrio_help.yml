@@ -1,6 +1,6 @@
 uuid: 3cd7197d-ebf6-4fb6-8e95-5016fff85505
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -11,7 +11,7 @@ _core:
 id: rtsbarrio_help
 theme: rtsbarrio
 region: content
-weight: -16
+weight: -15
 provider: null
 plugin: help_block
 settings:

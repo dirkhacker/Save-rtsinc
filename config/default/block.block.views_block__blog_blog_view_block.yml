@@ -12,7 +12,7 @@ dependencies:
 id: views_block__blog_blog_view_block
 theme: rtsbarrio
 region: content
-weight: 0
+weight: -24
 provider: null
 plugin: 'views_block:blog-blog_view_block'
 settings:

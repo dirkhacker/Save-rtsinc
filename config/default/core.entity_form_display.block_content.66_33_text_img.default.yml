@@ -7,11 +7,14 @@ dependencies:
     - field.field.block_content.66_33_text_img.body
     - field.field.block_content.66_33_text_img.field_body
     - field.field.block_content.66_33_text_img.field_button
+    - field.field.block_content.66_33_text_img.field_button_formatted
     - field.field.block_content.66_33_text_img.field_image
+    - field.field.block_content.66_33_text_img.field_link_button
     - field.field.block_content.66_33_text_img.field_subtitle
     - field.field.block_content.66_33_text_img.field_title
     - image.style.thumbnail
   module:
+    - link
     - svg_image
     - text
 id: block_content.66_33_text_img.default
@@ -31,7 +34,7 @@ content:
     third_party_settings: {  }
   field_body:
     type: text_textarea_with_summary
-    weight: 26
+    weight: 6
     region: content
     settings:
       rows: 9
@@ -39,12 +42,12 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  field_button:
-    type: string_textarea
+  field_button_formatted:
+    type: text_textfield
     weight: 4
     region: content
     settings:
-      rows: 5
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   field_image:
@@ -54,6 +57,14 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_link_button:
+    type: link_default
+    weight: 8
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
   field_subtitle:
     type: string_textarea
@@ -81,9 +92,10 @@ content:
     third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 2
+    weight: 7
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_button: true

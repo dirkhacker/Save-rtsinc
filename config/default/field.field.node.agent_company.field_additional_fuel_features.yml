@@ -1,0 +1,23 @@
+uuid: a01882ae-c2b6-49cc-b1eb-5581228cfd0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_additional_fuel_features
+    - node.type.agent_company
+id: node.agent_company.field_additional_fuel_features
+field_name: field_additional_fuel_features
+entity_type: node
+bundle: agent_company
+label: 'Additional Fuel Features'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

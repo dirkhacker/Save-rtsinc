@@ -1,0 +1,18 @@
+uuid: 6d9a7405-c3ee-4ee5-824e-e2d7e8249c68
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.50_card_x6_blue_titles
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.50_card_x6_blue_titles
+target_entity_type_id: block_content
+target_bundle: 50_card_x6_blue_titles
+default_langcode: site_default
+language_alterable: false

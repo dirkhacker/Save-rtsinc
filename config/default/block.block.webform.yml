@@ -1,9 +1,9 @@
-uuid: 621b2a31-64b5-4df6-976e-097ee9251c2f
+uuid: aabdfc6f-e212-4921-ad67-1fc540db4cd7
 langcode: en
 status: true
 dependencies:
   config:
-    - webform.webform.test
+    - webform.webform.block_multiselect
   module:
     - system
     - webform
@@ -11,16 +11,16 @@ dependencies:
     - rtsbarrio
 id: webform
 theme: rtsbarrio
-region: content
-weight: -9
+region: sidebar_second
+weight: -35
 provider: null
 plugin: webform_block
 settings:
   id: webform_block
-  label: Webform
+  label: 'Webform Block Multiselect'
   label_display: '0'
   provider: webform
-  webform_id: test
+  webform_id: block_multiselect
   default_data: ''
   redirect: false
   lazy: false
@@ -28,18 +28,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '*'
-  'entity_bundle:webform_submission':
-    id: 'entity_bundle:webform_submission'
-    negate: false
-    context_mapping:
-      webform_submission: '@webform.webform_submission_route_context:webform_submission'
-    bundles:
-      test: test
-  webform:
-    id: webform
-    negate: false
-    context_mapping:
-      webform: '@webform.webform_route_context:webform'
-    webforms:
-      test: test
+    pages: "/lp/fuel-card\r\n/lp/fuel-card-email\r\n/lp/factoring-right-way\r\n/lp/factoring-trucking-fuel\r\n/lp/quick-pay-financing\r\n/lp/factoring-mistakes\r\n/lp/oilfield-services-factoring\r\n/lp/factoring-general\r\n/lp/factoring-trucking-b\r\n/lp/speedway\r\n/lp/fuel-card-discount\r\n/lp/truckers-love-our-fuel-card\r\n/lp/fuel-card-fleet\r\n/lp/fuel-card-brand\r\n/lp/efs-fuel-card\r\n/lp/fuel-card-wex-fleet-one\r\n/lp/pilot-flying-j-fuel-card\r\n/lp/speedway-fuel-card\r\n/lp/speedway\r\n/lp/invoice-manager\r\n/page/what-is-factoring-ab\r\n/lp/truckers-love-our-factoring\r\n/lp/customer-service-factoring\r\n/lp/payroll-factoring\r\n/lp/ap-retargeting\r\n/lp/factoring-email\r\n/lp/how-solve-cash-flow-problems-without-getting-loan\r\n/lp/factoring-es\r\n/lp/trucking-factoring-services\r\n/lp/factoring-staffing\r\n/lp/factoring-general-bc\r\n/lp/freight-factoring-services\r\n/lp/factoring-fuel-card\r\n/lp/save-25-cents-per-gallon\r\n/lp/special-offer-free-factoring\r\n/articles/understanding-operating-costs-running-trucking-company\r\n/guides/what-factoring\r\n/articles/questions-ask-when-choosing-fuel-card\r\n/articles/ifta-fuel-taxes-how-file-easy-way\r\n/articles/double-brokering-freight-know-risks-and-identify-scams\r\n/articles/factoring-and-quick-pay-get-you-paid-faster\r\n/articles/how-avoid-fuel-card-fraud\r\n/lp/only-trucking-app-you-will-ever-need"

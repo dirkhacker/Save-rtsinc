@@ -1,0 +1,30 @@
+uuid: cec69cd1-b948-4cba-b051-709a99c73986
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1410fb39-63d2-4416-9448-993ebbbb9faa'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: featuresfactoring
+theme: rtsbarrio
+region: content
+weight: -22
+provider: null
+plugin: 'block_content:1410fb39-63d2-4416-9448-993ebbbb9faa'
+settings:
+  id: 'block_content:1410fb39-63d2-4416-9448-993ebbbb9faa'
+  label: 'Features - Factoring'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/lp/special-offer-free-factoring\r\n/industry/factoring-trucking-companies"

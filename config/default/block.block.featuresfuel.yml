@@ -1,0 +1,30 @@
+uuid: c638465e-32d8-48ef-9267-89cc5465ba38
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:992ab952-906d-42e7-9fec-8ad09cfa99d1'
+  module:
+    - block_content
+    - system
+  theme:
+    - rtsbarrio
+id: featuresfuel
+theme: rtsbarrio
+region: content
+weight: -21
+provider: null
+plugin: 'block_content:992ab952-906d-42e7-9fec-8ad09cfa99d1'
+settings:
+  id: 'block_content:992ab952-906d-42e7-9fec-8ad09cfa99d1'
+  label: 'Features - Fuel'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/lp/truckers-love-our-fuel-card\r\n/lp/fuel-card-brand\r\n/lp/rtspro-fuel\r\n/lp/save-25-cents-per-gallon\r\n/lp/fuel-card\r\n/lp/fuel-card-email\r\n/lp/fuel-card-wex-fleet-one\r\n/lp/truckers-love-our-fuel-card"

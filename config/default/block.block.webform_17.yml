@@ -1,0 +1,39 @@
+uuid: c131e6d3-0839-494c-89fb-976a5e4ecb4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.factoring_es_multiselect
+  module:
+    - language
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+id: webform_17
+theme: rtsbarrio
+region: content
+weight: -19
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform Factoring ES Multiselect'
+  label_display: visible
+  provider: webform
+  webform_id: factoring_es_multiselect
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      es: es
+  request_path:
+    id: request_path
+    negate: false
+    pages: "form/contáctenos\r\npage/contactenos"

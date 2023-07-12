@@ -8,7 +8,7 @@ id: process_v0meeus
 modeller: bpmn_io
 label: 'Default URL query values'
 version: ''
-weight: -8
+weight: -6
 events:
   Event_1mi05a0:
     plugin: 'form:form_validate'
@@ -58,6 +58,21 @@ events:
       -
         id: Activity_1vb3nxa
         condition: Flow_16q61t3
+      -
+        id: Activity_1kuazth
+        condition: Flow_12z6qt0
+      -
+        id: Activity_0c3alt8
+        condition: Flow_1vaf8pb
+      -
+        id: Activity_1d7o2z5
+        condition: Flow_0vh5ll9
+      -
+        id: Activity_1wx9mx7
+        condition: Flow_0e7oc9p
+      -
+        id: Activity_0n3rsul
+        condition: Flow_0359pu1
 conditions:
   Flow_1imfjeo:
     plugin: eca_form_field_value
@@ -215,6 +230,66 @@ conditions:
       xss_filter: true
       operator: contains
       type: value
+  Flow_12z6qt0:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: referrer_domain
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_1vaf8pb:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: audience
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_0vh5ll9:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: campaign_output
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_0e7oc9p:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: lead_source_output
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
+  Flow_0359pu1:
+    plugin: eca_form_field_value
+    configuration:
+      negate: false
+      case: false
+      field_value: current-page
+      field_name: cpc_campaign
+      strip_tags: true
+      trim: true
+      xss_filter: true
+      operator: contains
+      type: value
 gateways: {  }
 actions:
   Activity_1yluklf:
@@ -331,7 +406,7 @@ actions:
     plugin: eca_form_field_set_value
     label: 'lead source value'
     configuration:
-      field_value: Internet
+      field_value: ''
       use_yaml: false
       field_name: lead_source
       strip_tags: true
@@ -356,6 +431,61 @@ actions:
       field_value: ''
       use_yaml: false
       field_name: gclid
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_1kuazth:
+    plugin: eca_form_field_set_value
+    label: 'Referrer Domain'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: referrer_domain
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0c3alt8:
+    plugin: eca_form_field_set_value
+    label: 'Audience value'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: audience
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_1d7o2z5:
+    plugin: eca_form_field_set_value
+    label: 'Campaign Output'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: campaign_output
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_1wx9mx7:
+    plugin: eca_form_field_set_value
+    label: 'Lead Source Output'
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: lead_source_output
+      strip_tags: true
+      trim: true
+      xss_filter: true
+    successors: {  }
+  Activity_0n3rsul:
+    plugin: eca_form_field_set_value
+    label: CPC
+    configuration:
+      field_value: ''
+      use_yaml: false
+      field_name: cpc_campaign
       strip_tags: true
       trim: true
       xss_filter: true

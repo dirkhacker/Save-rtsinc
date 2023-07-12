@@ -1,0 +1,35 @@
+uuid: 32945f72-9034-4f39-b65d-7148cf2ad881
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.rts_pro_mwv_standard
+  module:
+    - block_class
+    - system
+    - webform
+  theme:
+    - rtsbarrio
+third_party_settings:
+  block_class:
+    classes: col-md-8
+id: webform_5
+theme: rtsbarrio
+region: content
+weight: -18
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform RTS Pro MWV Standard'
+  label_display: '0'
+  provider: webform
+  webform_id: rts_pro_mwv_standard
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/mwv/trip-management\r\n/mwv/fuel-card-app-access\r\n/mwv/broker-credit-reports\r\n/mwv/factoring-services\r\n/mwv/freight"

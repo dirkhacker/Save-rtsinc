@@ -1,0 +1,18 @@
+uuid: 11c200de-39bd-4646-a4d9-f55c44c0ebaf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_fuel_features_toggle
+field_name: field_fuel_features_toggle
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

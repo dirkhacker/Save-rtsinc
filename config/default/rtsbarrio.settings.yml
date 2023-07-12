@@ -83,14 +83,14 @@ bootstrap_barrio_region_clean_footer_fifth: 0
 bootstrap_barrio_region_class_footer_fifth: row
 bootstrap_barrio_sidebar_collapse: 0
 bootstrap_barrio_hide_node_label: 0
-bootstrap_barrio_image_fluid: 0
+bootstrap_barrio_image_fluid: 1
 bootstrap_barrio_navbar_top_navbar: 0
 bootstrap_barrio_navbar_top_class: ''
-bootstrap_barrio_navbar_class: ''
+bootstrap_barrio_navbar_class: 'd-flex justify-content-start'
 bootstrap_barrio_navbar_offcanvas: ''
 bootstrap_barrio_navbar_flyout: 0
 bootstrap_barrio_navbar_slide: 0
-bootstrap_barrio_tabs_style: ''
+bootstrap_barrio_tabs_style: pills
 bootstrap_barrio_navbar_top_affix: 0
 bootstrap_barrio_navbar_affix: 0
 bootstrap_barrio_sidebar_first_affix: 0
@@ -112,3 +112,6 @@ bootstrap_barrio_region_clean_footer: 0
 bootstrap_barrio_region_class_footer: row
 bootstrap_barrio_button_type: primary
 bootstrap_barrio_float_label: 0
+bootstrap_barrio_container: container-fluid
+bootstrap_barrio_breadcrumb_divider: ''
+medium: ppc

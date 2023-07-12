@@ -1,0 +1,19 @@
+uuid: 7ae080b3-d398-437b-9825-58c3532fa9c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lead_email
+    - node.type.agent_company
+id: node.agent_company.field_lead_email
+field_name: field_lead_email
+entity_type: node
+bundle: agent_company
+label: 'Email to Send Leads To'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
