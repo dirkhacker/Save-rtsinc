@@ -1,0 +1,8 @@
+id: rtsinc_document
+label: RTS Inc Document Content Type migration group
+description: 'Document Page Content Type migration group'
+source_type: 'CSV resource'
+dependencies:
+  enforced:
+    module:
+      - rts_migrations

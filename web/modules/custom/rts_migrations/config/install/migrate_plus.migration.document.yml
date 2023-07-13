@@ -1,0 +1,58 @@
+id: document
+label: 'RTS node migration for Document content types'
+migration_group: rtsinc_document
+migration_tags:
+  - RTS Document content types
+source:
+  plugin: csv
+  header_rows: 1
+  path: modules/custom/rts_migrations/sources/document/document.csv
+  ids: [nid]
+  constants:
+    image_destination: 'public://document/'
+    lang_en: en
+process:
+  type:
+    plugin: default_value
+    default_value: document
+  title: title
+  body/value: body
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  path/pathauto:
+    plugin: default_value
+    default_value: 0
+  path/alias: alias_path
+  uid:
+    plugin: default_value
+    default_value: 3
+  field_image:
+    plugin: image_import
+    source: field_image
+    destination: 'constants/image_destination'
+  field_file:
+    plugin: file_import
+    source: field_file
+    destination: 'constants/image_destination'
+  created:
+    plugin: format_date
+    source: created
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
+  changed:
+    plugin: format_date
+    source: updated
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
+  status: status
+  promote: promote
+  sticky: sticky
+  langcode: constants/lang_en
+destination:
+  plugin: 'entity:node'
+  default_bundle: document
