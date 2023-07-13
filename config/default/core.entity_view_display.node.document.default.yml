@@ -12,7 +12,6 @@ dependencies:
   module:
     - file
     - manage_display
-    - options
     - svg_image
     - text
 id: node.document.default
@@ -25,26 +24,19 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
-    region: content
-  field_document_filter_categories:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 105
+    weight: 2
     region: content
   field_file:
     type: file_default
-    label: above
+    label: hidden
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
-    weight: 102
+    weight: 3
     region: content
   field_image:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
       image_style: ''
@@ -55,19 +47,12 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 103
-    region: content
-  field_resource_type:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 104
+    weight: 4
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 1
     region: content
   title:
     type: title
@@ -76,9 +61,11 @@ content:
       linked: true
       tag: h2
     third_party_settings: {  }
-    weight: -49
+    weight: 0
     region: content
 hidden:
   created: true
+  field_document_filter_categories: true
+  field_resource_type: true
   langcode: true
   uid: true
