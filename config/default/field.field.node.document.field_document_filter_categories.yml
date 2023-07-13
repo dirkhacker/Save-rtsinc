@@ -1,0 +1,21 @@
+uuid: ec7f2ca4-5650-41b1-aa49-54f3939630e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_document_filter_categories
+    - node.type.document
+  module:
+    - options
+id: node.document.field_document_filter_categories
+field_name: field_document_filter_categories
+entity_type: node
+bundle: document
+label: 'Document Filter Categories'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
