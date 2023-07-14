@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.agent_resource.body
-    - field.field.node.agent_resource.field_sub_heading
+    - field.field.node.agent_resource.field_subheading
     - node.type.agent_resource
   module:
     - path
@@ -30,8 +30,8 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_sub_heading:
-    type: text_textarea
+  field_subheading:
+    type: string_textarea
     weight: 1
     region: content
     settings:

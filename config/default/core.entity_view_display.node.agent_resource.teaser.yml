@@ -5,7 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.agent_resource.body
-    - field.field.node.agent_resource.field_sub_heading
+    - field.field.node.agent_resource.field_subheading
     - node.type.agent_resource
   module:
     - manage_display
@@ -39,6 +39,6 @@ content:
     region: content
 hidden:
   created: true
-  field_sub_heading: true
+  field_subheading: true
   langcode: true
   uid: true

@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.agent_resource.body
-    - field.field.node.agent_resource.field_sub_heading
+    - field.field.node.agent_resource.field_subheading
     - node.type.agent_resource
   module:
+    - field_formatter_class
+    - manage_display
     - text
 id: node.agent_resource.default
 targetEntityType: node
@@ -18,19 +20,28 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 2
+    region: content
+  field_subheading:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
     region: content
   title:
-    type: string
+    type: title
     label: hidden
     settings:
-      link_to_entity: false
-    third_party_settings: {  }
+      linked: true
+      tag: h1
+    third_party_settings:
+      field_formatter_class:
+        class: ''
     weight: 0
     region: content
 hidden:
   created: true
-  field_sub_heading: true
   langcode: true
   links: true
   uid: true

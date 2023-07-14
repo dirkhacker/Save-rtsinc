@@ -1,21 +1,19 @@
-uuid: b744c3ea-53a2-4bf1-b65e-36c68bb4b069
+uuid: a84f49e9-29f7-4f5d-a655-5e3448696c3b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_sub_heading
+    - field.storage.node.field_subheading
     - node.type.agent_resource
-  module:
-    - text
-id: node.agent_resource.field_sub_heading
-field_name: field_sub_heading
+id: node.agent_resource.field_subheading
+field_name: field_subheading
 entity_type: node
 bundle: agent_resource
 label: Subheading
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string_long
