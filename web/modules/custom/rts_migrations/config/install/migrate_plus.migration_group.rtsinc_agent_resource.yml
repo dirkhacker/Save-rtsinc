@@ -1,0 +1,8 @@
+id: rtsinc_agent_resource
+label: RTS Inc Agent Resource Content Type migration group
+description: 'Agent Resource Page Content Type migration group'
+source_type: 'CSV resource'
+dependencies:
+  enforced:
+    module:
+      - rts_migrations

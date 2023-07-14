@@ -1,0 +1,51 @@
+id: agent_resource
+label: 'RTS node migration for Agent Resource content types'
+migration_group: rtsinc_agent_resource
+migration_tags:
+  - RTS Agent Resource content types
+source:
+  plugin: csv
+  header_rows: 1
+  path: modules/custom/rts_migrations/sources/agent_resource/agent_resource.csv
+  ids: [nid]
+  constants:
+    image_destination: 'public://agent_resource/'
+    lang_en: en
+process:
+  type:
+    plugin: default_value
+    default_value: agent_resource
+  title: title
+  body/value: body
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  field_subheading: field_sub_heading
+  path/pathauto:
+    plugin: default_value
+    default_value: 0
+  path/alias: alias_path
+  uid:
+    plugin: default_value
+    default_value: 3
+  created:
+    plugin: format_date
+    source: created
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
+  changed:
+    plugin: format_date
+    source: updated
+    from_format: 'U'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
+  status: status
+  promote: promote
+  sticky: sticky
+  langcode: constants/lang_en
+destination:
+  plugin: 'entity:node'
+  default_bundle: agent_resource
