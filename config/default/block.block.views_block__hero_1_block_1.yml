@@ -31,6 +31,7 @@ visibility:
     context_mapping:
       node: '@node.node_route_context:node'
     bundles:
+      agent_resource: agent_resource
       article: article
       homepage: homepage
       industry: industry
