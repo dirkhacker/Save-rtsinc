@@ -1,0 +1,36 @@
+uuid: 634fc40e-0e08-4df6-bed3-0082cb940ad5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.agent_resource.body
+    - field.field.node.agent_resource.field_sub_heading
+    - node.type.agent_resource
+  module:
+    - text
+id: node.agent_resource.default
+targetEntityType: node
+bundle: agent_resource
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_sub_heading: true
+  langcode: true
+  links: true
+  uid: true

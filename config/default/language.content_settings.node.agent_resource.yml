@@ -1,0 +1,11 @@
+uuid: ef136a04-5d58-4c99-be52-9daa85bc3a2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agent_resource
+id: node.agent_resource
+target_entity_type_id: node
+target_bundle: agent_resource
+default_langcode: site_default
+language_alterable: false
