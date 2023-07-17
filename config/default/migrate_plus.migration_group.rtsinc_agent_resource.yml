@@ -1,0 +1,15 @@
+uuid: 161c18e1-3ec1-410e-9b23-889bed41dda1
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rts_migrations
+_core:
+  default_config_hash: xKmeLHESFX-XKX2Qnq6TVv_SR352E-Z_AmBH46AtmDQ
+id: rtsinc_agent_resource
+label: 'RTS Inc Agent Resource Content Type migration group'
+description: 'Agent Resource Page Content Type migration group'
+source_type: 'CSV resource'
+module: null
+shared_configuration: null

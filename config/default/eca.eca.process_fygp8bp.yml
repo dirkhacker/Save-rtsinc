@@ -15,7 +15,7 @@ events:
     label: 'Standard Form'
     configuration:
       form_id: ''
-      entity_type_id: ''
+      entity_type_id: webform_submission
       bundle: ''
       operation: ''
     successors:

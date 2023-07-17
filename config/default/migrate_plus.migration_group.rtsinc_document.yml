@@ -1,0 +1,15 @@
+uuid: 019ff9a0-3cb3-4c49-a212-0b73f10b44fb
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rts_migrations
+_core:
+  default_config_hash: GfW2ELdn0r3zG9eyfMae2Kj7o2W6CTfwdvUUbfzOTOg
+id: rtsinc_document
+label: 'RTS Inc Document Content Type migration group'
+description: 'Document Page Content Type migration group'
+source_type: 'CSV resource'
+module: null
+shared_configuration: null
