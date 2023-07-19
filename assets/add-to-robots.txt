@@ -1,0 +1,6 @@
+# Appended paths
+Allow: /sitemap.xml
+
+Disallow: /form/contact
+Disallow: /download
+Disallow: /taxonomy
