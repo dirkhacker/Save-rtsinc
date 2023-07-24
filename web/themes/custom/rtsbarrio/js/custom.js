@@ -149,7 +149,7 @@
           // Split the parameter into name and value
           var param = params[i].split('=');
           // Store the parameter in local storage
-          localStorage.setItem(decodeURIComponent(param[0]), decodeURIComponent(param[1]));
+          sessionStorage.setItem(decodeURIComponent(param[0]), decodeURIComponent(param[1]));
         }
       });
 
@@ -159,18 +159,22 @@
         $(this).submit(function (event) {
           event.preventDefault();
           // Get values from local storage:
-          var campaignValue = localStorage.getItem("campaign");
-          var sourceValue = localStorage.getItem("source");
-          var adValue = localStorage.getItem("ad");
-          var adgroupValue = localStorage.getItem("adgroup");
-          var gclidValue = localStorage.getItem("gclid");
-          var keywordValue = localStorage.getItem("keyword");
-          var lead_sourceValue = localStorage.getItem("lead_source");
-          var mediumValue = localStorage.getItem("medium");
-          var placementValue = localStorage.getItem("placement");
-          var segmentValue = localStorage.getItem("segment");
-          var ppc_campaignValue = localStorage.getItem("ppc_campaign"); 
-          var cpc_campaignValue = localStorage.getItem("cpc_campaign"); 
+          var campaignValue = sessionStorage.getItem("campaign");
+          var sourceValue = sessionStorage.getItem("source");
+          var adValue = sessionStorage.getItem("ad");
+          var adgroupValue = sessionStorage.getItem("adgroup");
+          var gclidValue = sessionStorage.getItem("gclid");
+          var keywordValue = sessionStorage.getItem("keyword");
+          var lead_sourceValue = sessionStorage.getItem("lead_source");
+          var mediumValue = sessionStorage.getItem("medium");
+          var placementValue = sessionStorage.getItem("placement");
+          var record_typeValue = sessionStorage.getItem("record_type");
+          var referrer_domainValue = sessionStorage.getItem("referrer_domain");
+          var segmentValue = sessionStorage.getItem("segment");
+          var form_urlValue = sessionStorage.getItem("form_url");
+          var ppc_campaignValue = sessionStorage.getItem("ppc_campaign"); 
+          var cpc_campaignValue = sessionStorage.getItem("cpc_campaign"); 
+          var formidValue = sessionStorage.getItem("formid"); 
          // Set the values in the form if they exist in local storage
           if (campaignValue) {
             $("input[name='campaign']").val(campaignValue);
@@ -199,8 +203,17 @@
           if (placementValue) {
             $("input[name='placement']").val(placementValue);
           }
+          if (record_typeValue) {
+            $("input[name='record_type']").val(record_typeValue);
+          }
+          if (referrer_domainValue) {
+            $("input[name='referrer_domain']").val(referrer_domainValue);
+          }
           if (segmentValue) {
             $("input[name='segment']").val(segmentValue);
+          }
+          if (form_urlValue) {
+            $("input[name='form_url']").val(form_urlValue);
           }
           if (ppc_campaignValue) {
             $("input[name='ppc_campaign']").val(ppc_campaignValue);
@@ -208,10 +221,13 @@
           if (cpc_campaignValue) {
             $("input[name='cpc_campaign']").val(cpc_campaignValue);
           }
+          if (formidValue) {
+            $("input[name='formid']").val(formidValue);
+          }
           // Now submit the form
           this.submit();
         });
-      });  // END INERT LOCAL STORAGE  url params into current webform
+      });  // END INERT SESIION STORAGE  url params into current webform
 
 
 
