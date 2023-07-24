@@ -4,3 +4,4 @@ Allow: /sitemap.xml
 Disallow: /form/contact
 Disallow: /download
 Disallow: /taxonomy/
+sitemap: /sitemap.xml
