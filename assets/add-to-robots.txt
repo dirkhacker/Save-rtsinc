@@ -4,4 +4,4 @@ Allow: /sitemap.xml
 Disallow: /form/contact
 Disallow: /download
 Disallow: /taxonomy/
-sitemap: https://wwww.rtsinc.com/sitemap.xml
+sitemap: https://www.rtsinc.com/sitemap.xml
