@@ -314,7 +314,9 @@ form .captcha {
     padding-bottom: 1rem;
     overflow: hidden;
 }
-
+.captcha__title {
+    display: none;
+}
 
 /* LISTS
 --------------------------------------------------*/
