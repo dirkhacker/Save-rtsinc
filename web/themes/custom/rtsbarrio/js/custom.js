@@ -233,9 +233,18 @@
 
     }
   };
-
 })(jQuery, Drupal);
 
+// SEO hreflang attribute for pagination and exposed filters
+(function ($, Drupal, drupalSettings) {
+
+  Drupal.behaviors.hreflangLinks = {
+    attach: function (context, settings) {
+      $('.bef-link', context).once('hreflangLinks').attr('hreflang', drupalSettings.path.currentLanguage);
+      $('.pagination .page-item .page-link', context).once('hreflangLinks').attr('hreflang', drupalSettings.path.currentLanguage);
+    }
+  };
+})(jQuery, Drupal, drupalSettings);
 
 /* //modal webform      
 var modal = $('<div id="webform-modal" class="webform-modal"></div>');
