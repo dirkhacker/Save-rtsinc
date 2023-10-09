@@ -43,7 +43,6 @@
         "drupal/fontyourface": "3.x-dev@dev",
         "drupal/gin": "^3.0@beta",
         "drupal/google_analytics": "^4.0",
-        "drupal/hreflang": "^1.11",
         "drupal/image_class": "^1.1",
         "drupal/language_switcher_extended": "^1.1",
         "drupal/layout_builder_blocks": "^1.0",
