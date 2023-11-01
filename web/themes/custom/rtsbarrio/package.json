@@ -18,8 +18,10 @@
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.1.0",
     "bootstrap-icons": "^1.4.0",
+    "gulp-sass": "^5.1.0",
     "mdb-ui-kit": "^4.3.0",
-    "mdbootstrap": "^4.20.0"
+    "mdbootstrap": "^4.20.0",
+    "sass": "^1.69.5"
   },
   "devDependencies": {
     "browser-sync": "^2.24.7",
@@ -32,7 +34,6 @@
     "gulp-load-plugins": "^2.0.4",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^4.0.1",
     "gulp-scss-lint": "^1.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
