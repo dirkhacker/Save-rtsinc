@@ -11,6 +11,13 @@ $host = "db";
 $port = 3306;
 $driver = "mysql";
 
+// If DDEV_PHP_VERSION is not set but IS_DDEV_PROJECT *is*, it means we're running (drush) on the host,
+// so use the host-side bind port on docker IP
+if (empty(getenv('DDEV_PHP_VERSION') && getenv('IS_DDEV_PROJECT') == 'true')) {
+  $host = "127.0.0.1";
+  $port = 52865;
+}
+
 $databases['default']['default']['database'] = "db";
 $databases['default']['default']['username'] = "db";
 $databases['default']['default']['password'] = "db";
@@ -18,7 +25,7 @@ $databases['default']['default']['host'] = $host;
 $databases['default']['default']['driver'] = $driver;
 $databases['default']['default']['port'] = $port;
 
-$settings['hash_salt'] = '3cfae4859c9b22950aeda24a12955999bd8569e94391135db5c29aedc79d26f6';
+$settings['hash_salt'] = 'crPJbGNUEpyQdkXUPHbtpJexsEeUXqNJqeuIOmaZVhjXSWIaXYksNmJXYiEhvcGI';
 
 // This will prevent Drupal from setting read-only permissions on sites/default.
 $settings['skip_permissions_hardening'] = TRUE;
@@ -36,14 +43,14 @@ if (empty($settings['config_sync_directory'])) {
   $settings['config_sync_directory'] = 'sites/default/files/sync';
 }
 
-// Override drupal/symfony_mailer default config to use Mailpit
+// Override drupal/symfony_mailer default config to use Mailhog
 $config['symfony_mailer.mailer_transport.sendmail']['plugin'] = 'smtp';
 $config['symfony_mailer.mailer_transport.sendmail']['configuration']['user']='';
 $config['symfony_mailer.mailer_transport.sendmail']['configuration']['pass']='';
 $config['symfony_mailer.mailer_transport.sendmail']['configuration']['host']='localhost';
 $config['symfony_mailer.mailer_transport.sendmail']['configuration']['port']='1025';
 
-// Override drupal/swiftmailer default config to use Mailpit
+// Override drupal/swiftmailer default config to use Mailhog
 $config['swiftmailer.transport']['transport'] = 'smtp';
 $config['swiftmailer.transport']['smtp_host'] = '127.0.0.1';
 $config['swiftmailer.transport']['smtp_port'] = '1025';
